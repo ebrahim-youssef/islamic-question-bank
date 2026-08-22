@@ -1,0 +1,1192 @@
+{
+  "categoryId": 2,
+  "categoryKey": "salah",
+  "questions": [
+    {
+      "id": "kid-sa-3",
+      "category": 2,
+      "difficulty": 1,
+      "text": "بماذا نتوضّأ قبل الصلاة؟",
+      "choices": [
+        "بالرمل",
+        "بالحليب",
+        "بالعصير",
+        "بالماء"
+      ],
+      "correctIndex": 3,
+      "explanation": "الوضوء يكون بالماء الطهور قبل الصلاة.",
+      "source": "القرآن — سورة المائدة ٦",
+      "tags": [
+        "وضوء",
+        "أطفال"
+      ],
+      "ageBand": "kids",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-1-3",
+      "category": 2,
+      "difficulty": 1,
+      "text": "كم ركعة في صلاة الظهر؟",
+      "choices": [
+        "أربع",
+        "ثلاث",
+        "ركعتان",
+        "خمس"
+      ],
+      "correctIndex": 0,
+      "explanation": "صلاة الظهر أربع ركعات سرّيّة.",
+      "source": "عام",
+      "tags": [
+        "صلاة"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-1-4",
+      "category": 2,
+      "difficulty": 1,
+      "text": "ماذا يقول المصلّي في الركوع؟",
+      "choices": [
+        "سبحان ربي الأعلى",
+        "سبحان ربي العظيم",
+        "الله أكبر",
+        "سمع الله لمن حمده"
+      ],
+      "correctIndex": 1,
+      "explanation": "يقول في الركوع: سبحان ربي العظيم.",
+      "source": "سنن أبي داود",
+      "tags": [
+        "صلاة"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-1-5",
+      "category": 2,
+      "difficulty": 1,
+      "text": "ما النداء الذي يُعلن دخول وقت الصلاة؟",
+      "choices": [
+        "الإقامة",
+        "التكبير",
+        "الأذان",
+        "التلبية"
+      ],
+      "correctIndex": 2,
+      "explanation": "الأذان إعلامٌ بدخول وقت الصلاة والدعوة إليها.",
+      "source": "عام",
+      "tags": [
+        "أذان"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-2-2",
+      "category": 2,
+      "difficulty": 2,
+      "text": "كم ركعة في صلاة العشاء؟",
+      "choices": [
+        "ثلاث",
+        "ركعتان",
+        "أربع",
+        "خمس"
+      ],
+      "correctIndex": 2,
+      "explanation": "صلاة العشاء أربع ركعات.",
+      "source": "عام",
+      "tags": [
+        "صلاة"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-2-3",
+      "category": 2,
+      "difficulty": 2,
+      "text": "كم ركعة في صلاة العصر؟",
+      "choices": [
+        "ثلاث",
+        "ركعتان",
+        "خمس",
+        "أربع"
+      ],
+      "correctIndex": 3,
+      "explanation": "صلاة العصر أربع ركعات سرّيّة.",
+      "source": "عام",
+      "tags": [
+        "صلاة"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-2-4",
+      "category": 2,
+      "difficulty": 2,
+      "text": "ماذا يقول المصلّي في السجود؟",
+      "choices": [
+        "سبحان ربي الأعلى",
+        "سبحان ربي العظيم",
+        "ربِّ اغفر لي",
+        "الله أكبر"
+      ],
+      "correctIndex": 0,
+      "explanation": "يقول في السجود: سبحان ربي الأعلى.",
+      "source": "سنن أبي داود",
+      "tags": [
+        "صلاة"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-2-5",
+      "category": 2,
+      "difficulty": 2,
+      "text": "الطهارة بالماء قبل الصلاة تُسمى؟",
+      "choices": [
+        "التيمم",
+        "الوضوء",
+        "الغسل",
+        "الاستنجاء"
+      ],
+      "correctIndex": 1,
+      "explanation": "الوضوء طهارة بالماء لأعضاء مخصوصة قبل الصلاة.",
+      "source": "سورة المائدة ٦",
+      "tags": [
+        "وضوء"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-2-6",
+      "category": 2,
+      "difficulty": 2,
+      "text": "ما الذي يُنقض به الوضوء؟",
+      "choices": [
+        "أكل ما مسّته النار",
+        "لمس ثوب طاهر",
+        "الخارج من السبيلين",
+        "التجشؤ بعد الطعام"
+      ],
+      "correctIndex": 2,
+      "explanation": "من نواقض الوضوء الخارج من القُبُل أو الدُّبُر كالبول والريح؛ وما سوى ذلك من المذكورات ليس ناقضًا عند جمهور العلماء.",
+      "source": "عام",
+      "tags": [
+        "وضوء"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-3-1",
+      "category": 2,
+      "difficulty": 3,
+      "text": "أول أركان الصلاة القولية؟",
+      "choices": [
+        "تكبيرة الإحرام",
+        "التشهد",
+        "الفاتحة",
+        "التسليم"
+      ],
+      "correctIndex": 0,
+      "explanation": "تكبيرة الإحرام «الله أكبر» يُدخل بها في الصلاة.",
+      "source": "عام",
+      "tags": [
+        "صلاة"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-3-2",
+      "category": 2,
+      "difficulty": 3,
+      "text": "السورة التي تُقرأ في كل ركعة؟",
+      "choices": [
+        "الإخلاص",
+        "الفاتحة",
+        "الكوثر",
+        "الفلق"
+      ],
+      "correctIndex": 1,
+      "explanation": "«لا صلاة لمن لم يقرأ بفاتحة الكتاب».",
+      "source": "البخاري ومسلم",
+      "tags": [
+        "صلاة"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-3-3",
+      "category": 2,
+      "difficulty": 3,
+      "text": "كم ركعة في صلاة الجمعة؟",
+      "choices": [
+        "أربع",
+        "ثلاث",
+        "ركعتان",
+        "ست"
+      ],
+      "correctIndex": 2,
+      "explanation": "صلاة الجمعة ركعتان يسبقهما خطبتان.",
+      "source": "عام",
+      "tags": [
+        "جمعة"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-3-4",
+      "category": 2,
+      "difficulty": 3,
+      "text": "متى تُقصَر الصلاة الرباعية إلى ركعتين؟",
+      "choices": [
+        "في المطر",
+        "في المرض",
+        "في الليل",
+        "في السفر"
+      ],
+      "correctIndex": 3,
+      "explanation": "يُشرع قصر الرباعية إلى ركعتين للمسافر.",
+      "source": "سورة النساء ١٠١",
+      "tags": [
+        "سفر"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-3-6",
+      "category": 2,
+      "difficulty": 3,
+      "text": "ما اسم صلاة الليل جماعةً في رمضان؟",
+      "choices": [
+        "التراويح",
+        "التهجد",
+        "الضحى",
+        "الوتر"
+      ],
+      "correctIndex": 0,
+      "explanation": "التراويح قيام رمضان جماعةً بعد العشاء.",
+      "source": "عام",
+      "tags": [
+        "رمضان"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-4-1",
+      "category": 2,
+      "difficulty": 4,
+      "text": "كم عدد تكبيرات صلاة الجنازة؟",
+      "choices": [
+        "أربع",
+        "ثلاث",
+        "خمس",
+        "ركعتان"
+      ],
+      "correctIndex": 0,
+      "explanation": "صلاة الجنازة أربع تكبيرات بلا ركوع ولا سجود.",
+      "source": "عام",
+      "tags": [
+        "جنازة"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-4-2",
+      "category": 2,
+      "difficulty": 4,
+      "text": "صلاة تُصلى عند كسوف الشمس؟",
+      "choices": [
+        "صلاة الاستسقاء",
+        "صلاة الكسوف",
+        "صلاة العيد",
+        "صلاة الحاجة"
+      ],
+      "correctIndex": 1,
+      "explanation": "صلاة الكسوف سنّة مؤكدة عند كسوف الشمس أو خسوف القمر.",
+      "source": "صحيح البخاري",
+      "tags": [
+        "صلاة"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-4-3",
+      "category": 2,
+      "difficulty": 4,
+      "text": "ما الصلاة الوسطى التي أُمرنا بالمحافظة عليها؟",
+      "choices": [
+        "صلاة الفجر",
+        "صلاة الظهر",
+        "صلاة العصر",
+        "صلاة المغرب"
+      ],
+      "correctIndex": 2,
+      "explanation": "الراجح أن الصلاة الوسطى في قوله «حافظوا على الصلوات» هي العصر.",
+      "source": "البخاري ومسلم",
+      "tags": [
+        "صلاة"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-4-4",
+      "category": 2,
+      "difficulty": 4,
+      "text": "بم يكون التيمم عند فقد الماء؟",
+      "choices": [
+        "الثلج",
+        "الرماد",
+        "الحصى الأملس",
+        "الصعيد الطاهر"
+      ],
+      "correctIndex": 3,
+      "explanation": "عند فقد الماء أو تعذُّر استعماله يُتيمَّم بالصعيد الطاهر.",
+      "source": "سورة المائدة ٦",
+      "tags": [
+        "طهارة"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-4-5",
+      "category": 2,
+      "difficulty": 4,
+      "text": "كم عدد ركعات صلاة العيد؟",
+      "choices": [
+        "ركعتان",
+        "أربع",
+        "ثلاث",
+        "ركعة"
+      ],
+      "correctIndex": 0,
+      "explanation": "صلاة العيد ركعتان فيهما تكبيرات زوائد.",
+      "source": "عام",
+      "tags": [
+        "عيد"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-4-6",
+      "category": 2,
+      "difficulty": 3,
+      "text": "ماذا يقول المصلّي بين السجدتين؟",
+      "choices": [
+        "سبحان ربي الأعلى",
+        "ربِّ اغفر لي",
+        "سمع الله لمن حمده",
+        "الله أكبر"
+      ],
+      "correctIndex": 1,
+      "explanation": "يقول بين السجدتين: ربِّ اغفر لي.",
+      "source": "سنن ابن ماجه",
+      "tags": [
+        "صلاة"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-5-1",
+      "category": 2,
+      "difficulty": 4,
+      "text": "متى فُرضت الصلوات الخمس؟",
+      "choices": [
+        "في غزوة بدر",
+        "ليلة الإسراء والمعراج",
+        "عند الهجرة",
+        "في حجة الوداع"
+      ],
+      "correctIndex": 1,
+      "explanation": "فُرضت الصلوات الخمس ليلة الإسراء والمعراج.",
+      "source": "صحيح البخاري",
+      "tags": [
+        "صلاة"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-5-2",
+      "category": 2,
+      "difficulty": 4,
+      "text": "ما أقلّ عدد ركعات الوتر؟",
+      "choices": [
+        "ركعتان",
+        "ثلاث",
+        "ركعة واحدة",
+        "أربع"
+      ],
+      "correctIndex": 2,
+      "explanation": "أقل الوتر ركعة واحدة، وأدناه للكمال ثلاث.",
+      "source": "صحيح مسلم",
+      "tags": [
+        "وتر"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-5-3",
+      "category": 2,
+      "difficulty": 4,
+      "text": "حكم قراءة الفاتحة في الصلاة؟",
+      "choices": [
+        "سنة",
+        "واجب",
+        "مباح",
+        "ركن"
+      ],
+      "correctIndex": 3,
+      "explanation": "«لا صلاة لمن لم يقرأ بفاتحة الكتاب» — فقراءة الفاتحة ركن لا تصح الصلاة بدونه.",
+      "source": "البخاري ومسلم",
+      "tags": [
+        "صلاة"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-5-4",
+      "category": 2,
+      "difficulty": 4,
+      "text": "لطلب أي شيء تُصلى صلاة الاستسقاء؟",
+      "choices": [
+        "نزول المطر",
+        "الشفاء",
+        "الرزق",
+        "النصر"
+      ],
+      "correctIndex": 0,
+      "explanation": "صلاة الاستسقاء تُصلى لطلب الغيث عند الجدب.",
+      "source": "صحيح البخاري",
+      "tags": [
+        "صلاة"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-5-5",
+      "category": 2,
+      "difficulty": 5,
+      "text": "أي وقت يُنهى عن الصلاة فيه؟",
+      "choices": [
+        "بعد الفجر مباشرة بالنافلة الراتبة",
+        "قبل الظهر",
+        "بعد العشاء",
+        "عند طلوع الشمس وغروبها"
+      ],
+      "correctIndex": 3,
+      "explanation": "نُهي عن الصلاة عند طلوع الشمس وعند غروبها ووقت الاستواء.",
+      "source": "صحيح مسلم",
+      "tags": [
+        "صلاة"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pg-2-5-6",
+      "category": 2,
+      "difficulty": 5,
+      "text": "ما اسم الجلوس في المسجد للعبادة والانقطاع؟",
+      "choices": [
+        "الاعتكاف",
+        "الخلوة",
+        "الرباط",
+        "التبتُّل"
+      ],
+      "correctIndex": 0,
+      "explanation": "الاعتكاف لزوم المسجد لطاعة الله، ويتأكد في العشر الأواخر من رمضان.",
+      "source": "صحيح البخاري",
+      "tags": [
+        "اعتكاف"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pk-2-1-1",
+      "category": 2,
+      "difficulty": 1,
+      "text": "كم عدد الصلوات المفروضة في اليوم والليلة؟",
+      "choices": [
+        "خمس",
+        "ثلاث",
+        "أربع",
+        "ست"
+      ],
+      "correctIndex": 0,
+      "explanation": "الصلوات المفروضة خمس: الفجر والظهر والعصر والمغرب والعشاء.",
+      "source": "حديث الإسراء — متفق عليه",
+      "tags": [
+        "صلاة"
+      ],
+      "ageBand": "kids",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pk-2-1-2",
+      "category": 2,
+      "difficulty": 1,
+      "text": "ماذا نقول عندما نبدأ الصلاة رافعين أيدينا؟",
+      "choices": [
+        "الحمد لله",
+        "الله أكبر",
+        "سبحان الله",
+        "بسم الله"
+      ],
+      "correctIndex": 1,
+      "explanation": "نبدأ الصلاة بتكبيرة الإحرام: «الله أكبر».",
+      "source": "حديث المسيء صلاته — متفق عليه",
+      "tags": [
+        "صلاة"
+      ],
+      "ageBand": "kids",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pk-2-2-1",
+      "category": 2,
+      "difficulty": 2,
+      "text": "ما اسم الطهارة بالماء التي نتوضأ بها قبل الصلاة؟",
+      "choices": [
+        "الغسل من النوم",
+        "المسح",
+        "الوضوء",
+        "التيمم دائماً"
+      ],
+      "correctIndex": 2,
+      "explanation": "الوضوء طهارةٌ بالماء نتطهَّر بها قبل الصلاة.",
+      "source": "القرآن — سورة المائدة",
+      "tags": [
+        "وضوء"
+      ],
+      "ageBand": "kids",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pk-2-2-2",
+      "category": 2,
+      "difficulty": 2,
+      "text": "إلى أي جهة نتَّجه في صلاتنا؟",
+      "choices": [
+        "الشمال",
+        "شروق الشمس",
+        "أي جهة نحب",
+        "الكعبة"
+      ],
+      "correctIndex": 3,
+      "explanation": "نستقبل القِبلة، وهي جهة الكعبة في مكة.",
+      "source": "القرآن — سورة البقرة",
+      "tags": [
+        "قبلة"
+      ],
+      "ageBand": "kids",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pk-2-3-1",
+      "category": 2,
+      "difficulty": 3,
+      "text": "ما السورة التي نقرؤها في كل ركعة من الصلاة؟",
+      "choices": [
+        "سورة الفاتحة",
+        "سورة الإخلاص",
+        "سورة الناس",
+        "سورة الكوثر"
+      ],
+      "correctIndex": 0,
+      "explanation": "قراءة الفاتحة ركنٌ في كل ركعة من الصلاة.",
+      "source": "حديث عبادة — متفق عليه",
+      "tags": [
+        "صلاة",
+        "فاتحة"
+      ],
+      "ageBand": "kids",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pk-2-3-2",
+      "category": 2,
+      "difficulty": 3,
+      "text": "ماذا نسمِّي وضع الجبهة على الأرض في الصلاة؟",
+      "choices": [
+        "الركوع",
+        "السجود",
+        "القيام",
+        "القعود"
+      ],
+      "correctIndex": 1,
+      "explanation": "السجود هو وضع الجبهة والأنف على الأرض تعظيماً لله.",
+      "source": "حديث صفة الصلاة — متفق عليه",
+      "tags": [
+        "صلاة",
+        "سجود"
+      ],
+      "ageBand": "kids",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pk-2-4-1",
+      "category": 2,
+      "difficulty": 4,
+      "text": "كم عدد ركعات صلاة المغرب؟",
+      "choices": [
+        "اثنتان",
+        "أربع",
+        "ثلاث",
+        "خمس"
+      ],
+      "correctIndex": 2,
+      "explanation": "صلاة المغرب ثلاث ركعات.",
+      "source": "فقه الصلاة",
+      "tags": [
+        "صلاة"
+      ],
+      "ageBand": "kids",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pk-2-4-2",
+      "category": 2,
+      "difficulty": 4,
+      "text": "أي صلاةٍ نصلِّيها قبل شروق الشمس؟",
+      "choices": [
+        "الظهر",
+        "العصر",
+        "العشاء",
+        "الفجر"
+      ],
+      "correctIndex": 3,
+      "explanation": "صلاة الفجر تكون في آخر الليل قبل طلوع الشمس.",
+      "source": "فقه الصلاة",
+      "tags": [
+        "صلاة",
+        "أوقات"
+      ],
+      "ageBand": "kids",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pk-2-5-1",
+      "category": 2,
+      "difficulty": 5,
+      "text": "ماذا نسمِّي النداء الذي يُرفع لإعلام الناس بوقت الصلاة؟",
+      "choices": [
+        "الأذان",
+        "الإقامة",
+        "التلبية",
+        "التكبير"
+      ],
+      "correctIndex": 0,
+      "explanation": "الأذان نداءٌ يُعلِم الناس بدخول وقت الصلاة.",
+      "source": "حديث بدء الأذان — سنن أبي داود",
+      "tags": [
+        "أذان"
+      ],
+      "ageBand": "kids",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "pk-2-5-2",
+      "category": 2,
+      "difficulty": 5,
+      "text": "صلاةٌ نصلِّيها جماعةً كل أسبوع يوم الجمعة بدل الظهر، ما اسمها؟",
+      "choices": [
+        "صلاة العيد",
+        "صلاة الجمعة",
+        "صلاة التراويح",
+        "صلاة الكسوف"
+      ],
+      "correctIndex": 1,
+      "explanation": "صلاة الجمعة ركعتان جماعةً مع خطبة، تحل محل الظهر يوم الجمعة.",
+      "source": "القرآن — سورة الجمعة",
+      "tags": [
+        "جمعة"
+      ],
+      "ageBand": "kids",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "ps-2-1-1",
+      "category": 2,
+      "difficulty": 1,
+      "text": "كم عدد ركعات السنن الرواتب المؤكَّدة؟",
+      "choices": [
+        "عشر ركعات",
+        "ثماني ركعات",
+        "اثنتا عشرة ركعة",
+        "أربع عشرة ركعة"
+      ],
+      "correctIndex": 2,
+      "explanation": "«من صلى ثنتي عشرة ركعة في اليوم والليلة بُني له بيت في الجنة».",
+      "source": "صحيح مسلم",
+      "tags": [
+        "صلاة"
+      ],
+      "ageBand": "scholar",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "ps-2-1-2",
+      "category": 2,
+      "difficulty": 1,
+      "text": "كم تكبيرة في صلاة الجنازة؟",
+      "choices": [
+        "ثلاث تكبيرات",
+        "خمس تكبيرات",
+        "ست تكبيرات",
+        "أربع تكبيرات"
+      ],
+      "correctIndex": 3,
+      "explanation": "صلاة الجنازة أربع تكبيرات بلا ركوع ولا سجود.",
+      "source": "صحيح البخاري",
+      "tags": [
+        "جنازة"
+      ],
+      "ageBand": "scholar",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "ps-2-2-1",
+      "category": 2,
+      "difficulty": 2,
+      "text": "إلى كم ركعة تُقصر الصلاة الرباعية في السفر؟",
+      "choices": [
+        "ركعتان",
+        "ثلاث ركعات",
+        "أربع ركعات",
+        "ركعة واحدة"
+      ],
+      "correctIndex": 0,
+      "explanation": "تُقصر الرباعية إلى ركعتين في السفر.",
+      "source": "سورة النساء ١٠١",
+      "tags": [
+        "سفر"
+      ],
+      "ageBand": "scholar",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "ps-2-2-2",
+      "category": 2,
+      "difficulty": 2,
+      "text": "أين يقع سجود السهو؟",
+      "choices": [
+        "قبل السلام فقط",
+        "قبل السلام أو بعده",
+        "بعد السلام فقط",
+        "لا يُشرع سجود السهو"
+      ],
+      "correctIndex": 1,
+      "explanation": "ثبت الأمران في السنة، فيكون قبل السلام أو بعده بحسب موضع السهو.",
+      "source": "الصحيحان",
+      "tags": [
+        "سهو"
+      ],
+      "ageBand": "scholar",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "ps-2-3-1",
+      "category": 2,
+      "difficulty": 3,
+      "text": "ما حكم قراءة الفاتحة في الصلاة عند جمهور الفقهاء؟",
+      "choices": [
+        "سنة",
+        "واجب",
+        "ركن",
+        "مباح"
+      ],
+      "correctIndex": 2,
+      "explanation": "«لا صلاة لمن لم يقرأ بفاتحة الكتاب» — فقراءتها ركن عند الجمهور لا تصح الصلاة بدونه (الحنفية يعدّونها واجبة لا ركنًا، وقراءة أيّ قرآن هي الركن عندهم).",
+      "source": "الصحيحان",
+      "tags": [
+        "صلاة"
+      ],
+      "ageBand": "scholar",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "ps-2-3-2",
+      "category": 2,
+      "difficulty": 3,
+      "text": "متى يبدأ وقت صلاة العشاء؟",
+      "choices": [
+        "بغروب الشمس",
+        "بمنتصف الليل",
+        "بطلوع الفجر",
+        "بمغيب الشفق الأحمر"
+      ],
+      "correctIndex": 3,
+      "explanation": "يبدأ وقت العشاء بمغيب الشفق الأحمر وينتهي وقت الاختيار بمنتصف الليل.",
+      "source": "صحيح مسلم",
+      "tags": [
+        "مواقيت"
+      ],
+      "ageBand": "scholar",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "ps-2-4-1",
+      "category": 2,
+      "difficulty": 4,
+      "text": "في أي سورة ورد ذكر صلاة الخوف؟",
+      "choices": [
+        "سورة النساء",
+        "سورة البقرة",
+        "سورة المائدة",
+        "سورة الأنفال"
+      ],
+      "correctIndex": 0,
+      "explanation": "«وإذا كنت فيهم فأقمت لهم الصلاة» في بيان صلاة الخوف.",
+      "source": "سورة النساء ١٠٢",
+      "tags": [
+        "صلاة"
+      ],
+      "ageBand": "scholar",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "ps-2-4-2",
+      "category": 2,
+      "difficulty": 4,
+      "text": "من أول من أذَّن في الإسلام؟",
+      "choices": [
+        "عبد الله بن زيد",
+        "بلال بن رباح",
+        "أبو محذورة",
+        "عبد الله بن أم مكتوم"
+      ],
+      "correctIndex": 1,
+      "explanation": "بلال أول مؤذّني الإسلام، ورأى الأذان في المنام عبد الله بن زيد.",
+      "source": "سنن أبي داود",
+      "tags": [
+        "أذان"
+      ],
+      "ageBand": "scholar",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "ps-2-5-1",
+      "category": 2,
+      "difficulty": 5,
+      "text": "ما الصلاة الوسطى التي وردت المحافظة عليها؟",
+      "choices": [
+        "صلاة الفجر",
+        "صلاة الظهر",
+        "صلاة العصر",
+        "صلاة المغرب"
+      ],
+      "correctIndex": 2,
+      "explanation": "«شغلونا عن الصلاة الوسطى صلاة العصر» يوم الأحزاب.",
+      "source": "صحيح مسلم",
+      "tags": [
+        "مواقيت"
+      ],
+      "ageBand": "scholar",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "ps-2-5-2",
+      "category": 2,
+      "difficulty": 5,
+      "text": "من فاتته صلاة بنوم أو نسيان، متى يصليها؟",
+      "choices": [
+        "في اليوم التالي",
+        "تسقط عنه",
+        "في وقتها المعتاد غدًا",
+        "إذا ذكرها"
+      ],
+      "correctIndex": 3,
+      "explanation": "«من نسي صلاة فليصلِّها إذا ذكرها، لا كفارة لها إلا ذلك».",
+      "source": "الصحيحان",
+      "tags": [
+        "قضاء"
+      ],
+      "ageBand": "scholar",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "sa-1-1",
+      "category": 2,
+      "difficulty": 1,
+      "text": "كم عدد الصلوات المفروضة في اليوم والليلة؟",
+      "choices": [
+        "ثلاث صلوات",
+        "أربع صلوات",
+        "ست صلوات",
+        "خمس صلوات"
+      ],
+      "correctIndex": 3,
+      "explanation": "فُرضت الصلوات الخمس ليلة الإسراء والمعراج.",
+      "source": "متفق عليه — حديث الإسراء",
+      "tags": [
+        "صلاة",
+        "فرض"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "sa-1-2",
+      "category": 2,
+      "difficulty": 1,
+      "text": "إلى أي جهة يتوجّه المسلم في صلاته؟",
+      "choices": [
+        "الكعبة",
+        "بيت المقدس",
+        "جهة الشروق",
+        "جهة الشمال"
+      ],
+      "correctIndex": 0,
+      "explanation": "أُمر المسلمون باستقبال المسجد الحرام (الكعبة، وهي جهة القبلة)، قال تعالى: «فولِّ وجهك شطر المسجد الحرام».",
+      "source": "القرآن — سورة البقرة ١٤٤",
+      "tags": [
+        "قبلة"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "sa-2-1",
+      "category": 2,
+      "difficulty": 1,
+      "text": "كم عدد ركعات صلاة الفجر المفروضة؟",
+      "choices": [
+        "ثلاث ركعات",
+        "ركعتان",
+        "أربع ركعات",
+        "ركعة واحدة"
+      ],
+      "correctIndex": 1,
+      "explanation": "صلاة الفجر ركعتان جهريتان.",
+      "source": "متفق عليه",
+      "tags": [
+        "صلاة",
+        "ركعات"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "sa-2-2",
+      "category": 2,
+      "difficulty": 2,
+      "text": "كم عدد ركعات صلاة المغرب المفروضة؟",
+      "choices": [
+        "ركعتان",
+        "أربع ركعات",
+        "خمس ركعات",
+        "ثلاث ركعات"
+      ],
+      "correctIndex": 3,
+      "explanation": "صلاة المغرب ثلاث ركعات، وهي وتر النهار.",
+      "source": "متفق عليه",
+      "tags": [
+        "صلاة",
+        "ركعات"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "sa-3-1",
+      "category": 2,
+      "difficulty": 3,
+      "text": "ما اسم الطهارة بالتراب عند فقد الماء أو العجز عن استعماله؟",
+      "choices": [
+        "الوضوء",
+        "الغسل",
+        "التيمم",
+        "الاستنجاء"
+      ],
+      "correctIndex": 2,
+      "explanation": "شرع الله التيمم عند فقد الماء، قال تعالى: «فتيمموا صعيداً طيباً».",
+      "source": "القرآن — سورة المائدة ٦",
+      "tags": [
+        "طهارة"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "sa-3-2",
+      "category": 2,
+      "difficulty": 3,
+      "text": "ما اسم الصلاة التي تُصلّى جماعةً يوم الجمعة بخطبة بدل صلاة الظهر؟",
+      "choices": [
+        "صلاة العيد",
+        "صلاة التراويح",
+        "صلاة الاستسقاء",
+        "صلاة الجمعة"
+      ],
+      "correctIndex": 3,
+      "explanation": "صلاة الجمعة ركعتان بخطبة، فرض على الرجال، قال تعالى: «فاسعوا إلى ذكر الله».",
+      "source": "القرآن — سورة الجمعة ٩",
+      "tags": [
+        "جمعة"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "sa-4-1",
+      "category": 2,
+      "difficulty": 4,
+      "text": "بكم درجة تفضُل صلاة الجماعة صلاة الفرد وحده؟",
+      "choices": [
+        "عشر درجات",
+        "سبع وعشرين درجة",
+        "خمس عشرة درجة",
+        "أربعين درجة"
+      ],
+      "correctIndex": 1,
+      "explanation": "قال ﷺ: «صلاة الجماعة تفضُل صلاة الفذّ بسبع وعشرين درجة».",
+      "source": "متفق عليه — حديث ابن عمر",
+      "tags": [
+        "جماعة",
+        "فضل"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "sa-4-2",
+      "category": 2,
+      "difficulty": 4,
+      "text": "ما اسم السجود الذي يُجبَر به الخلل والنقص أو الزيادة في الصلاة؟",
+      "choices": [
+        "سجود التلاوة",
+        "سجود الشكر",
+        "سجود السهو",
+        "سجود التطوع"
+      ],
+      "correctIndex": 2,
+      "explanation": "من شكّ أو زاد أو نقص في صلاته جبرها بسجدتين قبل السلام أو بعده.",
+      "source": "السنة — حديث ذي اليدين، متفق عليه",
+      "tags": [
+        "صلاة",
+        "سهو"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "sa-5-1",
+      "category": 2,
+      "difficulty": 5,
+      "text": "كم يُصلّي المسافر الصلاةَ الرباعية إذا قصَرها؟",
+      "choices": [
+        "ثلاث ركعات",
+        "ركعتين",
+        "ركعة واحدة",
+        "أربع ركعات"
+      ],
+      "correctIndex": 1,
+      "explanation": "يقصر المسافر الرباعية إلى ركعتين، قال تعالى: «فليس عليكم جناح أن تقصروا من الصلاة».",
+      "source": "القرآن — سورة النساء ١٠١ والسنة",
+      "tags": [
+        "سفر",
+        "قصر"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    },
+    {
+      "id": "sa-5-2",
+      "category": 2,
+      "difficulty": 5,
+      "text": "على وجه الكمال والاستحباب، كم مرة يُغسل العضو في الوضوء؟",
+      "choices": [
+        "مرة واحدة",
+        "مرتين",
+        "ثلاث مرات",
+        "أربع مرات"
+      ],
+      "correctIndex": 2,
+      "explanation": "الفرض غسل العضو مرة، والكمال ثلاث؛ توضأ النبي ﷺ ثلاثاً ثلاثاً.",
+      "source": "صحيح البخاري",
+      "tags": [
+        "وضوء"
+      ],
+      "ageBand": "general",
+      "status": "reviewed",
+      "version": 1
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/islamic-question-bank/schema/question.schema.json",
+  "title": "سؤال",
+  "description": "Islamic question bank question (Arabic only)",
+  "type": "object",
+  "required": [
+    "id",
+    "category",
+    "difficulty",
+    "text",
+    "choices",
+    "correctIndex",
+    "explanation",
+    "source",
+    "tags",
+    "ageBand",
+    "status",
+    "version"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)+$"
+    },
+    "category": { "$ref": "#/$defs/categoryId" },
+    "difficulty": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "1 = مبتدئ، 2 = أساسي، 3 = متوسط، 4 = متقدم، 5 = متخصص"
+    },
+    "text": {
+      "type": "string",
+      "minLength": 5
+    },
+    "choices": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 2,
+      "maxItems": 6
+    },
+    "correctIndex": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "explanation": {
+      "type": "string",
+      "minLength": 3
+    },
+    "source": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "ageBand": {
+      "enum": ["kids", "general", "scholar"]
+    },
+    "status": {
+      "enum": ["draft", "reviewed"]
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "$defs": {
+    "categoryId": {
+      "type": "integer",
+      "enum": [1, 2, 3, 4, 5]
+    }
+  }
+}

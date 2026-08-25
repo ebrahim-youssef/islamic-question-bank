@@ -3,7 +3,7 @@
   "$id": "islamic-question-bank/schema/category.schema.json",
   "title": "فئة",
   "type": "object",
-  "required": ["id", "name"],
+  "required": ["id", "name", "parentId"],
   "additionalProperties": false,
   "properties": {
     "id": {
@@ -12,8 +12,13 @@
     },
     "name": { "type": "string", "minLength": 2 },
     "parentId": {
-      "type": "string",
-      "pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)*$"
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)*$"
+        }
+      ]
     },
     "description": { "type": "string" }
   }

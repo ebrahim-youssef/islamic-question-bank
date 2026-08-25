@@ -56,8 +56,7 @@
             "minLength": 1
           }
         }
-      },
-      "uniqueItems": true
+      }
     },
     "correctChoiceId": {
       "type": "string",
@@ -72,43 +71,51 @@
       "minItems": 1,
       "items": {
         "type": "object",
+        "properties": {
+          "type": {
+            "enum": ["quran", "hadith", "book", "other"]
+          }
+        },
         "required": ["type"],
-        "additionalProperties": false,
         "oneOf": [
           {
-            "type": "quran",
-            "required": ["type", "surah", "ayah"],
+            "type": "object",
             "properties": {
               "type": { "const": "quran" },
               "surah": { "type": "integer", "minimum": 1, "maximum": 114 },
               "ayah": { "type": "integer", "minimum": 1 }
-            }
+            },
+            "required": ["type", "surah", "ayah"],
+            "additionalProperties": false
           },
           {
-            "type": "hadith",
-            "required": ["type", "collection", "number"],
+            "type": "object",
             "properties": {
               "type": { "const": "hadith" },
               "collection": { "type": "string", "minLength": 1 },
               "number": { "type": "string", "minLength": 1 }
-            }
+            },
+            "required": ["type", "collection", "number"],
+            "additionalProperties": false
           },
           {
-            "type": "book",
-            "required": ["type", "title"],
+            "type": "object",
             "properties": {
               "type": { "const": "book" },
               "title": { "type": "string", "minLength": 1 },
-              "locator": { "type": "string" }
-            }
+              "locator": { "type": "string", "minLength": 1 }
+            },
+            "required": ["type", "title"],
+            "additionalProperties": false
           },
           {
-            "type": "other",
-            "required": ["type", "label"],
+            "type": "object",
             "properties": {
               "type": { "const": "other" },
               "label": { "type": "string", "minLength": 1 }
-            }
+            },
+            "required": ["type", "label"],
+            "additionalProperties": false
           }
         ]
       }
@@ -130,7 +137,25 @@
           "type": ["string", "null"],
           "format": "date-time"
         }
-      }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "status": { "const": "verified" } },
+            "required": ["status"]
+          },
+          "then": {
+            "properties": {
+              "verifiedAt": { "type": "string", "format": "date-time" }
+            }
+          },
+          "else": {
+            "properties": {
+              "verifiedAt": { "type": "null" }
+            }
+          }
+        }
+      ]
     }
   }
 }

@@ -1,11 +1,10 @@
 {
-  "categoryId": "shahada",
+  "categoryId": "aqidah-shahada",
   "questions": [
     {
-      "id": "kid-sh-3",
-      "categoryId": "shahada",
-      "ageBand": "kids",
-      "tier": 2,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "kids",
       "text": "من هم الذين يطيعون الله دائماً ولا يعصونه أبداً؟",
       "choices": [
         {
@@ -27,27 +26,21 @@
       ],
       "correctChoiceId": "c",
       "explanation": "الملائكة عبادٌ مكرمون «لا يعصون الله ما أمرهم ويفعلون ما يؤمرون».",
-      "references": [
+      "sources": [
         {
           "type": "quran",
-          "surah": 66,
-          "ayah": 6
+          "reference": "القرآن — سورة التحريم ٦"
         }
       ],
       "tags": [
         "ملائكة",
         "أطفال"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-1-1",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 1,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "بم يدخل المرءُ في الإسلام؟",
       "choices": [
         {
@@ -69,26 +62,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "يدخل المرء في الإسلام بالنطق بالشهادتين عن اعتقاد وإذعان.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "reference": "حديث جبريل — البخاري ومسلم"
         }
       ],
       "tags": [
         "شهادة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-1-2",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 1,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "كم عدد أركان الإسلام؟",
       "choices": [
         {
@@ -110,26 +97,20 @@
       ],
       "correctChoiceId": "b",
       "explanation": "أركان الإسلام خمسة: الشهادتان والصلاة والزكاة والصوم والحج.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "reference": "حديث جبريل — البخاري ومسلم"
         }
       ],
       "tags": [
         "أركان"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-1-3",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 1,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "ما معنى «لا إله إلا الله»؟",
       "choices": [
         {
@@ -151,25 +132,20 @@
       ],
       "correctChoiceId": "c",
       "explanation": "كلمة التوحيد تنفي العبادة عن كل ما سوى الله وتُثبتها له وحده.",
-      "references": [
+      "sources": [
         {
           "type": "other",
-          "label": "عام"
+          "reference": "عام"
         }
       ],
       "tags": [
         "توحيد"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-1-4",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 1,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "ما أول أركان الإسلام؟",
       "choices": [
         {
@@ -191,26 +167,20 @@
       ],
       "correctChoiceId": "d",
       "explanation": "النطق بالشهادتين هو أول أركان الإسلام والدخول فيه.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "reference": "حديث جبريل — البخاري ومسلم"
         }
       ],
       "tags": [
         "شهادة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-1-5",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 1,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "ما معنى كلمة «الإسلام» لغةً؟",
       "choices": [
         {
@@ -232,25 +202,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "الإسلام لغةً الاستسلام والانقياد والإذعان لله بالتوحيد.",
-      "references": [
+      "sources": [
         {
           "type": "other",
-          "label": "عام"
+          "reference": "عام"
         }
       ],
       "tags": [
         "توحيد"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-1-6",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 1,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "في أي مدينة وُلد النبي ﷺ؟",
       "choices": [
         {
@@ -272,25 +237,20 @@
       ],
       "correctChoiceId": "b",
       "explanation": "وُلد النبي ﷺ في مكة عام الفيل.",
-      "references": [
+      "sources": [
         {
-          "type": "book",
-          "title": "السيرة النبوية"
+          "type": "other",
+          "reference": "السيرة النبوية"
         }
       ],
       "tags": [
         "سيرة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-2-1",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 2,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "على أي نبيّ أُنزلت التوراة؟",
       "choices": [
         {
@@ -312,25 +272,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "التوراة كتاب الله المنزَّل على موسى عليه السلام.",
-      "references": [
+      "sources": [
         {
           "type": "other",
-          "label": "عام"
+          "reference": "عام"
         }
       ],
       "tags": [
         "كتب"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-2-2",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 2,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "على أي نبيّ أُنزل الإنجيل؟",
       "choices": [
         {
@@ -352,25 +307,20 @@
       ],
       "correctChoiceId": "b",
       "explanation": "الإنجيل كتاب الله المنزَّل على عيسى عليه السلام.",
-      "references": [
+      "sources": [
         {
           "type": "other",
-          "label": "عام"
+          "reference": "عام"
         }
       ],
       "tags": [
         "كتب"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-2-3",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 2,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "على أي نبيّ أُنزل الزبور؟",
       "choices": [
         {
@@ -392,25 +342,20 @@
       ],
       "correctChoiceId": "c",
       "explanation": "الزبور كتاب الله المنزَّل على داود عليه السلام.",
-      "references": [
+      "sources": [
         {
           "type": "other",
-          "label": "عام"
+          "reference": "عام"
         }
       ],
       "tags": [
         "كتب"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-2-4",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 2,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "الملَك الموكَّل بنزول الوحي على الأنبياء هو؟",
       "choices": [
         {
@@ -432,25 +377,20 @@
       ],
       "correctChoiceId": "d",
       "explanation": "جبريل عليه السلام هو أمين الوحي الذي ينزل به على الرسل.",
-      "references": [
+      "sources": [
         {
           "type": "other",
-          "label": "عام"
+          "reference": "عام"
         }
       ],
       "tags": [
         "ملائكة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-2-6",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 2,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "من خُلق من نور؟",
       "choices": [
         {
@@ -472,26 +412,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "خُلقت الملائكة من نور، والجانّ من نار، وآدم مما وُصف لكم.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "reference": "صحيح مسلم"
         }
       ],
       "tags": [
         "ملائكة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-3-1",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 3,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "medium",
+      "audience": "general",
       "text": "من هو أبو الأنبياء؟",
       "choices": [
         {
@@ -513,25 +447,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "إبراهيم عليه السلام يُلقَّب بأبي الأنبياء لأن أكثر الأنبياء من ذريّته.",
-      "references": [
+      "sources": [
         {
           "type": "other",
-          "label": "عام"
+          "reference": "عام"
         }
       ],
       "tags": [
         "أنبياء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-3-4",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 3,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "medium",
+      "audience": "general",
       "text": "أول الرسل إلى أهل الأرض هو؟",
       "choices": [
         {
@@ -553,26 +482,20 @@
       ],
       "correctChoiceId": "b",
       "explanation": "نوح عليه السلام أول رسول أُرسل إلى أهل الأرض كما في حديث الشفاعة.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "reference": "صحيح البخاري"
         }
       ],
       "tags": [
         "أنبياء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-3-5",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 3,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "medium",
+      "audience": "general",
       "text": "الملَك الموكَّل بالنفخ في الصُّور هو؟",
       "choices": [
         {
@@ -594,25 +517,20 @@
       ],
       "correctChoiceId": "c",
       "explanation": "إسرافيل عليه السلام موكَّل بالنفخ في الصُّور يوم القيامة.",
-      "references": [
+      "sources": [
         {
           "type": "other",
-          "label": "عام"
+          "reference": "عام"
         }
       ],
       "tags": [
         "ملائكة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-4-1",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 4,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "hard",
+      "audience": "general",
       "text": "كم عدد أسماء الله الحسنى الوارد ذكرها في الحديث؟",
       "choices": [
         {
@@ -634,26 +552,20 @@
       ],
       "correctChoiceId": "b",
       "explanation": "«إن لله تسعةً وتسعين اسمًا، من أحصاها دخل الجنة».",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "reference": "البخاري ومسلم"
         }
       ],
       "tags": [
         "أسماء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-4-2",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 4,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "hard",
+      "audience": "general",
       "text": "النبي الذي التقمه الحوت هو؟",
       "choices": [
         {
@@ -675,26 +587,20 @@
       ],
       "correctChoiceId": "c",
       "explanation": "يونس عليه السلام ذو النون التقمه الحوت فنادى في الظلمات.",
-      "references": [
+      "sources": [
         {
           "type": "quran",
-          "surah": 21,
-          "ayah": 87
+          "reference": "سورة الأنبياء ٨٧"
         }
       ],
       "tags": [
         "أنبياء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-4-4",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 4,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "hard",
+      "audience": "general",
       "text": "النبي الذي سخَّر الله له الريح والجن؟",
       "choices": [
         {
@@ -716,26 +622,20 @@
       ],
       "correctChoiceId": "d",
       "explanation": "سخَّر الله لسليمان الريح والجنّ وعلَّمه منطق الطير.",
-      "references": [
+      "sources": [
         {
           "type": "quran",
-          "surah": 21,
-          "ayah": 81
+          "reference": "سورة الأنبياء ٨١"
         }
       ],
       "tags": [
         "أنبياء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-4-5",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 4,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "hard",
+      "audience": "general",
       "text": "أول من يُبعث من قبره يوم القيامة؟",
       "choices": [
         {
@@ -757,26 +657,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "«أنا أول من تنشقُّ عنه الأرض يوم القيامة».",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "reference": "صحيح مسلم"
         }
       ],
       "tags": [
         "آخرة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-4-6",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 3,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "medium",
+      "audience": "general",
       "text": "النبي الذي أُلقي في النار فكانت بردًا وسلامًا؟",
       "choices": [
         {
@@ -798,26 +692,20 @@
       ],
       "correctChoiceId": "d",
       "explanation": "قال تعالى: «قلنا يا نار كوني بردًا وسلامًا على إبراهيم».",
-      "references": [
+      "sources": [
         {
           "type": "quran",
-          "surah": 21,
-          "ayah": 69
+          "reference": "سورة الأنبياء ٦٩"
         }
       ],
       "tags": [
         "أنبياء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-5-1",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 3,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "medium",
+      "audience": "general",
       "text": "ما أعظم آية في القرآن الكريم؟",
       "choices": [
         {
@@ -839,26 +727,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "بيَّن النبي ﷺ لأُبيّ بن كعب أن آية الكرسي أعظم آية في القرآن.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "reference": "صحيح مسلم"
         }
       ],
       "tags": [
         "قرآن"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-5-2",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 3,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "medium",
+      "audience": "general",
       "text": "السورة التي تعدل ثُلث القرآن؟",
       "choices": [
         {
@@ -880,26 +762,20 @@
       ],
       "correctChoiceId": "b",
       "explanation": "«قل هو الله أحد تعدل ثلث القرآن».",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "reference": "صحيح البخاري"
         }
       ],
       "tags": [
         "قرآن"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-5-4",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 2,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "عدد سور القرآن الكريم؟",
       "choices": [
         {
@@ -921,25 +797,20 @@
       ],
       "correctChoiceId": "b",
       "explanation": "عدد سور القرآن الكريم مئة وأربع عشرة سورة.",
-      "references": [
+      "sources": [
         {
           "type": "other",
-          "label": "عام"
+          "reference": "عام"
         }
       ],
       "tags": [
         "قرآن"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-5-5",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 3,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "medium",
+      "audience": "general",
       "text": "أطول سورة في القرآن الكريم؟",
       "choices": [
         {
@@ -961,25 +832,20 @@
       ],
       "correctChoiceId": "c",
       "explanation": "سورة البقرة أطول سور القرآن الكريم.",
-      "references": [
+      "sources": [
         {
           "type": "other",
-          "label": "عام"
+          "reference": "عام"
         }
       ],
       "tags": [
         "قرآن"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-1-5-6",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 2,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "من كتبة الوحي وأول الخلفاء الراشدين؟",
       "choices": [
         {
@@ -1001,25 +867,20 @@
       ],
       "correctChoiceId": "c",
       "explanation": "أبو بكر الصديق أول الخلفاء الراشدين وصاحب النبي ﷺ في الغار.",
-      "references": [
+      "sources": [
         {
-          "type": "book",
-          "title": "السيرة النبوية"
+          "type": "other",
+          "reference": "السيرة والتاريخ"
         }
       ],
       "tags": [
         "صحابة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pk-1-1-1",
-      "categoryId": "shahada",
-      "ageBand": "kids",
-      "tier": 1,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "kids",
       "text": "من ربُّنا الذي خلقنا؟",
       "choices": [
         {
@@ -1041,25 +902,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "ربُّنا هو الله وحده، خلقنا وخلق كل شيء.",
-      "references": [
+      "sources": [
         {
-          "type": "other",
-          "label": "القرآن — سورة الفاتحة"
+          "type": "quran",
+          "reference": "القرآن — سورة الفاتحة"
         }
       ],
       "tags": [
         "توحيد"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pk-1-1-2",
-      "categoryId": "shahada",
-      "ageBand": "kids",
-      "tier": 1,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "kids",
       "text": "من هو نبيُّنا الذي نتبعه؟",
       "choices": [
         {
@@ -1081,25 +937,20 @@
       ],
       "correctChoiceId": "b",
       "explanation": "نبيُّنا محمد ﷺ، أرسله الله ليعلِّمنا ديننا.",
-      "references": [
+      "sources": [
         {
-          "type": "book",
-          "title": "السيرة النبوية"
+          "type": "other",
+          "reference": "السيرة النبوية"
         }
       ],
       "tags": [
         "نبي"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pk-1-2-1",
-      "categoryId": "shahada",
-      "ageBand": "kids",
-      "tier": 2,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "kids",
       "text": "بأي كتابٍ نزل على نبيِّنا محمد ﷺ؟",
       "choices": [
         {
@@ -1121,25 +972,20 @@
       ],
       "correctChoiceId": "d",
       "explanation": "أنزل الله القرآن على نبيِّنا محمد ﷺ هدايةً للناس.",
-      "references": [
+      "sources": [
         {
-          "type": "other",
-          "label": "القرآن — سورة البقرة"
+          "type": "quran",
+          "reference": "القرآن — سورة البقرة"
         }
       ],
       "tags": [
         "قرآن"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pk-1-2-2",
-      "categoryId": "shahada",
-      "ageBand": "kids",
-      "tier": 2,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "kids",
       "text": "كم عدد أركان الإسلام؟",
       "choices": [
         {
@@ -1161,26 +1007,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "أركان الإسلام خمسة: الشهادتان والصلاة والزكاة والصوم والحج.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "reference": "حديث ابن عمر — متفق عليه"
         }
       ],
       "tags": [
         "أركان"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pk-1-3-1",
-      "categoryId": "shahada",
-      "ageBand": "kids",
-      "tier": 3,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "medium",
+      "audience": "kids",
       "text": "من الذي يحمل أعمالنا ويكتبها من الملائكة؟",
       "choices": [
         {
@@ -1202,25 +1042,20 @@
       ],
       "correctChoiceId": "b",
       "explanation": "وكَّل الله بكل إنسان ملائكةً تحفظ أعماله وتكتبها.",
-      "references": [
+      "sources": [
         {
-          "type": "other",
-          "label": "القرآن — سورة ق"
+          "type": "quran",
+          "reference": "القرآن — سورة ق"
         }
       ],
       "tags": [
         "ملائكة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pk-1-3-2",
-      "categoryId": "shahada",
-      "ageBand": "kids",
-      "tier": 3,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "medium",
+      "audience": "kids",
       "text": "من هو النبيُّ الذي كلَّمه الله وأرسله إلى فرعون؟",
       "choices": [
         {
@@ -1242,25 +1077,20 @@
       ],
       "correctChoiceId": "c",
       "explanation": "موسى عليه السلام كلَّمه الله وأرسله لدعوة فرعون.",
-      "references": [
+      "sources": [
         {
-          "type": "other",
-          "label": "القرآن — سورة طه"
+          "type": "quran",
+          "reference": "القرآن — سورة طه"
         }
       ],
       "tags": [
         "أنبياء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pk-1-4-1",
-      "categoryId": "shahada",
-      "ageBand": "kids",
-      "tier": 4,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "hard",
+      "audience": "kids",
       "text": "ما أول ما يجب أن نعرفه عن الله من صفاته؟",
       "choices": [
         {
@@ -1282,25 +1112,20 @@
       ],
       "correctChoiceId": "d",
       "explanation": "الله واحدٌ أحد، لا شريك له ولا شبيه، لم يلد ولم يولد.",
-      "references": [
+      "sources": [
         {
-          "type": "other",
-          "label": "القرآن — سورة الإخلاص"
+          "type": "quran",
+          "reference": "القرآن — سورة الإخلاص"
         }
       ],
       "tags": [
         "توحيد"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pk-1-4-2",
-      "categoryId": "shahada",
-      "ageBand": "kids",
-      "tier": 4,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "hard",
+      "audience": "kids",
       "text": "من هو خاتم الأنبياء، أي آخرهم؟",
       "choices": [
         {
@@ -1322,25 +1147,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "نبيُّنا محمد ﷺ خاتم الأنبياء، لا نبيَّ بعده.",
-      "references": [
+      "sources": [
         {
-          "type": "other",
-          "label": "القرآن — سورة الأحزاب"
+          "type": "quran",
+          "reference": "القرآن — سورة الأحزاب"
         }
       ],
       "tags": [
         "نبي"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pk-1-5-1",
-      "categoryId": "shahada",
-      "ageBand": "kids",
-      "tier": 5,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "hard",
+      "audience": "kids",
       "text": "كم عدد أركان الإيمان؟",
       "choices": [
         {
@@ -1362,27 +1182,21 @@
       ],
       "correctChoiceId": "b",
       "explanation": "أركان الإيمان ستة: الإيمان بالله وملائكته وكتبه ورسله واليوم الآخر والقدر.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "reference": "حديث جبريل — صحيح مسلم"
         }
       ],
       "tags": [
         "إيمان",
         "أركان"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pk-1-5-2",
-      "categoryId": "shahada",
-      "ageBand": "kids",
-      "tier": 5,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "hard",
+      "audience": "kids",
       "text": "ماذا نسمِّي اليوم الذي يبعث الله فيه الناس ويحاسبهم؟",
       "choices": [
         {
@@ -1404,25 +1218,20 @@
       ],
       "correctChoiceId": "c",
       "explanation": "يوم القيامة يبعث الله الناس ويحاسبهم على أعمالهم.",
-      "references": [
+      "sources": [
         {
-          "type": "other",
-          "label": "القرآن — سورة القيامة"
+          "type": "quran",
+          "reference": "القرآن — سورة القيامة"
         }
       ],
       "tags": [
         "آخرة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ps-1-1-1",
-      "categoryId": "shahada",
-      "ageBand": "scholar",
-      "tier": 1,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "scholar",
       "text": "كم عدد أولي العزم من الرسل؟",
       "choices": [
         {
@@ -1444,26 +1253,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "أولو العزم: نوح وإبراهيم وموسى وعيسى ومحمد ﷺ.",
-      "references": [
+      "sources": [
         {
           "type": "quran",
-          "surah": 42,
-          "ayah": 13
+          "reference": "سورة الشورى ١٣"
         }
       ],
       "tags": [
         "أنبياء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ps-1-1-2",
-      "categoryId": "shahada",
-      "ageBand": "scholar",
-      "tier": 1,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "scholar",
       "text": "في كم سنة تقريبًا نزل القرآن مُنجَّمًا؟",
       "choices": [
         {
@@ -1485,25 +1288,20 @@
       ],
       "correctChoiceId": "b",
       "explanation": "نزل القرآن مفرَّقًا نحو ثلاث وعشرين سنة بين مكة والمدينة.",
-      "references": [
+      "sources": [
         {
-          "type": "book",
-          "title": "علوم القرآن"
+          "type": "quran",
+          "reference": "علوم القرآن"
         }
       ],
       "tags": [
         "قرآن"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ps-1-2-1",
-      "categoryId": "shahada",
-      "ageBand": "scholar",
-      "tier": 2,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "scholar",
       "text": "ما الذي أُنزل على إبراهيم عليه السلام؟",
       "choices": [
         {
@@ -1525,26 +1323,20 @@
       ],
       "correctChoiceId": "c",
       "explanation": "«صحف إبراهيم وموسى»، والزبور لداود والتوراة لموسى والإنجيل لعيسى.",
-      "references": [
+      "sources": [
         {
           "type": "quran",
-          "surah": 87,
-          "ayah": 19
+          "reference": "سورة الأعلى ١٩"
         }
       ],
       "tags": [
         "كتب"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ps-1-2-2",
-      "categoryId": "shahada",
-      "ageBand": "scholar",
-      "tier": 2,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "scholar",
       "text": "كم مرتبةً لركن الإيمان بالقدر عند أهل السنة؟",
       "choices": [
         {
@@ -1566,25 +1358,20 @@
       ],
       "correctChoiceId": "d",
       "explanation": "مراتب القدر: العلم ثم الكتابة ثم المشيئة ثم الخلق.",
-      "references": [
+      "sources": [
         {
-          "type": "book",
-          "title": "عقيدة أهل السنة"
+          "type": "hadith",
+          "reference": "عقيدة أهل السنة"
         }
       ],
       "tags": [
         "قدر"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ps-1-3-1",
-      "categoryId": "shahada",
-      "ageBand": "scholar",
-      "tier": 3,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "medium",
+      "audience": "scholar",
       "text": "كم نبيًّا ذُكر باسمه صراحةً في القرآن الكريم؟",
       "choices": [
         {
@@ -1606,25 +1393,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "ذُكر في القرآن خمسة وعشرون نبيًّا بأسمائهم.",
-      "references": [
+      "sources": [
         {
-          "type": "book",
-          "title": "علوم القرآن"
+          "type": "quran",
+          "reference": "علوم القرآن"
         }
       ],
       "tags": [
         "أنبياء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ps-1-3-2",
-      "categoryId": "shahada",
-      "ageBand": "scholar",
-      "tier": 3,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "medium",
+      "audience": "scholar",
       "text": "أي سورة لا تُفتتح بالبسملة في المصحف؟",
       "choices": [
         {
@@ -1646,25 +1428,20 @@
       ],
       "correctChoiceId": "b",
       "explanation": "سورة التوبة وحدها تُفتتح بلا بسملة.",
-      "references": [
+      "sources": [
         {
           "type": "other",
-          "label": "المصحف الشريف"
+          "reference": "المصحف الشريف"
         }
       ],
       "tags": [
         "قرآن"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ps-1-4-1",
-      "categoryId": "shahada",
-      "ageBand": "scholar",
-      "tier": 4,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "hard",
+      "audience": "scholar",
       "text": "من أول من جمع القرآن في مصحف واحد؟",
       "choices": [
         {
@@ -1686,26 +1463,20 @@
       ],
       "correctChoiceId": "c",
       "explanation": "جُمع القرآن في مصحف في عهد أبي بكر، ثم وحَّد عثمان المصاحف على حرف واحد.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "reference": "صحيح البخاري"
         }
       ],
       "tags": [
         "قرآن"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ps-1-4-2",
-      "categoryId": "shahada",
-      "ageBand": "scholar",
-      "tier": 4,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "hard",
+      "audience": "scholar",
       "text": "ما أطول آية في القرآن الكريم؟",
       "choices": [
         {
@@ -1727,26 +1498,20 @@
       ],
       "correctChoiceId": "d",
       "explanation": "آية الدَّين في سورة البقرة أطول آيات القرآن.",
-      "references": [
+      "sources": [
         {
           "type": "quran",
-          "surah": 2,
-          "ayah": 282
+          "reference": "سورة البقرة ٢٨٢"
         }
       ],
       "tags": [
         "قرآن"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ps-1-5-1",
-      "categoryId": "shahada",
-      "ageBand": "scholar",
-      "tier": 5,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "hard",
+      "audience": "scholar",
       "text": "بكم سورة بُدئت بالحروف المقطَّعة؟",
       "choices": [
         {
@@ -1768,25 +1533,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "افتُتحت تسع وعشرون سورة بالحروف المقطَّعة كـ«الم» و«حم».",
-      "references": [
+      "sources": [
         {
-          "type": "book",
-          "title": "علوم القرآن"
+          "type": "quran",
+          "reference": "علوم القرآن"
         }
       ],
       "tags": [
         "قرآن"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ps-1-5-2",
-      "categoryId": "shahada",
-      "ageBand": "scholar",
-      "tier": 5,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "hard",
+      "audience": "scholar",
       "text": "عدد آيات القرآن على العدّ الكوفي المشهور؟",
       "choices": [
         {
@@ -1808,25 +1568,20 @@
       ],
       "correctChoiceId": "b",
       "explanation": "العدّ الكوفي المنسوب إلى الكوفة ٦٢٣٦ آية.",
-      "references": [
+      "sources": [
         {
-          "type": "book",
-          "title": "علوم القرآن"
+          "type": "quran",
+          "reference": "علوم القرآن"
         }
       ],
       "tags": [
         "قرآن"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "sh-1-1",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 1,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "كم عدد أركان الإيمان؟",
       "choices": [
         {
@@ -1848,27 +1603,21 @@
       ],
       "correctChoiceId": "c",
       "explanation": "أركان الإيمان ستة: الإيمان بالله وملائكته وكتبه ورسله واليوم الآخر والقدر خيره وشره.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "reference": "حديث جبريل — صحيح مسلم"
         }
       ],
       "tags": [
         "إيمان",
         "أركان"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "sh-1-2",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 1,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "من هو أول الأنبياء وأبو البشر؟",
       "choices": [
         {
@@ -1890,25 +1639,20 @@
       ],
       "correctChoiceId": "d",
       "explanation": "آدم عليه السلام أول الأنبياء وأول البشر خلقه الله بيده.",
-      "references": [
+      "sources": [
         {
-          "type": "other",
-          "label": "القرآن — سورة البقرة"
+          "type": "quran",
+          "reference": "القرآن — سورة البقرة"
         }
       ],
       "tags": [
         "أنبياء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "sh-2-2",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 2,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "من النبي الذي كلّمه الله تكليماً وسُمّي كليم الله؟",
       "choices": [
         {
@@ -1930,26 +1674,20 @@
       ],
       "correctChoiceId": "d",
       "explanation": "خصّ الله موسى بتكليمه، قال تعالى: «وكلّم الله موسى تكليماً».",
-      "references": [
+      "sources": [
         {
           "type": "quran",
-          "surah": 4,
-          "ayah": 164
+          "reference": "القرآن — سورة النساء ١٦٤"
         }
       ],
       "tags": [
         "أنبياء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "sh-3-1",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 3,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "medium",
+      "audience": "general",
       "text": "كم عدد أولي العزم من الرسل؟",
       "choices": [
         {
@@ -1971,26 +1709,20 @@
       ],
       "correctChoiceId": "d",
       "explanation": "أولو العزم خمسة: نوح وإبراهيم وموسى وعيسى ومحمد عليهم الصلاة والسلام.",
-      "references": [
+      "sources": [
         {
           "type": "quran",
-          "surah": 33,
-          "ayah": 7
+          "reference": "القرآن — سورة الأحزاب ٧ والشورى ١٣"
         }
       ],
       "tags": [
         "أنبياء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "sh-3-2",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 3,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "medium",
+      "audience": "general",
       "text": "أي نبي رفعه الله إليه ولم يمُت وسينزل قبل يوم القيامة؟",
       "choices": [
         {
@@ -2012,26 +1744,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "رفع الله عيسى إليه، قال تعالى: «بل رفعه الله إليه».",
-      "references": [
+      "sources": [
         {
           "type": "quran",
-          "surah": 4,
-          "ayah": 158
+          "reference": "القرآن — سورة النساء ١٥٨"
         }
       ],
       "tags": [
         "أنبياء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "sh-4-2",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 4,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "hard",
+      "audience": "general",
       "text": "أي الأنبياء وصفه القرآن بأنه كان أُمّةً وضُرب المثل بذريّة الأنبياء منه؟",
       "choices": [
         {
@@ -2053,26 +1779,20 @@
       ],
       "correctChoiceId": "b",
       "explanation": "قال تعالى: «إن إبراهيم كان أُمّة قانتاً لله»، وجعل النبوة في ذريته.",
-      "references": [
+      "sources": [
         {
           "type": "quran",
-          "surah": 16,
-          "ayah": 120
+          "reference": "القرآن — سورة النحل ١٢٠ والحديد ٢٦"
         }
       ],
       "tags": [
         "أنبياء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "sh-5-1",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 5,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "hard",
+      "audience": "general",
       "text": "ما أول ما نزل من القرآن الكريم على النبي ﷺ؟",
       "choices": [
         {
@@ -2094,26 +1814,20 @@
       ],
       "correctChoiceId": "c",
       "explanation": "أول ما نزل قوله تعالى: «اقرأ باسم ربك الذي خلق» في غار حراء.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "reference": "صحيح البخاري — بدء الوحي"
         }
       ],
       "tags": [
         "قرآن"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "sh-5-2",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 5,
+      "categoryId": "aqidah-shahada",
+      "difficulty": "hard",
+      "audience": "general",
       "text": "أي نبي ابتلاه الله بالمرض وطول البلاء فصبر حتى صار مثلاً في الصبر؟",
       "choices": [
         {
@@ -2135,21 +1849,440 @@
       ],
       "correctChoiceId": "d",
       "explanation": "قال تعالى: «إنا وجدناه صابراً نعم العبد إنه أوّاب».",
-      "references": [
+      "sources": [
         {
           "type": "quran",
-          "surah": 38,
-          "ayah": 44
+          "reference": "القرآن — سورة ص ٤٤ والأنبياء ٨٣"
         }
       ],
       "tags": [
         "أنبياء",
         "صبر"
+      ]
+    },
+    {
+      "categoryId": "aqidah-shahada",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "ما معنى قول «لا إله إلا الله»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "لا معبود بحق إلا الله"
+        },
+        {
+          "id": "b",
+          "text": "لا خالق إلا الله فقط"
+        },
+        {
+          "id": "c",
+          "text": "لا رازق إلا الله فقط"
+        },
+        {
+          "id": "d",
+          "text": "لا موجود إلا الله"
+        }
       ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      "correctChoiceId": "a",
+      "explanation": "«إله» هو المعبود، فمعناها نفي الألوهية عن كل ما سوى الله وإثباتها له وحده.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "كتب عقيدة أهل السنة"
+        }
+      ],
+      "tags": [
+        "معنى الشهادة"
+      ]
+    },
+    {
+      "categoryId": "aqidah-shahada",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "كم عدد شروط «لا إله إلا الله» التي ذكرها العلماء؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "سبعة"
+        },
+        {
+          "id": "b",
+          "text": "خمسة"
+        },
+        {
+          "id": "c",
+          "text": "ثلاثة"
+        },
+        {
+          "id": "d",
+          "text": "عشرة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "العلم واليقين والقبول والانقياد والصدق والإخلاص والمحبة.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "رسائل شروط لا إله إلا الله"
+        }
+      ],
+      "tags": [
+        "شروط الشهادة"
+      ]
+    },
+    {
+      "categoryId": "aqidah-shahada",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "أي الشرط التالي يمنع العمل للرياء؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الإخلاص"
+        },
+        {
+          "id": "b",
+          "text": "اليقين"
+        },
+        {
+          "id": "c",
+          "text": "الانقياد"
+        },
+        {
+          "id": "d",
+          "text": "القبول"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الإخلاص إفراد الله بالعبادة وتصفية العمل من الرياء.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "رسائل شروط لا إله إلا الله"
+        }
+      ],
+      "tags": [
+        "شروط الشهادة"
+      ]
+    },
+    {
+      "categoryId": "aqidah-shahada",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "ما معنى شهادة «محمد رسول الله»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "تصديقه فيما أخبر وطاعته فيما أمر واجتناب ما نهى عنه وألا يعبد إلا بما شرع"
+        },
+        {
+          "id": "b",
+          "text": "محبته دون اتباعه"
+        },
+        {
+          "id": "c",
+          "text": "الصلاة عليه بعد الصلاة فقط"
+        },
+        {
+          "id": "d",
+          "text": "الإقرار بنبوته دون طاعته"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "مقتضاها الطاعة والتصديق واتباعه ﷺ وعدم عبادة الله إلا بما شرع.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "كتب العقيدة المعتمدة"
+        }
+      ],
+      "tags": [
+        "شهادة الرسالة"
+      ]
+    },
+    {
+      "categoryId": "aqidah-shahada",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "كم أنواع التوحيد التي قسمها العلماء؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ثلاثة: الربوبية والألوهية والأسماء والصفات"
+        },
+        {
+          "id": "b",
+          "text": "اثنان فقط"
+        },
+        {
+          "id": "c",
+          "text": "أربعة"
+        },
+        {
+          "id": "d",
+          "text": "خمسة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "توحيد الربوبية وتوحيد الألوهية وتوحيد الأسماء والصفات.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "كتب عقيدة أهل السنة"
+        }
+      ],
+      "tags": [
+        "أنواع التوحيد"
+      ]
+    },
+    {
+      "categoryId": "aqidah-shahada",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "ما الذي تثبته كلمة «إلا الله» في الشهادة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "إثبات الألوهية لله وحده"
+        },
+        {
+          "id": "b",
+          "text": "نفي الربوبية عن غير الله"
+        },
+        {
+          "id": "c",
+          "text": "نفي صفة الخلق عن الله"
+        },
+        {
+          "id": "d",
+          "text": "نفي الرزق للمخلوقين"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الشهادة نفي («لا إله») وإثبات («إلا الله») للألوهية لله وحده.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "شرح العقيدة الطحاوية"
+        }
+      ],
+      "tags": [
+        "النفي والإثبات"
+      ]
+    },
+    {
+      "categoryId": "aqidah-shahada",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "من قال الشهادة استهزاء بقلبه جاحدا، فما حكمه؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "كافر لأن النطق لا ينفع إلا مع صدق القلب"
+        },
+        {
+          "id": "b",
+          "text": "مؤمن فاسق"
+        },
+        {
+          "id": "c",
+          "text": "يُقبل لفظه مطلقا"
+        },
+        {
+          "id": "d",
+          "text": "يكفيه الصلاة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "النطق لا ينفع إلا بتصدق القلب، ومن قالها استهزاء فهو كافر بالاتفاق.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "كتب العقيدة أهل السنة"
+        }
+      ],
+      "tags": [
+        "صدق القلب"
+      ]
+    },
+    {
+      "categoryId": "aqidah-shahada",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "ما الدلالة على أن المشركين كانوا مقرين بتوحيد الربوبية؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "قولهم «إن كان له ما تدعون لم يقدروا عليهم ضررا ولا نفعا»؟ لا — قوله تعالى: «ولئن سألتهم من خلق السماوات والأرض ليقولن الله»"
+        },
+        {
+          "id": "b",
+          "text": "إنكارهم وجود الخالق أصلا"
+        },
+        {
+          "id": "c",
+          "text": "قولهم إن الله ترك الخلق بلا رزق"
+        },
+        {
+          "id": "d",
+          "text": "إنكارهم للبعث فقط"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "المشركون كانوا مقرين بأن الله الخالق الرازق المدبر، وخلافهم كان في توحيد الألوهية.",
+      "sources": [
+        {
+          "type": "quran",
+          "reference": "سورة لقمان"
+        },
+        {
+          "type": "other",
+          "reference": "كتاب التوحيد لمحمد بن عبد الوهاب"
+        }
+      ],
+      "tags": [
+        "توحيد الربوبية"
+      ]
+    },
+    {
+      "categoryId": "aqidah-shahada",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "ما الفرق بين العبادة والعبودية كما يذكره العلماء؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "العبودية عامة والعبادة هي الغاية المطلوبة منها بمقتضى الشرع"
+        },
+        {
+          "id": "b",
+          "text": "العبادة عامة والعبودية خاصة"
+        },
+        {
+          "id": "c",
+          "text": "مترادفتان لا فرق بينهما"
+        },
+        {
+          "id": "d",
+          "text": "العبادة للملائكة والعبودية للإنس"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "العبودية الانقياد العام، والعبادة الغاية من الخلق محددة بأوامر الله ونواهيه.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "مجمع الفوائد لابن القيم"
+        }
+      ],
+      "tags": [
+        "العبادة والعبودية"
+      ]
+    },
+    {
+      "categoryId": "aqidah-shahada",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "ما معنى الاستثناء في «لا إله إلا الله»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الحصر: قطع الحكم عن كل ما سوى الله ونقله إليه وحده"
+        },
+        {
+          "id": "b",
+          "text": "استثناء الملائكة من العموم"
+        },
+        {
+          "id": "c",
+          "text": "استثناء المؤمنين"
+        },
+        {
+          "id": "d",
+          "text": "إبطال الاستثناء اللغوي"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "«إلا» للحصر: لا معبود بحق في الوجود كله إلا الله وحده.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "شرح الأصول الثلاثة"
+        }
+      ],
+      "tags": [
+        "معنى الاستثناء"
+      ]
+    },
+    {
+      "categoryId": "aqidah-shahada",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "ما فضل «لا إله إلا الله» وحكم من مات عليها وهو يعلم حقها؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "هي أفضل الذكر ومن مات عليها دخل الجنة على نص الحديث"
+        },
+        {
+          "id": "b",
+          "text": "لا تغفر الكبائر"
+        },
+        {
+          "id": "c",
+          "text": "فضلها في الدعاء فقط"
+        },
+        {
+          "id": "d",
+          "ت": "تسوى بغيرها من الأذكار"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ورد في فضلها أحاديث صحيحة منها أنها أفضل الذكر وأن من مات بها وعلم حقها دخل الجنة.",
+      "sources": [
+        {
+          "type": "hadith",
+          "reference": "سنن الترمذي وصحيح مسلم"
+        }
+      ],
+      "tags": [
+        "فضل الشهادة"
+      ]
+    },
+    {
+      "categoryId": "aqidah-shahada",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "لماذا بدأ النبي ﷺ دعوته بـ«لا إله إلا الله» قبل سائر الأحكام؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "لأنها أصل الدين وباقي الأعمال لا تقبل بدونها"
+        },
+        {
+          "id": "b",
+          "text": "لأنها أسهل الأحكام"
+        },
+        {
+          "id": "c",
+          "text": "لأنها خاصة بالعرب"
+        },
+        {
+          "id": "d",
+          "t": "لتشبه دعوة أهل الكتاب"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "كان يبدأ بها لأنها الأساس الذي تبنى عليه الأعمال، فما قبِل منها قُبل ما بعدها وما أنكرها لم يقبل منه شيء.",
+      "sources": [
+        {
+          "type": "hadith",
+          "reference": "صحيح البخاري ومسلم من حديث معاذ"
+        }
+      ],
+      "tags": [
+        "أصل الدين"
+      ]
     }
   ]
 }

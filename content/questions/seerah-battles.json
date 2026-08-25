@@ -1,0 +1,2370 @@
+{
+  "categoryId": "seerah-battles",
+  "questions": [
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "easy",
+      "audience": "general",
+      "text": "في أي سنة هجرية وقعت غزوة بدر الكبرى؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الثانية"
+        },
+        {
+          "id": "b",
+          "text": "الثالثة"
+        },
+        {
+          "id": "c",
+          "text": "الخامسة"
+        },
+        {
+          "id": "d",
+          "text": "الثامنة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "وقعت بدر في السابع عشر من رمضان عام الثاني للهجرة، وهي أول معركة كبرى بين المسلمين وقريش.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "الرحيق المختوم للمباركفوري"
+        },
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "بدر"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "easy",
+      "audience": "general",
+      "text": "كم كان عدد المسلمين في غزوة بدر على المشهور؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ثلاثمئة وثلاثة عشر"
+        },
+        {
+          "id": "b",
+          "text": "سبعمائة"
+        },
+        {
+          "id": "c",
+          "text": "ألف وأربعمائة"
+        },
+        {
+          "id": "d",
+          "text": "عشرة آلاف"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "على المشهور كانوا ثلاثمئة وثلاثة عشر رجلًا، وقد وصفهم القرآن بأنهم ألف معدلة في يوم بدر.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "البداية والنهاية لابن كثير"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "بدر"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "easy",
+      "audience": "general",
+      "text": "ما أول معركة كبرى في تاريخ الإسلام؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "بدر الكبرى"
+        },
+        {
+          "id": "b",
+          "text": "أحد"
+        },
+        {
+          "id": "c",
+          "text": "الخندق"
+        },
+        {
+          "id": "d",
+          "text": "حنين"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "بدر الكبرى هي أول معركة كبرى بين المسلمين والمشركين، وفيها نصر الله المسلمين نصرًا مبينًا.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "الرحيق المختوم للمباركفوري"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "بدر"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "easy",
+      "audience": "general",
+      "text": "في أي سنة هجرية وقعت غزوة أُحُد؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الثانية"
+        },
+        {
+          "id": "b",
+          "text": "الثالثة"
+        },
+        {
+          "id": "c",
+          "text": "الرابعة"
+        },
+        {
+          "id": "d",
+          "text": "الخامسة"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "وقعت غزوة أحد في شوال من السنة الثالثة للهجرة، أي بعد بدر بسنة.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "الرحيق المختوم للمباركفوري"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "أحد"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "easy",
+      "audience": "general",
+      "text": "من الصحابي الذي لُقّب بسيد الشهداء واستُشهد في غزوة أُحُد؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "حمزة بن عبد المطلب"
+        },
+        {
+          "id": "b",
+          "text": "زيد بن حارثة"
+        },
+        {
+          "id": "c",
+          "text": "مصعب بن عمير"
+        },
+        {
+          "id": "d",
+          "text": "عبد الله بن رواحة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "استُشهد حمزة بن عبد المطلب عمّ النبي ﷺ في أحد فعُرف بسيد الشهداء.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "سيرة ابن هشام"
+        },
+        {
+          "type": "other",
+          "reference": "الرحيق المختوم للمباركفوري"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "أحد"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "easy",
+      "audience": "general",
+      "text": "ما السبب الرئيسي في تبدّل وجه معركة أُحُد؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "نزول الرماة عن مواقعهم في الجبل"
+        },
+        {
+          "id": "b",
+          "text": "قلة عدد المسلمين"
+        },
+        {
+          "id": "c",
+          "text": "نقص العدة والسلاح"
+        },
+        {
+          "id": "d",
+          "text": "اشتداد الحرارة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "خالف الرماة أمر النبي ﷺ ونزلوا عن الجبل لجمع الغنائم، فالتفّ عليهم خالد بن الوليد بخيالته من الخلف.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "سيرة ابن هشام"
+        },
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "أحد"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "easy",
+      "audience": "general",
+      "text": "في أي سنة هجرية وقعت غزوة الخندق (الأحزاب)؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الثالثة"
+        },
+        {
+          "id": "b",
+          "text": "الرابعة"
+        },
+        {
+          "id": "c",
+          "text": "الخامسة"
+        },
+        {
+          "id": "d",
+          "text": "السادسة"
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "وقعت غزوة الخندق في السنة الخامسة للهجرة، وتسمى أيضًا غزوة الأحزاب.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "السيرة النبوية لابن كثير"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "الخندق"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "easy",
+      "audience": "general",
+      "text": "من صاحب فكرة حفر الخندق حول المدينة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "سلمان الفارسي"
+        },
+        {
+          "id": "b",
+          "text": "أبو بكر الصديق"
+        },
+        {
+          "id": "c",
+          "text": "بلال بن رباح"
+        },
+        {
+          "id": "d",
+          "text": "عثمان بن عفان"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "اقترح سلمان الفارسي حفر الخندق على طريقة فارس، فأعجب النبي ﷺ بالفكرة وعمل بها.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "السيرة النبوية لابن كثير"
+        },
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "الخندق"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "easy",
+      "audience": "general",
+      "text": "في أي سنة هجرية وقعت صلح الحديبية؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الرابعة"
+        },
+        {
+          "id": "b",
+          "text": "الخامسة"
+        },
+        {
+          "id": "c",
+          "text": "السادسة"
+        },
+        {
+          "id": "d",
+          "text": "السابعة"
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "وقع صلح الحديبية في ذي القعدة من السنة السادسة للهجرة في طريق عمرة النبي ﷺ.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "الرحيق المختوم للمباركفوري"
+        }
+      ],
+      "tags": [
+        "صلح الحديبية"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "easy",
+      "audience": "general",
+      "text": "بماذا عُرفت بيعة الصحابة في الحديبية؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "بيعة الرضوان"
+        },
+        {
+          "id": "b",
+          "text": "بيعة العقبة الأولى"
+        },
+        {
+          "id": "c",
+          "text": "بيعة العقبة الثانية"
+        },
+        {
+          "id": "d",
+          "text": "بيعة النساء"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "بايع الصحابة النبي ﷺ تحت الشجرة على الثبات فسميت بيعة الرضوان لأن الله رضي عنهم.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "سورة الفتح"
+        },
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "صلح الحديبية"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "easy",
+      "audience": "general",
+      "text": "في أي سنة هجرية وقعت غزوة خيبر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "السادسة"
+        },
+        {
+          "id": "b",
+          "text": "السابعة"
+        },
+        {
+          "id": "c",
+          "text": "الثامنة"
+        },
+        {
+          "id": "d",
+          "text": "التاسعة"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "مسير النبي ﷺ إلى خيبر في المحرم من السنة السابعة للهجرة بعد صلح الحديبية.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "الرحيق المختوم للمباركفوري"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "خيبر"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "easy",
+      "audience": "general",
+      "text": "من الصحابي الذي حمل الراية في غزوة خيبر وفتحها؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "علي بن أبي طالب"
+        },
+        {
+          "id": "b",
+          "text": "عمر بن الخطاب"
+        },
+        {
+          "id": "c",
+          "text": "أبو عبيدة بن الجراح"
+        },
+        {
+          "id": "d",
+          "text": "سعد بن عبادة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "قال النبي ﷺ: لأعطينّ الراية غدًا رجلًا يحبه الله ورسوله، فأعطاها علي بن أبي طالب ففتح الله على يديه.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "صحيح البخاري"
+        },
+        {
+          "type": "other",
+          "reference": "سيرة ابن هشام"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "خيبر"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "easy",
+      "audience": "general",
+      "text": "في أي شهر وقعت فتح مكة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "رمضان"
+        },
+        {
+          "id": "b",
+          "text": "محرم"
+        },
+        {
+          "id": "c",
+          "text": "شوال"
+        },
+        {
+          "id": "d",
+          "text": "ذو القعدة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "دخل النبي ﷺ مكة فاتحًا في رمضان من السنة الثامنة للهجرة دون قتال يُذكر.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "الرحيق المختوم للمباركفوري"
+        }
+      ],
+      "tags": [
+        "فتح مكة"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "easy",
+      "audience": "general",
+      "text": "في أي سنة هجرية وقعت غزوة حنين؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "السابعة"
+        },
+        {
+          "id": "b",
+          "text": "الثامنة"
+        },
+        {
+          "id": "c",
+          "text": "التاسعة"
+        },
+        {
+          "id": "d",
+          "text": "العاشرة"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "وقعت حنين في شوال من السنة الثامنة للهجرة بعد فتح مكة مباشرة.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "السيرة النبوية لابن كثير"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "حنين"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "easy",
+      "audience": "general",
+      "text": "ما القبيلة التي حاربت المسلمين في غزوة حنين؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "هوازن"
+        },
+        {
+          "id": "b",
+          "text": "بنو قريظة"
+        },
+        {
+          "id": "c",
+          "text": "بنو النضير"
+        },
+        {
+          "id": "d",
+          "text": "بنو قينقاع"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "اجتمعت هوازن وثقيف وحلفاؤها من قبائل العرب لمحاربة المسلمين في وادي حنين.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "سيرة ابن هشام"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "حنين"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "easy",
+      "audience": "general",
+      "text": "ما آخر غزوة خرج فيها النبي ﷺ بنفسه؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "تبوك"
+        },
+        {
+          "id": "b",
+          "text": "حنين"
+        },
+        {
+          "id": "c",
+          "text": "خيبر"
+        },
+        {
+          "id": "d",
+          "text": "مؤتة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "تبوك هي آخر غزوة في السنة التاسعة للهجرة، وهي بعدها لم يخرج النبي ﷺ لغزوة أخرى.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "الرحيق المختوم للمباركفوري"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "تبوك"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "easy",
+      "audience": "general",
+      "text": "في أي سنة هجرية وقعت غزوة تبوك؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "السابعة"
+        },
+        {
+          "id": "b",
+          "text": "الثامنة"
+        },
+        {
+          "id": "c",
+          "text": "التاسعة"
+        },
+        {
+          "id": "d",
+          "text": "العاشرة"
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "خرج النبي ﷺ إلى تبوك في رجب من السنة التاسعة للهجرة في شدة الحر وبعد المسافة.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "السيرة النبوية لابن كثير"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "تبوك"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "easy",
+      "audience": "general",
+      "text": "بماذا اشتهر العام التاسع للهجرة وهو عام غزوة تبوك؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "عام الوفود"
+        },
+        {
+          "id": "b",
+          "text": "عام التأسيس"
+        },
+        {
+          "id": "c",
+          "text": "عام الحجر"
+        },
+        {
+          "id": "d",
+          "text": "عام الغارات"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "بعد فتح مكة توافدت وفود العرب على المدينة معلنة إسلامها، فسمي العام التاسع عام الوفود.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "الرحيق المختوم للمباركفوري"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "تبوك"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "easy",
+      "audience": "general",
+      "text": "ما الفرق بين الغزوة والسرية؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الغزوة خرج النبي ﷺ فيها بنفسه والسرية بعث فيها جيشًا ولم يخرج"
+        },
+        {
+          "id": "b",
+          "text": "الغزوة في النهار والسرية في الليل"
+        },
+        {
+          "id": "c",
+          "text": "الغزوة ضد العرب والسرية ضد الروم"
+        },
+        {
+          "id": "d",
+          "text": "لا فرق بينهما"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "المغزيّ هي الغزوة التي شارك النبي ﷺ فيها بنفسه، والسرية بعثة أرسلها ولم يشترك فيها.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "المصطلحات"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "easy",
+      "audience": "general",
+      "text": "كم عدد قتلى المشركين في غزوة بدر على المشهور؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "سبعون"
+        },
+        {
+          "id": "b",
+          "text": "عشرون"
+        },
+        {
+          "id": "c",
+          "text": "أربعون"
+        },
+        {
+          "id": "d",
+          "text": "مائة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "قُتل من المشركين في بدر سبعون رجلًا على المشهور، وسُبي مثلهم، منهم أبو جهل وعتبة وشيبة وأمية بن خلف.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "سيرة ابن هشام"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "بدر"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "في أي يوم من رمضان وقعت معركة بدر الكبرى؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "السابع عشر"
+        },
+        {
+          "id": "b",
+          "text": "العاشر"
+        },
+        {
+          "id": "c",
+          "text": "الأول"
+        },
+        {
+          "id": "d",
+          "text": "الثاني والعشرون"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "وقعت بدر يوم السابع عشر من رمضان في السنة الثانية للهجرة.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "الرحيق المختوم للمباركفوري"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "بدر"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "كم عدد شهداء المسلمين في غزوة أُحُد؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "سبعون"
+        },
+        {
+          "id": "b",
+          "text": "عشرة"
+        },
+        {
+          "id": "c",
+          "text": "ثلاثة"
+        },
+        {
+          "id": "d",
+          "text": "أربعون"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "استُشهد في أحد سبعون صحابيًا، منهم حمزة بن عبد المطلب ومصعب بن عمير.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "سيرة ابن هشام"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "أحد"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "من قاد جيش المسلمين في مؤتة بعد استشهاد القادة الثلاثة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "خالد بن الوليد"
+        },
+        {
+          "id": "b",
+          "text": "عمرو بن العاص"
+        },
+        {
+          "id": "c",
+          "text": "سعد بن أبي وقاص"
+        },
+        {
+          "id": "d",
+          "text": "أبو عبيدة بن الجراح"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "بعد استشهاد القادة الثلاثة اختار الجيش خالد بن الوليد قائدًا فانسحب بالجيش سالما.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "السيرة النبوية لابن كثير"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "مؤتة"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "من القادة الثلاثة الذين توالى قيادة جيش مؤتة بالترتيب؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "زيد بن حارثة ثم جعفر بن أبي طالب ثم عبد الله بن رواحة"
+        },
+        {
+          "id": "b",
+          "text": "حمزة ثم علي ثم عباس"
+        },
+        {
+          "id": "c",
+          "text": "أبو بكر ثم عمر ثم عثمان"
+        },
+        {
+          "id": "d",
+          "text": "زيد بن حارثة ثم عبد الله بن رواحة ثم جعفر بن أبي طالب"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "عيّن النبي ﷺ زيد بن حارثة أميرًا، فإن أصيب فجعفر، فإن أصيب فعبد الله بن رواحة.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "صحيح البخاري"
+        },
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "مؤتة"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "ما المقصود بالسرية في مصطلح المغازي؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "بعثة عسكرية صغيرة بعثها النبي ﷺ ولم يخرج فيها بنفسه"
+        },
+        {
+          "id": "b",
+          "text": "معركة كبرى بين الجيشين"
+        },
+        {
+          "id": "c",
+          "text": "حملة تجارية للتجسس على الأسواق"
+        },
+        {
+          "id": "d",
+          "text": "مفاوضات سرية مع المشركين"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "السرية عصابة من المسلمين يبعثهم النبي ﷺ في مهمة دون أن يشاركهم فيها بنفسه، بخلاف الغزوة.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "المصطلحات",
+        "السرايا"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "كم عدد غزوات النبي ﷺ على المشهور؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "سبع وعشرون"
+        },
+        {
+          "id": "b",
+          "text": "تسع"
+        },
+        {
+          "id": "c",
+          "text": "تسع عشرة"
+        },
+        {
+          "id": "d",
+          "text": "أربعون"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ذكر ابن القيم في زاد المعاد أن غزوات النبي ﷺ التي شارك فيها بنفسه سبع وعشرون غزوة.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "الأعداد"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "لماذا سُميت غزوة الخندق بغزوة الأحزاب؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "لأن قبائل الكفر المتحالفة اجتمعت في أحزاب لمحاربة المسلمين"
+        },
+        {
+          "id": "b",
+          "text": "لأن المسلمين انقسموا إلى أحزاب متخاصمة"
+        },
+        {
+          "id": "c",
+          "text": "لأنها وقعت عند حِزام المدينة المسمى الأحزاب"
+        },
+        {
+          "id": "d",
+          "text": "لأن الجيش كان مقسما إلى أحزاب نظامية"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "اجتمعت قريش وغطفان واليهود وأعراب العرب في جيوش متحالفة تسمى الأحزاب لحصار المدينة.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "سورة الأحزاب"
+        },
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "الخندق"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "بماذا أعان الله المسلمين في غزوة الخندق بعد طول الحصار؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "بالريح والملائكة"
+        },
+        {
+          "id": "b",
+          "text": "بالمطر وحده"
+        },
+        {
+          "id": "c",
+          "text": "بنقص عدوّهم بسبب الطاعون"
+        },
+        {
+          "id": "d",
+          "text": "بتدخل الروم في صفهم"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "أرسل الله ريحًا ألقحت الخيل والأمتعة على الأحزاب حتى رجعوا خائبين، وأنزل الملائكة نصرًا للمؤمنين.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "سورة الأحزاب"
+        },
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "الخندق"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "ما أشهر شرط اشترطته قريش في صلح الحديبية؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "أن يرجع المسلمون عن العمرة هذا العام ويؤدوها في العام القادم"
+        },
+        {
+          "id": "b",
+          "text": "أن يسلّم المسلمون أسلحتهم في المدينة"
+        },
+        {
+          "id": "c",
+          "text": "أن يوقف النبي ﷺ الدعوة إلى الإسلام"
+        },
+        {
+          "id": "d",
+          "text": "أن يدفع المسلمون جزية سنوية لقريش"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "منعت قريش النبي ﷺ من دخول مكة هذا العام على أن يعود عاما قادما بلا سلاح إلا سلاح الركبان.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "صحيح البخاري"
+        },
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "صلح الحديبية"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "بماذا عُرفت عمرة المسلمين في السنة السابعة للهجرة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "عمرة القضاء"
+        },
+        {
+          "id": "b",
+          "text": "عمرة الفتح"
+        },
+        {
+          "id": "c",
+          "text": "عمرة الجراء"
+        },
+        {
+          "id": "d",
+          "text": "عمرة الشتاء"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "أدى النبي ﷺ وما معه عمرة السنة السابعة قضاءً لما مُنعوا منه في الحديبية فسُميت عمرة القضاء.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "صحيح البخاري"
+        }
+      ],
+      "tags": [
+        "عمرة القضاء"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "ما علاقة غزوة حنين بفتح مكة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "وقعت بعد فتح مكة مباشرة في نفس السنة"
+        },
+        {
+          "id": "b",
+          "text": "وقعت قبل فتح مكة بسنة"
+        },
+        {
+          "id": "c",
+          "text": "وقعت بعد تبوك"
+        },
+        {
+          "id": "d",
+          "text": "ليس بينهما ارتباط"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "لم يكد النبي ﷺ يفتح مكة في رمضان من السنة الثامنة حتى خرج إلى حنين في شوال من نفس السنة لمواجهة هوازن.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "حنين"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "إلى أين احتمت ثقيف بعد هزيمتها في حنين؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "إلى قلاعها في الطائف"
+        },
+        {
+          "id": "b",
+          "text": "إلى قلعة خيبر"
+        },
+        {
+          "id": "c",
+          "text": "إلى بلاد الشام"
+        },
+        {
+          "id": "d",
+          "text": "إلى اليمن"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "فرّت ثقيف بعد حنين واحتمت بحصونها في الطائف فحاصرهم النبي ﷺ ثم رجع بالمدينة.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "السيرة النبوية لابن كثير"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "الطائف"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "أين تقع منطقة بدر التي وقعت عندها المعركة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "في الطريق بين المدينة ومكة"
+        },
+        {
+          "id": "b",
+          "text": "جنوب مكة"
+        },
+        {
+          "id": "c",
+          "text": "داخل مدينة المدينة"
+        },
+        {
+          "id": "d",
+          "text": "على ساحل الشام"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "بدر موضع في الطريق بين المدينة ومكة فيه بئر وسوق كانت قريش تعقده كل عام.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "سيرة ابن هشام"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "بدر"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "ما الموضع الذي اتخذه الرماة في يوم أُحُد بأمر النبي ﷺ؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "فوق جبل الرماة"
+        },
+        {
+          "id": "b",
+          "text": "في بطن الوادي أمام المشركين"
+        },
+        {
+          "id": "c",
+          "text": "خلف النبي ﷺ مباشرة"
+        },
+        {
+          "id": "d",
+          "text": "على أطراف مكة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "أمر النبي ﷺ خمسين راميا أن يتخذوا فوق جبل الرماة ليحموا ظهر الجيش، ثم خالف بعضهم الأمر ونزلوا.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "سيرة ابن هشام"
+        },
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "أحد"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "ما سبب مسير النبي ﷺ إلى غزوة تبوك؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "إخبارا بأن الروم وحلفاءهم جمعوا جيشا لغزو المدينة"
+        },
+        {
+          "id": "b",
+          "text": "لطلب التجارة في الشام"
+        },
+        {
+          "id": "c",
+          "text": "لتحرير أسرى في بلاد الروم"
+        },
+        {
+          "id": "d",
+          "text": "لزيارة بيت المقدس"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "بلغ النبي ﷺ خبر اجتماع الروم وحلفائهم من العرب لمحاربة المسلمين فخرج إليهم لتبوك، فلم يجدوا جيشا محتملا.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "السيرة النبوية لابن كثير"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "تبوك"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "ما نتيجة فتح خيبر في طريقة تعامل المسلمين مع أهلها؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "أجارهم النبي ﷺ على زراعة الأرض مقابل نصف محصولها"
+        },
+        {
+          "id": "b",
+          "text": "أمر بإجلائهم كافة إلى الشام"
+        },
+        {
+          "id": "c",
+          "text": "قسم الأرض على المحاربين وسكنوها"
+        },
+        {
+          "id": "d",
+          "text": "تركهم بشرط الجزية والمبايعة السياسية"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "أجار النبي ﷺ أهل خيبر أن يعملوا أرضهم يأخذ منها نصفها، وهو أول عمل بالشطر في الإسلام.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "صحيح البخاري"
+        },
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "خيبر"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "من أول من استُشهد من قادة مؤتة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "زيد بن حارثة"
+        },
+        {
+          "id": "b",
+          "text": "جعفر بن أبي طالب"
+        },
+        {
+          "id": "c",
+          "text": "عبد الله بن رواحة"
+        },
+        {
+          "id": "d",
+          "text": "خالد بن الوليد"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "استُشهد زيد بن حارثة أولًا وهو الأمير الذي عيّنه النبي ﷺ، ثم وليها جعفر ثم عبد الله بن رواحة.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "صحيح البخاري"
+        },
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "مؤتة"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "كم عدد سرايا النبي ﷺ على المشهور تقريبًا؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "نحو سبع وأربعين"
+        },
+        {
+          "id": "b",
+          "text": "سبع"
+        },
+        {
+          "id": "c",
+          "text": "عشر"
+        },
+        {
+          "id": "d",
+          "text": "تسع عشرة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "عدّ ابن القيم سرايا النبي ﷺ التي بعثها ولم يخرج فيها نحو سبع وأربعين سرية أو أكثر.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "السرايا",
+        "الأعداد"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "ماذا قال النبي ﷺ قبل إعطاء الراية يوم خيبر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "لأعطينّ الراية غدًا رجلًا يحبه الله ورسوله"
+        },
+        {
+          "id": "b",
+          "text": "خذوا الراية يا أهل المدينة فأنتم أحق بها"
+        },
+        {
+          "id": "c",
+          "text": "لا فتح لنا اليوم فارجعوا"
+        },
+        {
+          "id": "d",
+          "text": "الراية لأهل بيتي جميعًا"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "قال النبي ﷺ: لأعطينّ الراية غدًا رجلًا يحبه الله ورسوله، ويكشف الله على يديه، فأعطاها عليًّا.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "صحيح البخاري"
+        },
+        {
+          "type": "other",
+          "reference": "سيرة ابن هشام"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "خيبر"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "كم استمر حصار الأحزاب للمدينة تقريبًا في غزوة الخندق؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "نحو شهر"
+        },
+        {
+          "id": "b",
+          "text": "أسبوعًا واحدًا"
+        },
+        {
+          "id": "c",
+          "text": "ثلاثة أشهر"
+        },
+        {
+          "id": "d",
+          "text": "سنة كاملة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "حاصر الأحزاب المدينة نحو شهر حتى أرسل الله الريح فانصرفوا دون قتال حاسم.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "السيرة النبوية لابن كثير"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "الخندق"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "أي قائد من قادة قريش قُتل في بدر وقال النبي ﷺ عنه إنه فرعون هذه الأمة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "عمرو بن هشام (أبو جهل)"
+        },
+        {
+          "id": "b",
+          "text": "أبو سفيان بن حرب"
+        },
+        {
+          "id": "c",
+          "text": "خالد بن الوليد"
+        },
+        {
+          "id": "d",
+          "text": "عكرمة بن أبي جهل"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "قُتل أبو جهل في بدر على المشهور على يدي معاذ ومعيد بني عمرو وعبد الله بن مسعود، وسخر منه النبي ﷺ لطغيانه.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "سيرة ابن هشام"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "بدر"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "من الذي قاتل حمزة بن عبد المطلب في أُحُد انتقامًا لعمه؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "وهشي بن حرب"
+        },
+        {
+          "id": "b",
+          "text": "عتبة بن ربيعة"
+        },
+        {
+          "id": "c",
+          "text": "الأحبنس بن صهبان"
+        },
+        {
+          "id": "d",
+          "text": "سفيان بن أمية"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "قتل وهشي بن حرب حمزة برمية حربته إذ كان مولى لجبير بن مطعم انتقاما لعمّه طُعيمة، ثم أسلم بعد ذلك.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "سيرة ابن هشام"
+        },
+        {
+          "type": "other",
+          "reference": "الرحيق المختوم للمباركفوري"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "أحد"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "ماذا كان خالد بن الوليد يوم أحد قبل إسلامه؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "قائد خيالة قريش الذي التفّ بالجبل فهاجم المسلمين من الخلف"
+        },
+        {
+          "id": "b",
+          "text": "حامل لواء المشركين الأول"
+        },
+        {
+          "id": "c",
+          "text": "قائد المشركين العام"
+        },
+        {
+          "id": "d",
+          "text": "مبعوثًا إلى الأعراب للاستنجاد"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "كان خالد بن الوليد قائد خيالة قريش يوم أحد، فالتفت بالجبل وجد موضعًا فتسلل به إلى الرماة النازلين.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "سيرة ابن هشام"
+        },
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "أحد"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "من القبيلة اليهودية التي نقضت العهد وانحازت للأحزاب في غزوة الخندق؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "بنو قريظة"
+        },
+        {
+          "id": "b",
+          "text": "بنو النضير قبل طردهم"
+        },
+        {
+          "id": "c",
+          "text": "بنو قينقاع"
+        },
+        {
+          "id": "d",
+          "text": "بنو حارثة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نقضت بنو قريظة العهد وحاولت مهاجمة المدينة من الداخل أثناء الحصار، فعاقبهم النبي ﷺ بعدها.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "سورة الأحزاب"
+        },
+        {
+          "type": "other",
+          "reference": "السيرة النبوية لابن كثير"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "الخندق"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "من الصحابي الذي أرسله النبي ﷺ ليستطلع أخبار الأحزاب وأمره ألا يفضحه الخبر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "حذيفة بن اليمان"
+        },
+        {
+          "id": "b",
+          "text": "بريدة بن الحصيب"
+        },
+        {
+          "id": "c",
+          "text": "عمار بن ياسر"
+        },
+        {
+          "id": "d",
+          "text": "زيد بن ثابت"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "استطلع حذيفة بن اليمان أخبار الأحزاب ليلة الحصار، فأمره النبي ﷺ أن يعود بهم دون أن يكشف نفسه.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "السيرة النبوية لابن كثير"
+        },
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "الخندق"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "أي سورة نزلت تُخبر عن صلح الحديبية وتسميه نصرًا وفتحًا؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "سورة الفتح"
+        },
+        {
+          "id": "b",
+          "text": "سورة الأنفال"
+        },
+        {
+          "id": "c",
+          "text": "سورة التوبة"
+        },
+        {
+          "id": "d",
+          "text": "سورة الحديد"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نزلت سورة الفتح تسمي ذلك الصلح فتحًا مباركًا، وذكرت بيعة الرضوان تحت الشجرة ورضا الله عن المؤمنين.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "سورة الفتح"
+        },
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "صلح الحديبية"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "كم كان عدد البيوعين في بيعة الرضوان على المشهور؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ألف وأربعمائة"
+        },
+        {
+          "id": "b",
+          "text": "ثلاثمئة وثلاثة عشر"
+        },
+        {
+          "id": "c",
+          "text": "سبعمائة"
+        },
+        {
+          "id": "d",
+          "text": "ثلاثة آلاف"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "بايع النبي ﷺ تحت الشجرة ألف وأربعمائة من الصحابة على المشهور، ورضي الله عنهم جميعًا.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "صحيح البخاري"
+        },
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "صلح الحديبية"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "لماذا سُميت بيعة الحديبية ببيعة الرضوان تحديدًا؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "لأن الله أنزل فيهم أنه رضي عن المؤمنين حين بايعوا تحت الشجرة"
+        },
+        {
+          "id": "b",
+          "text": "لأن قريشا رضيت بالصلح"
+        },
+        {
+          "id": "c",
+          "text": "لأنها كانت في واد يسمى الرضوان"
+        },
+        {
+          "id": "d",
+          "text": "لأنها تمت في وقت الغروب"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نزل في سورة الفتح: لقد رضي الله عن المؤمنين إذ يبايعونك تحت الشجرة، فسميت بيعة الرضوان.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "سورة الفتح"
+        },
+        {
+          "type": "other",
+          "reference": "صحيح البخاري"
+        }
+      ],
+      "tags": [
+        "صلح الحديبية"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "من كاتب صلح الحديبية عن المسلمين؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "علي بن أبي طالب"
+        },
+        {
+          "id": "b",
+          "text": "زيد بن ثابت"
+        },
+        {
+          "id": "c",
+          "text": "معاوية بن أبي سفيان"
+        },
+        {
+          "id": "d",
+          "text": "عبد الله بن رواحة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "كتب علي بن أبي طالب الصلح عن المسلمين بأمر النبي ﷺ، وكتبه سهيل بن عمرو عن قريش.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "صحيح البخاري"
+        },
+        {
+          "type": "other",
+          "reference": "سيرة ابن هشام"
+        }
+      ],
+      "tags": [
+        "صلح الحديبية"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "من كاتب قريش في صلح الحديبية الذي أصر على تغيير بعض عبارات الوثيقة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "سهيل بن عمرو"
+        },
+        {
+          "id": "b",
+          "text": "عتبة بن ربيعة"
+        },
+        {
+          "id": "c",
+          "text": "الحارث بن عبد العزى"
+        },
+        {
+          "id": "d",
+          "text": "سفيان بن أمية"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "اعترض سهيل بن عمرو على عبارة بسم الله الرحمن الرحيم وعلى رسول الله، فكتبت الوثيقة كما اشترط هو.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "سيرة ابن هشام"
+        },
+        {
+          "type": "other",
+          "reference": "السيرة النبوية لابن كثير"
+        }
+      ],
+      "tags": [
+        "صلح الحديبية"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "من بطلي خيبر اللذين خرجا للنبي ﷺ فقاتلهما علي بن أبي طالب في الروايات؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "مرهب جموح وياسر"
+        },
+        {
+          "id": "b",
+          "text": "كعب بن الأشرف وسلام بن مشكم"
+        },
+        {
+          "id": "c",
+          "text": "حيي بن أخطب وابنه"
+        },
+        {
+          "id": "d",
+          "text": "أسود بن مقيس وعبد الله بن أبي"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "خرج بطل خيبر مرهب جموح للنبي ﷺ فقاتله علي حتى قتله، ثم قتل ياسر شقيقه في الروايات المشهورة.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "سيرة ابن هشام"
+        },
+        {
+          "type": "other",
+          "reference": "السيرة النبوية لابن كثير"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "خيبر"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "كم يومًا مكث المسلمون في مكة في عمرة القضاء؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ثلاثة أيام"
+        },
+        {
+          "id": "b",
+          "text": "يومًا واحدًا"
+        },
+        {
+          "id": "c",
+          "text": "سبعة أيام"
+        },
+        {
+          "id": "d",
+          "text": "عشرة أيام"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "استجابت قريش لطلب النبي ﷺ فأجازته أن يقيم ثلاثة أيام في مكة يدخل فيها المسلمون مسلحين بسلاح الركبان.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "صحيح البخاري"
+        },
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "عمرة القضاء"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "ماذا فعل النبي ﷺ بأسرى هوازن في غزوة حنين؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "أطلقهم بعد أن جاءت وفود هوازن تسأل عنهم"
+        },
+        {
+          "id": "b",
+          "text": "أبقاهم عبيدًا عند المسلمين"
+        },
+        {
+          "id": "c",
+          "text": "بدلهم بأموال فقط دون إطلاق"
+        },
+        {
+          "id": "d",
+          "text": "أرسلهم إلى الروم"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "لمّا أسلم زعماء هوازن وجاؤوا يسألون النبي ﷺ عن أسراهم خطبه وقال: أرجعوا إليّ أسارى بني مخزوم؟ ثم أطلق كل الأسرى.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "صحيح البخاري"
+        },
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "حنين"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "من زعيم هوازن الذي جمع الجيش لمحاربة المسلمين يوم حنين؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "مالك بن عوف النضري"
+        },
+        {
+          "id": "b",
+          "text": "دريد بن الصمة (مشيرًا فقط)"
+        },
+        {
+          "id": "c",
+          "text": "شيبان بن سهيل"
+        },
+        {
+          "id": "d",
+          "text": "قيس بن المحصن"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "كان مالك بن عوف النضري قائد جيش هوازن يوم حنين، وكان دريد بن الصمة شيخًا مستشارًا لا يحارب، ثم أسلم مالك وأعطاه النبي ﷺ مائة من الإبل.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "السيرة النبوية لابن كثير"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "حنين"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "لماذا سمى العلماء العام التاسع عام الوفود تحديدًا؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "لتوافد وفود القبائل على المدينة معلنة الإسلام بعد فتح مكة ولإسلام الكفار جماعات"
+        },
+        {
+          "id": "b",
+          "text": "لأن الناس وفدوا للحج في ذلك العام أول مرة"
+        },
+        {
+          "id": "c",
+          "text": "لأن الوفود جاءت لطلب الصلح فقط"
+        },
+        {
+          "id": "d",
+          "text": "لأن النبي ﷺ وفد على البلدان بنفسه"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "انتشر الإسلام بعد فتح مكة وحنين وتبوك، فتوافدت وفود القبائل على النبي ﷺ يبايعون ويعلنون إسلامهم.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "الرحيق المختوم للمباركفوري"
+        }
+      ],
+      "tags": [
+        "تبوك",
+        "عام الوفود"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "من الثلاثة الذين تخلفوا عن تبوك حتى نزل فيهم القرآن وقبل توبتهم؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "كعب بن مالك وهلال بن أمية ومرارة بن الربيع"
+        },
+        {
+          "id": "b",
+          "text": "كعب بن مالك وعبد الله بن أبي وأوس بن قيظي"
+        },
+        {
+          "id": "c",
+          "text": "هلال بن أمية ومعاذ بن جبل وسهل بن حنيف"
+        },
+        {
+          "id": "d",
+          "text": "مرارة بن الربيع وكعب بن زيد وأبو لبابة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "خلّف ثلاثة بغير عذر: كعب بن مالك وهلال بن أمية ومرارة بن الربيع، فقبيلت التوبة بعد خمسين ليلة ونزلت آيات سورة التوبة فيهم.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "صحيح البخاري"
+        },
+        {
+          "type": "other",
+          "reference": "سورة التوبة"
+        }
+      ],
+      "tags": [
+        "تبوك",
+        "التوبة"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "من خصوم المسلمين في معركة مؤتة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الروم وحلفاؤهم من الغساسنة والعرب"
+        },
+        {
+          "id": "b",
+          "text": "الفارس والأكراد"
+        },
+        {
+          "id": "c",
+          "text": "قريش وأنصارهم من الأعراب"
+        },
+        {
+          "id": "d",
+          "text": "اليهود والمجوس"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "واجه جيش مؤتة جيشًا رومانيًا ضخمًا وحلفاءه من غسّان العرب في بلاد الشام، وهو أول لقاء بين المسلمين والروم.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        },
+        {
+          "type": "other",
+          "reference": "السيرة النبوية لابن كثير"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "مؤتة"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "بماذا اشتهر خالد بن الوليد في مؤتة بعد توليه القيادة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "بمناورته وإعادة تنظيم الصفوف حتى انسحب الجيش سالما"
+        },
+        {
+          "id": "b",
+          "text": "بمواصلة الهجوم حتى دخل حمص"
+        },
+        {
+          "id": "c",
+          "text": "بالاستسلام للروم"
+        },
+        {
+          "id": "d",
+          "text": "بطلب النجدة من المدينة والانتظار"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "أعاد خالد تنظيم الجيش وقلّب الصفوف وأحدث أوهاما للعدو حتى انسحب المسلمون من بلاد الشام دون هزيمة نكراء.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "السيرة النبوية لابن كثير"
+        },
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "مؤتة"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "كم بقي من المسلمين في ميدان أحد بعد انصراف المنافقين مع عبد الله بن أبي؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "سبعمائة"
+        },
+        {
+          "id": "b",
+          "text": "ألف"
+        },
+        {
+          "id": "c",
+          "text": "ثلاثمئة"
+        },
+        {
+          "id": "d",
+          "text": "مائتان"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "خرج المسلمون ألفًا، فانصرف عبد الله بن أبي بثلث الجيش فبقي سبعمائة قاتلوا أحد.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "سيرة ابن هشام"
+        },
+        {
+          "type": "other",
+          "reference": "زاد المعاد لابن القيم"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "أحد"
+      ]
+    },
+    {
+      "categoryId": "seerah-battles",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "ماذا ظهر للنبي ﷺ حين ضرب الصخرة العظمى في حفر الخندق؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ضوء فتوحات البلدان التي ستفتحها الأمة"
+        },
+        {
+          "id": "b",
+          "text": "نهر ماء جر من تحت الصخرة"
+        },
+        {
+          "id": "c",
+          "text": "ملائكة تنزل لتحفر معهم"
+        },
+        {
+          "id": "d",
+          "text": "كنز مدفون استعملوه في الإنفاق"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ضرب النبي ﷺ الصخرة بالمفرق فانشق نورًا أضاء له ما بين أظفاره، فأخبره جبريل أنها بشارة بفتح المدائن وفارس والروم واليمن.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "صحيح البخاري"
+        },
+        {
+          "type": "other",
+          "reference": "السيرة النبوية لابن كثير"
+        }
+      ],
+      "tags": [
+        "الغزوات",
+        "الخندق"
+      ]
+    }
+  ]
+}

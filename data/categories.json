@@ -1,27 +1,32 @@
 [
   {
-    "id": 1,
-    "key": "shahada",
-    "name": "الشهادة"
+    "id": "arkan-al-islam",
+    "name": "أركان الإسلام",
+    "parentId": null
   },
   {
-    "id": 2,
-    "key": "salah",
-    "name": "الصلاة"
+    "id": "shahada",
+    "name": "الشهادة",
+    "parentId": "arkan-al-islam"
   },
   {
-    "id": 3,
-    "key": "zakah",
-    "name": "الزكاة"
+    "id": "salah",
+    "name": "الصلاة",
+    "parentId": "arkan-al-islam"
   },
   {
-    "id": 4,
-    "key": "sawm",
-    "name": "الصوم"
+    "id": "zakah",
+    "name": "الزكاة",
+    "parentId": "arkan-al-islam"
   },
   {
-    "id": 5,
-    "key": "hajj",
-    "name": "الحج"
+    "id": "sawm",
+    "name": "الصوم",
+    "parentId": "arkan-al-islam"
+  },
+  {
+    "id": "hajj",
+    "name": "الحج",
+    "parentId": "arkan-al-islam"
   }
 ]

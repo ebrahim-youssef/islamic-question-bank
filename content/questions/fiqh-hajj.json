@@ -1,11 +1,10 @@
 {
-  "categoryId": "hajj",
+  "categoryId": "fiqh-hajj",
   "questions": [
     {
-      "id": "ha-1-1",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 1,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "إلى أي مدينة يتوجّه الحجاج لأداء فريضة الحج؟",
       "choices": [
         {
@@ -27,26 +26,21 @@
       ],
       "correctChoiceId": "b",
       "explanation": "الحج إلى بيت الله الحرام في مكة، قال تعالى: «ولله على الناس حج البيت».",
-      "references": [
+      "sources": [
         {
-          "type": "other",
-          "label": "القرآن — سورة آل عمران ٩٧"
+          "type": "quran",
+          "reference": "القرآن — سورة آل عمران ٩٧"
         }
       ],
       "tags": [
         "حج",
         "مكة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ha-1-2",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 1,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "ما اسم البيت الذي يطوف حوله الحجاج؟",
       "choices": [
         {
@@ -68,25 +62,20 @@
       ],
       "correctChoiceId": "c",
       "explanation": "الكعبة أول بيت وُضع للناس، قال تعالى: «إن أول بيت وُضع للناس للذي ببكة».",
-      "references": [
+      "sources": [
         {
-          "type": "other",
-          "label": "القرآن — سورة آل عمران ٩٦"
+          "type": "quran",
+          "reference": "القرآن — سورة آل عمران ٩٦"
         }
       ],
       "tags": [
         "كعبة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ha-2-1",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 2,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "كم عدد أشواط الطواف حول الكعبة؟",
       "choices": [
         {
@@ -108,26 +97,20 @@
       ],
       "correctChoiceId": "c",
       "explanation": "الطواف سبعة أشواط يبدأ وينتهي بالحجر الأسود.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "حديث جابر"
+          "reference": "السنة — حديث جابر في صفة الحج"
         }
       ],
       "tags": [
         "طواف"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ha-2-2",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 2,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "بين أي جبلين يكون السعي في الحج والعمرة؟",
       "choices": [
         {
@@ -149,26 +132,20 @@
       ],
       "correctChoiceId": "d",
       "explanation": "قال تعالى: «إن الصفا والمروة من شعائر الله»، والسعي سبعة أشواط بينهما.",
-      "references": [
+      "sources": [
         {
           "type": "quran",
-          "surah": 2,
-          "ayah": 158
+          "reference": "القرآن — سورة البقرة ١٥٨"
         }
       ],
       "tags": [
         "سعي"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ha-3-1",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 3,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "medium",
+      "audience": "general",
       "text": "ما الركن الأعظم للحج الذي يفوت الحج بفواته؟",
       "choices": [
         {
@@ -190,27 +167,21 @@
       ],
       "correctChoiceId": "b",
       "explanation": "قال ﷺ: «الحج عرفة»، فمن فاته الوقوف بعرفة فاته الحج.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sunan-abi-dawud",
-          "number": "غير محدد"
+          "reference": "سنن الترمذي وأبو داود"
         }
       ],
       "tags": [
         "عرفة",
         "ركن"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ha-3-2",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 3,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "medium",
+      "audience": "general",
       "text": "ما اسم اللباس غير المخيط الذي يلبسه الرجل عند نُسك الحج أو العمرة؟",
       "choices": [
         {
@@ -232,26 +203,20 @@
       ],
       "correctChoiceId": "c",
       "explanation": "يتجرّد المُحرِم من المخيط ويلبس إزاراً ورداءً، وهو لباس الإحرام.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "حديث ابن عمر"
+          "reference": "السنة — حديث ابن عمر"
         }
       ],
       "tags": [
         "إحرام"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ha-4-1",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 4,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "hard",
+      "audience": "general",
       "text": "في أي يوم يقف الحجاج بعرفة؟",
       "choices": [
         {
@@ -273,27 +238,21 @@
       ],
       "correctChoiceId": "b",
       "explanation": "الوقوف بعرفة يوم التاسع من ذي الحجة، ويسمى يوم عرفة.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "حديث جابر"
+          "reference": "السنة — حديث جابر"
         }
       ],
       "tags": [
         "عرفة",
         "مناسك"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ha-4-2",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 4,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "hard",
+      "audience": "general",
       "text": "أين يبيت الحجاج ليلة العيد بعد نزولهم من عرفة؟",
       "choices": [
         {
@@ -315,27 +274,21 @@
       ],
       "correctChoiceId": "c",
       "explanation": "بعد الإفاضة من عرفة يبيت الحجاج بمزدلفة، قال تعالى: «فاذكروا الله عند المشعر الحرام».",
-      "references": [
+      "sources": [
         {
           "type": "quran",
-          "surah": 2,
-          "ayah": 198
+          "reference": "القرآن — سورة البقرة ١٩٨"
         }
       ],
       "tags": [
         "مزدلفة",
         "مناسك"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ha-5-1",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 5,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "hard",
+      "audience": "general",
       "text": "كم حصاةً تُرمى على جمرة العقبة يوم عيد الأضحى؟",
       "choices": [
         {
@@ -357,27 +310,21 @@
       ],
       "correctChoiceId": "d",
       "explanation": "يُرمى جمرة العقبة يوم النحر بسبع حصياتٍ متعاقبات.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "حديث جابر"
+          "reference": "السنة — حديث جابر في صفة الحج"
         }
       ],
       "tags": [
         "رمي",
         "جمار"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ha-5-2",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 5,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "hard",
+      "audience": "general",
       "text": "ما اسم الطواف الركن الذي يؤديه الحاج بعد الإفاضة من عرفة ومنى؟",
       "choices": [
         {
@@ -399,27 +346,21 @@
       ],
       "correctChoiceId": "a",
       "explanation": "طواف الإفاضة (ويسمى أيضًا طواف الزيارة) ركن من أركان الحج، قال تعالى: «وليطّوّفوا بالبيت العتيق».",
-      "references": [
+      "sources": [
         {
           "type": "quran",
-          "surah": 22,
-          "ayah": 29
+          "reference": "القرآن — سورة الحج ٢٩"
         }
       ],
       "tags": [
         "طواف",
         "ركن"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-5-1-1",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 1,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "الحج هو الركن الـ… من أركان الإسلام؟",
       "choices": [
         {
@@ -441,26 +382,20 @@
       ],
       "correctChoiceId": "d",
       "explanation": "الحج الركن الخامس من أركان الإسلام على المستطيع.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "reference": "حديث جبريل — البخاري ومسلم"
         }
       ],
       "tags": [
         "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-5-1-4",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 1,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "ما حكم الحج على المستطيع؟",
       "choices": [
         {
@@ -482,25 +417,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "«ولله على الناس حجّ البيت من استطاع إليه سبيلًا».",
-      "references": [
+      "sources": [
         {
-          "type": "other",
-          "label": "سورة آل عمران ٩٧"
+          "type": "quran",
+          "reference": "سورة آل عمران ٩٧"
         }
       ],
       "tags": [
         "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-5-1-6",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 1,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "ما لون لباس الإحرام للرجل غالبًا؟",
       "choices": [
         {
@@ -522,25 +452,20 @@
       ],
       "correctChoiceId": "b",
       "explanation": "يُستحب الإحرام في إزارٍ ورداءٍ أبيضين نظيفين.",
-      "references": [
+      "sources": [
         {
           "type": "other",
-          "label": "عام"
+          "reference": "عام"
         }
       ],
       "tags": [
         "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-5-2-2",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 2,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "كم عدد أشواط السعي بين الصفا والمروة؟",
       "choices": [
         {
@@ -562,26 +487,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "السعي سبعة أشواط يبدأ بالصفا ويُختم بالمروة.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "reference": "صحيح مسلم"
         }
       ],
       "tags": [
         "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-5-2-3",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 2,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "أين يقف الحجاج يوم عرفة؟",
       "choices": [
         {
@@ -603,26 +522,20 @@
       ],
       "correctChoiceId": "b",
       "explanation": "الوقوف بعرفة ركن الحج الأعظم.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "reference": "صحيح البخاري"
         }
       ],
       "tags": [
         "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-5-2-4",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 2,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "أين يكون رمي الجمرات؟",
       "choices": [
         {
@@ -644,25 +557,20 @@
       ],
       "correctChoiceId": "c",
       "explanation": "رمي الجمرات يكون في منى أيام النحر والتشريق.",
-      "references": [
+      "sources": [
         {
           "type": "other",
-          "label": "عام"
+          "reference": "عام"
         }
       ],
       "tags": [
         "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-5-2-5",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 2,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "بم تُلقَّب العمرة؟",
       "choices": [
         {
@@ -684,25 +592,20 @@
       ],
       "correctChoiceId": "d",
       "explanation": "تُسمّى العمرة أحيانًا الحج الأصغر.",
-      "references": [
+      "sources": [
         {
           "type": "other",
-          "label": "عام"
+          "reference": "عام"
         }
       ],
       "tags": [
         "عمرة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-5-2-6",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 2,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "easy",
+      "audience": "general",
       "text": "ماذا يُستحب فعله بالحجر الأسود عند الطواف؟",
       "choices": [
         {
@@ -724,26 +627,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "كان النبي ﷺ يستلم الحجر الأسود ويقبّله في الطواف.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "reference": "صحيح البخاري"
         }
       ],
       "tags": [
         "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-5-3-2",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 3,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "medium",
+      "audience": "general",
       "text": "عيد الأضحى في أي يوم؟",
       "choices": [
         {
@@ -765,25 +662,20 @@
       ],
       "correctChoiceId": "d",
       "explanation": "يوم النحر (عيد الأضحى) عاشر ذي الحجة.",
-      "references": [
+      "sources": [
         {
           "type": "other",
-          "label": "عام"
+          "reference": "عام"
         }
       ],
       "tags": [
         "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-5-3-5",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 3,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "medium",
+      "audience": "general",
       "text": "أنواع النُّسك ثلاثة: التمتع والقِران و…؟",
       "choices": [
         {
@@ -805,25 +697,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "أنساك الحج ثلاثة: الإفراد والقِران والتمتع.",
-      "references": [
+      "sources": [
         {
           "type": "other",
-          "label": "عام"
+          "reference": "عام"
         }
       ],
       "tags": [
         "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-5-3-6",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 3,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "medium",
+      "audience": "general",
       "text": "بجوار أي مكان يقع بئر زمزم؟",
       "choices": [
         {
@@ -845,25 +732,20 @@
       ],
       "correctChoiceId": "b",
       "explanation": "بئر زمزم داخل المسجد الحرام قرب الكعبة المشرَّفة.",
-      "references": [
+      "sources": [
         {
           "type": "other",
-          "label": "عام"
+          "reference": "عام"
         }
       ],
       "tags": [
         "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-5-4-1",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 3,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "medium",
+      "audience": "general",
       "text": "من رفع قواعد الكعبة وبناها؟",
       "choices": [
         {
@@ -885,26 +767,20 @@
       ],
       "correctChoiceId": "c",
       "explanation": "«وإذ يرفع إبراهيم القواعد من البيت وإسماعيل».",
-      "references": [
+      "sources": [
         {
           "type": "quran",
-          "surah": 2,
-          "ayah": 127
+          "reference": "سورة البقرة ١٢٧"
         }
       ],
       "tags": [
         "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-5-4-2",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 4,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "hard",
+      "audience": "general",
       "text": "ما أيام التشريق؟",
       "choices": [
         {
@@ -926,25 +802,20 @@
       ],
       "correctChoiceId": "d",
       "explanation": "أيام التشريق ثلاثة بعد يوم النحر يُرمى فيها الجمرات.",
-      "references": [
+      "sources": [
         {
           "type": "other",
-          "label": "عام"
+          "reference": "عام"
         }
       ],
       "tags": [
         "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-5-4-3",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 4,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "hard",
+      "audience": "general",
       "text": "ما حكم طواف الوداع عند الخروج من مكة؟",
       "choices": [
         {
@@ -966,26 +837,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "الحلق أو التقصير نسكٌ واجب يتحلل به الحاجّ، يُجبَر تركه بدم.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "reference": "البخاري ومسلم"
         }
       ],
       "tags": [
         "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-5-4-4",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 3,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "medium",
+      "audience": "general",
       "text": "لأجل من فجَّر الله بئر زمزم؟",
       "choices": [
         {
@@ -1007,26 +872,20 @@
       ],
       "correctChoiceId": "d",
       "explanation": "نبعت زمزم عند قدمي إسماعيل عليه السلام حين تركه إبراهيم وأمه هاجر بأمر الله.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "reference": "صحيح البخاري"
         }
       ],
       "tags": [
         "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-5-4-6",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 4,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "hard",
+      "audience": "general",
       "text": "أين يُذبَح الهدي في الحج؟",
       "choices": [
         {
@@ -1048,25 +907,20 @@
       ],
       "correctChoiceId": "b",
       "explanation": "محلّ نحر الهدي الحرم، وأكثره في منى أيام النحر.",
-      "references": [
+      "sources": [
         {
           "type": "other",
-          "label": "عام"
+          "reference": "عام"
         }
       ],
       "tags": [
         "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-5-5-1",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 3,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "medium",
+      "audience": "general",
       "text": "بم تُسمّى حجّة النبي ﷺ الوحيدة؟",
       "choices": [
         {
@@ -1088,26 +942,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "حجّ النبي ﷺ حجّة واحدة سُمّيت حجّة الوداع.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "reference": "صحيح مسلم"
         }
       ],
       "tags": [
         "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-5-5-2",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 5,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "hard",
+      "audience": "general",
       "text": "من أُمر أن يؤذّن في الناس بالحج؟",
       "choices": [
         {
@@ -1129,26 +977,20 @@
       ],
       "correctChoiceId": "b",
       "explanation": "«وأذّن في الناس بالحج يأتوك رجالًا».",
-      "references": [
+      "sources": [
         {
           "type": "quran",
-          "surah": 22,
-          "ayah": 27
+          "reference": "سورة الحج ٢٧"
         }
       ],
       "tags": [
         "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-5-5-4",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 4,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "hard",
+      "audience": "general",
       "text": "ما أول بيت وُضع للناس لعبادة الله؟",
       "choices": [
         {
@@ -1170,25 +1012,20 @@
       ],
       "correctChoiceId": "c",
       "explanation": "«إن أول بيت وُضع للناس للذي ببكة مباركًا».",
-      "references": [
+      "sources": [
         {
-          "type": "other",
-          "label": "سورة آل عمران ٩٦"
+          "type": "quran",
+          "reference": "سورة آل عمران ٩٦"
         }
       ],
       "tags": [
         "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-5-5-5",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 5,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "hard",
+      "audience": "general",
       "text": "أركان الحج تشمل الإحرام والوقوف بعرفة وطواف الإفاضة و…؟",
       "choices": [
         {
@@ -1210,25 +1047,20 @@
       ],
       "correctChoiceId": "c",
       "explanation": "أركان الحج: الإحرام والوقوف بعرفة وطواف الإفاضة والسعي.",
-      "references": [
+      "sources": [
         {
           "type": "other",
-          "label": "عام"
+          "reference": "عام"
         }
       ],
       "tags": [
         "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pg-5-5-6",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 5,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "hard",
+      "audience": "general",
       "text": "في أي سنة هجرية فُرض الحج على المشهور؟",
       "choices": [
         {
@@ -1250,25 +1082,20 @@
       ],
       "correctChoiceId": "d",
       "explanation": "المشهور أن فرض الحج كان سنة تسع للهجرة.",
-      "references": [
+      "sources": [
         {
-          "type": "book",
-          "title": "السيرة النبوية"
+          "type": "other",
+          "reference": "السيرة والتاريخ"
         }
       ],
       "tags": [
         "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pk-5-1-1",
-      "categoryId": "hajj",
-      "ageBand": "kids",
-      "tier": 1,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "easy",
+      "audience": "kids",
       "text": "إلى أي مدينةٍ يذهب المسلمون لأداء الحج؟",
       "choices": [
         {
@@ -1290,26 +1117,21 @@
       ],
       "correctChoiceId": "c",
       "explanation": "الحج يكون في مكة المكرمة حيث الكعبة.",
-      "references": [
+      "sources": [
         {
-          "type": "other",
-          "label": "القرآن — سورة آل عمران"
+          "type": "quran",
+          "reference": "القرآن — سورة آل عمران"
         }
       ],
       "tags": [
         "حج",
         "مكة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pk-5-1-2",
-      "categoryId": "hajj",
-      "ageBand": "kids",
-      "tier": 1,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "easy",
+      "audience": "kids",
       "text": "ما اسم البيت المربَّع الذي نطوف حوله في الحج؟",
       "choices": [
         {
@@ -1331,25 +1153,20 @@
       ],
       "correctChoiceId": "d",
       "explanation": "الكعبة أول بيتٍ وُضع للناس، نطوف حولها في الحج والعمرة.",
-      "references": [
+      "sources": [
         {
-          "type": "other",
-          "label": "القرآن — سورة آل عمران"
+          "type": "quran",
+          "reference": "القرآن — سورة آل عمران"
         }
       ],
       "tags": [
         "كعبة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pk-5-2-1",
-      "categoryId": "hajj",
-      "ageBand": "kids",
-      "tier": 2,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "easy",
+      "audience": "kids",
       "text": "ماذا نسمِّي الدوران حول الكعبة سبع مرات؟",
       "choices": [
         {
@@ -1371,25 +1188,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "الطواف هو الدوران حول الكعبة سبعة أشواط.",
-      "references": [
+      "sources": [
         {
-          "type": "book",
-          "title": "فقه الحج"
+          "type": "other",
+          "reference": "فقه الحج"
         }
       ],
       "tags": [
         "طواف"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pk-5-2-2",
-      "categoryId": "hajj",
-      "ageBand": "kids",
-      "tier": 2,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "easy",
+      "audience": "kids",
       "text": "ما اسم اللباس الأبيض البسيط الذي يلبسه الحاج؟",
       "choices": [
         {
@@ -1411,25 +1223,20 @@
       ],
       "correctChoiceId": "b",
       "explanation": "الإحرام لباسٌ أبيض بسيط يذكِّر بالمساواة بين الناس.",
-      "references": [
+      "sources": [
         {
-          "type": "book",
-          "title": "فقه الحج"
+          "type": "other",
+          "reference": "فقه الحج"
         }
       ],
       "tags": [
         "إحرام"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pk-5-3-1",
-      "categoryId": "hajj",
-      "ageBand": "kids",
-      "tier": 3,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "medium",
+      "audience": "kids",
       "text": "ماذا نسمِّي المشي بين الصفا والمروة سبع مرات؟",
       "choices": [
         {
@@ -1451,25 +1258,20 @@
       ],
       "correctChoiceId": "c",
       "explanation": "السعي بين الصفا والمروة سبعة أشواط، تذكيراً بسعي أُمِّنا هاجر.",
-      "references": [
+      "sources": [
         {
-          "type": "other",
-          "label": "القرآن — سورة البقرة"
+          "type": "quran",
+          "reference": "القرآن — سورة البقرة"
         }
       ],
       "tags": [
         "سعي"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pk-5-3-2",
-      "categoryId": "hajj",
-      "ageBand": "kids",
-      "tier": 3,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "medium",
+      "audience": "kids",
       "text": "ما التلبية التي يردِّدها الحاج؟",
       "choices": [
         {
@@ -1491,26 +1293,20 @@
       ],
       "correctChoiceId": "d",
       "explanation": "يلبِّي الحاج: «لبَّيك اللهم لبَّيك، لبَّيك لا شريك لك لبَّيك».",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "reference": "حديث ابن عمر — متفق عليه"
         }
       ],
       "tags": [
         "تلبية"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pk-5-4-1",
-      "categoryId": "hajj",
-      "ageBand": "kids",
-      "tier": 4,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "hard",
+      "audience": "kids",
       "text": "ما اسم الجبل الذي يقف عنده الحجاج في يوم عرفة؟",
       "choices": [
         {
@@ -1532,26 +1328,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "الوقوف بعرفة ركنٌ أعظم في الحج في اليوم التاسع من ذي الحجة.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sunan-tirmidhi",
-          "number": "غير محدد"
+          "reference": "حديث «الحج عرفة» — سنن الترمذي"
         }
       ],
       "tags": [
         "عرفة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pk-5-4-2",
-      "categoryId": "hajj",
-      "ageBand": "kids",
-      "tier": 4,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "hard",
+      "audience": "kids",
       "text": "أي نبيٍّ بنى الكعبة مع ابنه إسماعيل عليهما السلام؟",
       "choices": [
         {
@@ -1573,26 +1363,21 @@
       ],
       "correctChoiceId": "b",
       "explanation": "رفع إبراهيم وإسماعيل عليهما السلام قواعد البيت (الكعبة).",
-      "references": [
+      "sources": [
         {
-          "type": "other",
-          "label": "القرآن — سورة البقرة"
+          "type": "quran",
+          "reference": "القرآن — سورة البقرة"
         }
       ],
       "tags": [
         "كعبة",
         "إبراهيم"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pk-5-5-1",
-      "categoryId": "hajj",
-      "ageBand": "kids",
-      "tier": 5,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "hard",
+      "audience": "kids",
       "text": "في أي شهرٍ من السنة الهجرية يكون الحج؟",
       "choices": [
         {
@@ -1614,26 +1399,21 @@
       ],
       "correctChoiceId": "c",
       "explanation": "الحج يكون في أشهر معلومات وأيامه في ذي الحجة.",
-      "references": [
+      "sources": [
         {
-          "type": "other",
-          "label": "القرآن — سورة البقرة"
+          "type": "quran",
+          "reference": "القرآن — سورة البقرة"
         }
       ],
       "tags": [
         "حج",
         "أشهر"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "pk-5-5-2",
-      "categoryId": "hajj",
-      "ageBand": "kids",
-      "tier": 5,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "hard",
+      "audience": "kids",
       "text": "ما العيد الذي يأتي في وقت الحج ويُذبح فيه الأضاحي؟",
       "choices": [
         {
@@ -1655,26 +1435,21 @@
       ],
       "correctChoiceId": "d",
       "explanation": "عيد الأضحى في العاشر من ذي الحجة، يُذبح فيه الهدي والأضاحي.",
-      "references": [
+      "sources": [
         {
-          "type": "book",
-          "title": "فقه العيدين"
+          "type": "other",
+          "reference": "فقه العيدين"
         }
       ],
       "tags": [
         "عيد",
         "أضحى"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ps-5-1-1",
-      "categoryId": "hajj",
-      "ageBand": "scholar",
-      "tier": 1,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "easy",
+      "audience": "scholar",
       "text": "من أين يبدأ الإحرام بالحج أو العمرة؟",
       "choices": [
         {
@@ -1696,26 +1471,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "يُحرم القاصد من ميقاته المكاني الذي وقَّته النبي ﷺ.",
-      "references": [
+      "sources": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "الصحيحان"
+          "type": "other",
+          "reference": "الصحيحان"
         }
       ],
       "tags": [
         "إحرام"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ps-5-1-2",
-      "categoryId": "hajj",
-      "ageBand": "scholar",
-      "tier": 1,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "easy",
+      "audience": "scholar",
       "text": "كم عدد أشواط الطواف حول الكعبة؟",
       "choices": [
         {
@@ -1737,26 +1506,20 @@
       ],
       "correctChoiceId": "b",
       "explanation": "الطواف سبعة أشواط يبدأ وينتهي بالحجر الأسود.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "reference": "صحيح مسلم"
         }
       ],
       "tags": [
         "طواف"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ps-5-2-1",
-      "categoryId": "hajj",
-      "ageBand": "scholar",
-      "tier": 2,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "easy",
+      "audience": "scholar",
       "text": "ما ركن الحج الأعظم الذي يفوت الحج بفواته؟",
       "choices": [
         {
@@ -1778,26 +1541,20 @@
       ],
       "correctChoiceId": "c",
       "explanation": "«الحج عرفة، من أدرك عرفة فقد أدرك الحج».",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sunan-tirmidhi",
-          "number": "غير محدد"
+          "reference": "سنن الترمذي"
         }
       ],
       "tags": [
         "أركان"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ps-5-2-2",
-      "categoryId": "hajj",
-      "ageBand": "scholar",
-      "tier": 2,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "easy",
+      "audience": "scholar",
       "text": "ما حكم المبيت بمزدلفة ليلة النحر عند الجمهور؟",
       "choices": [
         {
@@ -1819,25 +1576,20 @@
       ],
       "correctChoiceId": "d",
       "explanation": "المبيت بمزدلفة واجبٌ عند الجمهور، من تركه فعليه دم.",
-      "references": [
+      "sources": [
         {
-          "type": "book",
-          "title": "فقه الحج"
+          "type": "other",
+          "reference": "فقه الحج"
         }
       ],
       "tags": [
         "مزدلفة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ps-5-3-1",
-      "categoryId": "hajj",
-      "ageBand": "scholar",
-      "tier": 3,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "medium",
+      "audience": "scholar",
       "text": "بين أي مَعلمين يكون السعي؟",
       "choices": [
         {
@@ -1859,26 +1611,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "«إن الصفا والمروة من شعائر الله».",
-      "references": [
+      "sources": [
         {
           "type": "quran",
-          "surah": 2,
-          "ayah": 158
+          "reference": "سورة البقرة ١٥٨"
         }
       ],
       "tags": [
         "سعي"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ps-5-3-2",
-      "categoryId": "hajj",
-      "ageBand": "scholar",
-      "tier": 3,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "medium",
+      "audience": "scholar",
       "text": "كم يومًا يُرمى فيه الجمار في أيام التشريق لمن تأخَّر؟",
       "choices": [
         {
@@ -1900,26 +1646,20 @@
       ],
       "correctChoiceId": "b",
       "explanation": "من تعجَّل رمى يومين، ومن تأخَّر رمى الأيام الثلاثة كلها.",
-      "references": [
+      "sources": [
         {
           "type": "quran",
-          "surah": 2,
-          "ayah": 203
+          "reference": "سورة البقرة ٢٠٣"
         }
       ],
       "tags": [
         "رمي"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ps-5-4-1",
-      "categoryId": "hajj",
-      "ageBand": "scholar",
-      "tier": 4,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "hard",
+      "audience": "scholar",
       "text": "ما حكم الحلق أو التقصير في الحج عند جمهور الفقهاء؟",
       "choices": [
         {
@@ -1941,26 +1681,20 @@
       ],
       "correctChoiceId": "c",
       "explanation": "الحلق أو التقصير نسكٌ يتحلل به الحاجّ، وهو واجب يُجبَر بدم عند الجمهور (والشافعية يعدّونه ركنًا لا يُجبَر بدم).",
-      "references": [
+      "sources": [
         {
           "type": "quran",
-          "surah": 48,
-          "ayah": 27
+          "reference": "سورة الفتح ٢٧"
         }
       ],
       "tags": [
         "تحلل"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ps-5-4-2",
-      "categoryId": "hajj",
-      "ageBand": "scholar",
-      "tier": 4,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "hard",
+      "audience": "scholar",
       "text": "من ترك واجبًا من واجبات الحج فماذا يلزمه؟",
       "choices": [
         {
@@ -1982,25 +1716,20 @@
       ],
       "correctChoiceId": "d",
       "explanation": "من ترك واجبًا من واجبات الحج جبره بدم يذبحه في الحرم.",
-      "references": [
+      "sources": [
         {
-          "type": "book",
-          "title": "فقه الحج"
+          "type": "other",
+          "reference": "فقه الحج"
         }
       ],
       "tags": [
         "واجبات"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ps-5-5-1",
-      "categoryId": "hajj",
-      "ageBand": "scholar",
-      "tier": 5,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "hard",
+      "audience": "scholar",
       "text": "ما حكم طواف الوداع على غير الحائض والنُّفَساء؟",
       "choices": [
         {
@@ -2022,26 +1751,20 @@
       ],
       "correctChoiceId": "a",
       "explanation": "«لا ينفرنّ أحدٌ حتى يكون آخر عهده بالبيت»، والحائض يسقط عنها.",
-      "references": [
+      "sources": [
         {
           "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "reference": "صحيح مسلم"
         }
       ],
       "tags": [
         "وداع"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      ]
     },
     {
-      "id": "ps-5-5-2",
-      "categoryId": "hajj",
-      "ageBand": "scholar",
-      "tier": 5,
+      "categoryId": "fiqh-hajj",
+      "difficulty": "hard",
+      "audience": "scholar",
       "text": "كم حجة حجَّها النبي ﷺ بعد الهجرة؟",
       "choices": [
         {
@@ -2063,19 +1786,334 @@
       ],
       "correctChoiceId": "b",
       "explanation": "حجّ النبي ﷺ بعد الهجرة حجةً واحدة هي حجة الوداع سنة عشرٍ للهجرة.",
-      "references": [
+      "sources": [
         {
-          "type": "book",
-          "title": "السيرة النبوية"
+          "type": "other",
+          "reference": "السيرة النبوية"
         }
       ],
       "tags": [
         "سيرة"
+      ]
+    },
+    {
+      "categoryId": "fiqh-hajj",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "ما هي أركان الحج الثلاثة على قول جمهور الفقهاء؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الإحرام والطواف والسعي"
+        },
+        {
+          "id": "b",
+          "text": "الإحرام والوقوف بعرفة وطواف الإفاضة"
+        },
+        {
+          "id": "c",
+          "text": "الوقوف بعرفة والمبيت بمزدلفة ورمي الجمرات"
+        },
+        {
+          "id": "d",
+          "text": "الإحرام والوقوف بعرفة وطواف الوداع"
+        }
       ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+      "correctChoiceId": "b",
+      "explanation": "جمهور الفقهاء على أن الأركان ثلاثة: الإحرام والوقوف بعرفة وطواف الإفاضة، ودليله قوله «خذوا عني مناسككم» وقوله لعائشة «اجمعي حجتك من عرفة».",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "كتب الفقه المقارن عند الشافعية والحنابلة"
+        }
+      ],
+      "tags": [
+        "أركان الحج"
+      ]
+    },
+    {
+      "categoryId": "fiqh-hajj",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "أي مما يلي من واجبات الحج التي يجزئ فيها الدم عند تركها؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "المبيت بمزدلفة"
+        },
+        {
+          "id": "b",
+          "text": "الوقوف بعرفة"
+        },
+        {
+          "id": "c",
+          "text": "طواف الإفاضة"
+        },
+        {
+          "id": "d",
+          "text": "الإحرام من الميقات"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "المبيت بمزدلفة من واجبات الحج يجزئ عنه الدم، بخلاف الوقوف بطواف الإفاضة فهما ركنان.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "المغني لابن قدامة والمجموع للنووي"
+        }
+      ],
+      "tags": [
+        "واجبات الحج"
+      ]
+    },
+    {
+      "categoryId": "fiqh-hajj",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "ما الميقات المشرعي لأهل الشام وما وراءها؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "يلملم"
+        },
+        {
+          "id": "b",
+          "text": "قرن المنازل"
+        },
+        {
+          "id": "c",
+          "text": "الجحفة"
+        },
+        {
+          "id": "d",
+          "text": "ذو الحليفة"
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "حدد النبي ﷺ الجحفة لمهل الشام، وهي رابغ اليوم؛ وذو الحليفة لمهل المدينة ويلملم لليمن وقرن المنازل للنجد.",
+      "sources": [
+        {
+          "type": "hadith",
+          "reference": "صحيح مسلم من حديث ابن عباس في المواقيت"
+        }
+      ],
+      "tags": [
+        "المواقيت"
+      ]
+    },
+    {
+      "categoryId": "fiqh-hajj",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "متى يبدأ المحرم بالتلبيات؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "عند دخوله مكة"
+        },
+        {
+          "id": "b",
+          "text": "عند إحرامه من الميقات"
+        },
+        {
+          "id": "c",
+          "text": "في عرفة"
+        },
+        {
+          "id": "d",
+          "text": "عند الطواف"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "سن التلبية عند الاستلام من الميقات وتواصل حتى يبلغ البيت.",
+      "sources": [
+        {
+          "type": "hadith",
+          "reference": "صحيح مسلم صفة حجة النبي ﷺ"
+        }
+      ],
+      "tags": [
+        "التلبية"
+      ]
+    },
+    {
+      "categoryId": "fiqh-hajj",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "ما أشهر الحج المعلومات التي ذكرتها سورة البقرة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "شوال وذو القعدة والعشر الأول من ذي الحجة"
+        },
+        {
+          "id": "b",
+          "text": "رجب وشعبان ورمضان"
+        },
+        {
+          "id": "c",
+          "text": "محرم وصفر وربيع الأول"
+        },
+        {
+          "id": "d",
+          "text": "جميع أشهر السنة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "قال جمهور المفسرين: هي شوال وذو القعدة والعشر الأول من ذي الحجة.",
+      "sources": [
+        {
+          "type": "quran",
+          "reference": "سورة البقرة"
+        },
+        {
+          "type": "other",
+          "reference": "تفسير الطبري"
+        }
+      ],
+      "tags": [
+        "أشهر الحج"
+      ]
+    },
+    {
+      "categoryId": "fiqh-hajj",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "متى يؤدى طواف الإفاضة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "بعد الوقوف بمزدلفة في ليلة النحر أو بعدها"
+        },
+        {
+          "id": "b",
+          "text": "قبيل النهوض من عرفة"
+        },
+        {
+          "id": "c",
+          "text": "عند دخول مكة أول الأمر"
+        },
+        {
+          "id": "d",
+          "text": "قبل السفر فقط"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "يؤدى بعد مزدلفة، وقد طاف النبي ﷺ بعد الفجر يوم النحر في حجة الوداع.",
+      "sources": [
+        {
+          "type": "hadith",
+          "reference": "صحيح مسلم صفة حجة النبي ﷺ"
+        }
+      ],
+      "tags": [
+        "طواف الإفاضة"
+      ]
+    },
+    {
+      "categoryId": "fiqh-hajj",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "من أين يبدأ السعي وإلى أين ينتهي؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "يبدأ من الصفا وينتهي بالمروة"
+        },
+        {
+          "id": "b",
+          "text": "يبدأ من المروة وينتهي بالصفا"
+        },
+        {
+          "id": "c",
+          "text": "من أي طرف كان أقرب"
+        },
+        {
+          "id": "d",
+          "text": "من الحجر الأسود"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "السبعة أشواط تبدأ من الصفا وتنتهي بالمروة، لقوله ﷺ «ابدأ بما بدأ الله به».",
+      "sources": [
+        {
+          "type": "hadith",
+          "reference": "صحيح البخاري ومسلم"
+        }
+      ],
+      "tags": [
+        "السعي"
+      ]
+    },
+    {
+      "categoryId": "fiqh-hajj",
+      "difficulty": "medium",
+      "audience": "general",
+      "text": "كم عدد الحصيات لجمرة العقبة يوم النحر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "سبع حصيات"
+        },
+        {
+          "id": "b",
+          "text": "خمس حصيات"
+        },
+        {
+          "id": "c",
+          "text": "ثلاث حصيات"
+        },
+        {
+          "id": "d",
+          "text": "إحدى وعشرون حصاة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "يرمي جمرة العقبة يوم النحر بسبع حصيات متتابعات ثم ثلاثا وعشرين في أيام التشريق.",
+      "sources": [
+        {
+          "type": "hadith",
+          "reference": "صحيح مسلم صفة حجة النبي ﷺ"
+        }
+      ],
+      "tags": [
+        "رمي الجمرات"
+      ]
+    },
+    {
+      "categoryId": "fiqh-hajj",
+      "difficulty": "hard",
+      "audience": "general",
+      "text": "ما الفرق المعتبر بين ركن الحج وواجبه عند جمهور الفقهاء؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الركن لا يجزئ عنه دم وبه يبطل الحج، والواجب يجزئ عنه الدم إن ترك"
+        },
+        {
+          "id": "b",
+          "text": "الركن خاص بالرجال والواجب بالنساء"
+        },
+        {
+          "id": "c",
+          "text": "الركن له وقت والواجب لا وقت له"
+        },
+        {
+          "id": "d",
+          "text": "لا فرق بينهما في الحكم"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الركن لا تصح الحجة بتركه كالوقوف وطواف الإفاضة، والواجب يجزئ عنه دم كالمبيت بمزدلفة وطواف الوداع.",
+      "sources": [
+        {
+          "type": "other",
+          "reference": "المصطلح الفقهي المشهور في كتب الفقه المقارن"
+        }
+      ],
+      "tags": [
+        "الركن والواجب"
+      ]
     }
   ]
 }

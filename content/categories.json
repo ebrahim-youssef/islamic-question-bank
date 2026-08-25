@@ -1,0 +1,303 @@
+[
+  {
+    "id": "aqidah",
+    "name": "العقيدة",
+    "description": "مسائل الاعتقاد والتوحيد"
+  },
+  {
+    "id": "aqidah-tawhid",
+    "name": "التوحيد",
+    "parentId": "aqidah",
+    "description": "أقسام التوحيد ومعانيه"
+  },
+  {
+    "id": "aqidah-shahada",
+    "name": "الشهادة",
+    "parentId": "aqidah",
+    "description": "معاني الشهادتين ومقتضاهما"
+  },
+  {
+    "id": "aqidah-iman",
+    "name": "الإيمان وأركانه",
+    "parentId": "aqidah",
+    "description": "أركان الإيمان وتفاصيله"
+  },
+  {
+    "id": "quran",
+    "name": "القرآن وعلومه",
+    "description": "علوم القرآن الكريم"
+  },
+  {
+    "id": "quran-tafsir",
+    "name": "التفسير",
+    "parentId": "quran"
+  },
+  {
+    "id": "quran-ulum",
+    "name": "علوم القرآن",
+    "parentId": "quran"
+  },
+  {
+    "id": "quran-tajwid",
+    "name": "التجويد",
+    "parentId": "quran"
+  },
+  {
+    "id": "quran-qiraat",
+    "name": "القراءات",
+    "parentId": "quran"
+  },
+  {
+    "id": "quran-asbab-nuzul",
+    "name": "أسباب النزول",
+    "parentId": "quran"
+  },
+  {
+    "id": "quran-makki-madani",
+    "name": "المكي والمدني",
+    "parentId": "quran"
+  },
+  {
+    "id": "quran-nasikh-mansukh",
+    "name": "الناسخ والمنسوخ",
+    "parentId": "quran"
+  },
+  {
+    "id": "quran-rasm",
+    "name": "الرسم العثماني",
+    "parentId": "quran"
+  },
+  {
+    "id": "quran-qasas",
+    "name": "القصص القرآني",
+    "parentId": "quran"
+  },
+  {
+    "id": "hadith",
+    "name": "الحديث والسنة",
+    "description": "الحديث النبوي وعلومه"
+  },
+  {
+    "id": "hadith-texts",
+    "name": "متن الحديث",
+    "parentId": "hadith"
+  },
+  {
+    "id": "hadith-ulum",
+    "name": "علوم الحديث",
+    "parentId": "hadith"
+  },
+  {
+    "id": "hadith-mustalah",
+    "name": "مصطلح الحديث",
+    "parentId": "hadith"
+  },
+  {
+    "id": "hadith-takhrij",
+    "name": "التخريج",
+    "parentId": "hadith"
+  },
+  {
+    "id": "hadith-rijal",
+    "name": "علم الرجال",
+    "parentId": "hadith"
+  },
+  {
+    "id": "hadith-jarh-tadil",
+    "name": "الجرح والتعديل",
+    "parentId": "hadith"
+  },
+  {
+    "id": "hadith-fiqh",
+    "name": "فقه الحديث",
+    "parentId": "hadith"
+  },
+  {
+    "id": "fiqh",
+    "name": "الفقه",
+    "description": "الفقه الإسلامي وأبوابه"
+  },
+  {
+    "id": "fiqh-ibadat",
+    "name": "العبادات",
+    "parentId": "fiqh"
+  },
+  {
+    "id": "fiqh-taharah",
+    "name": "الطهارة",
+    "parentId": "fiqh-ibadat"
+  },
+  {
+    "id": "fiqh-salah",
+    "name": "الصلاة",
+    "parentId": "fiqh-ibadat",
+    "description": "أحكام الصلاة"
+  },
+  {
+    "id": "fiqh-zakah",
+    "name": "الزكاة",
+    "parentId": "fiqh-ibadat",
+    "description": "أحكام الزكاة"
+  },
+  {
+    "id": "fiqh-sawm",
+    "name": "الصوم",
+    "parentId": "fiqh-ibadat",
+    "description": "أحكام الصيام"
+  },
+  {
+    "id": "fiqh-hajj",
+    "name": "الحج",
+    "parentId": "fiqh-ibadat",
+    "description": "أحكام الحج والعمرة"
+  },
+  {
+    "id": "fiqh-janaiz",
+    "name": "الجنائز",
+    "parentId": "fiqh-ibadat"
+  },
+  {
+    "id": "fiqh-muamalat",
+    "name": "المعاملات",
+    "parentId": "fiqh"
+  },
+  {
+    "id": "fiqh-family",
+    "name": "الأسرة",
+    "parentId": "fiqh"
+  },
+  {
+    "id": "fiqh-inheritance",
+    "name": "المواريث",
+    "parentId": "fiqh"
+  },
+  {
+    "id": "fiqh-food",
+    "name": "الأطعمة والأشربة",
+    "parentId": "fiqh"
+  },
+  {
+    "id": "fiqh-oaths",
+    "name": "الأيمان والنذور",
+    "parentId": "fiqh"
+  },
+  {
+    "id": "fiqh-contemporary",
+    "name": "المعاصرات",
+    "parentId": "fiqh"
+  },
+  {
+    "id": "usul-fiqh",
+    "name": "أصول الفقه"
+  },
+  {
+    "id": "maqasid",
+    "name": "مقاصد الشريعة"
+  },
+  {
+    "id": "seerah",
+    "name": "السيرة النبوية",
+    "description": "سيرة النبي ﷺ"
+  },
+  {
+    "id": "seerah-before-prophethood",
+    "name": "قبل البعثة",
+    "parentId": "seerah"
+  },
+  {
+    "id": "seerah-makkan",
+    "name": "المرحلة المكية",
+    "parentId": "seerah"
+  },
+  {
+    "id": "seerah-hijrah",
+    "name": "الهجرة",
+    "parentId": "seerah"
+  },
+  {
+    "id": "seerah-madinan",
+    "name": "المرحلة المدنية",
+    "parentId": "seerah"
+  },
+  {
+    "id": "seerah-battles",
+    "name": "الغزوات والمغازي",
+    "parentId": "seerah"
+  },
+  {
+    "id": "seerah-treaties",
+    "name": "العهود والمفاوضات",
+    "parentId": "seerah"
+  },
+  {
+    "id": "seerah-family",
+    "name": "أسرته ﷺ",
+    "parentId": "seerah"
+  },
+  {
+    "id": "seerah-shamail",
+    "name": "شمائله ﷺ",
+    "parentId": "seerah"
+  },
+  {
+    "id": "sahabah",
+    "name": "الصحابة"
+  },
+  {
+    "id": "sahabah-biographies",
+    "name": "تراجم الصحابة",
+    "parentId": "sahabah"
+  },
+  {
+    "id": "sahabah-khulafa",
+    "name": "الخلفاء الراشدون",
+    "parentId": "sahabah"
+  },
+  {
+    "id": "sahabah-mothers",
+    "name": "أمهات المؤمنين",
+    "parentId": "sahabah"
+  },
+  {
+    "id": "sahabah-ahl-al-bayt",
+    "name": "أهل البيت",
+    "parentId": "sahabah"
+  },
+  {
+    "id": "sahabah-female-companions",
+    "name": "الصحابيات",
+    "parentId": "sahabah"
+  },
+  {
+    "id": "prophets",
+    "name": "الأنبياء والرسل"
+  },
+  {
+    "id": "history",
+    "name": "التاريخ الإسلامي"
+  },
+  {
+    "id": "scholars",
+    "name": "العلماء والأئمة"
+  },
+  {
+    "id": "akhlaq",
+    "name": "الأخلاق والآداب"
+  },
+  {
+    "id": "tazkiyah",
+    "name": "التزكية والرقائق"
+  },
+  {
+    "id": "adhkar",
+    "name": "الأذكار والدعاء"
+  },
+  {
+    "id": "dawah",
+    "name": "الدعوة"
+  },
+  {
+    "id": "arabic",
+    "name": "اللغة العربية"
+  }
+]

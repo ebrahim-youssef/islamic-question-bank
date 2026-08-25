@@ -29,9 +29,8 @@
       "explanation": "تُخرج زكاة الفطر قبل صلاة عيد الفطر.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -475,9 +474,8 @@
       "explanation": "ما سُقي بلا مؤونة ففيه العشر.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -516,9 +514,8 @@
       "explanation": "ما سُقي بمؤونة (كالآبار والنواضح) ففيه نصف العشر.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -598,9 +595,8 @@
       "explanation": "أول نصاب الغنم أربعون، وفيها شاة.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -680,9 +676,8 @@
       "explanation": "«وفي الرِّكاز الخُمس».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -761,9 +756,8 @@
       "explanation": "أول نصاب البقر ثلاثون، وفيها تبيع أو تبيعة.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sunan-tirmidhi",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "سنن الترمذي"
         }
       ],
       "tags": [
@@ -802,9 +796,8 @@
       "explanation": "أبو بكر الصديق عزم على قتال من فرَّق بين الصلاة والزكاة.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -884,8 +877,8 @@
       "explanation": "فُرضت زكاة الفطر في السنة الثانية للهجرة عام فرض صيام رمضان.",
       "references": [
         {
-          "type": "book",
-          "title": "السيرة النبوية"
+          "type": "other",
+          "label": "السيرة والتاريخ"
         }
       ],
       "tags": [
@@ -1166,9 +1159,8 @@
       "explanation": "قال ﷺ: «ما نقصت صدقةٌ من مال»، بل يبارك الله فيه.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث أبي هريرة — صحيح مسلم"
         }
       ],
       "tags": [
@@ -1207,9 +1199,8 @@
       "explanation": "زكاة الفطر يخرجها المسلم في آخر رمضان طُهرةً للصائم وطعمةً للمساكين.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث ابن عمر — متفق عليه"
         }
       ],
       "tags": [
@@ -1248,9 +1239,8 @@
       "explanation": "قال ﷺ: «تبسُّمك في وجه أخيك صدقة».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sunan-tirmidhi",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث أبي ذر — سنن الترمذي"
         }
       ],
       "tags": [
@@ -1370,9 +1360,8 @@
       "explanation": "زكاة الفطر صاعٌ من طعام البلد عن كل فرد.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث ابن عمر — متفق عليه"
         }
       ],
       "tags": [
@@ -1451,9 +1440,8 @@
       "explanation": "صاع من غالب قوت البلد يُخرَج قبل صلاة العيد.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -1492,9 +1480,8 @@
       "explanation": "تجب الزكاة ببلوغ المال النصاب وتمام الحول عليه.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sunan-abi-dawud",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "سنن أبي داود"
         }
       ],
       "tags": [
@@ -1533,9 +1520,8 @@
       "explanation": "«فيما سقت السماء العُشر».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -1574,9 +1560,8 @@
       "explanation": "«وفيما سُقي بالنَّضح نصف العُشر».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -1615,9 +1600,8 @@
       "explanation": "في أربعين شاة شاةٌ واحدة إلى مئة وعشرين.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -1656,9 +1640,8 @@
       "explanation": "في كل خمس من الإبل شاةٌ حتى تبلغ خمسًا وعشرين.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -1738,9 +1721,8 @@
       "explanation": "في ثلاثين من البقر تبيعٌ أو تبيعة، وفي أربعين مُسِنّة.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sunan-tirmidhi",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "سنن الترمذي"
         }
       ],
       "tags": [
@@ -1820,7 +1802,7 @@
       "references": [
         {
           "type": "book",
-          "title": "فقه الزكاة"
+          "title": "فقه الزكاة المعاصر"
         }
       ],
       "tags": [
@@ -1859,9 +1841,8 @@
       "explanation": "الزكاة ثالث أركان الإسلام بعد الشهادتين والصلاة.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث ابن عمر — متفق عليه"
         }
       ],
       "tags": [
@@ -1901,9 +1882,8 @@
       "explanation": "زكاة الفطر طُهرة للصائم وطُعمة للمساكين، تُخرج قبل صلاة العيد.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sunan-abi-dawud",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث ابن عباس — أبو داود"
         }
       ],
       "tags": [
@@ -1942,9 +1922,8 @@
       "explanation": "فرض النبي ﷺ زكاة الفطر صاعاً من طعام عن كل حر وعبد.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث ابن عمر — متفق عليه"
         }
       ],
       "tags": [
@@ -1984,9 +1963,8 @@
       "explanation": "من أدّاها قبل صلاة العيد فهي زكاة مقبولة، ومن أخّرها فصدقة من الصدقات.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sunan-abi-dawud",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث ابن عباس — أبو داود وابن ماجه"
         }
       ],
       "tags": [
@@ -2066,8 +2044,8 @@
       "explanation": "زكاة النقود ربع العشر، أي اثنان ونصف في المئة.",
       "references": [
         {
-          "type": "book",
-          "title": "أحاديث مقادير الصدقات"
+          "type": "other",
+          "label": "السنة — أحاديث مقادير الصدقات"
         }
       ],
       "tags": [
@@ -2107,9 +2085,8 @@
       "explanation": "قال ﷺ: «لا زكاة في مالٍ حتى يحول عليه الحول».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "حديث ابن عمر"
+          "type": "other",
+          "label": "السنة — حديث ابن عمر"
         }
       ],
       "tags": [
@@ -2148,9 +2125,8 @@
       "explanation": "قال ﷺ: «ليس فيما دون خمس أواقٍ صدقة»، والأوقية أربعون درهماً، فذلك مئتا درهم.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "متفق عليه"
         }
       ],
       "tags": [
@@ -2190,9 +2166,8 @@
       "explanation": "قال ﷺ: «فيما سقت السماء والعيون العشر، وفيما سُقي بالنضح نصف العشر».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -2232,9 +2207,8 @@
       "explanation": "قال ﷺ: «ليس فيما دون خمس ذَودٍ صدقة»، وفي الخمس شاة.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "متفق عليه — حديث الصدقات"
         }
       ],
       "tags": [

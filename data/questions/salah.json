@@ -111,9 +111,8 @@
       "explanation": "يقول في الركوع: سبحان ربي العظيم.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sunan-abi-dawud",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "سنن أبي داود"
         }
       ],
       "tags": [
@@ -272,9 +271,8 @@
       "explanation": "يقول في السجود: سبحان ربي الأعلى.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sunan-abi-dawud",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "سنن أبي داود"
         }
       ],
       "tags": [
@@ -434,9 +432,8 @@
       "explanation": "«لا صلاة لمن لم يقرأ بفاتحة الكتاب».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "البخاري ومسلم"
         }
       ],
       "tags": [
@@ -636,9 +633,8 @@
       "explanation": "صلاة الكسوف سنّة مؤكدة عند كسوف الشمس أو خسوف القمر.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -677,9 +673,8 @@
       "explanation": "الراجح أن الصلاة الوسطى في قوله «حافظوا على الصلوات» هي العصر.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "البخاري ومسلم"
         }
       ],
       "tags": [
@@ -799,9 +794,8 @@
       "explanation": "يقول بين السجدتين: ربِّ اغفر لي.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sunan-ibn-majah",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "سنن ابن ماجه"
         }
       ],
       "tags": [
@@ -840,9 +834,8 @@
       "explanation": "فُرضت الصلوات الخمس ليلة الإسراء والمعراج.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -881,9 +874,8 @@
       "explanation": "أقل الوتر ركعة واحدة، وأدناه للكمال ثلاث.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح مسلم"
         }
       ],
       "tags": [
@@ -922,9 +914,8 @@
       "explanation": "«لا صلاة لمن لم يقرأ بفاتحة الكتاب» — فقراءة الفاتحة ركن لا تصح الصلاة بدونه.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "البخاري ومسلم"
         }
       ],
       "tags": [
@@ -963,9 +954,8 @@
       "explanation": "صلاة الاستسقاء تُصلى لطلب الغيث عند الجدب.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -1004,9 +994,8 @@
       "explanation": "نُهي عن الصلاة عند طلوع الشمس وعند غروبها ووقت الاستواء.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح مسلم"
         }
       ],
       "tags": [
@@ -1045,9 +1034,8 @@
       "explanation": "الاعتكاف لزوم المسجد لطاعة الله، ويتأكد في العشر الأواخر من رمضان.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -1086,9 +1074,8 @@
       "explanation": "الصلوات المفروضة خمس: الفجر والظهر والعصر والمغرب والعشاء.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث الإسراء — متفق عليه"
         }
       ],
       "tags": [
@@ -1127,9 +1114,8 @@
       "explanation": "نبدأ الصلاة بتكبيرة الإحرام: «الله أكبر».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث المسيء صلاته — متفق عليه"
         }
       ],
       "tags": [
@@ -1248,9 +1234,8 @@
       "explanation": "قراءة الفاتحة ركنٌ في كل ركعة من الصلاة.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث عبادة — متفق عليه"
         }
       ],
       "tags": [
@@ -1290,9 +1275,8 @@
       "explanation": "السجود هو وضع الجبهة والأنف على الأرض تعظيماً لله.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث صفة الصلاة — متفق عليه"
         }
       ],
       "tags": [
@@ -1413,9 +1397,8 @@
       "explanation": "الأذان نداءٌ يُعلِم الناس بدخول وقت الصلاة.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sunan-abi-dawud",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث بدء الأذان — سنن أبي داود"
         }
       ],
       "tags": [
@@ -1494,9 +1477,8 @@
       "explanation": "«من صلى ثنتي عشرة ركعة في اليوم والليلة بُني له بيت في الجنة».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح مسلم"
         }
       ],
       "tags": [
@@ -1535,9 +1517,8 @@
       "explanation": "صلاة الجنازة أربع تكبيرات بلا ركوع ولا سجود.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -1617,9 +1598,8 @@
       "explanation": "ثبت الأمران في السنة، فيكون قبل السلام أو بعده بحسب موضع السهو.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "الصحيحان"
+          "type": "other",
+          "label": "الصحيحان"
         }
       ],
       "tags": [
@@ -1658,9 +1638,8 @@
       "explanation": "«لا صلاة لمن لم يقرأ بفاتحة الكتاب» — فقراءتها ركن عند الجمهور لا تصح الصلاة بدونه (الحنفية يعدّونها واجبة لا ركنًا، وقراءة أيّ قرآن هي الركن عندهم).",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "الصحيحان"
+          "type": "other",
+          "label": "الصحيحان"
         }
       ],
       "tags": [
@@ -1699,9 +1678,8 @@
       "explanation": "يبدأ وقت العشاء بمغيب الشفق الأحمر وينتهي وقت الاختيار بمنتصف الليل.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح مسلم"
         }
       ],
       "tags": [
@@ -1781,9 +1759,8 @@
       "explanation": "بلال أول مؤذّني الإسلام، ورأى الأذان في المنام عبد الله بن زيد.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sunan-abi-dawud",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "سنن أبي داود"
         }
       ],
       "tags": [
@@ -1822,9 +1799,8 @@
       "explanation": "«شغلونا عن الصلاة الوسطى صلاة العصر» يوم الأحزاب.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح مسلم"
         }
       ],
       "tags": [
@@ -1863,9 +1839,8 @@
       "explanation": "«من نسي صلاة فليصلِّها إذا ذكرها، لا كفارة لها إلا ذلك».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "الصحيحان"
+          "type": "other",
+          "label": "الصحيحان"
         }
       ],
       "tags": [
@@ -1904,9 +1879,8 @@
       "explanation": "فُرضت الصلوات الخمس ليلة الإسراء والمعراج.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "متفق عليه — حديث الإسراء"
         }
       ],
       "tags": [
@@ -1987,9 +1961,8 @@
       "explanation": "صلاة الفجر ركعتان جهريتان.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "متفق عليه"
         }
       ],
       "tags": [
@@ -2029,9 +2002,8 @@
       "explanation": "صلاة المغرب ثلاث ركعات، وهي وتر النهار.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "متفق عليه"
         }
       ],
       "tags": [
@@ -2153,9 +2125,8 @@
       "explanation": "قال ﷺ: «صلاة الجماعة تفضُل صلاة الفذّ بسبع وعشرين درجة».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "متفق عليه — حديث ابن عمر"
         }
       ],
       "tags": [
@@ -2195,9 +2166,8 @@
       "explanation": "من شكّ أو زاد أو نقص في صلاته جبرها بسجدتين قبل السلام أو بعده.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "السنة — حديث ذي اليدين، متفق عليه"
         }
       ],
       "tags": [
@@ -2237,9 +2207,8 @@
       "explanation": "يقصر المسافر الرباعية إلى ركعتين، قال تعالى: «فليس عليكم جناح أن تقصروا من الصلاة».",
       "references": [
         {
-          "type": "quran",
-          "surah": 4,
-          "ayah": 101
+          "type": "other",
+          "label": "القرآن — سورة النساء ١٠١ والسنة"
         }
       ],
       "tags": [
@@ -2279,9 +2248,8 @@
       "explanation": "الفرض غسل العضو مرة، والكمال ثلاث؛ توضأ النبي ﷺ ثلاثاً ثلاثاً.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [

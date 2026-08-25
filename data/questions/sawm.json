@@ -29,9 +29,8 @@
       "explanation": "صيام رمضان الركن الرابع من أركان الإسلام.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث جبريل — البخاري ومسلم"
         }
       ],
       "tags": [
@@ -193,9 +192,8 @@
       "explanation": "«تحرَّوا ليلة القدر في العشر الأواخر من رمضان».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -316,9 +314,8 @@
       "explanation": "«في الجنة باب يقال له الريّان يدخل منه الصائمون».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "البخاري ومسلم"
         }
       ],
       "tags": [
@@ -357,9 +354,8 @@
       "explanation": "«من صام رمضان ثم أتبعه ستًّا من شوال…».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح مسلم"
         }
       ],
       "tags": [
@@ -398,9 +394,8 @@
       "explanation": "«صيام يوم عرفة يكفّر السنة الماضية والباقية».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح مسلم"
         }
       ],
       "tags": [
@@ -439,9 +434,8 @@
       "explanation": "عاشوراء عاشر محرم، يُستحب صيامه ويكفّر سنة ماضية.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح مسلم"
         }
       ],
       "tags": [
@@ -521,9 +515,8 @@
       "explanation": "كان النبي ﷺ يتحرَّى صيام الاثنين والخميس.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sunan-tirmidhi",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "سنن الترمذي"
         }
       ],
       "tags": [
@@ -562,9 +555,8 @@
       "explanation": "«من نسي وهو صائم فأكل أو شرب فليتمّ صومه فإنما أطعمه الله وسقاه» — صومه صحيح ويُتمّ يومه.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "البخاري ومسلم"
         }
       ],
       "tags": [
@@ -603,8 +595,8 @@
       "explanation": "فُرض صيام رمضان في السنة الثانية للهجرة.",
       "references": [
         {
-          "type": "book",
-          "title": "السيرة النبوية"
+          "type": "other",
+          "label": "السيرة والتاريخ"
         }
       ],
       "tags": [
@@ -643,9 +635,8 @@
       "explanation": "نهى النبي ﷺ عن صيام يومي العيدين.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "البخاري ومسلم"
         }
       ],
       "tags": [
@@ -684,9 +675,8 @@
       "explanation": "هو حديث قدسي يرويه النبي ﷺ عن ربه.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -725,9 +715,8 @@
       "explanation": "«أحبّ الصيام إلى الله صيام داود؛ كان يصوم يومًا ويفطر يومًا».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "البخاري ومسلم"
         }
       ],
       "tags": [
@@ -766,9 +755,8 @@
       "explanation": "«أيام التشريق أيام أكل وشرب وذكر لله»، ورُخِّص في صيامها لمن لم يجد الهدي من المتمتعين.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح مسلم"
         }
       ],
       "tags": [
@@ -889,9 +877,8 @@
       "explanation": "الشهر القمري تسعة وعشرون أو ثلاثون يومًا بحسب رؤية الهلال.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -930,9 +917,8 @@
       "explanation": "«صوموا لرؤيته وأفطروا لرؤيته فإن غُمّ عليكم فأكملوا العدة ثلاثين» — فإن لم يُر الهلال أُكملت عدة الشهر ثلاثين يومًا.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "البخاري ومسلم"
         }
       ],
       "tags": [
@@ -1011,9 +997,8 @@
       "explanation": "«من مات وعليه صيام صام عنه وليّه».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "البخاري ومسلم"
         }
       ],
       "tags": [
@@ -1133,9 +1118,8 @@
       "explanation": "السَّحور وجبةٌ في آخر الليل، وفيها بركة كما قال ﷺ.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث أنس — متفق عليه"
         }
       ],
       "tags": [
@@ -1175,9 +1159,8 @@
       "explanation": "كان ﷺ يفطر على رُطبات، فإن لم يجد فعلى ماء.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sunan-abi-dawud",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث أنس — سنن أبي داود"
         }
       ],
       "tags": [
@@ -1217,9 +1200,8 @@
       "explanation": "التراويح قيامٌ في ليالي رمضان، رغَّب فيها النبي ﷺ.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث أبي هريرة — متفق عليه"
         }
       ],
       "tags": [
@@ -1259,9 +1241,8 @@
       "explanation": "عيد الفطر يأتي بعد إتمام صوم رمضان.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sunan-abi-dawud",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث أنس — سنن أبي داود"
         }
       ],
       "tags": [
@@ -1340,9 +1321,8 @@
       "explanation": "قال ﷺ: من نسي وهو صائم فأكل أو شرب فليتم صومه، فإنما أطعمه الله.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث أبي هريرة — متفق عليه"
         }
       ],
       "tags": [
@@ -1381,9 +1361,8 @@
       "explanation": "الاعتكاف لزوم المسجد للعبادة، وكان ﷺ يعتكف العشر الأواخر.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث عائشة — متفق عليه"
         }
       ],
       "tags": [
@@ -1422,9 +1401,8 @@
       "explanation": "قال ﷺ: من صام رمضان ثم أتبعه ستاً من شوال كان كصيام الدهر.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث أبي أيوب — صحيح مسلم"
         }
       ],
       "tags": [
@@ -1504,9 +1482,8 @@
       "explanation": "«من صام اليوم الذي يُشك فيه فقد عصى أبا القاسم ﷺ».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sunan-tirmidhi",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "سنن الترمذي"
         }
       ],
       "tags": [
@@ -1545,9 +1522,8 @@
       "explanation": "الكفارة المغلَّظة: عتق رقبة، فإن لم يجد فصيام شهرين، فإن لم يستطع فإطعام ستين مسكينًا.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "الصحيحان"
+          "type": "other",
+          "label": "الصحيحان"
         }
       ],
       "tags": [
@@ -1627,9 +1603,8 @@
       "explanation": "الأيام البيض هي الثالث عشر والرابع عشر والخامس عشر من كل شهر.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sunan-nasai",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "سنن النسائي"
         }
       ],
       "tags": [
@@ -1709,9 +1684,8 @@
       "explanation": "اعتكف النبي ﷺ العشر الأواخر من رمضان حتى توفّاه الله.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "الصحيحان"
+          "type": "other",
+          "label": "الصحيحان"
         }
       ],
       "tags": [
@@ -1750,9 +1724,8 @@
       "explanation": "«تحرَّوا ليلة القدر في الوتر من العشر الأواخر».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -1791,9 +1764,8 @@
       "explanation": "نهى النبي ﷺ عن الوِصال رحمةً بالأمة وقال: «إني لستُ كهيئتكم، إني أُطعَم وأُسقى».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "الصحيحان"
+          "type": "other",
+          "label": "الصحيحان"
         }
       ],
       "tags": [
@@ -1832,9 +1804,8 @@
       "explanation": "«صيام يوم عرفة يُكفِّر السنة الماضية والباقية»، بخلاف عاشوراء فيُكفِّر الماضية.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح مسلم"
         }
       ],
       "tags": [
@@ -1955,9 +1926,8 @@
       "explanation": "قال ﷺ: «تسحّروا فإن في السحور بركة».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "متفق عليه"
         }
       ],
       "tags": [
@@ -2079,9 +2049,8 @@
       "explanation": "نهى النبي ﷺ عن صيام يومي العيدين: الفطر والأضحى.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "متفق عليه"
         }
       ],
       "tags": [
@@ -2121,9 +2090,8 @@
       "explanation": "قال ﷺ: «من صام رمضان ثم أتبعه ستاً من شوال كان كصيام الدهر».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح مسلم"
         }
       ],
       "tags": [
@@ -2163,9 +2131,8 @@
       "explanation": "كان النبي ﷺ يعتكف العشر الأواخر من رمضان حتى توفاه الله.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "متفق عليه"
         }
       ],
       "tags": [
@@ -2204,9 +2171,8 @@
       "explanation": "قال ﷺ في صيام يوم عرفة: «يكفّر السنة الماضية والباقية».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح مسلم"
         }
       ],
       "tags": [
@@ -2246,9 +2212,8 @@
       "explanation": "في حديث المجامِع رتّب النبي ﷺ الكفارة: عتق رقبة، فإن لم يجد فصيام شهرين، فإن لم يستطع فإطعام ستين مسكيناً.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "متفق عليه"
         }
       ],
       "tags": [

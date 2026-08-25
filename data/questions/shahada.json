@@ -71,9 +71,8 @@
       "explanation": "يدخل المرء في الإسلام بالنطق بالشهادتين عن اعتقاد وإذعان.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث جبريل — البخاري ومسلم"
         }
       ],
       "tags": [
@@ -112,9 +111,8 @@
       "explanation": "أركان الإسلام خمسة: الشهادتان والصلاة والزكاة والصوم والحج.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث جبريل — البخاري ومسلم"
         }
       ],
       "tags": [
@@ -193,9 +191,8 @@
       "explanation": "النطق بالشهادتين هو أول أركان الإسلام والدخول فيه.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث جبريل — البخاري ومسلم"
         }
       ],
       "tags": [
@@ -474,9 +471,8 @@
       "explanation": "خُلقت الملائكة من نور، والجانّ من نار، وآدم مما وُصف لكم.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح مسلم"
         }
       ],
       "tags": [
@@ -555,9 +551,8 @@
       "explanation": "نوح عليه السلام أول رسول أُرسل إلى أهل الأرض كما في حديث الشفاعة.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -636,9 +631,8 @@
       "explanation": "«إن لله تسعةً وتسعين اسمًا، من أحصاها دخل الجنة».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "البخاري ومسلم"
         }
       ],
       "tags": [
@@ -759,9 +753,8 @@
       "explanation": "«أنا أول من تنشقُّ عنه الأرض يوم القيامة».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح مسلم"
         }
       ],
       "tags": [
@@ -841,9 +834,8 @@
       "explanation": "بيَّن النبي ﷺ لأُبيّ بن كعب أن آية الكرسي أعظم آية في القرآن.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح مسلم"
         }
       ],
       "tags": [
@@ -882,9 +874,8 @@
       "explanation": "«قل هو الله أحد تعدل ثلث القرآن».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -1003,8 +994,8 @@
       "explanation": "أبو بكر الصديق أول الخلفاء الراشدين وصاحب النبي ﷺ في الغار.",
       "references": [
         {
-          "type": "book",
-          "title": "السيرة النبوية"
+          "type": "other",
+          "label": "السيرة والتاريخ"
         }
       ],
       "tags": [
@@ -1163,9 +1154,8 @@
       "explanation": "أركان الإسلام خمسة: الشهادتان والصلاة والزكاة والصوم والحج.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث ابن عمر — متفق عليه"
         }
       ],
       "tags": [
@@ -1364,9 +1354,8 @@
       "explanation": "أركان الإيمان ستة: الإيمان بالله وملائكته وكتبه ورسله واليوم الآخر والقدر.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث جبريل — صحيح مسلم"
         }
       ],
       "tags": [
@@ -1688,9 +1677,8 @@
       "explanation": "جُمع القرآن في مصحف في عهد أبي بكر، ثم وحَّد عثمان المصاحف على حرف واحد.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -1850,9 +1838,8 @@
       "explanation": "أركان الإيمان ستة: الإيمان بالله وملائكته وكتبه ورسله واليوم الآخر والقدر خيره وشره.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث جبريل — صحيح مسلم"
         }
       ],
       "tags": [
@@ -1976,6 +1963,11 @@
           "type": "quran",
           "surah": 33,
           "ayah": 7
+        },
+        {
+          "type": "quran",
+          "surah": 42,
+          "ayah": 13
         }
       ],
       "tags": [
@@ -2058,6 +2050,11 @@
           "type": "quran",
           "surah": 16,
           "ayah": 120
+        },
+        {
+          "type": "quran",
+          "surah": 57,
+          "ayah": 26
         }
       ],
       "tags": [
@@ -2096,9 +2093,8 @@
       "explanation": "أول ما نزل قوله تعالى: «اقرأ باسم ربك الذي خلق» في غار حراء.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري — بدء الوحي"
         }
       ],
       "tags": [
@@ -2140,6 +2136,11 @@
           "type": "quran",
           "surah": 38,
           "ayah": 44
+        },
+        {
+          "type": "quran",
+          "surah": 21,
+          "ayah": 83
         }
       ],
       "tags": [

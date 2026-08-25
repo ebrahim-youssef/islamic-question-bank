@@ -2,6 +2,8 @@
 
 بنك أسئلة اختيار من متعدد بالعربية، منظّم حسب أركان الإسلام الخمسة، مستضاف على GitHub ويُستهلك كواجهة JSON ثابتة (Static API).
 
+> **ملاحظة:** يُعدّ `data/` حاليًا بنك الأسئلة المرجعي (canonical) الذي يستخدمه تطبيق Arkan.
+
 ## الفئات (Category Taxonomy V2)
 
 التاكسونومي الجديد هرمي — كل فئة لها `id` فريد، `name` بالعربية، و `parentId` اختياري.
@@ -68,7 +70,7 @@ https://cdn.jsdelivr.net/gh/<owner>/<repo>@v1.0.0/data/questions/salah.json
 | `explanation` | string | شرح الإجابة الصحيحة (غير فارغ) |
 | `references` | object[] | مراجع منظمة — قرآن، حديث، كتاب، أو `other` |
 | `tags` | string[] | وسوم موضوعية فريدة غير فارغة |
-| `verification` | object | `{ "status": "pending"|"verified"|"needs_review", "verifiedAt": "ISO8601|null" }` |
+| `verification` | object | `{ "status": "pending"\|"verified"\|"needs_review", "verifiedAt": "RFC 3339 date-time"\|null }` |
 
 ### أنواع المراجع (References)
 
@@ -94,30 +96,19 @@ https://cdn.jsdelivr.net/gh/<owner>/<repo>@v1.0.0/data/questions/salah.json
 
 ### حالة التحقق (Verification)
 
-جميع الأسئلة المهاجرة تبدأ بـ:
+جميع الأسئلة تبدأ بـ:
 ```json
 "verification": { "status": "pending", "verifiedAt": null }
 ```
 
 الحالات المسموحة:
-- `pending` — في انتظار المراجعة (افتراضي للمهجرة)
-- `verified` — تم التحقق بشريًا، `verifiedAt` مطلوب
-- `needs_review` — بحاجة لمراجعة متخصصة
+- `pending` — في انتظار المراجعة (افتراضي). `verifiedAt` يكون `null`
+- `verified` — تم التحقق بشريًا. `verifiedAt` **مطلوب** ويجب أن يكون timestamp بتنسيق RFC 3339 (مثال: `"2025-01-15T10:30:00Z"`)
+- `needs_review` — بحاجة لمراجعة متخصصة. `verifiedAt` يكون `null`
 
-التحقق الفعلي للمحتوى الديني يتم **بعد** ترحيل المخطط.
+## التحقق من المحتوى
 
-## الحقول المزالة (من المخطط القديم)
-
-| الحقل القديم | البديل في V2 |
-|-------------|--------------|
-| `category` (int) | `categoryId` (string) |
-| `difficulty` (int) | `tier` (int) |
-| `correctIndex` (int) | `correctChoiceId` (string) |
-| `source` (string) | `references[]` (structured) |
-| `status` (enum) | `verification.status` |
-| `version` (int) | — مزالة |
-
-ملاحظة: الحالة السابقة `reviewed` **لا** تتحول تلقائيًا إلى `verified`.
+يتم التحقق من صحة المحتوى الديني بشكل منفصل عن التحقق من المخطط.
 
 ## المساهمة
 
@@ -140,25 +131,6 @@ https://cdn.jsdelivr.net/gh/<owner>/<repo>@v1.0.0/data/questions/salah.json
 pip install jsonschema
 python scripts/validate.py
 ```
-
-## الترحيل إلى V2
-
-للترحيل من المخطط القديم، استخدم سكريبت الترحيل:
-
-```bash
-python scripts/migrate_to_v2.py
-```
-
-السكريبت يقوم بـ:
-1. الحفاظ على `id` الحالي
-2. تحويل `category` الرقمي إلى `categoryId` النصي
-3. إعادة تسمية `difficulty` إلى `tier`
-4. تحويل الخيارات الأربعة إلى كائنات `{id, text}` بمعرفات `a,b,c,d`
-5. تحويل `correctIndex` إلى `correctChoiceId` المقابل
-6. الحفاظ على النص، الشرح، الوسوم، و `ageBand`
-7. تحويل `source` إلى `references` منظمة عند الإمكان، وإلا `other`
-8. تعيين `verification.status = "pending"` و `verifiedAt = null`
-9. إزالة `status` و `version` القديمين
 
 ## Property: ثبات الإجابة الصحيحة
 

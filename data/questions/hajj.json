@@ -29,8 +29,9 @@
       "explanation": "الحج إلى بيت الله الحرام في مكة، قال تعالى: «ولله على الناس حج البيت».",
       "references": [
         {
-          "type": "other",
-          "label": "القرآن — سورة آل عمران ٩٧"
+          "type": "quran",
+          "surah": 3,
+          "ayah": 97
         }
       ],
       "tags": [
@@ -70,8 +71,9 @@
       "explanation": "الكعبة أول بيت وُضع للناس، قال تعالى: «إن أول بيت وُضع للناس للذي ببكة».",
       "references": [
         {
-          "type": "other",
-          "label": "القرآن — سورة آل عمران ٩٦"
+          "type": "quran",
+          "surah": 3,
+          "ayah": 96
         }
       ],
       "tags": [
@@ -110,9 +112,8 @@
       "explanation": "الطواف سبعة أشواط يبدأ وينتهي بالحجر الأسود.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "حديث جابر"
+          "type": "other",
+          "label": "السنة — حديث جابر في صفة الحج"
         }
       ],
       "tags": [
@@ -192,9 +193,8 @@
       "explanation": "قال ﷺ: «الحج عرفة»، فمن فاته الوقوف بعرفة فاته الحج.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sunan-abi-dawud",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "سنن الترمذي وأبو داود"
         }
       ],
       "tags": [
@@ -234,9 +234,8 @@
       "explanation": "يتجرّد المُحرِم من المخيط ويلبس إزاراً ورداءً، وهو لباس الإحرام.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "حديث ابن عمر"
+          "type": "other",
+          "label": "السنة — حديث ابن عمر"
         }
       ],
       "tags": [
@@ -275,9 +274,8 @@
       "explanation": "الوقوف بعرفة يوم التاسع من ذي الحجة، ويسمى يوم عرفة.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "حديث جابر"
+          "type": "other",
+          "label": "السنة — حديث جابر"
         }
       ],
       "tags": [
@@ -359,9 +357,8 @@
       "explanation": "يُرمى جمرة العقبة يوم النحر بسبع حصياتٍ متعاقبات.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "حديث جابر"
+          "type": "other",
+          "label": "السنة — حديث جابر في صفة الحج"
         }
       ],
       "tags": [
@@ -443,9 +440,8 @@
       "explanation": "الحج الركن الخامس من أركان الإسلام على المستطيع.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث جبريل — البخاري ومسلم"
         }
       ],
       "tags": [
@@ -484,8 +480,9 @@
       "explanation": "«ولله على الناس حجّ البيت من استطاع إليه سبيلًا».",
       "references": [
         {
-          "type": "other",
-          "label": "سورة آل عمران ٩٧"
+          "type": "quran",
+          "surah": 3,
+          "ayah": 97
         }
       ],
       "tags": [
@@ -564,9 +561,8 @@
       "explanation": "السعي سبعة أشواط يبدأ بالصفا ويُختم بالمروة.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح مسلم"
         }
       ],
       "tags": [
@@ -605,9 +601,8 @@
       "explanation": "الوقوف بعرفة ركن الحج الأعظم.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -726,9 +721,8 @@
       "explanation": "كان النبي ﷺ يستلم الحجر الأسود ويقبّله في الطواف.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -968,9 +962,8 @@
       "explanation": "الحلق أو التقصير نسكٌ واجب يتحلل به الحاجّ، يُجبَر تركه بدم.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "البخاري ومسلم"
         }
       ],
       "tags": [
@@ -1009,9 +1002,8 @@
       "explanation": "نبعت زمزم عند قدمي إسماعيل عليه السلام حين تركه إبراهيم وأمه هاجر بأمر الله.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-bukhari",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح البخاري"
         }
       ],
       "tags": [
@@ -1090,9 +1082,8 @@
       "explanation": "حجّ النبي ﷺ حجّة واحدة سُمّيت حجّة الوداع.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح مسلم"
         }
       ],
       "tags": [
@@ -1172,8 +1163,9 @@
       "explanation": "«إن أول بيت وُضع للناس للذي ببكة مباركًا».",
       "references": [
         {
-          "type": "other",
-          "label": "سورة آل عمران ٩٦"
+          "type": "quran",
+          "surah": 3,
+          "ayah": 96
         }
       ],
       "tags": [
@@ -1252,8 +1244,8 @@
       "explanation": "المشهور أن فرض الحج كان سنة تسع للهجرة.",
       "references": [
         {
-          "type": "book",
-          "title": "السيرة النبوية"
+          "type": "other",
+          "label": "السيرة والتاريخ"
         }
       ],
       "tags": [
@@ -1493,9 +1485,8 @@
       "explanation": "يلبِّي الحاج: «لبَّيك اللهم لبَّيك، لبَّيك لا شريك لك لبَّيك».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث ابن عمر — متفق عليه"
         }
       ],
       "tags": [
@@ -1534,9 +1525,8 @@
       "explanation": "الوقوف بعرفة ركنٌ أعظم في الحج في اليوم التاسع من ذي الحجة.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sunan-tirmidhi",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "حديث «الحج عرفة» — سنن الترمذي"
         }
       ],
       "tags": [
@@ -1698,9 +1688,8 @@
       "explanation": "يُحرم القاصد من ميقاته المكاني الذي وقَّته النبي ﷺ.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "muttafaqun-alayh",
-          "number": "الصحيحان"
+          "type": "other",
+          "label": "الصحيحان"
         }
       ],
       "tags": [
@@ -1739,9 +1728,8 @@
       "explanation": "الطواف سبعة أشواط يبدأ وينتهي بالحجر الأسود.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح مسلم"
         }
       ],
       "tags": [
@@ -1780,9 +1768,8 @@
       "explanation": "«الحج عرفة، من أدرك عرفة فقد أدرك الحج».",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sunan-tirmidhi",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "سنن الترمذي"
         }
       ],
       "tags": [
@@ -2024,9 +2011,8 @@
       "explanation": "«لا ينفرنّ أحدٌ حتى يكون آخر عهده بالبيت»، والحائض يسقط عنها.",
       "references": [
         {
-          "type": "hadith",
-          "collection": "sahih-muslim",
-          "number": "غير محدد"
+          "type": "other",
+          "label": "صحيح مسلم"
         }
       ],
       "tags": [

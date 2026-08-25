@@ -1,40 +1,18 @@
 #!/usr/bin/env python3
-"""Validate the question bank data files against Schema V2.
-
-Checks:
-- JSON parses and matches schema/question.schema.json
-- IDs are unique across all categories
-- correctChoiceId matches one of the choices
-- categoryId references a valid category
-- category hierarchy has no invalid parent references
-- exactly four choices per question
-- choice IDs unique within question (a,b,c,d)
-- choice texts unique within question
-- tier is 1..5
-- ageBand is valid (kids|general|scholar)
-- tags are unique and non-empty
-- references match supported schemas
-- verification.status is valid
-- verifiedAt is null unless status is verified
-- no duplicate question text + ageBand within same category
-"""
+"""Validate canonical question-bank data under data/ against Schema V2."""
 
 import json
 import sys
 from pathlib import Path
 
-try:
-    import jsonschema
-except ImportError:
-    jsonschema = None
+import jsonschema
+from jsonschema import FormatChecker
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "questions"
-SCHEMA_PATH = ROOT / "schema" / "question.schema.json"
+QUESTION_SCHEMA_PATH = ROOT / "schema" / "question.schema.json"
+CATEGORY_SCHEMA_PATH = ROOT / "schema" / "category.schema.json"
 CATEGORIES_PATH = ROOT / "data" / "categories.json"
-
-VALID_AGE_BANDS = {"kids", "general", "scholar"}
-VALID_VERIFICATION_STATUSES = {"pending", "verified", "needs_review"}
 
 
 def load(path: Path):
@@ -42,213 +20,178 @@ def load(path: Path):
         return json.load(f)
 
 
-def validate_categories(categories: list[dict]) -> list[str]:
-    """Validate category hierarchy."""
+def schema_errors(instance, validator, label: str) -> list[str]:
     errors = []
-    cat_by_id = {c["id"]: c for c in categories}
-
-    # Check parentId references
-    for cat in categories:
-        parent_id = cat.get("parentId")
-        if parent_id is not None and parent_id not in cat_by_id:
-            errors.append(f"Category '{cat['id']}': parentId '{parent_id}' does not exist")
+    for err in sorted(validator.iter_errors(instance), key=lambda e: list(e.absolute_path)):
+        path = "/".join(map(str, err.absolute_path)) or "<root>"
+        errors.append(f"{label}: {err.message} (path: {path})")
     return errors
 
 
-def validate_question(q: dict, category_key: str, cat_ids: set[str], seen_ids: dict, texts_seen: set, idx: int, filename: str) -> list[str]:
-    """Validate a single question."""
-    errors = []
-    qid = q.get("id", f"MISSING_ID_{filename}_{idx}")
-    label = f"{filename}[{idx}] id={qid}"
+def validate_categories(categories: list[dict], validator) -> tuple[list[str], dict[str, dict], set[str]]:
+    errors: list[str] = []
+    by_id: dict[str, dict] = {}
 
-    # Check required fields
-    required_fields = ["id", "categoryId", "ageBand", "tier", "text", "choices", "correctChoiceId", "explanation", "references", "tags", "verification"]
-    for field in required_fields:
-        if field not in q:
-            errors.append(f"{label}: missing required field '{field}'")
-
-    # ID uniqueness
-    if qid in seen_ids:
-        errors.append(f"{label}: duplicate id, already in {seen_ids[qid]}")
-    seen_ids[qid] = filename
-
-    # categoryId exists
-    cat_id = q.get("categoryId")
-    if cat_id not in cat_ids:
-        errors.append(f"{label}: categoryId '{cat_id}' not in category taxonomy")
-
-    # categoryId matches file
-    if cat_id != category_key:
-        errors.append(f"{label}: categoryId '{cat_id}' != file category '{category_key}'")
-
-    # ageBand
-    age_band = q.get("ageBand")
-    if age_band not in VALID_AGE_BANDS:
-        errors.append(f"{label}: invalid ageBand '{age_band}'")
-
-    # tier 1-5
-    tier = q.get("tier")
-    if not isinstance(tier, int) or not (1 <= tier <= 5):
-        errors.append(f"{label}: tier must be integer 1-5, got {tier!r}")
-
-    # text non-empty
-    text = q.get("text", "")
-    if not isinstance(text, str) or not text.strip():
-        errors.append(f"{label}: text must be non-empty string")
-
-    # Duplicate text + ageBand within category
-    if isinstance(text, str):
-        key = (text.strip(), age_band)
-        if key in texts_seen:
-            errors.append(f"{label}: duplicate question text+ageBand in this category")
-        texts_seen.add(key)
-
-    # choices: exactly 4, unique IDs a-d, unique texts
-    choices = q.get("choices", [])
-    if len(choices) != 4:
-        errors.append(f"{label}: must have exactly 4 choices, got {len(choices)}")
-
-    choice_ids = []
-    choice_texts = []
-    for i, choice in enumerate(choices):
-        if not isinstance(choice, dict):
-            errors.append(f"{label}: choice {i} must be object")
-            continue
-        cid = choice.get("id")
-        ctext = choice.get("text", "")
-        if cid not in {"a", "b", "c", "d"}:
-            errors.append(f"{label}: choice {i} id must be a/b/c/d, got {cid!r}")
-        choice_ids.append(cid)
-        if not isinstance(ctext, str) or not ctext.strip():
-            errors.append(f"{label}: choice {i} text must be non-empty string")
-        choice_texts.append(ctext.strip())
-
-    # unique choice IDs
-    if len(set(choice_ids)) != len(choice_ids):
-        errors.append(f"{label}: duplicate choice IDs: {choice_ids}")
-
-    # unique choice texts
-    if len(set(choice_texts)) != len(choice_texts):
-        errors.append(f"{label}: duplicate choice texts")
-
-    # correctChoiceId matches one choice
-    correct_id = q.get("correctChoiceId")
-    if correct_id not in choice_ids:
-        errors.append(f"{label}: correctChoiceId '{correct_id}' not found in choices {choice_ids}")
-
-    # explanation non-empty
-    explanation = q.get("explanation", "")
-    if not isinstance(explanation, str) or not explanation.strip():
-        errors.append(f"{label}: explanation must be non-empty string")
-
-    # references validation
-    references = q.get("references", [])
-    if not isinstance(references, list) or len(references) == 0:
-        errors.append(f"{label}: references must be non-empty array")
-    else:
-        for j, ref in enumerate(references):
-            ref_label = f"{label}.references[{j}]"
-            if not isinstance(ref, dict):
-                errors.append(f"{ref_label}: must be object")
-                continue
-            ref_type = ref.get("type")
-            if ref_type == "quran":
-                if "surah" not in ref or "ayah" not in ref:
-                    errors.append(f"{ref_label}: quran reference requires surah and ayah")
-                else:
-                    surah = ref["surah"]
-                    ayah = ref["ayah"]
-                    if not isinstance(surah, int) or not (1 <= surah <= 114):
-                        errors.append(f"{ref_label}: surah must be 1-114")
-                    if not isinstance(ayah, int) or ayah < 1:
-                        errors.append(f"{ref_label}: ayah must be positive integer")
-            elif ref_type == "hadith":
-                if "collection" not in ref or "number" not in ref:
-                    errors.append(f"{ref_label}: hadith reference requires collection and number")
-            elif ref_type == "book":
-                if "title" not in ref:
-                    errors.append(f"{ref_label}: book reference requires title")
-            elif ref_type == "other":
-                if "label" not in ref:
-                    errors.append(f"{ref_label}: other reference requires label")
+    for i, category in enumerate(categories):
+        errors.extend(schema_errors(category, validator, f"categories.json[{i}]"))
+        cid = category.get("id")
+        if isinstance(cid, str):
+            if cid in by_id:
+                errors.append(f"categories.json[{i}]: duplicate category id '{cid}'")
             else:
-                errors.append(f"{ref_label}: unknown reference type '{ref_type}'")
+                by_id[cid] = category
 
-    # tags: unique, non-empty
-    tags = q.get("tags", [])
-    if not isinstance(tags, list):
-        errors.append(f"{label}: tags must be array")
-    else:
-        tag_set = set()
-        for t in tags:
-            if not isinstance(t, str) or not t.strip():
-                errors.append(f"{label}: tag must be non-empty string")
-            if t in tag_set:
-                errors.append(f"{label}: duplicate tag '{t}'")
-            tag_set.add(t)
+    for cid, category in by_id.items():
+        parent = category.get("parentId")
+        if parent == cid:
+            errors.append(f"category '{cid}': cannot be its own parent")
+        elif parent is not None and parent not in by_id:
+            errors.append(f"category '{cid}': parentId '{parent}' does not exist")
 
-    # verification
-    verification = q.get("verification", {})
-    status = verification.get("status")
-    verified_at = verification.get("verifiedAt")
-    if status not in VALID_VERIFICATION_STATUSES:
-        errors.append(f"{label}: verification.status must be one of {sorted(VALID_VERIFICATION_STATUSES)}, got {status!r}")
-    if status != "verified" and verified_at is not None:
-        errors.append(f"{label}: verifiedAt must be null unless status is 'verified'")
-    if status == "verified" and verified_at is None:
-        errors.append(f"{label}: verifiedAt must be set when status is 'verified'")
+    # Detect cycles by walking each ancestry chain.
+    for cid in by_id:
+        seen: set[str] = set()
+        current = cid
+        while current is not None and current in by_id:
+            if current in seen:
+                errors.append(f"category '{cid}': category hierarchy contains a cycle")
+                break
+            seen.add(current)
+            current = by_id[current].get("parentId")
 
-    return errors
+    parent_ids = {
+        category.get("parentId")
+        for category in by_id.values()
+        if category.get("parentId") is not None
+    }
+    leaf_ids = set(by_id) - parent_ids
+    return errors, by_id, leaf_ids
 
 
 def main() -> int:
     errors: list[str] = []
 
-    if not CATEGORIES_PATH.exists():
-        print(f"missing {CATEGORIES_PATH}")
+    for path in (QUESTION_SCHEMA_PATH, CATEGORY_SCHEMA_PATH, CATEGORIES_PATH):
+        if not path.exists():
+            print(f"missing {path}")
+            return 1
+
+    question_schema = load(QUESTION_SCHEMA_PATH)
+    category_schema = load(CATEGORY_SCHEMA_PATH)
+
+    # Fail CI if either schema itself is malformed.
+    try:
+        jsonschema.Draft202012Validator.check_schema(question_schema)
+        jsonschema.Draft202012Validator.check_schema(category_schema)
+    except jsonschema.SchemaError as exc:
+        print(f"FAILED — invalid JSON Schema: {exc.message}")
         return 1
 
+    format_checker = FormatChecker()
+    question_validator = jsonschema.Draft202012Validator(
+        question_schema, format_checker=format_checker
+    )
+    category_validator = jsonschema.Draft202012Validator(category_schema)
+
     categories = load(CATEGORIES_PATH)
-    cat_errors = validate_categories(categories)
+    if not isinstance(categories, list) or not categories:
+        print("FAILED — data/categories.json must be a non-empty array")
+        return 1
+
+    cat_errors, categories_by_id, leaf_ids = validate_categories(categories, category_validator)
     errors.extend(cat_errors)
 
-    cat_ids = {c["id"] for c in categories}
-
-    schema = load(SCHEMA_PATH) if SCHEMA_PATH.exists() else None
-    validator = jsonschema.Draft202012Validator(schema) if jsonschema and schema else None
-
     seen_ids: dict[str, str] = {}
+    seen_texts: set[tuple[str, str, str]] = set()
     total = 0
 
-    for path in sorted(DATA.glob("*.json")):
+    files = sorted(DATA.glob("*.json"))
+    if not files:
+        errors.append("data/questions contains no JSON files")
+
+    file_category_ids: set[str] = set()
+
+    for path in files:
         payload = load(path)
-        questions = payload.get("questions", [])
-        declared_cat = payload.get("categoryId")
-        cat_key = declared_cat  # In V2, categoryId is the string key
+        if not isinstance(payload, dict):
+            errors.append(f"{path.name}: payload must be an object")
+            continue
 
-        if declared_cat not in cat_ids:
-            errors.append(f"{path.name}: unknown categoryId {declared_cat!r}")
+        declared_category = payload.get("categoryId")
+        questions = payload.get("questions")
+        file_category_ids.add(declared_category)
 
-        texts_seen: set = set()
-        for i, q in enumerate(questions):
-            errors.extend(validate_question(q, cat_key, cat_ids, seen_ids, texts_seen, i, path.name))
+        if declared_category not in categories_by_id:
+            errors.append(f"{path.name}: unknown categoryId {declared_category!r}")
+        elif declared_category not in leaf_ids:
+            errors.append(f"{path.name}: categoryId '{declared_category}' is not a leaf category")
+
+        expected_filename = f"{declared_category}.json"
+        if isinstance(declared_category, str) and path.name != expected_filename:
+            errors.append(f"{path.name}: filename must be '{expected_filename}'")
+
+        if not isinstance(questions, list):
+            errors.append(f"{path.name}: questions must be an array")
+            continue
+
+        for i, question in enumerate(questions):
+            label = f"{path.name}[{i}]"
+            errors.extend(schema_errors(question, question_validator, label))
+
+            if not isinstance(question, dict):
+                continue
+
+            qid = question.get("id")
+            if isinstance(qid, str):
+                if qid in seen_ids:
+                    errors.append(f"{label}: duplicate id '{qid}', already in {seen_ids[qid]}")
+                else:
+                    seen_ids[qid] = path.name
+
+            category_id = question.get("categoryId")
+            if category_id != declared_category:
+                errors.append(
+                    f"{label}: categoryId '{category_id}' != file category '{declared_category}'"
+                )
+            if category_id not in leaf_ids:
+                errors.append(f"{label}: categoryId '{category_id}' must reference a leaf category")
+
+            text = question.get("text")
+            age_band = question.get("ageBand")
+            if isinstance(text, str) and isinstance(age_band, str) and isinstance(category_id, str):
+                key = (category_id, text.strip(), age_band)
+                if key in seen_texts:
+                    errors.append(f"{label}: duplicate question text+ageBand in category")
+                seen_texts.add(key)
+
+            choices = question.get("choices")
+            if isinstance(choices, list):
+                choice_ids = [c.get("id") for c in choices if isinstance(c, dict)]
+                choice_texts = [c.get("text", "").strip() for c in choices if isinstance(c, dict)]
+                if len(choice_ids) != len(set(choice_ids)):
+                    errors.append(f"{label}: choice ids must be unique")
+                if len(choice_texts) != len(set(choice_texts)):
+                    errors.append(f"{label}: choice texts must be unique")
+                correct_choice_id = question.get("correctChoiceId")
+                if choice_ids.count(correct_choice_id) != 1:
+                    errors.append(
+                        f"{label}: correctChoiceId must match exactly one choice id"
+                    )
 
         total += len(questions)
 
-    # Every category must have a data file
-    for cat in categories:
-        if cat["id"] == "arkan-al-islam":
-            continue  # parent category, no questions
-        if not (DATA / f"{cat['id']}.json").exists():
-            errors.append(f"category '{cat['id']}' has no data file")
+    # Canonical data currently stores one file per leaf category.
+    for leaf_id in sorted(leaf_ids):
+        if leaf_id not in file_category_ids:
+            errors.append(f"leaf category '{leaf_id}' has no data/questions/{leaf_id}.json file")
 
     if errors:
         print(f"FAILED — {len(errors)} error(s):")
-        for e in errors:
-            print(f"  - {e}")
+        for error in errors:
+            print(f"  - {error}")
         return 1
 
-    print(f"OK — {total} questions across {len([c for c in categories if c['id'] != 'arkan-al-islam'])} categories validated")
+    print(f"OK — {total} questions across {len(files)} leaf categories validated")
     return 0
 
 

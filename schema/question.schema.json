@@ -42,6 +42,44 @@
       "type": "array",
       "minItems": 4,
       "maxItems": 4,
+      "allOf": [
+        {
+          "contains": {
+            "type": "object",
+            "properties": { "id": { "const": "a" } },
+            "required": ["id"]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "properties": { "id": { "const": "b" } },
+            "required": ["id"]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "properties": { "id": { "const": "c" } },
+            "required": ["id"]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "properties": { "id": { "const": "d" } },
+            "required": ["id"]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      ],
       "items": {
         "type": "object",
         "required": ["id", "text"],

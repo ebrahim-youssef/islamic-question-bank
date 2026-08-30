@@ -2,7 +2,12 @@ name: validate
 
 on:
   push:
-    branches: [main]
+    # `release` is the branch consuming apps actually fetch, and it is a curated
+    # subset of `main` rather than a copy of it — a category that is not complete
+    # enough to play stays behind. So a merge into `release` can leave
+    # data/manifest.json describing files that are not there, and the branch has
+    # to be validated in its own right rather than trusted because its source was.
+    branches: [main, release]
     paths:
       - "data/**"
       - "schema/**"

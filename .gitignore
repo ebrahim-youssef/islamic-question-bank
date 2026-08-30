@@ -1,0 +1,4 @@
+# scripts/validate.py imports scripts/build_manifest.py, so running the
+# validator writes bytecode next to the scripts. Nothing here is content.
+__pycache__/
+*.py[cod]

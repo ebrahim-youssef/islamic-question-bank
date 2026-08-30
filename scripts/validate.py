@@ -26,15 +26,22 @@ Checks:
 - verification.status is pending|verified|needs_review; verifiedAt is set
   (date-time) iff status is verified, otherwise null
 - no duplicate question text + ageBand within the same category
+- data/manifest.json validates against schema/manifest.schema.json
+- manifest file hashes and byte counts are recomputed directly from raw bytes
+- manifest question counts, totals, leaf coverage, paths, and bankHash match data/
 
 Exit code 0 on success, 1 on any error.
 """
 
+import hashlib
 import json
 import re
 import sys
+from collections import Counter
 from datetime import datetime
 from pathlib import Path
+
+from build_manifest import derive_bank_hash
 
 try:
     from jsonschema import Draft202012Validator, FormatChecker
@@ -52,6 +59,8 @@ CATEGORIES_PATH = DATA_DIR / "categories.json"
 QUESTIONS_DIR = DATA_DIR / "questions"
 QUESTION_SCHEMA_PATH = ROOT / "schema" / "question.schema.json"
 CATEGORY_SCHEMA_PATH = ROOT / "schema" / "category.schema.json"
+MANIFEST_PATH = DATA_DIR / "manifest.json"
+MANIFEST_SCHEMA_PATH = ROOT / "schema" / "manifest.schema.json"
 
 VALID_AGE_BANDS = ("kids", "general", "scholar")
 VALID_CHOICE_IDS = ("a", "b", "c", "d")
@@ -112,6 +121,145 @@ def schema_errors(validator: Draft202012Validator, instance, label: str) -> list
             for part in err.absolute_path
         )
         errors.append(f"{label}: schema violation at {path}: {err.message}")
+    return errors
+
+
+def _disk_metadata(path: Path) -> dict:
+    """Compute integrity metadata directly from raw disk bytes."""
+    raw = path.read_bytes()
+    return {
+        "path": path.relative_to(ROOT).as_posix(),
+        "sha256": hashlib.sha256(raw).hexdigest(),
+        "bytes": len(raw),
+    }
+
+
+def validate_manifest(
+    manifest,
+    validator: Draft202012Validator,
+    leaf_ids: set[str],
+    question_file_facts: dict[str, dict],
+) -> list[str]:
+    """Validate manifest structure and independently recompute disk metadata."""
+    errors = schema_errors(validator, manifest, MANIFEST_PATH.name)
+    if not isinstance(manifest, dict):
+        return errors
+
+    categories_record = manifest.get("categories")
+    categories_metadata = _disk_metadata(CATEGORIES_PATH)
+    if isinstance(categories_record, dict):
+        for field in ("path", "sha256", "bytes"):
+            if categories_record.get(field) != categories_metadata[field]:
+                errors.append(
+                    f"{MANIFEST_PATH.name}.categories.{field}: "
+                    f"got {categories_record.get(field)!r}, "
+                    f"expected {categories_metadata[field]!r} from disk"
+                )
+
+    entries = manifest.get("questionFiles")
+    if not isinstance(entries, list):
+        return errors
+
+    question_metadata_by_path = {
+        path: _disk_metadata(facts["path"])
+        for path, facts in question_file_facts.items()
+    }
+
+    manifest_paths: list[str] = []
+    manifest_category_ids: list[str] = []
+    for index, entry in enumerate(entries):
+        if not isinstance(entry, dict):
+            continue
+        label = f"{MANIFEST_PATH.name}.questionFiles[{index}]"
+        manifest_path = entry.get("path")
+        category_id = entry.get("categoryId")
+        if isinstance(manifest_path, str):
+            manifest_paths.append(manifest_path)
+        if isinstance(category_id, str):
+            manifest_category_ids.append(category_id)
+
+        facts = question_file_facts.get(manifest_path)
+        if facts is None:
+            errors.append(f"{label}: path {manifest_path!r} is not a question file on disk")
+            continue
+
+        metadata = question_metadata_by_path[manifest_path]
+        for field in ("sha256", "bytes"):
+            if entry.get(field) != metadata[field]:
+                errors.append(
+                    f"{label}.{field}: got {entry.get(field)!r}, "
+                    f"expected {metadata[field]!r} from disk"
+                )
+        if entry.get("questionCount") != facts["questionCount"]:
+            errors.append(
+                f"{label}.questionCount: got {entry.get('questionCount')!r}, "
+                f"expected {facts['questionCount']!r} from disk"
+            )
+        if category_id != facts["categoryId"]:
+            errors.append(
+                f"{label}.categoryId: got {category_id!r}, "
+                f"expected {facts['categoryId']!r} from {manifest_path}"
+            )
+
+    for path, count in sorted(Counter(manifest_paths).items()):
+        if count > 1:
+            errors.append(f"{MANIFEST_PATH.name}: path {path!r} appears {count} times")
+    for category_id, count in sorted(Counter(manifest_category_ids).items()):
+        if count > 1:
+            errors.append(
+                f"{MANIFEST_PATH.name}: categoryId {category_id!r} appears {count} times"
+            )
+
+    actual_paths = set(question_file_facts)
+    for path in sorted(actual_paths - set(manifest_paths)):
+        errors.append(f"{MANIFEST_PATH.name}: question file {path!r} has no entry")
+
+    category_counts = Counter(manifest_category_ids)
+    for category_id in sorted(leaf_ids):
+        count = category_counts[category_id]
+        if count != 1:
+            errors.append(
+                f"{MANIFEST_PATH.name}: leaf category {category_id!r} must have "
+                f"exactly one entry, got {count}"
+            )
+    for category_id in sorted(set(manifest_category_ids) - leaf_ids):
+        errors.append(
+            f"{MANIFEST_PATH.name}: categoryId {category_id!r} is not a leaf category"
+        )
+
+    sorted_category_ids = sorted(manifest_category_ids)
+    if manifest_category_ids != sorted_category_ids:
+        errors.append(
+            f"{MANIFEST_PATH.name}.questionFiles: entries must be sorted by categoryId"
+        )
+
+    expected_total_questions = sum(
+        facts["questionCount"] for facts in question_file_facts.values()
+    )
+    expected_total_bytes = sum(
+        metadata["bytes"] for metadata in question_metadata_by_path.values()
+    )
+    if manifest.get("totalQuestions") != expected_total_questions:
+        errors.append(
+            f"{MANIFEST_PATH.name}.totalQuestions: got "
+            f"{manifest.get('totalQuestions')!r}, expected {expected_total_questions}"
+        )
+    if manifest.get("totalBytes") != expected_total_bytes:
+        errors.append(
+            f"{MANIFEST_PATH.name}.totalBytes: got {manifest.get('totalBytes')!r}, "
+            f"expected {expected_total_bytes}"
+        )
+
+    expected_bank_hash = derive_bank_hash(
+        [categories_metadata]
+        + list(question_metadata_by_path.values())
+    )
+    if manifest.get("bankHash") != expected_bank_hash:
+        errors.append(
+            f"{MANIFEST_PATH.name}.bankHash: got {manifest.get('bankHash')!r}, "
+            f"expected {expected_bank_hash!r} from current file paths and hashes"
+        )
+
     return errors
 
 
@@ -402,7 +550,11 @@ def check_question_semantics(
 def main() -> int:
     errors: list[str] = []
 
-    for schema_path in (QUESTION_SCHEMA_PATH, CATEGORY_SCHEMA_PATH):
+    for schema_path in (
+        QUESTION_SCHEMA_PATH,
+        CATEGORY_SCHEMA_PATH,
+        MANIFEST_SCHEMA_PATH,
+    ):
         if not schema_path.exists():
             errors.append(f"missing schema file: {schema_path}")
     if errors:
@@ -411,11 +563,12 @@ def main() -> int:
             print(f"  - {e}")
         return 1
 
-    # Both schema documents are check_schema'd and instantiated unconditionally,
+    # All schema documents are check_schema'd and instantiated unconditionally,
     # before any data is loaded, so a broken schema is always reported.
     try:
         question_validator = make_validator(QUESTION_SCHEMA_PATH)
         category_validator = make_validator(CATEGORY_SCHEMA_PATH)
+        manifest_validator = make_validator(MANIFEST_SCHEMA_PATH)
     except ValueError as exc:
         print(f"FAILED — invalid schema: {exc}")
         return 1
@@ -426,9 +579,13 @@ def main() -> int:
     if not QUESTIONS_DIR.is_dir():
         print(f"FAILED — missing questions directory {QUESTIONS_DIR}")
         return 1
+    if not MANIFEST_PATH.exists():
+        print(f"FAILED — missing {MANIFEST_PATH}")
+        return 1
 
     try:
         categories = load_json(CATEGORIES_PATH)
+        manifest = load_json(MANIFEST_PATH)
     except ValueError as exc:
         print(f"FAILED — {exc}")
         return 1
@@ -446,6 +603,7 @@ def main() -> int:
     seen_question_ids: dict[str, str] = {}
     texts_by_category: dict[tuple, str] = {}
     files_by_category: dict[str, Path] = {}
+    question_file_facts: dict[str, dict] = {}
     total_questions = 0
     age_band_counts = {band: 0 for band in VALID_AGE_BANDS}
     status_counts = {status: 0 for status in VALID_VERIFICATION_STATUSES}
@@ -488,6 +646,12 @@ def main() -> int:
             else:
                 files_by_category[declared_category] = path
 
+        question_file_facts[file_label] = {
+            "path": path,
+            "categoryId": declared_category,
+            "questionCount": len(questions),
+        }
+
         for idx, q in enumerate(questions):
             q_label = f"{file_label}#{idx}"
             if not isinstance(q, dict):
@@ -523,6 +687,15 @@ def main() -> int:
         p.relative_to(ROOT).as_posix()
         for cid, p in files_by_category.items()
         if cid not in cat_ids
+    )
+
+    errors.extend(
+        validate_manifest(
+            manifest,
+            manifest_validator,
+            leaf_ids,
+            question_file_facts,
+        )
     )
 
     if errors:

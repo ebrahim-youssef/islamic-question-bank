@@ -14,7 +14,7 @@
   ],
   "additionalProperties": false,
   "properties": {
-    "schemaVersion": { "const": 2 },
+    "schemaVersion": { "const": 3 },
     "bankHash": {
       "type": "string",
       "pattern": "^[0-9a-f]{64}$"

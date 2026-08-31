@@ -108,7 +108,7 @@ def build_manifest(root: Path = ROOT) -> dict:
         achievement_sets.append({**record, "questionCount": len(question_ids)})
 
     return {
-        "schemaVersion": 2,
+        "schemaVersion": 3,
         "bankHash": derive_bank_hash(source_records),
         "totalQuestions": sum(item["questionCount"] for item in question_files),
         "totalBytes": sum(item["bytes"] for item in question_files),

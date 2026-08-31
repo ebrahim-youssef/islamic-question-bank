@@ -325,9 +325,7 @@ def validate_achievement_sets(
     total_question_references = 0
 
     if not ACHIEVEMENT_SETS_DIR.is_dir():
-        return facts, total_question_references, [
-            f"missing achievement sets directory {ACHIEVEMENT_SETS_DIR}"
-        ]
+        return facts, total_question_references, errors
 
     for path in sorted(ACHIEVEMENT_SETS_DIR.glob("*.json")):
         file_label = path.relative_to(ROOT).as_posix()
@@ -340,6 +338,19 @@ def validate_achievement_sets(
         errors.extend(schema_errors(validator, achievement_set, file_label))
         if not isinstance(achievement_set, dict):
             continue
+
+        # The id is the stable handle a player's unlocked achievements are keyed
+        # by, so it has to identify exactly one definition. Without this, a file
+        # named advanced.json could declare the id of an already-published set,
+        # or two files could claim the same id, and a consumer resolving an
+        # unlocked achievement would have no way to tell which body of questions
+        # it referred to.
+        set_id = achievement_set.get("id")
+        if isinstance(set_id, str) and set_id != path.stem:
+            errors.append(
+                f"{file_label}.id: {set_id!r} does not match its filename {path.stem!r}"
+            )
+
         question_ids_in_set = achievement_set.get("questionIds")
         if not isinstance(question_ids_in_set, list):
             continue

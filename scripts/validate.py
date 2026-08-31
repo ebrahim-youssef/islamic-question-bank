@@ -28,7 +28,8 @@ Checks:
 - no duplicate question text + ageBand within the same category
 - data/manifest.json validates against schema/manifest.schema.json
 - manifest file hashes and byte counts are recomputed directly from raw bytes
-- manifest question counts, totals, leaf coverage, paths, and bankHash match data/
+- every achievement set validates, references questions on this branch, and has no duplicate IDs
+- manifest question and achievement-set metadata, totals, paths, and bankHash match data/
 
 Exit code 0 on success, 1 on any error.
 """
@@ -57,8 +58,10 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 CATEGORIES_PATH = DATA_DIR / "categories.json"
 QUESTIONS_DIR = DATA_DIR / "questions"
+ACHIEVEMENT_SETS_DIR = DATA_DIR / "achievement-sets"
 QUESTION_SCHEMA_PATH = ROOT / "schema" / "question.schema.json"
 CATEGORY_SCHEMA_PATH = ROOT / "schema" / "category.schema.json"
+ACHIEVEMENT_SET_SCHEMA_PATH = ROOT / "schema" / "achievement-set.schema.json"
 MANIFEST_PATH = DATA_DIR / "manifest.json"
 MANIFEST_SCHEMA_PATH = ROOT / "schema" / "manifest.schema.json"
 
@@ -139,6 +142,7 @@ def validate_manifest(
     validator: Draft202012Validator,
     leaf_ids: set[str],
     question_file_facts: dict[str, dict],
+    achievement_set_facts: dict[str, dict],
 ) -> list[str]:
     """Validate manifest structure and independently recompute disk metadata."""
     errors = schema_errors(validator, manifest, MANIFEST_PATH.name)
@@ -250,9 +254,58 @@ def validate_manifest(
             f"expected {expected_total_bytes}"
         )
 
+    achievement_entries = manifest.get("achievementSets")
+    if not isinstance(achievement_entries, list):
+        return errors
+
+    achievement_metadata_by_path = {
+        path: _disk_metadata(facts["path"])
+        for path, facts in achievement_set_facts.items()
+    }
+    manifest_achievement_paths: list[str] = []
+    for index, entry in enumerate(achievement_entries):
+        if not isinstance(entry, dict):
+            continue
+        label = f"{MANIFEST_PATH.name}.achievementSets[{index}]"
+        manifest_path = entry.get("path")
+        if isinstance(manifest_path, str):
+            manifest_achievement_paths.append(manifest_path)
+
+        facts = achievement_set_facts.get(manifest_path)
+        if facts is None:
+            errors.append(f"{label}: path {manifest_path!r} is not an achievement set on disk")
+            continue
+
+        metadata = achievement_metadata_by_path[manifest_path]
+        for field in ("sha256", "bytes"):
+            if entry.get(field) != metadata[field]:
+                errors.append(
+                    f"{label}.{field}: got {entry.get(field)!r}, "
+                    f"expected {metadata[field]!r} from disk"
+                )
+        if entry.get("questionCount") != facts["questionCount"]:
+            errors.append(
+                f"{label}.questionCount: got {entry.get('questionCount')!r}, "
+                f"expected {facts['questionCount']!r} from disk"
+            )
+
+    for path, count in sorted(Counter(manifest_achievement_paths).items()):
+        if count > 1:
+            errors.append(f"{MANIFEST_PATH.name}: achievement set path {path!r} appears {count} times")
+    actual_achievement_paths = set(achievement_set_facts)
+    for path in sorted(actual_achievement_paths - set(manifest_achievement_paths)):
+        errors.append(f"{MANIFEST_PATH.name}: achievement set {path!r} has no entry")
+    for path in sorted(set(manifest_achievement_paths) - actual_achievement_paths):
+        errors.append(f"{MANIFEST_PATH.name}: achievement set {path!r} is not on disk")
+    if manifest_achievement_paths != sorted(manifest_achievement_paths):
+        errors.append(
+            f"{MANIFEST_PATH.name}.achievementSets: entries must be sorted by path"
+        )
+
     expected_bank_hash = derive_bank_hash(
         [categories_metadata]
         + list(question_metadata_by_path.values())
+        + list(achievement_metadata_by_path.values())
     )
     if manifest.get("bankHash") != expected_bank_hash:
         errors.append(
@@ -261,6 +314,59 @@ def validate_manifest(
         )
 
     return errors
+
+
+def validate_achievement_sets(
+    validator: Draft202012Validator, question_ids: set[str]
+) -> tuple[dict[str, dict], int, list[str]]:
+    """Validate immutable set definitions against questions present on this branch."""
+    errors: list[str] = []
+    facts: dict[str, dict] = {}
+    total_question_references = 0
+
+    if not ACHIEVEMENT_SETS_DIR.is_dir():
+        return facts, total_question_references, [
+            f"missing achievement sets directory {ACHIEVEMENT_SETS_DIR}"
+        ]
+
+    for path in sorted(ACHIEVEMENT_SETS_DIR.glob("*.json")):
+        file_label = path.relative_to(ROOT).as_posix()
+        try:
+            achievement_set = load_json(path)
+        except ValueError as exc:
+            errors.append(str(exc))
+            continue
+
+        errors.extend(schema_errors(validator, achievement_set, file_label))
+        if not isinstance(achievement_set, dict):
+            continue
+        question_ids_in_set = achievement_set.get("questionIds")
+        if not isinstance(question_ids_in_set, list):
+            continue
+
+        total_question_references += len(question_ids_in_set)
+        string_question_ids = [
+            question_id
+            for question_id in question_ids_in_set
+            if isinstance(question_id, str)
+        ]
+        for question_id, count in sorted(Counter(string_question_ids).items()):
+            if count > 1:
+                errors.append(
+                    f"{file_label}: question id {question_id!r} appears {count} times"
+                )
+        for index, question_id in enumerate(question_ids_in_set):
+            if not isinstance(question_id, str):
+                continue
+            if question_id not in question_ids:
+                errors.append(
+                    f"{file_label}.questionIds[{index}]: {question_id!r} "
+                    "does not exist in data/questions on this branch"
+                )
+
+        facts[file_label] = {"path": path, "questionCount": len(question_ids_in_set)}
+
+    return facts, total_question_references, errors
 
 
 def validate_categories(
@@ -553,6 +659,7 @@ def main() -> int:
     for schema_path in (
         QUESTION_SCHEMA_PATH,
         CATEGORY_SCHEMA_PATH,
+        ACHIEVEMENT_SET_SCHEMA_PATH,
         MANIFEST_SCHEMA_PATH,
     ):
         if not schema_path.exists():
@@ -568,6 +675,7 @@ def main() -> int:
     try:
         question_validator = make_validator(QUESTION_SCHEMA_PATH)
         category_validator = make_validator(CATEGORY_SCHEMA_PATH)
+        achievement_set_validator = make_validator(ACHIEVEMENT_SET_SCHEMA_PATH)
         manifest_validator = make_validator(MANIFEST_SCHEMA_PATH)
     except ValueError as exc:
         print(f"FAILED — invalid schema: {exc}")
@@ -578,6 +686,9 @@ def main() -> int:
         return 1
     if not QUESTIONS_DIR.is_dir():
         print(f"FAILED — missing questions directory {QUESTIONS_DIR}")
+        return 1
+    if not ACHIEVEMENT_SETS_DIR.is_dir():
+        print(f"FAILED — missing achievement sets directory {ACHIEVEMENT_SETS_DIR}")
         return 1
     if not MANIFEST_PATH.exists():
         print(f"FAILED — missing {MANIFEST_PATH}")
@@ -689,12 +800,18 @@ def main() -> int:
         if cid not in cat_ids
     )
 
+    achievement_set_facts, achievement_question_references, achievement_set_errors = (
+        validate_achievement_sets(achievement_set_validator, set(seen_question_ids))
+    )
+    errors.extend(achievement_set_errors)
+
     errors.extend(
         validate_manifest(
             manifest,
             manifest_validator,
             leaf_ids,
             question_file_facts,
+            achievement_set_facts,
         )
     )
 
@@ -706,7 +823,9 @@ def main() -> int:
 
     print(
         f"OK — validated {total_questions} questions in {len(question_files)} file(s); "
-        f"{len(cat_ids)} categories ({len(parent_ids)} parent / {len(leaf_ids)} leaf)"
+        f"{len(cat_ids)} categories ({len(parent_ids)} parent / {len(leaf_ids)} leaf); "
+        f"{len(achievement_set_facts)} achievement set(s) "
+        f"({achievement_question_references} question reference(s))"
     )
     print(
         f"    ageBands: "

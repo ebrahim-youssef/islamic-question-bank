@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "bankHash": "4e49f5a8185f4c1261d23159510cdbadc8ae7329edcb9d9634dd23f2d4ac11a1",
+  "bankHash": "7b0cb05af19c8e0219a3f14d1f94fe5f367cf845a92ec15b1a802e579a182f0e",
   "totalQuestions": 270,
   "totalBytes": 260960,
   "categories": {
@@ -43,6 +43,14 @@
       "sha256": "ac7fb1263fe19058ac1d24d8fcc3c109bc5e7849e4a909282dcb323e74db6c5b",
       "bytes": 53503,
       "questionCount": 55
+    }
+  ],
+  "achievementSets": [
+    {
+      "path": "data/achievement-sets/pillars-foundation.json",
+      "sha256": "06fe75894702fc364c1df8b6a71db3ad548fbb04cdbebb19139e42595a61299b",
+      "bytes": 3380,
+      "questionCount": 270
     }
   ]
 }

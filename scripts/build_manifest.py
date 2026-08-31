@@ -5,7 +5,7 @@
 ثم تُنشأ مصفوفة JSON من أزواج ``[path, sha256]`` وتُسلسل بترميز UTF-8، من
 دون مسافات أو سطر أخير. شكل البايتات الداخلة إلى SHA-256 حرفيًا هو:
 
-``[["data/categories.json","<64 lowercase hex>"],["data/questions/hajj.json","<64 lowercase hex>"],...]``
+``[["data/achievement-sets/pillars-foundation.json","<64 lowercase hex>"],["data/categories.json","<64 lowercase hex>"],["data/questions/hajj.json","<64 lowercase hex>"],...]``
 
 لا يتضمن البيان ``generatedAt`` عمدًا؛ لأن وقت الإنشاء لا يصف المحتوى،
 ويجعل ملفًا صحيحًا يختلف بين تشغيلين ويعطّل فحص ``--check`` دون فائدة.
@@ -25,6 +25,7 @@ DATA_DIR = ROOT / "data"
 MANIFEST_PATH = DATA_DIR / "manifest.json"
 CATEGORIES_PATH = DATA_DIR / "categories.json"
 QUESTIONS_DIR = DATA_DIR / "questions"
+ACHIEVEMENT_SETS_DIR = DATA_DIR / "achievement-sets"
 
 
 def _read_source(path: Path, root: Path) -> tuple[dict, object]:
@@ -57,6 +58,7 @@ def build_manifest(root: Path = ROOT) -> dict:
     data_dir = root / "data"
     categories_path = data_dir / "categories.json"
     questions_dir = data_dir / "questions"
+    achievement_sets_dir = data_dir / "achievement-sets"
 
     categories, categories_payload = _read_source(categories_path, root)
     if not isinstance(categories_payload, list):
@@ -94,13 +96,25 @@ def build_manifest(root: Path = ROOT) -> dict:
         raise ValueError("data/questions: no question files found")
 
     question_files.sort(key=lambda entry: entry["categoryId"])
+    achievement_sets = []
+    for path in sorted(achievement_sets_dir.glob("*.json")):
+        record, payload = _read_source(path, root)
+        if not isinstance(payload, dict):
+            raise ValueError(f"{record['path']}: expected an object")
+        question_ids = payload.get("questionIds")
+        if not isinstance(question_ids, list):
+            raise ValueError(f"{record['path']}: 'questionIds' must be an array")
+        source_records.append(record)
+        achievement_sets.append({**record, "questionCount": len(question_ids)})
+
     return {
-        "schemaVersion": 2,
+        "schemaVersion": 3,
         "bankHash": derive_bank_hash(source_records),
         "totalQuestions": sum(item["questionCount"] for item in question_files),
         "totalBytes": sum(item["bytes"] for item in question_files),
         "categories": categories,
         "questionFiles": question_files,
+        "achievementSets": achievement_sets,
     }
 
 

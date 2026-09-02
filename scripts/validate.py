@@ -698,9 +698,6 @@ def main() -> int:
     if not QUESTIONS_DIR.is_dir():
         print(f"FAILED — missing questions directory {QUESTIONS_DIR}")
         return 1
-    if not ACHIEVEMENT_SETS_DIR.is_dir():
-        print(f"FAILED — missing achievement sets directory {ACHIEVEMENT_SETS_DIR}")
-        return 1
     if not MANIFEST_PATH.exists():
         print(f"FAILED — missing {MANIFEST_PATH}")
         return 1

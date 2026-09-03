@@ -91,22 +91,6 @@ https://cdn.jsdelivr.net/gh/<owner>/<repo>@release/data/questions/salah.json
 }
 ```
 
-`data/achievement-sets/<set-id>.json` — مجموعة إنجاز ثابتة:
-
-```json
-{
-  "id": "pillars-foundation",
-  "name": "أساس الأركان",
-  "description": "أسئلة الأركان الخمسة في هذا الإصدار من البنك.",
-  "questionIds": ["..."]
-}
-```
-
-تكتمل المجموعة حين يجيب اللاعب عن كل سؤال فيها إجابة صحيحة مرة واحدة على الأقل.
-قائمة `questionIds` ثابتة بعد النشر، فلا تنمو عند إضافة أسئلة جديدة ولا يُسحب
-إنجاز مُنح سابقًا. يمكن اشتقاق توزيعها على الفئات من `categoryId` في كل سؤال،
-فلا يُحفظ في المجموعة تكرار لهذا التقسيم.
-
 ## مخطط السؤال (Schema V2)
 
 التعريف الكامل في `schema/question.schema.json`.

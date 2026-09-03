@@ -9,8 +9,7 @@
     "totalQuestions",
     "totalBytes",
     "categories",
-    "questionFiles",
-    "achievementSets"
+    "questionFiles"
   ],
   "additionalProperties": false,
   "properties": {
@@ -65,33 +64,6 @@
           "path": {
             "type": "string",
             "pattern": "^data/questions/[a-z][a-z0-9]*(-[a-z0-9]+)*\\.json$"
-          },
-          "sha256": {
-            "type": "string",
-            "pattern": "^[0-9a-f]{64}$"
-          },
-          "bytes": {
-            "type": "integer",
-            "minimum": 0
-          },
-          "questionCount": {
-            "type": "integer",
-            "minimum": 0
-          }
-        }
-      }
-    },
-    "achievementSets": {
-      "type": "array",
-      "uniqueItems": true,
-      "items": {
-        "type": "object",
-        "required": ["path", "sha256", "bytes", "questionCount"],
-        "additionalProperties": false,
-        "properties": {
-          "path": {
-            "type": "string",
-            "pattern": "^data/achievement-sets/[a-z][a-z0-9]*(-[a-z0-9]+)*\\.json$"
           },
           "sha256": {
             "type": "string",

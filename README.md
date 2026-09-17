@@ -105,9 +105,11 @@ https://cdn.jsdelivr.net/gh/<owner>/<repo>@release/data/questions/salah.json
 | `choices` | object[4] | 4 خيارات بالضبط، كل خيار: `{ "id": "a"|"b"|"c"|"d", "text": "..." }` |
 | `correctChoiceId` | string | `a` أو `b` أو `c` أو `d` — يطابق `choices[].id` |
 | `explanation` | string | شرح الإجابة الصحيحة (غير فارغ) |
-| `references` | object[] | مراجع منظمة — قرآن، حديث، كتاب، أو `other` |
+| `evidence` | object[] | مصفوفة مرتبة غير فارغة من الأدلة `{ "kind": ..., "text": "..." }`؛ تحفظ كل كتل المصدر حرفيًا |
+| `references` | object[] | مراجع منظمة؛ المصدر المركب أو الملتبس يبقى `other` بنصه الحرفي |
 | `tags` | string[] | وسوم موضوعية فريدة غير فارغة |
 | `verification` | object | `{ "status": "pending"\|"verified"\|"needs_review", "verifiedAt": "RFC 3339 date-time"\|null }` |
+| `verificationNote` | string | نص التحقق المنقول حرفيًا من المصدر |
 
 ### أنواع المراجع (References)
 
@@ -115,6 +117,7 @@ https://cdn.jsdelivr.net/gh/<owner>/<repo>@release/data/questions/salah.json
 ```json
 { "type": "quran", "surah": 2, "ayah": 255 }
 ```
+يمكن تمثيل نطاق الآيات بإضافة `ayahEnd`، على ألا يقل عن `ayah`.
 
 **حديث:**
 ```json
@@ -133,9 +136,10 @@ https://cdn.jsdelivr.net/gh/<owner>/<repo>@release/data/questions/salah.json
 
 ### حالة التحقق (Verification)
 
-جميع الأسئلة تبدأ بـ:
+الأسئلة المستوردة من المصادر الموثقة تتضمن دليل المصدر ونص التحقق:
 ```json
-"verification": { "status": "pending", "verifiedAt": null }
+"verification": { "status": "verified", "verifiedAt": "2026-09-17T00:00:00Z" },
+"verificationNote": "..."
 ```
 
 الحالات المسموحة:

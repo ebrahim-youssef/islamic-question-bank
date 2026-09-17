@@ -348,7 +348,7 @@ def check_references(q_label: str, references, errors: list[str]) -> None:
         ref_type = ref.get("type")
 
         if ref_type == "quran":
-            allowed |= {"surah", "ayah"}
+            allowed |= {"surah", "ayah", "ayahEnd"}
             missing = {"surah", "ayah"} - ref.keys()
             if missing:
                 errors.append(f"{ref_label}: quran reference missing {sorted(missing)}")
@@ -360,6 +360,10 @@ def check_references(q_label: str, references, errors: list[str]) -> None:
                     errors.append(f"{ref_label}: surah must be an integer 1-114, got {surah!r}")
                 if not isinstance(ayah, int) or isinstance(ayah, bool) or ayah < 1:
                     errors.append(f"{ref_label}: ayah must be a positive integer, got {ayah!r}")
+                if "ayahEnd" in ref:
+                    ayah_end = ref["ayahEnd"]
+                    if not isinstance(ayah_end, int) or isinstance(ayah_end, bool) or ayah_end < ayah:
+                        errors.append(f"{ref_label}: ayahEnd must be an integer >= ayah, got {ayah_end!r}")
         elif ref_type == "hadith":
             allowed |= {"collection", "number"}
             missing = {"collection", "number"} - ref.keys()
@@ -412,6 +416,18 @@ def check_verification(q_label: str, verification, errors: list[str]) -> None:
             )
     elif verified_at is not None:
         errors.append(f"{q_label}: verifiedAt must be null unless status is 'verified'")
+
+
+def check_evidence(q_label: str, evidence, verification_note, errors: list[str]) -> None:
+    valid_kinds = {"quran_text", "hadith_text", "hadith_inference", "tafsir"}
+    if not isinstance(evidence, list) or not evidence:
+        errors.append(f"{q_label}: evidence must be a non-empty array")
+    else:
+        for item in evidence:
+            if not isinstance(item, dict) or set(item) != {"kind", "text"} or item.get("kind") not in valid_kinds or not isinstance(item.get("text"), str) or not item["text"].strip():
+                errors.append(f"{q_label}: evidence entry kind/text is invalid")
+    if not isinstance(verification_note, str) or not verification_note.strip():
+        errors.append(f"{q_label}: verificationNote must be a non-empty string")
 
 
 def check_question_semantics(
@@ -540,8 +556,19 @@ def check_question_semantics(
                 errors.append(f"{q_label}: duplicate tag '{tag}'")
             else:
                 seen_tags.add(normalized)
+        evidence = q.get("evidence")
+        evidence_kind = evidence[0].get("kind") if isinstance(evidence, list) and evidence and isinstance(evidence[0], dict) else None
+        expected_tags = {
+            f"category:{category_id}",
+            f"age:{age_band}",
+            f"tier:{tier}",
+            f"evidence:{evidence_kind}",
+        }
+        if set(seen_tags) != expected_tags:
+            errors.append(f"{q_label}: tags must exactly match category, age, tier, and evidence")
 
     check_references(q_label, q.get("references"), errors)
+    check_evidence(q_label, q.get("evidence"), q.get("verificationNote"), errors)
     check_verification(q_label, q.get("verification"), errors)
     return qid
 

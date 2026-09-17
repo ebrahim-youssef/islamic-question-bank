@@ -2,234 +2,37 @@
   "categoryId": "sawm",
   "questions": [
     {
-      "id": "pg-4-1-2",
+      "id": "sawm-kids-t1-q01",
       "categoryId": "sawm",
-      "ageBand": "general",
+      "ageBand": "kids",
       "tier": 1,
-      "text": "الصوم هو الركن الـ… من أركان الإسلام؟",
+      "text": "ما الشهر الذي فرض الله صيامه على المسلمين؟",
       "choices": [
         {
           "id": "a",
-          "text": "الثاني"
+          "text": "شعبان"
         },
         {
           "id": "b",
-          "text": "الثالث"
+          "text": "رمضان"
         },
         {
           "id": "c",
-          "text": "الرابع"
+          "text": "شوال"
         },
         {
           "id": "d",
-          "text": "الخامس"
+          "text": "محرم"
         }
       ],
-      "correctChoiceId": "c",
-      "explanation": "صيام رمضان الركن الرابع من أركان الإسلام.",
-      "references": [
+      "correctChoiceId": "b",
+      "explanation": "نص القرآن على صيام شهر رمضان لمن شهده.",
+      "evidence": [
         {
-          "type": "other",
-          "label": "حديث جبريل — البخاري ومسلم"
+          "kind": "quran_text",
+          "text": "«فَمَن شَهِدَ مِنكُمُ الشَّهْرَ فَلْيَصُمْهُ»"
         }
       ],
-      "tags": [
-        "صوم"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-4-1-3",
-      "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 1,
-      "text": "متى يبدأ الصائم إمساكه؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "من منتصف الليل"
-        },
-        {
-          "id": "b",
-          "text": "من شروق الشمس"
-        },
-        {
-          "id": "c",
-          "text": "من الظهر"
-        },
-        {
-          "id": "d",
-          "text": "من طلوع الفجر"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "يبدأ الإمساك من طلوع الفجر الصادق.",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 2,
-          "ayah": 187
-        }
-      ],
-      "tags": [
-        "صوم"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-4-1-6",
-      "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 1,
-      "text": "ما حكم صيام رمضان؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "فرض"
-        },
-        {
-          "id": "b",
-          "text": "سنة"
-        },
-        {
-          "id": "c",
-          "text": "مستحب"
-        },
-        {
-          "id": "d",
-          "text": "مباح"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "صيام رمضان فرض على كل مسلم بالغ قادر.",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 2,
-          "ayah": 183
-        }
-      ],
-      "tags": [
-        "صوم"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-4-2-1",
-      "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "ما الذي يُفطِّر الصائم؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "السواك"
-        },
-        {
-          "id": "b",
-          "text": "الاغتسال"
-        },
-        {
-          "id": "c",
-          "text": "الأكل والشرب عمدًا"
-        },
-        {
-          "id": "d",
-          "text": "شمّ الطيب"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "الأكل والشرب والجماع عمدًا من مفطرات الصيام.",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 2,
-          "ayah": 187
-        }
-      ],
-      "tags": [
-        "صوم"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-4-2-3",
-      "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "في أي عشر من رمضان تُلتمَس ليلة القدر؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "العشر الأُوَل"
-        },
-        {
-          "id": "b",
-          "text": "العشر الأوسط"
-        },
-        {
-          "id": "c",
-          "text": "أول ليلة"
-        },
-        {
-          "id": "d",
-          "text": "العشر الأواخر"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "«تحرَّوا ليلة القدر في العشر الأواخر من رمضان».",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح البخاري"
-        }
-      ],
-      "tags": [
-        "صوم"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-4-2-4",
-      "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "من يُباح لهم الفطر في رمضان مع القضاء؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "المريض والمسافر"
-        },
-        {
-          "id": "b",
-          "text": "الغني"
-        },
-        {
-          "id": "c",
-          "text": "الصغير المميز"
-        },
-        {
-          "id": "d",
-          "text": "العامل"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "«فمن كان منكم مريضًا أو على سفر فعدة من أيام أخر».",
       "references": [
         {
           "type": "quran",
@@ -238,39 +41,49 @@
         }
       ],
       "tags": [
-        "صوم"
+        "category:sawm",
+        "age:kids",
+        "tier:1",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "pg-4-2-5",
+      "id": "sawm-kids-t1-q02",
       "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "أين يكون الاعتكاف؟",
+      "ageBand": "kids",
+      "tier": 1,
+      "text": "بحسب آية الصيام، متى يبدأ الإمساك عن الطعام والشراب؟",
       "choices": [
         {
           "id": "a",
-          "text": "في البيت"
+          "text": "عند منتصف الليل"
         },
         {
           "id": "b",
-          "text": "في المسجد"
+          "text": "عند طلوع الفجر"
         },
         {
           "id": "c",
-          "text": "في السوق"
+          "text": "بعد الشروق"
         },
         {
           "id": "d",
-          "text": "في السفر"
+          "text": "بعد الظهر"
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "«ولا تباشروهنّ وأنتم عاكفون في المساجد».",
+      "explanation": "أذنت الآية بالأكل والشرب حتى يتبين الفجر.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَكُلُوا وَاشْرَبُوا حَتَّىٰ يَتَبَيَّنَ لَكُمُ الْخَيْطُ الْأَبْيَضُ مِنَ الْخَيْطِ الْأَسْوَدِ مِنَ الْفَجْرِ»"
+        }
+      ],
       "references": [
         {
           "type": "quran",
@@ -279,199 +92,1286 @@
         }
       ],
       "tags": [
-        "اعتكاف"
+        "category:sawm",
+        "age:kids",
+        "tier:1",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "pg-4-2-6",
+      "id": "sawm-kids-t1-q03",
       "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "ما اسم الباب الذي يدخل منه الصائمون الجنة؟",
+      "ageBand": "kids",
+      "tier": 1,
+      "text": "إلى أي وقت أمر الله بإتمام الصيام في آية الصيام؟",
       "choices": [
         {
           "id": "a",
-          "text": "السلام"
+          "text": "إلى الظهر"
         },
         {
           "id": "b",
-          "text": "الصلاة"
+          "text": "إلى العصر"
         },
         {
           "id": "c",
-          "text": "الرّيّان"
+          "text": "إلى الليل"
         },
         {
           "id": "d",
-          "text": "الصدقة"
+          "text": "إلى منتصف الليل"
         }
       ],
       "correctChoiceId": "c",
-      "explanation": "«في الجنة باب يقال له الريّان يدخل منه الصائمون».",
+      "explanation": "قال تعالى في سياق الصيام: إتمام الصيام إلى الليل.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«ثُمَّ أَتِمُّوا الصِّيَامَ إِلَى اللَّيْلِ»"
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "البخاري ومسلم"
+          "type": "quran",
+          "surah": 2,
+          "ayah": 187
         }
       ],
       "tags": [
-        "صوم"
+        "category:sawm",
+        "age:kids",
+        "tier:1",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "pg-4-3-1",
+      "id": "sawm-kids-t1-q04",
       "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "صيام ستة أيام يُستحب بعد رمضان من أي شهر؟",
+      "ageBand": "kids",
+      "tier": 1,
+      "text": "ما الغاية التي ذكرتها آية فرض الصيام بقولها: «لعلكم ...»؟",
       "choices": [
         {
           "id": "a",
-          "text": "شوال"
+          "text": "تشكرون فقط"
         },
         {
           "id": "b",
-          "text": "ذي القعدة"
+          "text": "تتقون"
         },
         {
           "id": "c",
-          "text": "شعبان"
+          "text": "تسافرون"
         },
         {
           "id": "d",
-          "text": "رجب"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "«من صام رمضان ثم أتبعه ستًّا من شوال…».",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح مسلم"
-        }
-      ],
-      "tags": [
-        "صوم"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-4-3-2",
-      "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "صيام أي يوم يكفِّر سنةً ماضية وسنةً باقية لغير الحاج؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "يوم عاشوراء"
-        },
-        {
-          "id": "b",
-          "text": "يوم عرفة"
-        },
-        {
-          "id": "c",
-          "text": "أول رجب"
-        },
-        {
-          "id": "d",
-          "text": "النصف من شعبان"
+          "text": "تنامون"
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "«صيام يوم عرفة يكفّر السنة الماضية والباقية».",
+      "explanation": "ختمت آية فرض الصيام بذكر التقوى.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«لَعَلَّكُمْ تَتَّقُونَ»"
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "صحيح مسلم"
+          "type": "quran",
+          "surah": 2,
+          "ayah": 183
         }
       ],
       "tags": [
-        "صوم"
+        "category:sawm",
+        "age:kids",
+        "tier:1",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "pg-4-3-3",
+      "id": "sawm-kids-t1-q05",
       "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "يوم عاشوراء في أي شهر؟",
+      "ageBand": "kids",
+      "tier": 1,
+      "text": "في أي شهر ذكر القرآن أنه أُنزل؟",
       "choices": [
         {
           "id": "a",
+          "text": "رجب"
+        },
+        {
+          "id": "b",
+          "text": "شعبان"
+        },
+        {
+          "id": "c",
+          "text": "رمضان"
+        },
+        {
+          "id": "d",
+          "text": "ذو الحجة"
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "وصفت آية 2:185 رمضان بأنه الشهر الذي أُنزل فيه القرآن.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«فَمَن شَهِدَ مِنكُمُ الشَّهْرَ فَلْيَصُمْهُ ... وَلِتُكْمِلُوا الْعِدَّةَ وَلِتُكَبِّرُوا اللَّهَ عَلَىٰ مَا هَدَاكُمْ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 185
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:kids",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "sawm-kids-t2-q06",
+      "categoryId": "sawm",
+      "ageBand": "kids",
+      "tier": 2,
+      "text": "ماذا يفعل المريض أو المسافر إذا أفطر أيامًا من رمضان بحسب القرآن؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "لا يلزمه شيء أبدًا"
+        },
+        {
+          "id": "b",
+          "text": "يصوم بدلها أيامًا أخر"
+        },
+        {
+          "id": "c",
+          "text": "يطعم فقط في كل حال"
+        },
+        {
+          "id": "d",
+          "text": "يعيد الشهر كاملًا"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "ذكرت الآية قضاء عدة من أيام أخر للمريض والمسافر.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«فَمَن شَهِدَ مِنكُمُ الشَّهْرَ فَلْيَصُمْهُ ... وَلِتُكْمِلُوا الْعِدَّةَ وَلِتُكَبِّرُوا اللَّهَ عَلَىٰ مَا هَدَاكُمْ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 185
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:kids",
+        "tier:2",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "sawm-kids-t2-q07",
+      "categoryId": "sawm",
+      "ageBand": "kids",
+      "tier": 2,
+      "text": "ما الوجبة التي قال النبي ﷺ إن فيها بركة للصائم؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الغداء"
+        },
+        {
+          "id": "b",
+          "text": "السحور"
+        },
+        {
+          "id": "c",
+          "text": "العشاء بعد منتصف الليل"
+        },
+        {
+          "id": "d",
+          "text": "وجبة الضحى"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "حث النبي ﷺ على السحور وذكر أن فيه بركة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **السحور**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1923"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:kids",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-kids-t2-q08",
+      "categoryId": "sawm",
+      "ageBand": "kids",
+      "tier": 2,
+      "text": "أيٌّ مما يأتي وافق الهدي النبوي عند دخول وقت الإفطار؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "تعمد تأخير الفطر ساعة"
+        },
+        {
+          "id": "b",
+          "text": "تعجيل الفطر بعد تحقق الغروب"
+        },
+        {
+          "id": "c",
+          "text": "ترك الإفطار إلى منتصف الليل"
+        },
+        {
+          "id": "d",
+          "text": "انتظار صلاة العشاء دائمًا"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "ثبت أن الناس لا يزالون بخير ما عجلوا الفطر.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **تعجيل الفطر بعد تحقق الغروب**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1957"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:kids",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-kids-t2-q09",
+      "categoryId": "sawm",
+      "ageBand": "kids",
+      "tier": 2,
+      "text": "نسي طفل أنه صائم فأكل ثم تذكر؛ ماذا جاء في الحديث؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "يُكمل صومه"
+        },
+        {
+          "id": "b",
+          "text": "يعيد الشهر"
+        },
+        {
+          "id": "c",
+          "text": "يفطر بقية اليوم وجوبًا"
+        },
+        {
+          "id": "d",
+          "text": "لا يصوم مرة أخرى"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "من أكل أو شرب ناسيًا وهو صائم أُمر بإتمام صومه.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«مَنْ نَسِيَ وَهُوَ صَائِمٌ فَأَكَلَ أَوْ شَرِبَ فَلْيُتِمَّ صَوْمَهُ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح البخاري 1933؛ صحيح مسلم 1155"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:kids",
+        "tier:2",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-kids-t2-q10",
+      "categoryId": "sawm",
+      "ageBand": "kids",
+      "tier": 2,
+      "text": "ما اسم الباب الذي يدخل منه الصائمون يوم القيامة كما في الحديث؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الريان"
+        },
+        {
+          "id": "b",
+          "text": "الكوثر"
+        },
+        {
+          "id": "c",
+          "text": "الصفا"
+        },
+        {
+          "id": "d",
+          "text": "الرحمة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ورد في الصحيح أن للصائمين بابًا يسمى الريان.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الريان**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1896"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:kids",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-kids-t3-q11",
+      "categoryId": "sawm",
+      "ageBand": "kids",
+      "tier": 3,
+      "text": "ماذا يحدث لأبواب الجنة عند دخول رمضان كما في الحديث الصحيح؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "تُغلق كلها"
+        },
+        {
+          "id": "b",
+          "text": "تُفتح"
+        },
+        {
+          "id": "c",
+          "text": "لا يتغير شيء"
+        },
+        {
+          "id": "d",
+          "text": "يفتح باب واحد فقط"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "ثبت فتح أبواب الجنة عند مجيء رمضان.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **تُفتح**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1898"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:kids",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-kids-t3-q12",
+      "categoryId": "sawm",
+      "ageBand": "kids",
+      "tier": 3,
+      "text": "ماذا جاء في الحديث عن الشياطين عند دخول رمضان؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "تُطلق كلها"
+        },
+        {
+          "id": "b",
+          "text": "تُصفد"
+        },
+        {
+          "id": "c",
+          "text": "تصبح ملائكة"
+        },
+        {
+          "id": "d",
+          "text": "تختفي الشمس بسببها"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "ورد في الصحيح تصفيد الشياطين عند دخول رمضان.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **تُصفد**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1899"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:kids",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-kids-t3-q13",
+      "categoryId": "sawm",
+      "ageBand": "kids",
+      "tier": 3,
+      "text": "أي يومين ثبت النهي عن صيامهما؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "عرفة وعاشوراء"
+        },
+        {
+          "id": "b",
+          "text": "عيد الفطر وعيد الأضحى"
+        },
+        {
+          "id": "c",
+          "text": "الاثنين والخميس"
+        },
+        {
+          "id": "d",
+          "text": "أول شعبان وآخره"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "ثبت النهي عن صوم يوم الفطر ويوم الأضحى.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«هَذَانِ يَوْمَانِ نَهَى رَسُولُ اللَّهِ ﷺ عَنْ صِيَامِهِمَا»"
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1990"
+        },
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1993"
+        },
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1995"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:kids",
+        "tier:3",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-kids-t3-q14",
+      "categoryId": "sawm",
+      "ageBand": "kids",
+      "tier": 3,
+      "text": "في أي جزء من رمضان أرشد النبي ﷺ إلى تحري ليلة القدر في الأوتار؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "العشر الأولى"
+        },
+        {
+          "id": "b",
+          "text": "العشر الوسطى"
+        },
+        {
+          "id": "c",
+          "text": "العشر الأواخر"
+        },
+        {
+          "id": "d",
+          "text": "أول ثلاث ليال فقط"
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "أرشد النبي ﷺ إلى تحريها في الوتر من العشر الأواخر.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **العشر الأواخر**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "2017"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:kids",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-kids-t3-q15",
+      "categoryId": "sawm",
+      "ageBand": "kids",
+      "tier": 3,
+      "text": "ما الجزاء المذكور لمن صام رمضان إيمانًا واحتسابًا؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "يُعفى من الصلاة"
+        },
+        {
+          "id": "b",
+          "text": "تُغفر له ذنوبه المتقدمة"
+        },
+        {
+          "id": "c",
+          "text": "لا يحاسب أبدًا"
+        },
+        {
+          "id": "d",
+          "text": "يجب له الحج كل عام"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "ورد هذا الفضل في الحديث الصحيح مع قيد الإيمان والاحتساب.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **تُغفر له ذنوبه المتقدمة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1901"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:kids",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-kids-t4-q16",
+      "categoryId": "sawm",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "ماذا كان يفعل جبريل مع النبي ﷺ في ليالي رمضان؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "يعلمه التجارة"
+        },
+        {
+          "id": "b",
+          "text": "يدارسه القرآن"
+        },
+        {
+          "id": "c",
+          "text": "يؤذن للفجر"
+        },
+        {
+          "id": "d",
+          "text": "يقود الغزوات"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "كان جبريل يلقى النبي ﷺ في رمضان فيدارسه القرآن.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **يدارسه القرآن**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "6"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:kids",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-kids-t4-q17",
+      "categoryId": "sawm",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "في أي شهر كان جود النبي ﷺ يزداد زيادة ظاهرة كما في حديث ابن عباس؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "رمضان"
+        },
+        {
+          "id": "b",
           "text": "صفر"
         },
         {
-          "id": "b",
-          "text": "رمضان"
-        },
-        {
           "id": "c",
-          "text": "محرم"
+          "text": "رجب"
         },
         {
           "id": "d",
-          "text": "ذي الحجة"
+          "text": "ذو القعدة"
         }
       ],
-      "correctChoiceId": "c",
-      "explanation": "عاشوراء عاشر محرم، يُستحب صيامه ويكفّر سنة ماضية.",
+      "correctChoiceId": "a",
+      "explanation": "ذكر ابن عباس أن النبي ﷺ كان أجود ما يكون في رمضان.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **رمضان**."
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "صحيح مسلم"
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "6"
         }
       ],
       "tags": [
-        "صوم"
+        "category:sawm",
+        "age:kids",
+        "tier:4",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "pg-4-3-4",
+      "id": "sawm-kids-t4-q18",
       "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "من أفطر أيامًا لعذر في رمضان فماذا يلزمه؟",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "ماذا كان النبي ﷺ يفعل بأهله إذا دخلت العشر الأواخر من رمضان؟",
       "choices": [
         {
           "id": "a",
-          "text": "كفارة فقط"
+          "text": "يوقظهم للعبادة"
         },
         {
           "id": "b",
-          "text": "لا شيء"
+          "text": "يمنعهم من الصلاة"
         },
         {
           "id": "c",
-          "text": "صيام شهرين"
+          "text": "يسافر عنهم دائمًا"
         },
         {
           "id": "d",
-          "text": "قضاء عدد الأيام"
+          "text": "يأمرهم بترك الذكر"
         }
       ],
-      "correctChoiceId": "d",
-      "explanation": "«فعدة من أيام أخر» أي يقضي مثل ما أفطر.",
+      "correctChoiceId": "a",
+      "explanation": "ثبت أنه كان يحيي الليل ويوقظ أهله ويجتهد في العشر الأواخر.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **يوقظهم للعبادة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-muslim",
+          "number": "1174"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:kids",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-kids-t4-q19",
+      "categoryId": "sawm",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "في أي أيام من رمضان كان النبي ﷺ يعتكف عادة في آخر حياته؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "أول عشرة"
+        },
+        {
+          "id": "b",
+          "text": "العشر الأواخر"
+        },
+        {
+          "id": "c",
+          "text": "يومًا واحدًا فقط"
+        },
+        {
+          "id": "d",
+          "text": "كل رمضان خارج المسجد"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "ثبت اعتكافه في العشر الأواخر من رمضان.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **العشر الأواخر**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "2025"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:kids",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-kids-t4-q20",
+      "categoryId": "sawm",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "إذا شاتم شخصٌ الصائم أو حاول مخاصمته، ماذا أرشده الحديث أن يقول؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "أنا أقوى منك"
+        },
+        {
+          "id": "b",
+          "text": "إني صائم"
+        },
+        {
+          "id": "c",
+          "text": "لن أصوم غدًا"
+        },
+        {
+          "id": "d",
+          "text": "سأرد الإساءة"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "أمر الحديث الصائم أن يذكر صومه بدل الدخول في السباب والخصومة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **إني صائم**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح البخاري 1894؛ صحيح مسلم 1151d"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:kids",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-kids-t5-q21",
+      "categoryId": "sawm",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "ما السلوك الذي حذر الحديث الصائم من الاستمرار فيه حتى لا يكون ترك الطعام والشراب هو كل نصيبه؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "قول الزور والعمل به"
+        },
+        {
+          "id": "b",
+          "text": "النوم ليلًا"
+        },
+        {
+          "id": "c",
+          "text": "قراءة القرآن"
+        },
+        {
+          "id": "d",
+          "text": "السحور"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "شدد الحديث في ترك قول الزور والعمل به أثناء الصيام.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **قول الزور والعمل به**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1903"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:kids",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-kids-t5-q22",
+      "categoryId": "sawm",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "إذا لم يجد الصائم رطبًا عند الإفطار، فما الذي ورد بعده في حديث أنس؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "اللبن ثم العسل"
+        },
+        {
+          "id": "b",
+          "text": "التمر، فإن لم يجد فالماء"
+        },
+        {
+          "id": "c",
+          "text": "اللحم فقط"
+        },
+        {
+          "id": "d",
+          "text": "لا يفطر حتى يجد رطبًا"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "ورد أنه ﷺ كان يفطر على رطبات، فإن لم يجد فعلى تمرات، فإن لم يجد حسا حسوات من ماء.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«يُفْطِرُ عَلَى رُطَبَاتٍ ... فَتُمَيْرَاتٍ ... حَسَا حَسَوَاتٍ مِنْ مَاءٍ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sunan-abi-dawud",
+          "number": "2356"
+        },
+        {
+          "type": "other",
+          "label": "جامع الترمذي 696 — حسن غريب"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:kids",
+        "tier:5",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "تخريج الحديث وحكمه روجعا في الدرر السنية؛ وأُبقيت فقط الطرق المقبولة"
+    },
+    {
+      "id": "sawm-kids-t5-q23",
+      "categoryId": "sawm",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "عندما سألت عائشة رضي الله عنها ماذا تقول إن وافقت ليلة القدر، كان الدعاء يدور على طلب ماذا؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "زيادة المال فقط"
+        },
+        {
+          "id": "b",
+          "text": "العفو من الله"
+        },
+        {
+          "id": "c",
+          "text": "السفر للحج"
+        },
+        {
+          "id": "d",
+          "text": "النوم الطويل"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "علّمها النبي ﷺ أن تسأل الله العفو في ليلة القدر.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«اللَّهُمَّ إِنَّكَ عَفُوٌّ كَرِيمٌ تُحِبُّ الْعَفْوَ فَاعْفُ عَنِّي»"
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "جامع الترمذي 3513 — صحيح"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:kids",
+        "tier:5",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "تخريج الحديث وحكمه روجعا في الدرر السنية؛ وأُبقيت فقط الطرق المقبولة"
+    },
+    {
+      "id": "sawm-kids-t5-q24",
+      "categoryId": "sawm",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "بماذا قدّر زيد بن ثابت الزمن بين انتهاء السحور وقيامهم إلى صلاة الفجر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "قدر قراءة خمس آيات"
+        },
+        {
+          "id": "b",
+          "text": "قدر قراءة خمسين آية"
+        },
+        {
+          "id": "c",
+          "text": "ساعة كاملة"
+        },
+        {
+          "id": "d",
+          "text": "نصف يوم"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "قدّر زيد بن ثابت الفاصل بقدر قراءة خمسين آية.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **قدر قراءة خمسين آية**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1921"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:kids",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-kids-t5-q25",
+      "categoryId": "sawm",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "من الصحابي الذي كان يؤذن بليل، ومن الذي كان يؤذن عند دخول الفجر في الحديث؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "بلال بليل وابن أم مكتوم عند الفجر"
+        },
+        {
+          "id": "b",
+          "text": "ابن أم مكتوم بليل وبلال بعد الشروق"
+        },
+        {
+          "id": "c",
+          "text": "أبو بكر ثم عمر"
+        },
+        {
+          "id": "d",
+          "text": "علي ثم عثمان"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "بيّن الحديث أن أذان بلال ليلًا لا يمنع السحور حتى يؤذن ابن أم مكتوم عند الفجر.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **بلال بليل وابن أم مكتوم عند الفجر**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح البخاري 1918، 1919"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:kids",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-general-t1-q26",
+      "categoryId": "sawm",
+      "ageBand": "general",
+      "tier": 1,
+      "text": "ما المراد بالخيط الأبيض والخيط الأسود في آية الصيام بعد بيان «من الفجر»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الحبلان الحقيقيان"
+        },
+        {
+          "id": "b",
+          "text": "بياض النهار وسواد الليل عند الفجر"
+        },
+        {
+          "id": "c",
+          "text": "السحاب والمطر"
+        },
+        {
+          "id": "d",
+          "text": "الثوب الأبيض والأسود"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "بيّن النبي ﷺ لعدي بن حاتم أن المقصود بياض النهار وسواد الليل.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«هُنَّ لِبَاسٌ لَّكُمْ وَأَنتُمْ لِبَاسٌ لَّهُنَّ ... وَكُلُوا وَاشْرَبُوا حَتَّىٰ يَتَبَيَّنَ لَكُمُ ... الْفَجْرِ ثُمَّ أَتِمُّوا الصِّيَامَ إِلَى اللَّيْلِ»"
+        },
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **بياض النهار وسواد الليل عند الفجر**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "القرآن: البقرة 2:187؛ صحيح البخاري 1917"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:general",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`؛ رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-general-t1-q27",
+      "categoryId": "sawm",
+      "ageBand": "general",
+      "tier": 1,
+      "text": "أي مقصد صرحت به آية رمضان في شأن التكليف؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "إرادة العسر"
+        },
+        {
+          "id": "b",
+          "text": "إرادة اليسر"
+        },
+        {
+          "id": "c",
+          "text": "إلغاء الصوم"
+        },
+        {
+          "id": "d",
+          "text": "منع السفر"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "نصت آية رمضان على أن الله يريد بالعباد اليسر ولا يريد بهم العسر.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«فَمَن شَهِدَ مِنكُمُ الشَّهْرَ فَلْيَصُمْهُ ... وَلِتُكْمِلُوا الْعِدَّةَ وَلِتُكَبِّرُوا اللَّهَ عَلَىٰ مَا هَدَاكُمْ»"
+        }
+      ],
       "references": [
         {
           "type": "quran",
@@ -480,873 +1380,334 @@
         }
       ],
       "tags": [
-        "صوم"
+        "category:sawm",
+        "age:general",
+        "tier:1",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "pg-4-3-5",
+      "id": "sawm-general-t1-q28",
       "categoryId": "sawm",
       "ageBand": "general",
-      "tier": 3,
-      "text": "صيام يومي الاثنين والخميس حكمه؟",
+      "tier": 1,
+      "text": "إلى متى أباح القرآن الأكل والشرب في ليلة الصيام؟",
       "choices": [
         {
           "id": "a",
-          "text": "سنة وتطوع"
+          "text": "حتى يتبين الفجر"
         },
         {
           "id": "b",
-          "text": "فرض"
+          "text": "حتى الشروق"
         },
         {
           "id": "c",
-          "text": "مكروه"
+          "text": "حتى الظهر"
         },
         {
           "id": "d",
-          "text": "محرم"
+          "text": "حتى منتصف النهار"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "كان النبي ﷺ يتحرَّى صيام الاثنين والخميس.",
-      "references": [
+      "explanation": "حددت الآية نهاية الأكل والشرب الليلي بتبين الفجر.",
+      "evidence": [
         {
-          "type": "other",
-          "label": "سنن الترمذي"
+          "kind": "quran_text",
+          "text": "«هُنَّ لِبَاسٌ لَّكُمْ وَأَنتُمْ لِبَاسٌ لَّهُنَّ ... وَكُلُوا وَاشْرَبُوا حَتَّىٰ يَتَبَيَّنَ لَكُمُ ... الْفَجْرِ ثُمَّ أَتِمُّوا الصِّيَامَ إِلَى اللَّيْلِ»"
         }
       ],
-      "tags": [
-        "صوم"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-4-3-6",
-      "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "ما حكم من أكل أو شرب ناسيًا في نهار رمضان؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "يبطل صومه"
-        },
-        {
-          "id": "b",
-          "text": "صومه صحيح"
-        },
-        {
-          "id": "c",
-          "text": "عليه كفارة"
-        },
-        {
-          "id": "d",
-          "text": "يقضي يومين"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "«من نسي وهو صائم فأكل أو شرب فليتمّ صومه فإنما أطعمه الله وسقاه» — صومه صحيح ويُتمّ يومه.",
-      "references": [
-        {
-          "type": "other",
-          "label": "البخاري ومسلم"
-        }
-      ],
-      "tags": [
-        "صوم"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-4-4-1",
-      "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "في أي سنة هجرية فُرض صيام رمضان؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الأولى"
-        },
-        {
-          "id": "b",
-          "text": "الثانية للهجرة"
-        },
-        {
-          "id": "c",
-          "text": "الرابعة"
-        },
-        {
-          "id": "d",
-          "text": "السادسة"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "فُرض صيام رمضان في السنة الثانية للهجرة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "السيرة والتاريخ"
-        }
-      ],
-      "tags": [
-        "صوم"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-4-4-2",
-      "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "ما اليومان اللذان يحرم صيامهما؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الجمعة والسبت"
-        },
-        {
-          "id": "b",
-          "text": "أول الشهر وآخره"
-        },
-        {
-          "id": "c",
-          "text": "يوما عيد الفطر وعيد الأضحى"
-        },
-        {
-          "id": "d",
-          "text": "الاثنين والخميس"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "نهى النبي ﷺ عن صيام يومي العيدين.",
-      "references": [
-        {
-          "type": "other",
-          "label": "البخاري ومسلم"
-        }
-      ],
-      "tags": [
-        "صوم"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-4-4-3",
-      "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "«الصوم لي وأنا أجزي به» هذا حديث؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "نبوي فقط"
-        },
-        {
-          "id": "b",
-          "text": "من القرآن"
-        },
-        {
-          "id": "c",
-          "text": "قدسي"
-        },
-        {
-          "id": "d",
-          "text": "أثر صحابي"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "هو حديث قدسي يرويه النبي ﷺ عن ربه.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح البخاري"
-        }
-      ],
-      "tags": [
-        "صوم"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-4-4-4",
-      "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "صيام نبيّ الله داود عليه السلام كان؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "صيام الدهر كله"
-        },
-        {
-          "id": "b",
-          "text": "ثلاثة أيام من كل شهر"
-        },
-        {
-          "id": "c",
-          "text": "يوم الجمعة فقط"
-        },
-        {
-          "id": "d",
-          "text": "صوم يوم وإفطار يوم"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "«أحبّ الصيام إلى الله صيام داود؛ كان يصوم يومًا ويفطر يومًا».",
-      "references": [
-        {
-          "type": "other",
-          "label": "البخاري ومسلم"
-        }
-      ],
-      "tags": [
-        "صوم"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-4-4-5",
-      "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "ما حكم صيام أيام التشريق (11-13 ذي الحجة)؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "لا تُصام إلا لفاقد الهدي"
-        },
-        {
-          "id": "b",
-          "text": "تُصام استحبابًا"
-        },
-        {
-          "id": "c",
-          "text": "تُصام وجوبًا"
-        },
-        {
-          "id": "d",
-          "text": "تُصام للحاج فقط"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "«أيام التشريق أيام أكل وشرب وذكر لله»، ورُخِّص في صيامها لمن لم يجد الهدي من المتمتعين.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح مسلم"
-        }
-      ],
-      "tags": [
-        "صوم"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-4-4-6",
-      "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "الشهر الذي أُنزل فيه القرآن كما في الآية؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "شعبان"
-        },
-        {
-          "id": "b",
-          "text": "رجب"
-        },
-        {
-          "id": "c",
-          "text": "ذي الحجة"
-        },
-        {
-          "id": "d",
-          "text": "رمضان"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "«شهر رمضان الذي أُنزل فيه القرآن».",
       "references": [
         {
           "type": "quran",
           "surah": 2,
-          "ayah": 185
+          "ayah": 187
         }
       ],
       "tags": [
-        "صوم"
+        "category:sawm",
+        "age:general",
+        "tier:1",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "pg-4-5-1",
+      "id": "sawm-general-t1-q29",
       "categoryId": "sawm",
       "ageBand": "general",
-      "tier": 5,
-      "text": "هل فُرض الصيام على الأمم قبلنا؟",
+      "tier": 1,
+      "text": "متى أباح القرآن مباشرة الزوجة في سياق الصيام؟",
       "choices": [
         {
           "id": "a",
-          "text": "لا، هو خاص بنا"
+          "text": "ليل الصيام"
         },
         {
           "id": "b",
-          "text": "على اليهود فقط"
+          "text": "بعد الفجر إلى الظهر"
         },
         {
           "id": "c",
-          "text": "على النصارى فقط"
+          "text": "أثناء الاعتكاف في المسجد"
         },
         {
           "id": "d",
-          "text": "نعم، فُرض على من قبلنا أيضًا"
+          "text": "بعد صلاة التراويح"
         }
       ],
-      "correctChoiceId": "d",
-      "explanation": "«كُتب عليكم الصيام كما كُتب على الذين من قبلكم».",
+      "correctChoiceId": "a",
+      "explanation": "نصت الآية على إباحة الرفث إلى النساء ليلة الصيام.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«أُحِلَّ لَكُمْ لَيْلَةَ الصِّيَامِ الرَّفَثُ إِلَىٰ نِسَائِكُمْ»"
+        }
+      ],
       "references": [
         {
           "type": "quran",
           "surah": 2,
-          "ayah": 183
+          "ayah": 187
         }
       ],
       "tags": [
-        "صوم"
+        "category:sawm",
+        "age:general",
+        "tier:1",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "pg-4-5-2",
+      "id": "sawm-general-t1-q30",
       "categoryId": "sawm",
       "ageBand": "general",
       "tier": 1,
-      "text": "كم عدد أيام شهر رمضان؟",
+      "text": "أي فعل نهت عنه آية الصيام حال الاعتكاف في المساجد؟",
       "choices": [
         {
           "id": "a",
-          "text": "٣١ يومًا"
+          "text": "الذكر"
         },
         {
           "id": "b",
-          "text": "٢٩ أو ٣٠ يومًا"
+          "text": "قراءة القرآن"
         },
         {
           "id": "c",
-          "text": "٢٨ يومًا"
+          "text": "مباشرة الزوجات"
         },
         {
           "id": "d",
-          "text": "٣٠ دائمًا"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "الشهر القمري تسعة وعشرون أو ثلاثون يومًا بحسب رؤية الهلال.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح البخاري"
-        }
-      ],
-      "tags": [
-        "صوم"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-4-5-3",
-      "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 5,
-      "text": "بم يُعرَف دخول شهر رمضان وخروجه؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "برؤية الهلال"
-        },
-        {
-          "id": "b",
-          "text": "بالحساب الفلكي فقط"
-        },
-        {
-          "id": "c",
-          "text": "بأول برد الشتاء"
-        },
-        {
-          "id": "d",
-          "text": "بمنتصف السنة"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "«صوموا لرؤيته وأفطروا لرؤيته فإن غُمّ عليكم فأكملوا العدة ثلاثين» — فإن لم يُر الهلال أُكملت عدة الشهر ثلاثين يومًا.",
-      "references": [
-        {
-          "type": "other",
-          "label": "البخاري ومسلم"
-        }
-      ],
-      "tags": [
-        "صوم"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-4-5-5",
-      "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 5,
-      "text": "متى تجب زكاة الفطر؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "بأول رمضان"
-        },
-        {
-          "id": "b",
-          "text": "بنهاية رمضان"
-        },
-        {
-          "id": "c",
-          "text": "بليلة القدر"
-        },
-        {
-          "id": "d",
-          "text": "بيوم عرفة"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "تجب زكاة الفطر بغروب شمس آخر يوم من رمضان (نهايته)، وتُستحب قبل صلاة العيد.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "فطر"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-4-5-6",
-      "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 5,
-      "text": "من مات وعليه صيام نذرٍ فماذا يُشرع؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "يسقط عنه"
-        },
-        {
-          "id": "b",
-          "text": "يُطعَم عنه فقط"
-        },
-        {
-          "id": "c",
-          "text": "يصوم عنه وليّه"
-        },
-        {
-          "id": "d",
-          "text": "يُصلَّى عنه"
+          "text": "الدعاء"
         }
       ],
       "correctChoiceId": "c",
-      "explanation": "«من مات وعليه صيام صام عنه وليّه».",
+      "explanation": "جاء النهي صريحًا عن المباشرة حال الاعتكاف في المساجد.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«هُنَّ لِبَاسٌ لَّكُمْ وَأَنتُمْ لِبَاسٌ لَّهُنَّ ... وَكُلُوا وَاشْرَبُوا حَتَّىٰ يَتَبَيَّنَ لَكُمُ ... الْفَجْرِ ثُمَّ أَتِمُّوا الصِّيَامَ إِلَى اللَّيْلِ»"
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "البخاري ومسلم"
+          "type": "quran",
+          "surah": 2,
+          "ayah": 187
         }
       ],
       "tags": [
-        "صوم"
+        "category:sawm",
+        "age:general",
+        "tier:1",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "pk-4-1-1",
+      "id": "sawm-general-t2-q31",
       "categoryId": "sawm",
-      "ageBand": "kids",
-      "tier": 1,
-      "text": "في أي شهرٍ نصوم كل عام؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "رمضان"
-        },
-        {
-          "id": "b",
-          "text": "شعبان"
-        },
-        {
-          "id": "c",
-          "text": "شوال"
-        },
-        {
-          "id": "d",
-          "text": "رجب"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "نصوم شهر رمضان، وهو الشهر التاسع في السنة الهجرية.",
-      "references": [
-        {
-          "type": "other",
-          "label": "القرآن — سورة البقرة"
-        }
-      ],
-      "tags": [
-        "صوم",
-        "رمضان"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-4-1-2",
-      "categoryId": "sawm",
-      "ageBand": "kids",
-      "tier": 1,
-      "text": "الصائم يمتنع عن الطعام والشراب من متى إلى متى؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "طوال اليوم والليل"
-        },
-        {
-          "id": "b",
-          "text": "من الفجر إلى المغرب"
-        },
-        {
-          "id": "c",
-          "text": "ساعة واحدة"
-        },
-        {
-          "id": "d",
-          "text": "بعد الظهر فقط"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "الصوم إمساكٌ عن الطعام والشراب من طلوع الفجر إلى غروب الشمس.",
-      "references": [
-        {
-          "type": "other",
-          "label": "القرآن — سورة البقرة"
-        }
-      ],
-      "tags": [
-        "صوم"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-4-2-1",
-      "categoryId": "sawm",
-      "ageBand": "kids",
+      "ageBand": "general",
       "tier": 2,
-      "text": "ماذا نسمِّي وجبة الصائم آخر الليل قبل الفجر؟",
+      "text": "بماذا وصف النبي ﷺ الصيام في الحديث الصحيح؟",
       "choices": [
         {
           "id": "a",
-          "text": "الإفطار"
+          "text": "جنة ووقاية"
         },
         {
           "id": "b",
-          "text": "العشاء"
+          "text": "نور"
         },
         {
           "id": "c",
-          "text": "السَّحور"
+          "text": "برهان"
         },
         {
           "id": "d",
-          "text": "الغداء"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "السَّحور وجبةٌ في آخر الليل، وفيها بركة كما قال ﷺ.",
-      "references": [
-        {
-          "type": "other",
-          "label": "حديث أنس — متفق عليه"
-        }
-      ],
-      "tags": [
-        "صوم",
-        "سحور"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-4-2-2",
-      "categoryId": "sawm",
-      "ageBand": "kids",
-      "tier": 2,
-      "text": "بأي شيءٍ يُستحب أن يفطر الصائم إن وجده؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الحلوى فقط"
-        },
-        {
-          "id": "b",
-          "text": "اللحم"
-        },
-        {
-          "id": "c",
-          "text": "لا يفطر"
-        },
-        {
-          "id": "d",
-          "text": "التمر أو الماء"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "كان ﷺ يفطر على رُطبات، فإن لم يجد فعلى ماء.",
-      "references": [
-        {
-          "type": "other",
-          "label": "حديث أنس — سنن أبي داود"
-        }
-      ],
-      "tags": [
-        "صوم",
-        "إفطار"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-4-3-1",
-      "categoryId": "sawm",
-      "ageBand": "kids",
-      "tier": 3,
-      "text": "ما اسم صلاة الليل التي نصلِّيها جماعةً في رمضان؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "التراويح"
-        },
-        {
-          "id": "b",
-          "text": "الاستسقاء"
-        },
-        {
-          "id": "c",
-          "text": "الكسوف"
-        },
-        {
-          "id": "d",
-          "text": "العيد"
+          "text": "ضياء"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "التراويح قيامٌ في ليالي رمضان، رغَّب فيها النبي ﷺ.",
+      "explanation": "ورد وصف الصيام بأنه جُنّة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **جنة ووقاية**."
+        }
+      ],
       "references": [
         {
           "type": "other",
-          "label": "حديث أبي هريرة — متفق عليه"
+          "label": "صحيح البخاري 1894؛ صحيح مسلم 1151d"
         }
       ],
       "tags": [
-        "رمضان",
-        "تراويح"
+        "category:sawm",
+        "age:general",
+        "tier:2",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "pk-4-3-2",
+      "id": "sawm-general-t2-q32",
       "categoryId": "sawm",
-      "ageBand": "kids",
-      "tier": 3,
-      "text": "بأي عيدٍ نفرح بعد انتهاء صوم رمضان؟",
+      "ageBand": "general",
+      "tier": 2,
+      "text": "متى تكون فرحتا الصائم المذكورتان في الحديث؟",
       "choices": [
         {
           "id": "a",
-          "text": "عيد الأضحى"
+          "text": "عند السحور وعند الظهر"
         },
         {
           "id": "b",
-          "text": "عيد الفطر"
+          "text": "عند فطره وعند لقاء ربه"
         },
         {
           "id": "c",
-          "text": "رأس السنة"
+          "text": "عند السفر وعند العودة"
         },
         {
           "id": "d",
-          "text": "المولد"
+          "text": "عند النوم والاستيقاظ"
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "عيد الفطر يأتي بعد إتمام صوم رمضان.",
+      "explanation": "ذكر الحديث فرحة عند الإفطار وفرحة عند لقاء الله.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **عند فطره وعند لقاء ربه**."
+        }
+      ],
       "references": [
         {
           "type": "other",
-          "label": "حديث أنس — سنن أبي داود"
+          "label": "صحيح مسلم 1151d، 1151e"
         }
       ],
       "tags": [
-        "عيد"
+        "category:sawm",
+        "age:general",
+        "tier:2",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "pk-4-4-1",
+      "id": "sawm-general-t2-q33",
       "categoryId": "sawm",
-      "ageBand": "kids",
-      "tier": 4,
-      "text": "ليلةٌ في رمضان هي خيرٌ من ألف شهر، ما اسمها؟",
+      "ageBand": "general",
+      "tier": 2,
+      "text": "بماذا قورن خلوف فم الصائم عند الله في الحديث؟",
       "choices": [
         {
           "id": "a",
-          "text": "ليلة الإسراء"
+          "text": "برائحة المسك وأطيب منها"
         },
         {
           "id": "b",
-          "text": "ليلة الجمعة"
+          "text": "برائحة الطعام"
         },
         {
           "id": "c",
-          "text": "ليلة القدر"
+          "text": "برائحة التراب"
         },
         {
           "id": "d",
-          "text": "ليلة العيد"
+          "text": "لا ذكر له"
         }
       ],
-      "correctChoiceId": "c",
-      "explanation": "ليلة القدر في العشر الأواخر من رمضان، خيرٌ من ألف شهر.",
+      "correctChoiceId": "a",
+      "explanation": "ورد أن خلوف فم الصائم أطيب عند الله من ريح المسك.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **برائحة المسك وأطيب منها**."
+        }
+      ],
       "references": [
         {
           "type": "other",
-          "label": "القرآن — سورة القدر"
+          "label": "صحيح مسلم 1151b، 1151e"
         }
       ],
       "tags": [
-        "ليلة القدر"
+        "category:sawm",
+        "age:general",
+        "tier:2",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "pk-4-4-2",
+      "id": "sawm-general-t2-q34",
       "categoryId": "sawm",
-      "ageBand": "kids",
-      "tier": 4,
-      "text": "هل يُفطر الصائم إذا أكل أو شرب ناسياً؟",
+      "ageBand": "general",
+      "tier": 2,
+      "text": "أي عبادة جاء في الحديث القدسي: إنها لله وهو يجزي بها؟",
       "choices": [
         {
           "id": "a",
-          "text": "نعم يبطل صومه"
+          "text": "الصوم"
         },
         {
           "id": "b",
-          "text": "يعيد الشهر كله"
-        },
-        {
-          "id": "c",
-          "text": "يدفع مالاً"
-        },
-        {
-          "id": "d",
-          "text": "لا، ويُتمُّ صومه"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "قال ﷺ: من نسي وهو صائم فأكل أو شرب فليتم صومه، فإنما أطعمه الله.",
-      "references": [
-        {
-          "type": "other",
-          "label": "حديث أبي هريرة — متفق عليه"
-        }
-      ],
-      "tags": [
-        "صوم"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-4-5-1",
-      "categoryId": "sawm",
-      "ageBand": "kids",
-      "tier": 5,
-      "text": "ما اسم اعتكاف النبي ﷺ في المسجد في أواخر رمضان للعبادة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الاعتكاف"
-        },
-        {
-          "id": "b",
-          "text": "الاعتزال عن الصلاة"
+          "text": "الأذان"
         },
         {
           "id": "c",
@@ -1358,289 +1719,869 @@
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "الاعتكاف لزوم المسجد للعبادة، وكان ﷺ يعتكف العشر الأواخر.",
+      "explanation": "جاء في الحديث القدسي استثناء الصوم بلفظ أنه لله وأن الله يجزي به.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الصوم**."
+        }
+      ],
       "references": [
         {
           "type": "other",
-          "label": "حديث عائشة — متفق عليه"
+          "label": "صحيح البخاري 1894؛ صحيح مسلم 1151e"
         }
       ],
       "tags": [
-        "اعتكاف"
+        "category:sawm",
+        "age:general",
+        "tier:2",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "pk-4-5-2",
+      "id": "sawm-general-t2-q35",
       "categoryId": "sawm",
-      "ageBand": "kids",
-      "tier": 5,
-      "text": "صيامٌ تطوُّعٌ في شهر شوال ست أيام له أجرٌ عظيم، بعد أي شهر؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "بعد الحج"
-        },
-        {
-          "id": "b",
-          "text": "بعد رمضان"
-        },
-        {
-          "id": "c",
-          "text": "بعد رجب"
-        },
-        {
-          "id": "d",
-          "text": "بعد محرم"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "قال ﷺ: من صام رمضان ثم أتبعه ستاً من شوال كان كصيام الدهر.",
-      "references": [
-        {
-          "type": "other",
-          "label": "حديث أبي أيوب — صحيح مسلم"
-        }
-      ],
-      "tags": [
-        "صوم",
-        "تطوع"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-4-1-1",
-      "categoryId": "sawm",
-      "ageBand": "scholar",
-      "tier": 1,
-      "text": "في أي سنة هجرية فُرض صيام رمضان؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "السنة الأولى"
-        },
-        {
-          "id": "b",
-          "text": "السنة الثالثة"
-        },
-        {
-          "id": "c",
-          "text": "السنة الثانية"
-        },
-        {
-          "id": "d",
-          "text": "السنة الخامسة"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "فُرض صوم رمضان في شعبان من السنة الثانية للهجرة.",
-      "references": [
-        {
-          "type": "book",
-          "title": "السيرة النبوية"
-        }
-      ],
-      "tags": [
-        "صوم"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-4-1-2",
-      "categoryId": "sawm",
-      "ageBand": "scholar",
-      "tier": 1,
-      "text": "ما حكم صوم يوم الشك احتياطًا؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "واجب"
-        },
-        {
-          "id": "b",
-          "text": "مستحب"
-        },
-        {
-          "id": "c",
-          "text": "مباح مطلقًا"
-        },
-        {
-          "id": "d",
-          "text": "منهيٌّ عنه"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "«من صام اليوم الذي يُشك فيه فقد عصى أبا القاسم ﷺ».",
-      "references": [
-        {
-          "type": "other",
-          "label": "سنن الترمذي"
-        }
-      ],
-      "tags": [
-        "صوم"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-4-2-1",
-      "categoryId": "sawm",
-      "ageBand": "scholar",
+      "ageBand": "general",
       "tier": 2,
-      "text": "ما الواجب على من أفطر في نهار رمضان بجماعٍ عمدًا؟",
+      "text": "دُعي صائم إلى طعام وهو يريد إتمام صومه؛ ماذا يقول بحسب الحديث؟",
       "choices": [
         {
           "id": "a",
-          "text": "الكفارة المغلَّظة"
+          "text": "إني صائم"
         },
         {
           "id": "b",
-          "text": "إطعام مسكين واحد"
+          "text": "لا أعرفكم"
         },
         {
           "id": "c",
-          "text": "صوم يوم مكانه"
+          "text": "سآكل حتمًا"
         },
         {
           "id": "d",
-          "text": "لا شيء عليه"
+          "text": "يحرم عليه الرد"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "الكفارة المغلَّظة: عتق رقبة، فإن لم يجد فصيام شهرين، فإن لم يستطع فإطعام ستين مسكينًا.",
+      "explanation": "أرشد الحديث المدعو وهو صائم أن يقول: إني صائم.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **إني صائم**."
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "الصحيحان"
+          "type": "hadith",
+          "collection": "sahih-muslim",
+          "number": "1150"
         }
       ],
       "tags": [
-        "كفارة"
+        "category:sawm",
+        "age:general",
+        "tier:2",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "ps-4-2-2",
+      "id": "sawm-general-t3-q36",
       "categoryId": "sawm",
-      "ageBand": "scholar",
-      "tier": 2,
-      "text": "متى ينتهي وقت السحور ويبدأ الإمساك؟",
+      "ageBand": "general",
+      "tier": 3,
+      "text": "ما الأصل الذي ربط به النبي ﷺ بدء رمضان وانتهاءه؟",
       "choices": [
         {
           "id": "a",
-          "text": "بمنتصف الليل"
+          "text": "رؤية الهلال"
         },
         {
           "id": "b",
-          "text": "بطلوع الفجر الصادق"
+          "text": "إكمال شعبان تسعة وعشرين عند الغيم"
         },
         {
           "id": "c",
-          "text": "بأذان العشاء"
+          "text": "الحساب الفلكي المذكور في نص الحديث"
         },
         {
           "id": "d",
-          "text": "بطلوع الشمس"
+          "text": "تاريخ ثابت من السنة الشمسية"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ورد الأمر بالصوم للرؤية والفطر للرؤية، مع إكمال العدة عند الغيم.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **رؤية الهلال**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح البخاري 1906، 1907"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:general",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-general-t3-q37",
+      "categoryId": "sawm",
+      "ageBand": "general",
+      "tier": 3,
+      "text": "ما الذي نهى عنه النبي ﷺ قبل رمضان بيوم أو يومين إلا لمن وافق عادة صومه؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الصلاة"
+        },
+        {
+          "id": "b",
+          "text": "تقدم رمضان بالصوم"
+        },
+        {
+          "id": "c",
+          "text": "السحور"
+        },
+        {
+          "id": "d",
+          "text": "قراءة القرآن"
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "«كلوا واشربوا حتى يتبيَّن لكم الخيط الأبيض من الخيط الأسود من الفجر».",
+      "explanation": "نهى الحديث عن تقدم رمضان بصوم يوم أو يومين إلا لمن كان له صوم معتاد.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«لَا يَتَقَدَّمَنَّ أَحَدُكُمْ رَمَضَانَ بِصَوْمِ يَوْمٍ أَوْ يَوْمَيْنِ»"
+        }
+      ],
       "references": [
         {
-          "type": "quran",
-          "surah": 2,
-          "ayah": 187
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1914"
         }
       ],
       "tags": [
-        "سحور"
+        "category:sawm",
+        "age:general",
+        "tier:3",
+        "evidence:hadith_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "ps-4-3-1",
+      "id": "sawm-general-t3-q38",
       "categoryId": "sawm",
-      "ageBand": "scholar",
+      "ageBand": "general",
       "tier": 3,
-      "text": "ما أيام «البيض» التي يُستحب صومها من كل شهر؟",
+      "text": "أدرك الفجرُ النبي ﷺ وهو جنب من أهله في بعض أيام رمضان؛ ماذا كان يفعل؟",
       "choices": [
         {
           "id": "a",
-          "text": "١ و٢ و٣"
+          "text": "يفطر ذلك اليوم"
         },
         {
           "id": "b",
-          "text": "٢٨ و٢٩ و٣٠"
+          "text": "يغتسل ويصوم"
         },
         {
           "id": "c",
-          "text": "١٣ و١٤ و١٥"
+          "text": "يؤخر الغسل إلى ما بعد المغرب"
         },
         {
           "id": "d",
-          "text": "الاثنين والخميس"
+          "text": "يقضي اليوم بعد رمضان"
         }
       ],
-      "correctChoiceId": "c",
-      "explanation": "الأيام البيض هي الثالث عشر والرابع عشر والخامس عشر من كل شهر.",
+      "correctChoiceId": "b",
+      "explanation": "ثبت أنه ﷺ كان يصبح جنبًا ثم يغتسل ويتم صومه.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **يغتسل ويصوم**."
+        }
+      ],
       "references": [
         {
           "type": "other",
-          "label": "سنن النسائي"
+          "label": "صحيح البخاري 1925، 1926"
         }
       ],
       "tags": [
-        "نوافل"
+        "category:sawm",
+        "age:general",
+        "tier:3",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "ps-4-3-2",
+      "id": "sawm-general-t3-q39",
       "categoryId": "sawm",
-      "ageBand": "scholar",
+      "ageBand": "general",
       "tier": 3,
-      "text": "ما الواجب على العاجز عن الصيام لكِبَرٍ أو مرضٍ مزمن؟",
+      "text": "في سفر رمضان، ماذا فعل النبي ﷺ عند عسفان حين شق الصوم على الناس وأراد أن يروه؟",
       "choices": [
         {
           "id": "a",
-          "text": "صيام شهرين"
+          "text": "شرب ماءً ظاهرًا وأفطر"
         },
         {
           "id": "b",
-          "text": "عتق رقبة"
+          "text": "واصل بلا توقف"
         },
         {
           "id": "c",
-          "text": "لا شيء عليه"
+          "text": "رجع إلى المدينة"
         },
         {
           "id": "d",
-          "text": "إطعام مسكين"
+          "text": "نهى الناس عن السفر"
         }
       ],
-      "correctChoiceId": "d",
-      "explanation": "«وعلى الذين يطيقونه فديةٌ طعام مسكين» — يُطعم عن كل يوم مسكينًا واحدًا.",
+      "correctChoiceId": "a",
+      "explanation": "ثبت أنه شرب علنًا في السفر ليُرى إفطاره، ثم واصل مفطرًا إلى مكة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **شرب ماءً ظاهرًا وأفطر**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 1113e"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:general",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-general-t3-q40",
+      "categoryId": "sawm",
+      "ageBand": "general",
+      "tier": 3,
+      "text": "ما السببان اللذان ذكرهما النبي ﷺ في جواب سؤاله عن صوم يوم الاثنين؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "مولده ونزول الوحي عليه"
+        },
+        {
+          "id": "b",
+          "text": "الهجرة وفتح مكة"
+        },
+        {
+          "id": "c",
+          "text": "بدر وأحد"
+        },
+        {
+          "id": "d",
+          "text": "الزكاة والحج"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ذكر أنه يوم وُلد فيه ويوم بُعث أو أُنزل عليه فيه.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **مولده ونزول الوحي عليه**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 1162e"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:general",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-general-t4-q41",
+      "categoryId": "sawm",
+      "ageBand": "general",
+      "tier": 4,
+      "text": "ما الفضل المذكور لمن صام رمضان ثم أتبعه ستًا من شوال؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "كصيام الدهر"
+        },
+        {
+          "id": "b",
+          "text": "كحجة واحدة"
+        },
+        {
+          "id": "c",
+          "text": "كصدقة شهر"
+        },
+        {
+          "id": "d",
+          "text": "كقيام ليلة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ورد أن صيام رمضان ثم ست من شوال كصيام الدهر.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **كصيام الدهر**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 1164a"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:general",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-general-t4-q42",
+      "categoryId": "sawm",
+      "ageBand": "general",
+      "tier": 4,
+      "text": "أي شهر وصف الحديث صيامه بأنه أفضل الصيام بعد رمضان؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "محرم"
+        },
+        {
+          "id": "b",
+          "text": "رجب"
+        },
+        {
+          "id": "c",
+          "text": "شعبان"
+        },
+        {
+          "id": "d",
+          "text": "ذو القعدة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ورد أن أفضل الصيام بعد رمضان شهر الله المحرم.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **محرم**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 1163a"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:general",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-general-t4-q43",
+      "categoryId": "sawm",
+      "ageBand": "general",
+      "tier": 4,
+      "text": "ما التكفير المذكور لصيام يوم عرفة في الحديث؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "السنة الماضية"
+        },
+        {
+          "id": "b",
+          "text": "السنة الماضية والباقية"
+        },
+        {
+          "id": "c",
+          "text": "السنتين الماضيتين"
+        },
+        {
+          "id": "d",
+          "text": "السنة القادمة دون الماضية"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "ذكر الحديث رجاء تكفير السنة التي قبله والتي بعده.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **السنة الماضية والباقية**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 1162a"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:general",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-general-t4-q44",
+      "categoryId": "sawm",
+      "ageBand": "general",
+      "tier": 4,
+      "text": "أي يوم ورد رجاء أن يكفّر صيامه السنة الماضية؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "يوم عاشوراء"
+        },
+        {
+          "id": "b",
+          "text": "يوم عيد الفطر"
+        },
+        {
+          "id": "c",
+          "text": "يوم عيد الأضحى"
+        },
+        {
+          "id": "d",
+          "text": "يوم الاثنين"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ذكر الحديث رجاء تكفير السنة التي قبله بصيام عاشوراء.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **يوم عاشوراء**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 1162a"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:general",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-general-t4-q45",
+      "categoryId": "sawm",
+      "ageBand": "general",
+      "tier": 4,
+      "text": "ما الحدث الذي ذكره الحديث سببًا لصيام موسى عليه السلام يوم عاشوراء؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "نجاة بني إسرائيل من عدوهم"
+        },
+        {
+          "id": "b",
+          "text": "بناء الكعبة"
+        },
+        {
+          "id": "c",
+          "text": "ولادة موسى"
+        },
+        {
+          "id": "d",
+          "text": "نزول المن والسلوى"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ذكر الحديث أن الله نجى بني إسرائيل من عدوهم فصامه موسى.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **نجاة بني إسرائيل من عدوهم**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "2004"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:general",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-general-t5-q46",
+      "categoryId": "sawm",
+      "ageBand": "general",
+      "tier": 5,
+      "text": "كيف كان صيام داود عليه السلام الذي وصفه النبي ﷺ بأفضل الصيام؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "يصوم يومًا ويفطر يومًا"
+        },
+        {
+          "id": "b",
+          "text": "يصوم يومين ويفطر يومًا"
+        },
+        {
+          "id": "c",
+          "text": "يصوم ثلاثة ويفطر ثلاثة"
+        },
+        {
+          "id": "d",
+          "text": "يصوم يومين ويفطر يومين"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ثبت أن صيام داود كان يومًا ويومًا.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **يصوم يومًا ويفطر يومًا**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح البخاري 1976، 1977"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-general-t5-q47",
+      "categoryId": "sawm",
+      "ageBand": "general",
+      "tier": 5,
+      "text": "لماذا جاء أن صيام ثلاثة أيام من كل شهر يعدل صيام الدهر من جهة الأجر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "لأن الحسنة بعشر أمثالها"
+        },
+        {
+          "id": "b",
+          "text": "لأن كل يوم يعدل شهرًا"
+        },
+        {
+          "id": "c",
+          "text": "لأنها من الفرائض"
+        },
+        {
+          "id": "d",
+          "text": "لأنها توافق الأيام البيض حتمًا"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "جاء في حديث عبد الله بن عمرو ربط ثلاثة أيام من الشهر بتضعيف الحسنة عشرًا.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **لأن الحسنة بعشر أمثالها**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1976"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-general-t5-q48",
+      "categoryId": "sawm",
+      "ageBand": "general",
+      "tier": 5,
+      "text": "في أي شهر كان النبي ﷺ يكثر من الصيام أكثر من بقية الشهور غير رمضان؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "شعبان"
+        },
+        {
+          "id": "b",
+          "text": "شوال"
+        },
+        {
+          "id": "c",
+          "text": "صفر"
+        },
+        {
+          "id": "d",
+          "text": "ذو القعدة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "قالت عائشة رضي الله عنها إنها لم تره أكثر صيامًا في شهر من شعبان.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **شعبان**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1969"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-general-t5-q49",
+      "categoryId": "sawm",
+      "ageBand": "general",
+      "tier": 5,
+      "text": "ما العبادة التي كانت الحائض تُؤمر بقضائها بعد الطهر بخلاف الصلاة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الصيام"
+        },
+        {
+          "id": "b",
+          "text": "الأذان"
+        },
+        {
+          "id": "c",
+          "text": "خطبة الجمعة"
+        },
+        {
+          "id": "d",
+          "text": "صلاة العيد"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "بيّنت عائشة رضي الله عنها أنهن كن يؤمرن بقضاء الصوم ولا يؤمرن بقضاء الصلاة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الصيام**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 335c"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-general-t5-q50",
+      "categoryId": "sawm",
+      "ageBand": "general",
+      "tier": 5,
+      "text": "ماذا قال النبي ﷺ عن من يصوم الدهر بلا فطر في حديث عبد الله بن عمرو؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "لا صام من صام الأبد"
+        },
+        {
+          "id": "b",
+          "text": "هو أفضل من صيام داود"
+        },
+        {
+          "id": "c",
+          "text": "يجب على كل مسلم"
+        },
+        {
+          "id": "d",
+          "text": "لا حكم فيه"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نهى النبي ﷺ عن المبالغة التي تضيع الحقوق، وكرر هذا اللفظ في الحديث.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **لا صام من صام الأبد**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1977"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-scholar-t1-q51",
+      "categoryId": "sawm",
+      "ageBand": "scholar",
+      "tier": 1,
+      "text": "أي عمل ذُكر نصًا فديةً في آية 2:184؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "إطعام مسكين"
+        },
+        {
+          "id": "b",
+          "text": "ذبح بدنة"
+        },
+        {
+          "id": "c",
+          "text": "عتق رقبة"
+        },
+        {
+          "id": "d",
+          "text": "صيام شهرين"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ذكرت الآية الفدية بإطعام مسكين؛ أما تفاصيل من يتوجه إليه الحكم فتُبحث في التفسير والفقه ولا يفترضها السؤال.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«فِدْيَةٌ طَعَامُ مِسْكِينٍ»"
+        }
+      ],
       "references": [
         {
           "type": "quran",
@@ -1649,199 +2590,100 @@
         }
       ],
       "tags": [
-        "فدية"
+        "category:sawm",
+        "age:scholar",
+        "tier:1",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "ps-4-4-1",
+      "id": "sawm-scholar-t1-q52",
       "categoryId": "sawm",
       "ageBand": "scholar",
-      "tier": 4,
-      "text": "في أي أيام رمضان كان النبي ﷺ يعتكف؟",
+      "tier": 1,
+      "text": "ما الجواب القرآني المباشر في 2:186 حين يُسأل النبي ﷺ عن قرب الله؟",
       "choices": [
         {
           "id": "a",
-          "text": "العشر الأواخر"
+          "text": "أن الله قريب يجيب دعوة الداعي"
         },
         {
           "id": "b",
-          "text": "العشر الأُوَل"
+          "text": "أن الدعاء يرفع بعد الصيام"
         },
         {
           "id": "c",
-          "text": "العشر الأوسط"
+          "text": "أن الإجابة مخصوصة بليلة القدر"
         },
         {
           "id": "d",
-          "text": "طوال الشهر"
+          "text": "أن القرب مخصوص بحال السفر"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "اعتكف النبي ﷺ العشر الأواخر من رمضان حتى توفّاه الله.",
+      "explanation": "جاءت آية الدعاء بين آيات الصيام بنص القرب وإجابة الدعاء.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«فَإِنِّي قَرِيبٌ أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ»"
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "الصحيحان"
+          "type": "quran",
+          "surah": 2,
+          "ayah": 186
         }
       ],
       "tags": [
-        "اعتكاف"
+        "category:sawm",
+        "age:scholar",
+        "tier:1",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "ps-4-4-2",
+      "id": "sawm-scholar-t1-q53",
       "categoryId": "sawm",
       "ageBand": "scholar",
-      "tier": 4,
-      "text": "في أي الليالي يُلتمَس أرجحُ ليلة القدر؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "أول ليلة من رمضان"
-        },
-        {
-          "id": "b",
-          "text": "أوتار العشر الأواخر"
-        },
-        {
-          "id": "c",
-          "text": "ليلة النصف"
-        },
-        {
-          "id": "d",
-          "text": "آخر ليلة"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "«تحرَّوا ليلة القدر في الوتر من العشر الأواخر».",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح البخاري"
-        }
-      ],
-      "tags": [
-        "قدر"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-4-5-1",
-      "categoryId": "sawm",
-      "ageBand": "scholar",
-      "tier": 5,
-      "text": "ما حكم الوِصال في الصوم (وصل يومين بلا فطر)؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "واجب"
-        },
-        {
-          "id": "b",
-          "text": "مستحب"
-        },
-        {
-          "id": "c",
-          "text": "منهيٌّ عنه"
-        },
-        {
-          "id": "d",
-          "text": "ركن من الصوم"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "نهى النبي ﷺ عن الوِصال رحمةً بالأمة وقال: «إني لستُ كهيئتكم، إني أُطعَم وأُسقى».",
-      "references": [
-        {
-          "type": "other",
-          "label": "الصحيحان"
-        }
-      ],
-      "tags": [
-        "صوم"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-4-5-2",
-      "categoryId": "sawm",
-      "ageBand": "scholar",
-      "tier": 5,
-      "text": "صيام يوم عرفة لغير الحاجّ يُكفِّر كم سنة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "سنةً واحدة"
-        },
-        {
-          "id": "b",
-          "text": "شهرًا"
-        },
-        {
-          "id": "c",
-          "text": "لا يُكفِّر شيئًا"
-        },
-        {
-          "id": "d",
-          "text": "سنتين"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "«صيام يوم عرفة يُكفِّر السنة الماضية والباقية»، بخلاف عاشوراء فيُكفِّر الماضية.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح مسلم"
-        }
-      ],
-      "tags": [
-        "عرفة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "sw-1-1",
-      "categoryId": "sawm",
-      "ageBand": "general",
       "tier": 1,
-      "text": "في أي شهر يصوم المسلمون فريضةً كل عام؟",
+      "text": "أي عبادتين/مقصدين ذُكرا بعد رخصة المريض والمسافر في ختام 2:185؟",
       "choices": [
         {
           "id": "a",
-          "text": "شهر شعبان"
+          "text": "إكمال العدة وتكبير الله على الهداية"
         },
         {
           "id": "b",
-          "text": "شهر شوال"
+          "text": "الطواف والسعي"
         },
         {
           "id": "c",
-          "text": "شهر رمضان"
+          "text": "الأذان والإقامة"
         },
         {
           "id": "d",
-          "text": "شهر محرم"
+          "text": "ذبح الهدي والرمي"
         }
       ],
-      "correctChoiceId": "c",
-      "explanation": "قال تعالى: «شهر رمضان الذي أُنزل فيه القرآن... فمن شهد منكم الشهر فليصمه».",
+      "correctChoiceId": "a",
+      "explanation": "ختمت الآية بذكر إكمال العدة وتكبير الله على هدايته، مع رجاء الشكر.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«فَمَن شَهِدَ مِنكُمُ الشَّهْرَ فَلْيَصُمْهُ ... وَلِتُكْمِلُوا الْعِدَّةَ وَلِتُكَبِّرُوا اللَّهَ عَلَىٰ مَا هَدَاكُمْ»"
+        }
+      ],
       "references": [
         {
           "type": "quran",
@@ -1850,121 +2692,100 @@
         }
       ],
       "tags": [
-        "رمضان",
-        "فرض"
+        "category:sawm",
+        "age:scholar",
+        "tier:1",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "sw-1-2",
+      "id": "sawm-scholar-t1-q54",
       "categoryId": "sawm",
-      "ageBand": "general",
+      "ageBand": "scholar",
       "tier": 1,
-      "text": "رمضان هو الشهر رقم كم في التقويم الهجري؟",
+      "text": "ماذا تقرر آية فرض الصيام عن الأمم السابقة؟",
       "choices": [
         {
           "id": "a",
-          "text": "الثامن"
+          "text": "أن الصيام كُتب على من قبلنا أيضًا"
         },
         {
           "id": "b",
-          "text": "العاشر"
+          "text": "أن الصيام لم يعرف قبل الإسلام"
         },
         {
           "id": "c",
-          "text": "السابع"
+          "text": "أن الحج كان بدل الصيام"
         },
         {
           "id": "d",
-          "text": "التاسع"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "رمضان هو الشهر التاسع في السنة الهجرية بعد شعبان وقبل شوال.",
-      "references": [
-        {
-          "type": "book",
-          "title": "التقويم الهجري"
-        }
-      ],
-      "tags": [
-        "رمضان"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "sw-2-1",
-      "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 1,
-      "text": "ما اسم الوجبة التي تُؤكل قبل الفجر استعداداً للصيام؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "السحور"
-        },
-        {
-          "id": "b",
-          "text": "الإفطار"
-        },
-        {
-          "id": "c",
-          "text": "الغداء"
-        },
-        {
-          "id": "d",
-          "text": "العشاء"
+          "text": "أن الصيام خاص بالعرب"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "قال ﷺ: «تسحّروا فإن في السحور بركة».",
+      "explanation": "نصت الآية على أن الصيام كُتب على المؤمنين كما كُتب على الذين من قبلهم.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ»"
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "متفق عليه"
+          "type": "quran",
+          "surah": 2,
+          "ayah": 183
         }
       ],
       "tags": [
-        "صيام",
-        "سحور"
+        "category:sawm",
+        "age:scholar",
+        "tier:1",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "sw-2-2",
+      "id": "sawm-scholar-t1-q55",
       "categoryId": "sawm",
-      "ageBand": "general",
+      "ageBand": "scholar",
       "tier": 1,
-      "text": "متى يُفطر الصائم؟",
+      "text": "بأي وصف متبادل وصفت آية الصيام الزوجين؟",
       "choices": [
         {
           "id": "a",
-          "text": "عند الظهر"
+          "text": "كل منهما لباس للآخر"
         },
         {
           "id": "b",
-          "text": "عند غروب الشمس"
+          "text": "كل منهما سفر للآخر"
         },
         {
           "id": "c",
-          "text": "عند العصر"
+          "text": "كل منهما صوم للآخر"
         },
         {
           "id": "d",
-          "text": "منتصف الليل"
+          "text": "كل منهما هدي للآخر"
         }
       ],
-      "correctChoiceId": "b",
-      "explanation": "قال تعالى: «ثم أتمّوا الصيام إلى الليل»، والنبي ﷺ كان يفطر عند الغروب.",
+      "correctChoiceId": "a",
+      "explanation": "جاء في آية 2:187 وصف الزوجات بأنهن لباس للأزواج والأزواج لباس لهن.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«هُنَّ لِبَاسٌ لَّكُمْ وَأَنتُمْ لِبَاسٌ لَّهُنَّ»"
+        }
+      ],
       "references": [
         {
           "type": "quran",
@@ -1973,256 +2794,1034 @@
         }
       ],
       "tags": [
-        "صيام",
-        "إفطار"
+        "category:sawm",
+        "age:scholar",
+        "tier:1",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "sw-3-1",
+      "id": "sawm-scholar-t2-q56",
       "categoryId": "sawm",
-      "ageBand": "general",
+      "ageBand": "scholar",
       "tier": 2,
-      "text": "ما اسم الليلة المباركة في العشر الأواخر التي هي خير من ألف شهر؟",
+      "text": "ماذا أرشد الحديث إلى فعله إذا غُمَّ هلال رمضان ولم تُر الرؤية؟",
       "choices": [
         {
           "id": "a",
-          "text": "ليلة الإسراء"
+          "text": "إكمال العدة ثلاثين"
         },
         {
           "id": "b",
-          "text": "ليلة النصف من شعبان"
+          "text": "اعتبار الشهر 28 يومًا"
         },
         {
           "id": "c",
-          "text": "ليلة الجمعة"
+          "text": "الإفطار بلا حساب"
         },
         {
           "id": "d",
-          "text": "ليلة القدر"
+          "text": "اعتماد شهر ميلادي ثابت"
         }
       ],
-      "correctChoiceId": "d",
-      "explanation": "قال تعالى: «ليلة القدر خير من ألف شهر»، تُلتمس في العشر الأواخر.",
+      "correctChoiceId": "a",
+      "explanation": "ذكر الحديث أن الشهر قد يكون تسعًا وعشرين، وعند الغيم تُكمل العدة ثلاثين.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **إكمال العدة ثلاثين**."
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "القرآن — سورة القدر"
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1907"
         }
       ],
       "tags": [
-        "ليلة القدر"
+        "category:sawm",
+        "age:scholar",
+        "tier:2",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "sw-3-2",
+      "id": "sawm-scholar-t2-q57",
       "categoryId": "sawm",
-      "ageBand": "general",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "ما المسافة التعبيرية المذكورة لابتعاد وجه من صام يومًا في سبيل الله عن النار؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "سبعين خريفًا"
+        },
+        {
+          "id": "b",
+          "text": "سبعة أيام"
+        },
+        {
+          "id": "c",
+          "text": "أربعين ساعة"
+        },
+        {
+          "id": "d",
+          "text": "عامًا واحدًا"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ثبت في الصحيح ذكر سبعين خريفًا.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **سبعين خريفًا**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح البخاري 2840؛ صحيح مسلم 1153c"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:scholar",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-scholar-t2-q58",
+      "categoryId": "sawm",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "ما الجزاء المذكور لمن فطّر صائمًا في الحديث؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "مثل أجر الصائم دون أن ينقص من أجره شيء"
+        },
+        {
+          "id": "b",
+          "text": "نصف أجر الصائم"
+        },
+        {
+          "id": "c",
+          "text": "أجر صدقة واحدة"
+        },
+        {
+          "id": "d",
+          "text": "أجر يوم صيام عن نفسه"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ورد هذا الفضل في حديث صحيح/حسن صحيح عن تفطير الصائم.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«مَنْ فَطَّرَ صَائِمًا كَانَ لَهُ مِثْلُ أَجْرِهِ غَيْرَ أَنَّهُ لَا يَنْقُصُ مِنْ أَجْرِ الصَّائِمِ شَيْئًا»"
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "جامع الترمذي 807 — حسن صحيح"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:scholar",
+        "tier:2",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "تخريج الحديث وحكمه روجعا في الدرر السنية؛ وأُبقيت فقط الطرق المقبولة"
+    },
+    {
+      "id": "sawm-scholar-t2-q59",
+      "categoryId": "sawm",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "في قصة عائشة، ماذا قال النبي ﷺ عندما سأل عن طعام فلم يجد؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "إني إذًا صائم"
+        },
+        {
+          "id": "b",
+          "text": "أفطروا جميعًا"
+        },
+        {
+          "id": "c",
+          "text": "لا أصوم نفلًا"
+        },
+        {
+          "id": "d",
+          "text": "أعيدوا السؤال غدًا"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الحديث يثبت واقعة إنشاء صوم نافلة في النهار عند عدم وجود طعام.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **إني إذًا صائم**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 1154b"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:scholar",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-scholar-t2-q60",
+      "categoryId": "sawm",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "ما الفعل الذي ثبت عن النبي ﷺ وهو صائم في حديث ابن عباس؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "احتجم"
+        },
+        {
+          "id": "b",
+          "text": "قبّل وهو صائم"
+        },
+        {
+          "id": "c",
+          "text": "أصبح جنبًا ثم اغتسل"
+        },
+        {
+          "id": "d",
+          "text": "واصل الصيام يومين"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "روى ابن عباس أن النبي ﷺ احتجم وهو صائم.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **احتجم**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1938"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:scholar",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-scholar-t3-q61",
+      "categoryId": "sawm",
+      "ageBand": "scholar",
       "tier": 3,
-      "text": "ما حكم صيام يوم عيد الفطر؟",
+      "text": "ما القيد الذي ذكرته عائشة رضي الله عنها عند روايتها أن النبي ﷺ كان يقبّل وهو صائم؟",
       "choices": [
         {
           "id": "a",
-          "text": "محرم"
+          "text": "أنه كان أملك الناس لإربه"
         },
         {
           "id": "b",
-          "text": "واجب"
+          "text": "أنه كان يفطر بعد القبلة"
         },
         {
           "id": "c",
-          "text": "مستحب"
+          "text": "أن ذلك وقع في السفر"
         },
         {
           "id": "d",
-          "text": "مباح"
+          "text": "أن ذلك لم يقع في رمضان"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "نهى النبي ﷺ عن صيام يومي العيدين: الفطر والأضحى.",
+      "explanation": "نبّهت عائشة إلى شدة ضبطه ﷺ لشهوته حتى لا يُفهم الفعل بلا سياقه.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **أنه كان أملك الناس لإربه**."
+        }
+      ],
       "references": [
         {
           "type": "other",
-          "label": "متفق عليه"
+          "label": "صحيح مسلم 1106c، 1106d"
         }
       ],
       "tags": [
-        "عيد",
-        "صيام"
+        "category:sawm",
+        "age:scholar",
+        "tier:3",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "sw-4-1",
+      "id": "sawm-scholar-t3-q62",
       "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "كم يوماً يُستحب صيامها من شوال ليُكتب كصيام الدهر مع رمضان؟",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "ماذا نص الحديث فيمن مات وعليه صيام؟",
       "choices": [
         {
           "id": "a",
-          "text": "ثلاثة أيام"
+          "text": "يصوم عنه وليه"
         },
         {
           "id": "b",
-          "text": "ستة أيام"
+          "text": "يطعم عنه وليه عن كل يوم مسكينًا بنص الحديث"
         },
         {
           "id": "c",
-          "text": "عشرة أيام"
+          "text": "يحج عنه وليه بدل الصيام"
         },
         {
           "id": "d",
-          "text": "أربعة عشر يوماً"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "قال ﷺ: «من صام رمضان ثم أتبعه ستاً من شوال كان كصيام الدهر».",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح مسلم"
-        }
-      ],
-      "tags": [
-        "شوال",
-        "تطوع"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "sw-4-2",
-      "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "ما اسم العبادة التي تكون بلزوم المسجد للطاعة في العشر الأواخر من رمضان؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "القيام"
-        },
-        {
-          "id": "b",
-          "text": "التراويح"
-        },
-        {
-          "id": "c",
-          "text": "الاعتكاف"
-        },
-        {
-          "id": "d",
-          "text": "الوتر"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "كان النبي ﷺ يعتكف العشر الأواخر من رمضان حتى توفاه الله.",
-      "references": [
-        {
-          "type": "other",
-          "label": "متفق عليه"
-        }
-      ],
-      "tags": [
-        "اعتكاف"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "sw-5-1",
-      "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 5,
-      "text": "صيام يوم عرفة لغير الحاجّ يُكفّر كم سنة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "سنة واحدة"
-        },
-        {
-          "id": "b",
-          "text": "ثلاث سنوات"
-        },
-        {
-          "id": "c",
-          "text": "خمس سنوات"
-        },
-        {
-          "id": "d",
-          "text": "سنتين"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "قال ﷺ في صيام يوم عرفة: «يكفّر السنة الماضية والباقية».",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح مسلم"
-        }
-      ],
-      "tags": [
-        "عرفة",
-        "تطوع"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "sw-5-2",
-      "categoryId": "sawm",
-      "ageBand": "general",
-      "tier": 5,
-      "text": "من جامَع في نهار رمضان متعمداً فأول خصال الكفارة عند القدرة عليها؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "عتق رقبة"
-        },
-        {
-          "id": "b",
-          "text": "إطعام ستين مسكيناً"
-        },
-        {
-          "id": "c",
-          "text": "صيام ثلاثة أيام"
-        },
-        {
-          "id": "d",
-          "text": "التصدق بدرهم"
+          "text": "يسقط عنه كل ما بقي بلا فعل"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "في حديث المجامِع رتّب النبي ﷺ الكفارة: عتق رقبة، فإن لم يجد فصيام شهرين، فإن لم يستطع فإطعام ستين مسكيناً.",
+      "explanation": "هذا هو نص الحديث؛ أما تفصيل أنواعه وتطبيقاته الفقهية فليس محل السؤال.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **يصوم عنه وليه**."
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "متفق عليه"
+          "type": "hadith",
+          "collection": "sahih-muslim",
+          "number": "1147"
         }
       ],
       "tags": [
-        "كفارة"
+        "category:sawm",
+        "age:scholar",
+        "tier:3",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-scholar-t3-q63",
+      "categoryId": "sawm",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "ما الصوم الذي نهى عنه النبي ﷺ وهو مواصلة الصوم بلا فطر بين اليومين؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الوصال"
+        },
+        {
+          "id": "b",
+          "text": "صوم داود"
+        },
+        {
+          "id": "c",
+          "text": "صوم عاشوراء"
+        },
+        {
+          "id": "d",
+          "text": "صوم الست من شوال"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نهى النبي ﷺ عن الوصال، وبيّن خصوصية حاله عندما قارن الصحابة أنفسهم به.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الوصال**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح البخاري 1965، 1966"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:scholar",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-scholar-t3-q64",
+      "categoryId": "sawm",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "من الذين واصلوا الاعتكاف بعد وفاة النبي ﷺ كما تذكر رواية عائشة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "أزواجه رضي الله عنهن"
+        },
+        {
+          "id": "b",
+          "text": "الخلفاء الراشدون"
+        },
+        {
+          "id": "c",
+          "text": "أهل المدينة جميعًا"
+        },
+        {
+          "id": "d",
+          "text": "لم يعتكف أحد بعده"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "تذكر الرواية أن أزواجه اعتكفن بعده.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **أزواجه رضي الله عنهن**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "2026"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:scholar",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-scholar-t3-q65",
+      "categoryId": "sawm",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "كيف صار حكم صوم عاشوراء في الرواية بعد أن فُرض رمضان؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "صار تطوعًا: من شاء صام ومن شاء ترك"
+        },
+        {
+          "id": "b",
+          "text": "صار فرضًا ثانيًا مع رمضان"
+        },
+        {
+          "id": "c",
+          "text": "نُهي عن صيامه"
+        },
+        {
+          "id": "d",
+          "text": "صار واجبًا على المسافر"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "تذكر عائشة أن صوم عاشوراء كان مأمورًا به، فلما فرض رمضان صار اختياريًا.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **صار تطوعًا: من شاء صام ومن شاء ترك**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح البخاري 2001، 2002"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:scholar",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-scholar-t4-q66",
+      "categoryId": "sawm",
+      "ageBand": "scholar",
+      "tier": 4,
+      "text": "من الذين تذكر رواية عائشة أنهم كانوا يصومون عاشوراء في الجاهلية؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "قريش"
+        },
+        {
+          "id": "b",
+          "text": "الأنصار"
+        },
+        {
+          "id": "c",
+          "text": "أهل الكتاب في مكة"
+        },
+        {
+          "id": "d",
+          "text": "ثقيف"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ذكرت عائشة رضي الله عنها أن قريشًا كانت تصوم عاشوراء في الجاهلية.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **قريش**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "2002"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:scholar",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-scholar-t4-q67",
+      "categoryId": "sawm",
+      "ageBand": "scholar",
+      "tier": 4,
+      "text": "ماذا أجاب النبي ﷺ حمزة بن عمرو الأسلمي حين سأله عن الصوم في السفر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "إن شئت فصم وإن شئت فأفطر"
+        },
+        {
+          "id": "b",
+          "text": "الأفضل الصوم ولا رخصة في الفطر"
+        },
+        {
+          "id": "c",
+          "text": "الأفضل الفطر ولا رخصة في الصوم"
+        },
+        {
+          "id": "d",
+          "text": "لا يصح الصوم في السفر"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نص الحديث على التخيير في سؤال حمزة بن عمرو، مع بقاء اعتبار المشقة في نصوص أخرى.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **إن شئت فصم وإن شئت فأفطر**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 1121a"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:scholar",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-scholar-t4-q68",
+      "categoryId": "sawm",
+      "ageBand": "scholar",
+      "tier": 4,
+      "text": "في واقعة الرجل الذي شق عليه الصوم في السفر حتى ظلله الناس، ماذا قال النبي ﷺ؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ليس من البر الصوم في السفر"
+        },
+        {
+          "id": "b",
+          "text": "الصوم واجب عليه مهما بلغ الضرر"
+        },
+        {
+          "id": "c",
+          "text": "يجب أن يصوم يومين بدل يوم"
+        },
+        {
+          "id": "d",
+          "text": "لا يجوز له الشرب بعد المغرب"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "السؤال مقيد بواقعة المشقة التي ورد فيها النص، ولا يحولها إلى حكم مطلق لكل مسافر.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **ليس من البر الصوم في السفر**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1946"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:scholar",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-scholar-t4-q69",
+      "categoryId": "sawm",
+      "ageBand": "scholar",
+      "tier": 4,
+      "text": "بماذا وصف القرآن ليلة القدر من جهة مقدار فضلها الزمني؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "خير من ألف شهر"
+        },
+        {
+          "id": "b",
+          "text": "خير من مئة يوم"
+        },
+        {
+          "id": "c",
+          "text": "تساوي شهرًا واحدًا"
+        },
+        {
+          "id": "d",
+          "text": "خير من مئة شهر"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نصت سورة القدر على أنها خير من ألف شهر.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«لَيْلَةُ الْقَدْرِ خَيْرٌ مِّنْ أَلْفِ شَهْرٍ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 97,
+          "ayah": 3
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:scholar",
+        "tier:4",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "sawm-scholar-t4-q70",
+      "categoryId": "sawm",
+      "ageBand": "scholar",
+      "tier": 4,
+      "text": "من الذين نص القرآن على تنزلهم في ليلة القدر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الملائكة والروح"
+        },
+        {
+          "id": "b",
+          "text": "الأنبياء جميعًا"
+        },
+        {
+          "id": "c",
+          "text": "الناس جميعًا"
+        },
+        {
+          "id": "d",
+          "text": "جبريل وميكائيل"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نصت سورة القدر على تنزل الملائكة والروح فيها بإذن ربهم.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«تَنَزَّلُ الْمَلَائِكَةُ وَالرُّوحُ فِيهَا»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 97,
+          "ayah": 4
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:scholar",
+        "tier:4",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "sawm-scholar-t5-q71",
+      "categoryId": "sawm",
+      "ageBand": "scholar",
+      "tier": 5,
+      "text": "إلى أي وقت وصف القرآن ليلة القدر بأنها سلام؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "حتى مطلع الفجر"
+        },
+        {
+          "id": "b",
+          "text": "حتى الظهر"
+        },
+        {
+          "id": "c",
+          "text": "حتى المغرب التالي"
+        },
+        {
+          "id": "d",
+          "text": "حتى طلوع الشمس"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ختمت السورة بأن الليلة سلام حتى مطلع الفجر.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«سَلَامٌ هِيَ حَتَّىٰ مَطْلَعِ الْفَجْرِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 97,
+          "ayah": 5
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:scholar",
+        "tier:5",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "sawm-scholar-t5-q72",
+      "categoryId": "sawm",
+      "ageBand": "scholar",
+      "tier": 5,
+      "text": "ما العمل الذي ربط الحديث بينه وبين مغفرة ما تقدم من الذنب إذا كان إيمانًا واحتسابًا؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "قيام رمضان"
+        },
+        {
+          "id": "b",
+          "text": "السفر في رمضان"
+        },
+        {
+          "id": "c",
+          "text": "ترك السحور"
+        },
+        {
+          "id": "d",
+          "text": "صوم يوم العيد"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ورد فضل قيام رمضان إيمانًا واحتسابًا في الصحيح.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«مَنْ قَامَهُ إِيمَانًا وَاحْتِسَابًا غُفِرَ لَهُ مَا تَقَدَّمَ مِنْ ذَنْبِهِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "2008"
+        },
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "2009"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:scholar",
+        "tier:5",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-scholar-t5-q73",
+      "categoryId": "sawm",
+      "ageBand": "scholar",
+      "tier": 5,
+      "text": "ما القيد الوارد في الحديث على صوم يوم الجمعة منفردًا؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "أن يصوم يومًا قبله أو بعده"
+        },
+        {
+          "id": "b",
+          "text": "أن يسبقه بيومان"
+        },
+        {
+          "id": "c",
+          "text": "أن يلحقه يومان"
+        },
+        {
+          "id": "d",
+          "text": "أن يكون يوم الجمعة من أيام البيض"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نهى الحديث عن إفراد الجمعة بالصوم إلا أن يصام يوم قبله أو بعده.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **أن يصوم يومًا قبله أو بعده**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1985"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:scholar",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-scholar-t5-q74",
+      "categoryId": "sawm",
+      "ageBand": "scholar",
+      "tier": 5,
+      "text": "في صوم النافلة، ما الشرط المذكور لصيام المرأة وزوجها حاضر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "إذنه"
+        },
+        {
+          "id": "b",
+          "text": "إذن الجار"
+        },
+        {
+          "id": "c",
+          "text": "السفر"
+        },
+        {
+          "id": "d",
+          "text": "عدم السحور"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "جاء النص في صوم التطوع مع حضور الزوج، لا في صيام الفرض.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **إذنه**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "5192"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:scholar",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "sawm-scholar-t5-q75",
+      "categoryId": "sawm",
+      "ageBand": "scholar",
+      "tier": 5,
+      "text": "لماذا لم يخرج النبي ﷺ للناس في الليلة الرابعة بعدما صلوا خلفه ليالي من رمضان؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "خشي أن تُفرض عليهم صلاة الليل فيعجزوا عنها"
+        },
+        {
+          "id": "b",
+          "text": "نسي مكان المسجد"
+        },
+        {
+          "id": "c",
+          "text": "كان مسافرًا خارج المدينة"
+        },
+        {
+          "id": "d",
+          "text": "نهى عن قيام رمضان"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "صرح ﷺ أن امتناعه كان خشية أن تُفرض عليهم فيعجزوا عنها.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **خشي أن تُفرض عليهم صلاة الليل فيعجزوا عنها**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "2012"
+        }
+      ],
+      "tags": [
+        "category:sawm",
+        "age:scholar",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     }
   ]
 }

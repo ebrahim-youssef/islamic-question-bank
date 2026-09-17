@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "bankHash": "4e49f5a8185f4c1261d23159510cdbadc8ae7329edcb9d9634dd23f2d4ac11a1",
-  "totalQuestions": 270,
-  "totalBytes": 260960,
+  "bankHash": "15adc9d7bf2c534bc6f27307299c1f8e552f5d17b89a37bb9d5837ea432e16b5",
+  "totalQuestions": 375,
+  "totalBytes": 579683,
   "categories": {
     "path": "data/categories.json",
     "sha256": "18ac7b478b2c51f1c4530fc75db08c54ea3f5c4e78aad16072efa02dce69827c",
@@ -12,37 +12,37 @@
     {
       "categoryId": "hajj",
       "path": "data/questions/hajj.json",
-      "sha256": "424920a7149007362786ce4eb489ad047ad4d8de63964c6dbda298e652a3bf92",
-      "bytes": 49036,
-      "questionCount": 51
+      "sha256": "3ec31602c0af257d73843de45767b1a2373e1de2c93fe967d83106de55101c7e",
+      "bytes": 113463,
+      "questionCount": 75
     },
     {
       "categoryId": "salah",
       "path": "data/questions/salah.json",
-      "sha256": "ebd7d2ee96fd2e398b3ea6d4eba6288ccb73e7cfa95d5633e7f76eb2309b642f",
-      "bytes": 53205,
-      "questionCount": 56
+      "sha256": "4a7ecbba2044b4f95c5b9391702462122f298b1db5a65809dd3d3f0f10bbedd1",
+      "bytes": 118098,
+      "questionCount": 75
     },
     {
       "categoryId": "sawm",
       "path": "data/questions/sawm.json",
-      "sha256": "ce193c9c86eb56fe2975a325489c877599730173d980255debcc47472b690a63",
-      "bytes": 53280,
-      "questionCount": 55
+      "sha256": "8f574e145bc3bb6fbb4460e01a1d072baf796021002686929b1b6a6391ebfa93",
+      "bytes": 116694,
+      "questionCount": 75
     },
     {
       "categoryId": "shahada",
       "path": "data/questions/shahada.json",
-      "sha256": "24b576519561836485e4b00f183d442eae8e1081252ea7f2aba4583f39a1ebd8",
-      "bytes": 51936,
-      "questionCount": 53
+      "sha256": "68170bdc72875c80d60079b06d265dff16019ca87e17a75a8c9cb1807d40d4fc",
+      "bytes": 113435,
+      "questionCount": 75
     },
     {
       "categoryId": "zakah",
       "path": "data/questions/zakah.json",
-      "sha256": "ac7fb1263fe19058ac1d24d8fcc3c109bc5e7849e4a909282dcb323e74db6c5b",
-      "bytes": 53503,
-      "questionCount": 55
+      "sha256": "8d3a5edcc2269d34a4cd5407a8be51ea0193aa55d4b670617ebe69cd9fb4f63a",
+      "bytes": 117993,
+      "questionCount": 75
     }
   ]
 }

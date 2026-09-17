@@ -2,795 +2,501 @@
   "categoryId": "shahada",
   "questions": [
     {
-      "id": "kid-sh-3",
+      "id": "shahada-kids-t1-q01",
       "categoryId": "shahada",
       "ageBand": "kids",
-      "tier": 2,
-      "text": "من هم الذين يطيعون الله دائماً ولا يعصونه أبداً؟",
+      "tier": 1,
+      "text": "من خالق كل شيء؟",
       "choices": [
         {
           "id": "a",
-          "text": "الناس"
+          "text": "الله"
         },
         {
           "id": "b",
-          "text": "الجن"
-        },
-        {
-          "id": "c",
           "text": "الملائكة"
         },
         {
-          "id": "d",
-          "text": "الحيوانات"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "الملائكة عبادٌ مكرمون «لا يعصون الله ما أمرهم ويفعلون ما يؤمرون».",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 66,
-          "ayah": 6
-        }
-      ],
-      "tags": [
-        "ملائكة",
-        "أطفال"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-1-1-1",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 1,
-      "text": "بم يدخل المرءُ في الإسلام؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "بالنطق بالشهادتين"
-        },
-        {
-          "id": "b",
-          "text": "بأداء الصلاة"
-        },
-        {
           "id": "c",
-          "text": "بصيام رمضان"
+          "text": "الأنبياء"
         },
         {
           "id": "d",
-          "text": "بالاغتسال"
+          "text": "الناس"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "يدخل المرء في الإسلام بالنطق بالشهادتين عن اعتقاد وإذعان.",
+      "explanation": "يقرر القرآن أن الله خالق كل شيء، وهي صياغة مباشرة لا تحتاج إلى استنتاج.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«اللَّهُ خَالِقُ كُلِّ شَيْءٍ»"
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "حديث جبريل — البخاري ومسلم"
+          "type": "quran",
+          "surah": 39,
+          "ayah": 62
         }
       ],
       "tags": [
-        "شهادة"
+        "category:shahada",
+        "age:kids",
+        "tier:1",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "pg-1-1-2",
+      "id": "shahada-kids-t1-q02",
       "categoryId": "shahada",
-      "ageBand": "general",
+      "ageBand": "kids",
       "tier": 1,
-      "text": "كم عدد أركان الإسلام؟",
+      "text": "من خاتم النبيين؟",
       "choices": [
         {
           "id": "a",
+          "text": "إبراهيم عليه السلام"
+        },
+        {
+          "id": "b",
+          "text": "موسى عليه السلام"
+        },
+        {
+          "id": "c",
+          "text": "محمد ﷺ"
+        },
+        {
+          "id": "d",
+          "text": "عيسى عليه السلام"
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "نص القرآن على أن محمدًا ﷺ رسول الله وخاتم النبيين.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَلَٰكِن رَّسُولَ اللَّهِ وَخَاتَمَ النَّبِيِّينَ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 33,
+          "ayah": 40
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:kids",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-kids-t1-q03",
+      "categoryId": "shahada",
+      "ageBand": "kids",
+      "tier": 1,
+      "text": "ما الكتاب الذي نُزِّل على محمد ﷺ؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "التوراة"
+        },
+        {
+          "id": "b",
+          "text": "القرآن"
+        },
+        {
+          "id": "c",
+          "text": "الزبور"
+        },
+        {
+          "id": "d",
+          "text": "الإنجيل"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "يذكر القرآن الإيمان بما نُزِّل على محمد ﷺ، وهو القرآن.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَآمَنُوا بِمَا نُزِّلَ عَلَىٰ مُحَمَّدٍ وَهُوَ الْحَقُّ مِن رَّبِّهِمْ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 47,
+          "ayah": 2
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:kids",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-kids-t1-q04",
+      "categoryId": "shahada",
+      "ageBand": "kids",
+      "tier": 1,
+      "text": "كم عدد أركان الإسلام المذكورة في حديث «بني الإسلام على خمس»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ثلاثة"
+        },
+        {
+          "id": "b",
           "text": "أربعة"
         },
         {
-          "id": "b",
+          "id": "c",
           "text": "خمسة"
         },
         {
-          "id": "c",
+          "id": "d",
           "text": "ستة"
-        },
-        {
-          "id": "d",
-          "text": "ثلاثة"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "أركان الإسلام خمسة: الشهادتان والصلاة والزكاة والصوم والحج.",
-      "references": [
-        {
-          "type": "other",
-          "label": "حديث جبريل — البخاري ومسلم"
-        }
-      ],
-      "tags": [
-        "أركان"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-1-1-3",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 1,
-      "text": "ما معنى «لا إله إلا الله»؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "لا خالق إلا الله فقط"
-        },
-        {
-          "id": "b",
-          "text": "الله موجود"
-        },
-        {
-          "id": "c",
-          "text": "لا معبود بحقٍّ إلا الله"
-        },
-        {
-          "id": "d",
-          "text": "الله واحد في الكون"
         }
       ],
       "correctChoiceId": "c",
-      "explanation": "كلمة التوحيد تنفي العبادة عن كل ما سوى الله وتُثبتها له وحده.",
+      "explanation": "الحديث نفسه يحصر المذكورات في خمسة أركان.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **خمسة**."
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "عام"
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "8"
         }
       ],
       "tags": [
-        "توحيد"
+        "category:shahada",
+        "age:kids",
+        "tier:1",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "pg-1-1-4",
+      "id": "shahada-kids-t1-q05",
       "categoryId": "shahada",
-      "ageBand": "general",
+      "ageBand": "kids",
       "tier": 1,
-      "text": "ما أول أركان الإسلام؟",
+      "text": "ماذا تعرف الملائكة الكرام الكاتبة عن أعمال الإنسان؟",
       "choices": [
         {
           "id": "a",
-          "text": "الصلاة"
+          "text": "تعرف ما يفعل"
         },
         {
           "id": "b",
-          "text": "الزكاة"
+          "text": "تعرف الغيب كله"
         },
         {
           "id": "c",
-          "text": "الصوم"
+          "text": "لا تعرف شيئًا"
         },
         {
           "id": "d",
-          "text": "الشهادتان"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "النطق بالشهادتين هو أول أركان الإسلام والدخول فيه.",
-      "references": [
-        {
-          "type": "other",
-          "label": "حديث جبريل — البخاري ومسلم"
-        }
-      ],
-      "tags": [
-        "شهادة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-1-1-5",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 1,
-      "text": "ما معنى كلمة «الإسلام» لغةً؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الاستسلام والانقياد لله"
-        },
-        {
-          "id": "b",
-          "text": "القوة والغلبة"
-        },
-        {
-          "id": "c",
-          "text": "السلام بين الناس"
-        },
-        {
-          "id": "d",
-          "text": "الزهد والعزلة"
+          "text": "تعرف المستقبل وحده"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "الإسلام لغةً الاستسلام والانقياد والإذعان لله بالتوحيد.",
+      "explanation": "الآيات تصفهم بأنهم كرام كاتبون يعلمون ما يفعل الناس.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَإِنَّ عَلَيْكُمْ لَحَافِظِينَ كِرَامًا كَاتِبِينَ يَعْلَمُونَ مَا تَفْعَلُونَ»"
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "عام"
+          "type": "quran",
+          "surah": 82,
+          "ayah": 10,
+          "ayahEnd": 12
         }
       ],
       "tags": [
-        "توحيد"
+        "category:shahada",
+        "age:kids",
+        "tier:1",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "pg-1-1-6",
+      "id": "shahada-kids-t2-q06",
       "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 1,
-      "text": "في أي مدينة وُلد النبي ﷺ؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "المدينة"
-        },
-        {
-          "id": "b",
-          "text": "مكة"
-        },
-        {
-          "id": "c",
-          "text": "الطائف"
-        },
-        {
-          "id": "d",
-          "text": "بيت المقدس"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "وُلد النبي ﷺ في مكة عام الفيل.",
-      "references": [
-        {
-          "type": "book",
-          "title": "السيرة النبوية"
-        }
-      ],
-      "tags": [
-        "سيرة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-1-2-1",
-      "categoryId": "shahada",
-      "ageBand": "general",
+      "ageBand": "kids",
       "tier": 2,
-      "text": "على أي نبيّ أُنزلت التوراة؟",
+      "text": "أي كتاب أنزل الله فيه الهدى والنور وارتبط بموسى عليه السلام؟",
       "choices": [
         {
           "id": "a",
-          "text": "موسى عليه السلام"
+          "text": "الإنجيل"
         },
         {
           "id": "b",
-          "text": "عيسى عليه السلام"
+          "text": "الزبور"
         },
         {
           "id": "c",
-          "text": "داود عليه السلام"
+          "text": "التوراة"
         },
         {
           "id": "d",
-          "text": "إبراهيم عليه السلام"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "التوراة كتاب الله المنزَّل على موسى عليه السلام.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "كتب"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-1-2-2",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "على أي نبيّ أُنزل الإنجيل؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "موسى عليه السلام"
-        },
-        {
-          "id": "b",
-          "text": "عيسى عليه السلام"
-        },
-        {
-          "id": "c",
-          "text": "داود عليه السلام"
-        },
-        {
-          "id": "d",
-          "text": "محمد ﷺ"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "الإنجيل كتاب الله المنزَّل على عيسى عليه السلام.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "كتب"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-1-2-3",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "على أي نبيّ أُنزل الزبور؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "سليمان عليه السلام"
-        },
-        {
-          "id": "b",
-          "text": "موسى عليه السلام"
-        },
-        {
-          "id": "c",
-          "text": "داود عليه السلام"
-        },
-        {
-          "id": "d",
-          "text": "عيسى عليه السلام"
+          "text": "صحف إبراهيم"
         }
       ],
       "correctChoiceId": "c",
-      "explanation": "الزبور كتاب الله المنزَّل على داود عليه السلام.",
+      "explanation": "سورة المائدة تصف التوراة بأنها هدى ونور، وهي الكتاب الذي أوتي موسى عليه السلام.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«إِنَّا أَنزَلْنَا التَّوْرَاةَ فِيهَا هُدًى وَنُورٌ»"
+        }
+      ],
       "references": [
         {
+          "type": "quran",
+          "surah": 5,
+          "ayah": 44
+        },
+        {
           "type": "other",
-          "label": "عام"
+          "label": "القرآن الكريم — الأنعام 6:91 — الكتاب الذي جاء به موسى نورًا وهدى للناس"
         }
       ],
       "tags": [
-        "كتب"
+        "category:shahada",
+        "age:kids",
+        "tier:2",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "pg-1-2-4",
+      "id": "shahada-kids-t2-q07",
       "categoryId": "shahada",
-      "ageBand": "general",
+      "ageBand": "kids",
       "tier": 2,
-      "text": "الملَك الموكَّل بنزول الوحي على الأنبياء هو؟",
+      "text": "أي كتاب آتاه الله لعيسى ابن مريم عليه السلام؟",
       "choices": [
         {
           "id": "a",
-          "text": "ميكائيل عليه السلام"
+          "text": "الإنجيل"
         },
         {
           "id": "b",
-          "text": "إسرافيل عليه السلام"
+          "text": "الزبور"
         },
         {
           "id": "c",
-          "text": "مالك عليه السلام"
+          "text": "التوراة"
         },
         {
           "id": "d",
-          "text": "جبريل عليه السلام"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "جبريل عليه السلام هو أمين الوحي الذي ينزل به على الرسل.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "ملائكة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-1-2-6",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "من خُلق من نور؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الملائكة"
-        },
-        {
-          "id": "b",
-          "text": "الجن"
-        },
-        {
-          "id": "c",
-          "text": "الإنس"
-        },
-        {
-          "id": "d",
-          "text": "الشياطين"
+          "text": "القرآن"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "خُلقت الملائكة من نور، والجانّ من نار، وآدم مما وُصف لكم.",
+      "explanation": "الآية تنص صراحة على أن الله آتى عيسى الإنجيل.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَآتَيْنَاهُ الْإِنجِيلَ فِيهِ هُدًى وَنُورٌ»"
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "صحيح مسلم"
+          "type": "quran",
+          "surah": 5,
+          "ayah": 46
         }
       ],
       "tags": [
-        "ملائكة"
+        "category:shahada",
+        "age:kids",
+        "tier:2",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "pg-1-3-1",
+      "id": "shahada-kids-t2-q08",
       "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "من هو أبو الأنبياء؟",
+      "ageBand": "kids",
+      "tier": 2,
+      "text": "أي كتاب آتاه الله لداود عليه السلام؟",
       "choices": [
         {
           "id": "a",
-          "text": "إبراهيم عليه السلام"
+          "text": "الإنجيل"
         },
         {
           "id": "b",
-          "text": "نوح عليه السلام"
+          "text": "الزبور"
         },
         {
           "id": "c",
-          "text": "آدم عليه السلام"
+          "text": "التوراة"
         },
         {
           "id": "d",
-          "text": "إسماعيل عليه السلام"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "إبراهيم عليه السلام يُلقَّب بأبي الأنبياء لأن أكثر الأنبياء من ذريّته.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "أنبياء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-1-3-4",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "أول الرسل إلى أهل الأرض هو؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "آدم عليه السلام"
-        },
-        {
-          "id": "b",
-          "text": "نوح عليه السلام"
-        },
-        {
-          "id": "c",
-          "text": "إدريس عليه السلام"
-        },
-        {
-          "id": "d",
-          "text": "إبراهيم عليه السلام"
+          "text": "الفرقان"
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "نوح عليه السلام أول رسول أُرسل إلى أهل الأرض كما في حديث الشفاعة.",
+      "explanation": "الآية تقول صراحة إن الله آتى داود زبورًا.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَآتَيْنَا دَاوُودَ زَبُورًا»"
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "صحيح البخاري"
+          "type": "quran",
+          "surah": 4,
+          "ayah": 163
         }
       ],
       "tags": [
-        "أنبياء"
+        "category:shahada",
+        "age:kids",
+        "tier:2",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "pg-1-3-5",
+      "id": "shahada-kids-t2-q09",
       "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "الملَك الموكَّل بالنفخ في الصُّور هو؟",
+      "ageBand": "kids",
+      "tier": 2,
+      "text": "أي نبي التقمه الحوت كما ذكر القرآن؟",
       "choices": [
         {
           "id": "a",
-          "text": "جبريل عليه السلام"
-        },
-        {
-          "id": "b",
-          "text": "ميكائيل عليه السلام"
-        },
-        {
-          "id": "c",
-          "text": "إسرافيل عليه السلام"
-        },
-        {
-          "id": "d",
-          "text": "عزرائيل"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "إسرافيل عليه السلام موكَّل بالنفخ في الصُّور يوم القيامة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "ملائكة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-1-4-1",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "كم عدد أسماء الله الحسنى الوارد ذكرها في الحديث؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "مئة"
-        },
-        {
-          "id": "b",
-          "text": "تسعة وتسعون"
-        },
-        {
-          "id": "c",
-          "text": "سبعون"
-        },
-        {
-          "id": "d",
-          "text": "تسعون"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "«إن لله تسعةً وتسعين اسمًا، من أحصاها دخل الجنة».",
-      "references": [
-        {
-          "type": "other",
-          "label": "البخاري ومسلم"
-        }
-      ],
-      "tags": [
-        "أسماء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-1-4-2",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "النبي الذي التقمه الحوت هو؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "يوسف عليه السلام"
-        },
-        {
-          "id": "b",
-          "text": "أيوب عليه السلام"
-        },
-        {
-          "id": "c",
           "text": "يونس عليه السلام"
         },
         {
+          "id": "b",
+          "text": "يوسف عليه السلام"
+        },
+        {
+          "id": "c",
+          "text": "هود عليه السلام"
+        },
+        {
           "id": "d",
           "text": "صالح عليه السلام"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "يونس عليه السلام ذو النون التقمه الحوت فنادى في الظلمات.",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 21,
-          "ayah": 87
-        }
-      ],
-      "tags": [
-        "أنبياء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-1-4-4",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "النبي الذي سخَّر الله له الريح والجن؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "داود عليه السلام"
-        },
-        {
-          "id": "b",
-          "text": "موسى عليه السلام"
-        },
-        {
-          "id": "c",
-          "text": "إبراهيم عليه السلام"
-        },
-        {
-          "id": "d",
-          "text": "سليمان عليه السلام"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "سخَّر الله لسليمان الريح والجنّ وعلَّمه منطق الطير.",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 21,
-          "ayah": 81
-        }
-      ],
-      "tags": [
-        "أنبياء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-1-4-5",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "أول من يُبعث من قبره يوم القيامة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "محمد ﷺ"
-        },
-        {
-          "id": "b",
-          "text": "آدم عليه السلام"
-        },
-        {
-          "id": "c",
-          "text": "إبراهيم عليه السلام"
-        },
-        {
-          "id": "d",
-          "text": "نوح عليه السلام"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "«أنا أول من تنشقُّ عنه الأرض يوم القيامة».",
+      "explanation": "تذكر سورة الصافات أن الحوت التقم يونس عليه السلام.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«فَالْتَقَمَهُ الْحُوتُ وَهُوَ مُلِيمٌ»"
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "صحيح مسلم"
+          "type": "quran",
+          "surah": 37,
+          "ayah": 142
         }
       ],
       "tags": [
-        "آخرة"
+        "category:shahada",
+        "age:kids",
+        "tier:2",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "pg-1-4-6",
+      "id": "shahada-kids-t2-q10",
       "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "النبي الذي أُلقي في النار فكانت بردًا وسلامًا؟",
+      "ageBand": "kids",
+      "tier": 2,
+      "text": "لأي نبي قال الله للنار: كوني بردًا وسلامًا؟",
       "choices": [
         {
           "id": "a",
-          "text": "إسماعيل عليه السلام"
+          "text": "نوح عليه السلام"
         },
         {
           "id": "b",
-          "text": "لوط عليه السلام"
+          "text": "إبراهيم عليه السلام"
         },
         {
           "id": "c",
-          "text": "صالح عليه السلام"
+          "text": "موسى عليه السلام"
         },
         {
           "id": "d",
-          "text": "إبراهيم عليه السلام"
+          "text": "لوط عليه السلام"
         }
       ],
-      "correctChoiceId": "d",
-      "explanation": "قال تعالى: «قلنا يا نار كوني بردًا وسلامًا على إبراهيم».",
+      "correctChoiceId": "b",
+      "explanation": "الآية نص مباشر في قصة إبراهيم عليه السلام.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«يَا نَارُ كُونِي بَرْدًا وَسَلَامًا عَلَىٰ إِبْرَاهِيمَ»"
+        }
+      ],
       "references": [
         {
           "type": "quran",
@@ -799,419 +505,74 @@
         }
       ],
       "tags": [
-        "أنبياء"
+        "category:shahada",
+        "age:kids",
+        "tier:2",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "pg-1-5-1",
+      "id": "shahada-kids-t3-q11",
       "categoryId": "shahada",
-      "ageBand": "general",
+      "ageBand": "kids",
       "tier": 3,
-      "text": "ما أعظم آية في القرآن الكريم؟",
+      "text": "أي نبي قال الله إنه كلّمه تكليمًا؟",
       "choices": [
         {
           "id": "a",
-          "text": "آية الكرسي"
+          "text": "داود عليه السلام"
         },
         {
           "id": "b",
-          "text": "أول آية من البقرة"
+          "text": "موسى عليه السلام"
         },
         {
           "id": "c",
-          "text": "آية الدَّين"
+          "text": "سليمان عليه السلام"
         },
         {
           "id": "d",
-          "text": "الآية الأخيرة من الحشر"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "بيَّن النبي ﷺ لأُبيّ بن كعب أن آية الكرسي أعظم آية في القرآن.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح مسلم"
-        }
-      ],
-      "tags": [
-        "قرآن"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-1-5-2",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "السورة التي تعدل ثُلث القرآن؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "سورة الفاتحة"
-        },
-        {
-          "id": "b",
-          "text": "سورة الإخلاص"
-        },
-        {
-          "id": "c",
-          "text": "سورة الكوثر"
-        },
-        {
-          "id": "d",
-          "text": "سورة الناس"
+          "text": "زكريا عليه السلام"
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "«قل هو الله أحد تعدل ثلث القرآن».",
+      "explanation": "الآية تنص على أن الله كلم موسى تكليمًا.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَكَلَّمَ اللَّهُ مُوسَىٰ تَكْلِيمًا»"
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "صحيح البخاري"
+          "type": "quran",
+          "surah": 4,
+          "ayah": 164
         }
       ],
       "tags": [
-        "قرآن"
+        "category:shahada",
+        "age:kids",
+        "tier:3",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "pg-1-5-4",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "عدد سور القرآن الكريم؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "١١٣"
-        },
-        {
-          "id": "b",
-          "text": "١١٤"
-        },
-        {
-          "id": "c",
-          "text": "١٢٠"
-        },
-        {
-          "id": "d",
-          "text": "١٠٠"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "عدد سور القرآن الكريم مئة وأربع عشرة سورة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "قرآن"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-1-5-5",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "أطول سورة في القرآن الكريم؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "سورة آل عمران"
-        },
-        {
-          "id": "b",
-          "text": "سورة النساء"
-        },
-        {
-          "id": "c",
-          "text": "سورة البقرة"
-        },
-        {
-          "id": "d",
-          "text": "سورة الأعراف"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "سورة البقرة أطول سور القرآن الكريم.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "قرآن"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-1-5-6",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "من كتبة الوحي وأول الخلفاء الراشدين؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "عمر بن الخطاب رضي الله عنه"
-        },
-        {
-          "id": "b",
-          "text": "عثمان بن عفان رضي الله عنه"
-        },
-        {
-          "id": "c",
-          "text": "أبو بكر الصديق رضي الله عنه"
-        },
-        {
-          "id": "d",
-          "text": "علي بن أبي طالب رضي الله عنه"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "أبو بكر الصديق أول الخلفاء الراشدين وصاحب النبي ﷺ في الغار.",
-      "references": [
-        {
-          "type": "other",
-          "label": "السيرة والتاريخ"
-        }
-      ],
-      "tags": [
-        "صحابة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-1-1-1",
-      "categoryId": "shahada",
-      "ageBand": "kids",
-      "tier": 1,
-      "text": "من ربُّنا الذي خلقنا؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الله"
-        },
-        {
-          "id": "b",
-          "text": "الشمس"
-        },
-        {
-          "id": "c",
-          "text": "الملائكة"
-        },
-        {
-          "id": "d",
-          "text": "الناس"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "ربُّنا هو الله وحده، خلقنا وخلق كل شيء.",
-      "references": [
-        {
-          "type": "other",
-          "label": "القرآن — سورة الفاتحة"
-        }
-      ],
-      "tags": [
-        "توحيد"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-1-1-2",
-      "categoryId": "shahada",
-      "ageBand": "kids",
-      "tier": 1,
-      "text": "من هو نبيُّنا الذي نتبعه؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "جدُّنا"
-        },
-        {
-          "id": "b",
-          "text": "محمد ﷺ"
-        },
-        {
-          "id": "c",
-          "text": "معلِّمنا"
-        },
-        {
-          "id": "d",
-          "text": "صديقنا"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "نبيُّنا محمد ﷺ، أرسله الله ليعلِّمنا ديننا.",
-      "references": [
-        {
-          "type": "book",
-          "title": "السيرة النبوية"
-        }
-      ],
-      "tags": [
-        "نبي"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-1-2-1",
-      "categoryId": "shahada",
-      "ageBand": "kids",
-      "tier": 2,
-      "text": "بأي كتابٍ نزل على نبيِّنا محمد ﷺ؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "التوراة"
-        },
-        {
-          "id": "b",
-          "text": "الإنجيل"
-        },
-        {
-          "id": "c",
-          "text": "الزبور"
-        },
-        {
-          "id": "d",
-          "text": "القرآن"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "أنزل الله القرآن على نبيِّنا محمد ﷺ هدايةً للناس.",
-      "references": [
-        {
-          "type": "other",
-          "label": "القرآن — سورة البقرة"
-        }
-      ],
-      "tags": [
-        "قرآن"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-1-2-2",
-      "categoryId": "shahada",
-      "ageBand": "kids",
-      "tier": 2,
-      "text": "كم عدد أركان الإسلام؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "خمسة"
-        },
-        {
-          "id": "b",
-          "text": "ثلاثة"
-        },
-        {
-          "id": "c",
-          "text": "أربعة"
-        },
-        {
-          "id": "d",
-          "text": "ستة"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "أركان الإسلام خمسة: الشهادتان والصلاة والزكاة والصوم والحج.",
-      "references": [
-        {
-          "type": "other",
-          "label": "حديث ابن عمر — متفق عليه"
-        }
-      ],
-      "tags": [
-        "أركان"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-1-3-1",
+      "id": "shahada-kids-t3-q12",
       "categoryId": "shahada",
       "ageBand": "kids",
       "tier": 3,
-      "text": "من الذي يحمل أعمالنا ويكتبها من الملائكة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الأنبياء"
-        },
-        {
-          "id": "b",
-          "text": "الملائكة الحفظة"
-        },
-        {
-          "id": "c",
-          "text": "الجن"
-        },
-        {
-          "id": "d",
-          "text": "الرياح"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "وكَّل الله بكل إنسان ملائكةً تحفظ أعماله وتكتبها.",
-      "references": [
-        {
-          "type": "other",
-          "label": "القرآن — سورة ق"
-        }
-      ],
-      "tags": [
-        "ملائكة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-1-3-2",
-      "categoryId": "shahada",
-      "ageBand": "kids",
-      "tier": 3,
-      "text": "من هو النبيُّ الذي كلَّمه الله وأرسله إلى فرعون؟",
+      "text": "أي نبي قال: «عُلِّمنا منطق الطير»؟",
       "choices": [
         {
           "id": "a",
@@ -1219,7 +580,364 @@
         },
         {
           "id": "b",
+          "text": "سليمان عليه السلام"
+        },
+        {
+          "id": "c",
+          "text": "أيوب عليه السلام"
+        },
+        {
+          "id": "d",
           "text": "يونس عليه السلام"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "ورد القول على لسان سليمان عليه السلام في سورة النمل.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«عُلِّمْنَا مَنطِقَ الطَّيْرِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 27,
+          "ayah": 16
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:kids",
+        "tier:3",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-kids-t3-q13",
+      "categoryId": "shahada",
+      "ageBand": "kids",
+      "tier": 3,
+      "text": "أي نبي قال الله عنه: «ورفعناه مكانًا عليًّا»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "إدريس عليه السلام"
+        },
+        {
+          "id": "b",
+          "text": "إسماعيل عليه السلام"
+        },
+        {
+          "id": "c",
+          "text": "إسحاق عليه السلام"
+        },
+        {
+          "id": "d",
+          "text": "هارون عليه السلام"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "هذا الوصف جاء لإدريس عليه السلام في سورة مريم.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَرَفَعْنَاهُ مَكَانًا عَلِيًّا»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 19,
+          "ayah": 57
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:kids",
+        "tier:3",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-kids-t3-q14",
+      "categoryId": "shahada",
+      "ageBand": "kids",
+      "tier": 3,
+      "text": "من النبي الذي قال وهو في المهد: «إني عبد الله آتاني الكتاب»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "يحيى عليه السلام"
+        },
+        {
+          "id": "b",
+          "text": "عيسى عليه السلام"
+        },
+        {
+          "id": "c",
+          "text": "موسى عليه السلام"
+        },
+        {
+          "id": "d",
+          "text": "محمد ﷺ"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "القول مذكور لعيسى ابن مريم عليه السلام وهو في قصة المهد.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«إِنِّي عَبْدُ اللَّهِ آتَانِيَ الْكِتَابَ وَجَعَلَنِي نَبِيًّا»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 19,
+          "ayah": 30
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:kids",
+        "tier:3",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-kids-t3-q15",
+      "categoryId": "shahada",
+      "ageBand": "kids",
+      "tier": 3,
+      "text": "من الذي علّمه الله الأسماء كلها؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "نوح عليه السلام"
+        },
+        {
+          "id": "b",
+          "text": "آدم عليه السلام"
+        },
+        {
+          "id": "c",
+          "text": "إبراهيم عليه السلام"
+        },
+        {
+          "id": "d",
+          "text": "داود عليه السلام"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "تذكر البقرة أن الله علّم آدم الأسماء كلها.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَعَلَّمَ آدَمَ الْأَسْمَاءَ كُلَّهَا»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 31
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:kids",
+        "tier:3",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-kids-t4-q16",
+      "categoryId": "shahada",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "كم لبث نوح عليه السلام في قومه كما نص القرآن؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "مئة سنة"
+        },
+        {
+          "id": "b",
+          "text": "خمسمئة سنة"
+        },
+        {
+          "id": "c",
+          "text": "ألف سنة إلا خمسين عامًا"
+        },
+        {
+          "id": "d",
+          "text": "ألفا سنة"
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "القرآن يذكر مدة ألف سنة إلا خمسين عامًا.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«فَلَبِثَ فِيهِمْ أَلْفَ سَنَةٍ إِلَّا خَمْسِينَ عَامًا»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 29,
+          "ayah": 14
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:kids",
+        "tier:4",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-kids-t4-q17",
+      "categoryId": "shahada",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "أي نبي قال الله عن اسمه: «لم نجعل له من قبل سميًّا»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "يحيى عليه السلام"
+        },
+        {
+          "id": "b",
+          "text": "يوسف عليه السلام"
+        },
+        {
+          "id": "c",
+          "text": "إسحاق عليه السلام"
+        },
+        {
+          "id": "d",
+          "text": "إلياس عليه السلام"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "جاء هذا الوصف عند البشارة بيحيى عليه السلام.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«نُبَشِّرُكَ بِغُلَامٍ اسْمُهُ يَحْيَىٰ لَمْ نَجْعَل لَّهُ مِن قَبْلُ سَمِيًّا»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 19,
+          "ayah": 7
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:kids",
+        "tier:4",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-kids-t4-q18",
+      "categoryId": "shahada",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "ما العلامة التي جعلها الله لزكريا عليه السلام بعد البشارة بيحيى؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ألا يكلم الناس ثلاث ليالٍ وهو سوي"
+        },
+        {
+          "id": "b",
+          "text": "أن ينام سبعة أيام"
+        },
+        {
+          "id": "c",
+          "text": "أن يغادر بلده"
+        },
+        {
+          "id": "d",
+          "text": "أن يفقد بصره"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نصت الآية على أن علامته ألا يكلم الناس ثلاث ليالٍ وهو سوي.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«آيَتُكَ أَلَّا تُكَلِّمَ النَّاسَ ثَلَاثَ لَيَالٍ سَوِيًّا»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 19,
+          "ayah": 10
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:kids",
+        "tier:4",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-kids-t4-q19",
+      "categoryId": "shahada",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "أي نبي وصفه الله بأنه «أمةً قانتًا لله حنيفًا»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "إبراهيم عليه السلام"
+        },
+        {
+          "id": "b",
+          "text": "نوح عليه السلام"
         },
         {
           "id": "c",
@@ -1230,108 +948,397 @@
           "text": "داود عليه السلام"
         }
       ],
-      "correctChoiceId": "c",
-      "explanation": "موسى عليه السلام كلَّمه الله وأرسله لدعوة فرعون.",
+      "correctChoiceId": "a",
+      "explanation": "هذا وصف قرآني مباشر لإبراهيم عليه السلام.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«إِنَّ إِبْرَاهِيمَ كَانَ أُمَّةً قَانِتًا لِّلَّهِ حَنِيفًا»"
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "القرآن — سورة طه"
+          "type": "quran",
+          "surah": 16,
+          "ayah": 120
         }
       ],
       "tags": [
-        "أنبياء"
+        "category:shahada",
+        "age:kids",
+        "tier:4",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "pk-1-4-1",
+      "id": "shahada-kids-t4-q20",
       "categoryId": "shahada",
       "ageBand": "kids",
       "tier": 4,
-      "text": "ما أول ما يجب أن نعرفه عن الله من صفاته؟",
+      "text": "مم خُلقت الملائكة كما جاء في الحديث الصحيح؟",
       "choices": [
         {
           "id": "a",
-          "text": "يشبه الخلق"
+          "text": "من نور"
         },
         {
           "id": "b",
-          "text": "له ولد"
+          "text": "من نار"
         },
         {
           "id": "c",
-          "text": "يحتاج إلينا"
+          "text": "من تراب"
         },
         {
           "id": "d",
-          "text": "واحد لا شريك له"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "الله واحدٌ أحد، لا شريك له ولا شبيه، لم يلد ولم يولد.",
-      "references": [
-        {
-          "type": "other",
-          "label": "القرآن — سورة الإخلاص"
-        }
-      ],
-      "tags": [
-        "توحيد"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-1-4-2",
-      "categoryId": "shahada",
-      "ageBand": "kids",
-      "tier": 4,
-      "text": "من هو خاتم الأنبياء، أي آخرهم؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "محمد ﷺ"
-        },
-        {
-          "id": "b",
-          "text": "عيسى عليه السلام"
-        },
-        {
-          "id": "c",
-          "text": "آدم عليه السلام"
-        },
-        {
-          "id": "d",
-          "text": "نوح عليه السلام"
+          "text": "من ماء"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "نبيُّنا محمد ﷺ خاتم الأنبياء، لا نبيَّ بعده.",
+      "explanation": "جاء في صحيح مسلم أن الملائكة خُلقت من نور.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **من نور**."
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "القرآن — سورة الأحزاب"
+          "type": "hadith",
+          "collection": "sahih-muslim",
+          "number": "2996"
         }
       ],
       "tags": [
-        "نبي"
+        "category:shahada",
+        "age:kids",
+        "tier:4",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "pk-1-5-1",
+      "id": "shahada-kids-t5-q21",
       "categoryId": "shahada",
       "ageBand": "kids",
       "tier": 5,
-      "text": "كم عدد أركان الإيمان؟",
+      "text": "ما اسما الملكين المذكورين في القرآن ببابل؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "جبريل وميكال"
+        },
+        {
+          "id": "b",
+          "text": "هاروت وماروت"
+        },
+        {
+          "id": "c",
+          "text": "مالك ورضوان"
+        },
+        {
+          "id": "d",
+          "text": "منكر ونكير"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "تذكر البقرة هاروت وماروت ببابل نصًا.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَمَا أُنزِلَ عَلَى الْمَلَكَيْنِ بِبَابِلَ هَارُوتَ وَمَارُوتَ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 102
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:kids",
+        "tier:5",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-kids-t5-q22",
+      "categoryId": "shahada",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "بأي اسم ينادي أهل النار خازنًا في قولهم: «يا ... ليقض علينا ربك»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "مالك"
+        },
+        {
+          "id": "b",
+          "text": "جبريل"
+        },
+        {
+          "id": "c",
+          "text": "ميكال"
+        },
+        {
+          "id": "d",
+          "text": "هاروت"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "تذكر الآية اسم مالك في خطاب أهل النار له.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَنَادَوْا يَا مَالِكُ لِيَقْضِ عَلَيْنَا رَبُّكَ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 43,
+          "ayah": 77
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:kids",
+        "tier:5",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-kids-t5-q23",
+      "categoryId": "shahada",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "كم عدد المذكورين على سقر في قوله تعالى: «عليها تسعة عشر»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "سبعة"
+        },
+        {
+          "id": "b",
+          "text": "تسعة"
+        },
+        {
+          "id": "c",
+          "text": "تسعة عشر"
+        },
+        {
+          "id": "d",
+          "text": "سبعون"
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "النص القرآني يذكر العدد تسعة عشر ثم يبيّن أن أصحاب النار ملائكة.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«عَلَيْهَا تِسْعَةَ عَشَرَ ... وَمَا جَعَلْنَا أَصْحَابَ النَّارِ إِلَّا مَلَائِكَةً»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 74,
+          "ayah": 30,
+          "ayahEnd": 31
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:kids",
+        "tier:5",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-kids-t5-q24",
+      "categoryId": "shahada",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "بمَ أيّد الله عيسى ابن مريم كما تكرر في القرآن؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "بروح القدس"
+        },
+        {
+          "id": "b",
+          "text": "بالريح"
+        },
+        {
+          "id": "c",
+          "text": "بالزبور"
+        },
+        {
+          "id": "d",
+          "text": "بملك الأرض"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "تذكر البقرة أن الله أيّد عيسى بروح القدس.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَآتَيْنَا عِيسَى ابْنَ مَرْيَمَ الْبَيِّنَاتِ وَأَيَّدْنَاهُ بِرُوحِ الْقُدُسِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 87
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:kids",
+        "tier:5",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-kids-t5-q25",
+      "categoryId": "shahada",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "من الملك الذي نزّل القرآن على قلب النبي ﷺ بإذن الله؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "جبريل عليه السلام"
+        },
+        {
+          "id": "b",
+          "text": "ميكال عليه السلام"
+        },
+        {
+          "id": "c",
+          "text": "مالك"
+        },
+        {
+          "id": "d",
+          "text": "هاروت"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الآية تنص على أن جبريل نزّله على قلب النبي ﷺ بإذن الله.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«قُلْ مَن كَانَ عَدُوًّا لِّجِبْرِيلَ فَإِنَّهُ نَزَّلَهُ عَلَىٰ قَلْبِكَ بِإِذْنِ اللَّهِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 97
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:kids",
+        "tier:5",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-general-t1-q26",
+      "categoryId": "shahada",
+      "ageBand": "general",
+      "tier": 1,
+      "text": "ما أول ركن يذكره حديث «بني الإسلام على خمس»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "إقام الصلاة"
+        },
+        {
+          "id": "b",
+          "text": "الشهادتان"
+        },
+        {
+          "id": "c",
+          "text": "إيتاء الزكاة"
+        },
+        {
+          "id": "d",
+          "text": "صوم رمضان"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "يفتتح الحديث بالشهادة أن لا إله إلا الله وأن محمدًا رسول الله.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الشهادتان**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "8"
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:general",
+        "tier:1",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "shahada-general-t1-q27",
+      "categoryId": "shahada",
+      "ageBand": "general",
+      "tier": 1,
+      "text": "كم أصلًا ذكرها النبي ﷺ في تعريف الإيمان في حديث جبريل المشهور؟",
       "choices": [
         {
           "id": "a",
@@ -1339,88 +1346,7 @@
         },
         {
           "id": "b",
-          "text": "ستة"
-        },
-        {
-          "id": "c",
           "text": "خمسة"
-        },
-        {
-          "id": "d",
-          "text": "سبعة"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "أركان الإيمان ستة: الإيمان بالله وملائكته وكتبه ورسله واليوم الآخر والقدر.",
-      "references": [
-        {
-          "type": "other",
-          "label": "حديث جبريل — صحيح مسلم"
-        }
-      ],
-      "tags": [
-        "إيمان",
-        "أركان"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-1-5-2",
-      "categoryId": "shahada",
-      "ageBand": "kids",
-      "tier": 5,
-      "text": "ماذا نسمِّي اليوم الذي يبعث الله فيه الناس ويحاسبهم؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "يوم الجمعة"
-        },
-        {
-          "id": "b",
-          "text": "يوم العيد"
-        },
-        {
-          "id": "c",
-          "text": "يوم القيامة"
-        },
-        {
-          "id": "d",
-          "text": "يوم عرفة"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "يوم القيامة يبعث الله الناس ويحاسبهم على أعمالهم.",
-      "references": [
-        {
-          "type": "other",
-          "label": "القرآن — سورة القيامة"
-        }
-      ],
-      "tags": [
-        "آخرة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-1-1-1",
-      "categoryId": "shahada",
-      "ageBand": "scholar",
-      "tier": 1,
-      "text": "كم عدد أولي العزم من الرسل؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "خمسة"
-        },
-        {
-          "id": "b",
-          "text": "أربعة"
         },
         {
           "id": "c",
@@ -1431,270 +1357,88 @@
           "text": "سبعة"
         }
       ],
-      "correctChoiceId": "a",
-      "explanation": "أولو العزم: نوح وإبراهيم وموسى وعيسى ومحمد ﷺ.",
+      "correctChoiceId": "c",
+      "explanation": "حديث جبريل يذكر الإيمان بالله وملائكته وكتبه ورسله واليوم الآخر والقدر.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **ستة**."
+        }
+      ],
       "references": [
         {
-          "type": "quran",
-          "surah": 42,
-          "ayah": 13
+          "type": "other",
+          "label": "صحيح مسلم 8a — حديث جبريل: الإسلام والإيمان والإحسان"
         }
       ],
       "tags": [
-        "أنبياء"
+        "category:shahada",
+        "age:general",
+        "tier:1",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "ps-1-1-2",
+      "id": "shahada-general-t1-q28",
       "categoryId": "shahada",
-      "ageBand": "scholar",
+      "ageBand": "general",
       "tier": 1,
-      "text": "في كم سنة تقريبًا نزل القرآن مُنجَّمًا؟",
+      "text": "ما تعريف الإحسان الوارد في حديث جبريل؟",
       "choices": [
         {
           "id": "a",
-          "text": "عشر سنوات"
+          "text": "أن تعبد الله كأنك تراه فإن لم تكن تراه فإنه يراك"
         },
         {
           "id": "b",
-          "text": "ثلاث وعشرون سنة"
+          "text": "أن تستحضر مراقبة الملائكة في كل عمل"
         },
         {
           "id": "c",
-          "text": "خمس عشرة سنة"
+          "text": "أن تعبد الله في الخلوة دون الجلوة"
         },
         {
           "id": "d",
-          "text": "أربعون سنة"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "نزل القرآن مفرَّقًا نحو ثلاث وعشرين سنة بين مكة والمدينة.",
-      "references": [
-        {
-          "type": "book",
-          "title": "علوم القرآن"
-        }
-      ],
-      "tags": [
-        "قرآن"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-1-2-1",
-      "categoryId": "shahada",
-      "ageBand": "scholar",
-      "tier": 2,
-      "text": "ما الذي أُنزل على إبراهيم عليه السلام؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الزبور"
-        },
-        {
-          "id": "b",
-          "text": "التوراة"
-        },
-        {
-          "id": "c",
-          "text": "الصُّحُف"
-        },
-        {
-          "id": "d",
-          "text": "الإنجيل"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "«صحف إبراهيم وموسى»، والزبور لداود والتوراة لموسى والإنجيل لعيسى.",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 87,
-          "ayah": 19
-        }
-      ],
-      "tags": [
-        "كتب"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-1-2-2",
-      "categoryId": "shahada",
-      "ageBand": "scholar",
-      "tier": 2,
-      "text": "كم مرتبةً لركن الإيمان بالقدر عند أهل السنة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "مرتبتان"
-        },
-        {
-          "id": "b",
-          "text": "ثلاث مراتب"
-        },
-        {
-          "id": "c",
-          "text": "خمس مراتب"
-        },
-        {
-          "id": "d",
-          "text": "أربع مراتب"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "مراتب القدر: العلم ثم الكتابة ثم المشيئة ثم الخلق.",
-      "references": [
-        {
-          "type": "book",
-          "title": "عقيدة أهل السنة"
-        }
-      ],
-      "tags": [
-        "قدر"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-1-3-1",
-      "categoryId": "shahada",
-      "ageBand": "scholar",
-      "tier": 3,
-      "text": "كم نبيًّا ذُكر باسمه صراحةً في القرآن الكريم؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "خمسة وعشرون"
-        },
-        {
-          "id": "b",
-          "text": "عشرون"
-        },
-        {
-          "id": "c",
-          "text": "ثلاثون"
-        },
-        {
-          "id": "d",
-          "text": "أربعون"
+          "text": "أن تجعل العبادة مقصورة على النوافل"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "ذُكر في القرآن خمسة وعشرون نبيًّا بأسمائهم.",
-      "references": [
+      "explanation": "التعريف مأخوذ مباشرة من جواب النبي ﷺ لجبريل.",
+      "evidence": [
         {
-          "type": "book",
-          "title": "علوم القرآن"
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **أن تعبد الله كأنك تراه فإن لم تكن تراه فإنه يراك**."
         }
       ],
-      "tags": [
-        "أنبياء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-1-3-2",
-      "categoryId": "shahada",
-      "ageBand": "scholar",
-      "tier": 3,
-      "text": "أي سورة لا تُفتتح بالبسملة في المصحف؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "سورة الفاتحة"
-        },
-        {
-          "id": "b",
-          "text": "سورة التوبة"
-        },
-        {
-          "id": "c",
-          "text": "سورة الكوثر"
-        },
-        {
-          "id": "d",
-          "text": "سورة الإخلاص"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "سورة التوبة وحدها تُفتتح بلا بسملة.",
       "references": [
         {
           "type": "other",
-          "label": "المصحف الشريف"
+          "label": "صحيح مسلم 8a — حديث جبريل: الإسلام والإيمان والإحسان"
         }
       ],
       "tags": [
-        "قرآن"
+        "category:shahada",
+        "age:general",
+        "tier:1",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "ps-1-4-1",
+      "id": "shahada-general-t1-q29",
       "categoryId": "shahada",
-      "ageBand": "scholar",
-      "tier": 4,
-      "text": "من أول من جمع القرآن في مصحف واحد؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "عمر بن الخطاب"
-        },
-        {
-          "id": "b",
-          "text": "عثمان بن عفان"
-        },
-        {
-          "id": "c",
-          "text": "أبو بكر الصديق"
-        },
-        {
-          "id": "d",
-          "text": "علي بن أبي طالب"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "جُمع القرآن في مصحف في عهد أبي بكر، ثم وحَّد عثمان المصاحف على حرف واحد.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح البخاري"
-        }
-      ],
-      "tags": [
-        "قرآن"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-1-4-2",
-      "categoryId": "shahada",
-      "ageBand": "scholar",
-      "tier": 4,
-      "text": "ما أطول آية في القرآن الكريم؟",
+      "ageBand": "general",
+      "tier": 1,
+      "text": "ما أعظم آية في كتاب الله كما أجاب أُبي بن كعب؟",
       "choices": [
         {
           "id": "a",
@@ -1702,161 +1446,157 @@
         },
         {
           "id": "b",
-          "text": "آخر آية من البقرة"
+          "text": "آخر البقرة"
         },
         {
           "id": "c",
-          "text": "أول آية من الحديد"
+          "text": "آية الدين"
         },
         {
           "id": "d",
-          "text": "آية الدَّين"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "آية الدَّين في سورة البقرة أطول آيات القرآن.",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 2,
-          "ayah": 282
-        }
-      ],
-      "tags": [
-        "قرآن"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-1-5-1",
-      "categoryId": "shahada",
-      "ageBand": "scholar",
-      "tier": 5,
-      "text": "بكم سورة بُدئت بالحروف المقطَّعة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "تسع وعشرون"
-        },
-        {
-          "id": "b",
-          "text": "أربع عشرة"
-        },
-        {
-          "id": "c",
-          "text": "عشرون"
-        },
-        {
-          "id": "d",
-          "text": "أربعون"
+          "text": "أول العلق"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "افتُتحت تسع وعشرون سورة بالحروف المقطَّعة كـ«الم» و«حم».",
+      "explanation": "صحح النبي ﷺ جواب أُبي حين ذكر آية الكرسي.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **آية الكرسي**."
+        }
+      ],
       "references": [
         {
-          "type": "book",
-          "title": "علوم القرآن"
+          "type": "hadith",
+          "collection": "sahih-muslim",
+          "number": "810"
         }
       ],
       "tags": [
-        "قرآن"
+        "category:shahada",
+        "age:general",
+        "tier:1",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "ps-1-5-2",
+      "id": "shahada-general-t1-q30",
       "categoryId": "shahada",
-      "ageBand": "scholar",
-      "tier": 5,
-      "text": "عدد آيات القرآن على العدّ الكوفي المشهور؟",
+      "ageBand": "general",
+      "tier": 1,
+      "text": "أي سورة ثبت في الصحيح أنها تعدل ثلث القرآن؟",
       "choices": [
         {
           "id": "a",
-          "text": "ستة آلاف وستمئة وستون"
+          "text": "الفاتحة"
         },
         {
           "id": "b",
-          "text": "ستة آلاف ومئتان وست وثلاثون"
+          "text": "الإخلاص"
         },
         {
           "id": "c",
-          "text": "ستة آلاف ومئتان"
+          "text": "الفلق"
         },
         {
           "id": "d",
-          "text": "ستة آلاف"
+          "text": "الكوثر"
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "العدّ الكوفي المنسوب إلى الكوفة ٦٢٣٦ آية.",
+      "explanation": "ثبت فضل سورة الإخلاص بهذا اللفظ في صحيح البخاري.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الإخلاص**."
+        }
+      ],
       "references": [
         {
-          "type": "book",
-          "title": "علوم القرآن"
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "5013"
         }
       ],
       "tags": [
-        "قرآن"
+        "category:shahada",
+        "age:general",
+        "tier:1",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "sh-1-1",
+      "id": "shahada-general-t2-q31",
       "categoryId": "shahada",
       "ageBand": "general",
-      "tier": 1,
-      "text": "كم عدد أركان الإيمان؟",
+      "tier": 2,
+      "text": "كم اسمًا لله ذُكر أن من أحصاها دخل الجنة؟",
       "choices": [
         {
           "id": "a",
-          "text": "خمسة"
+          "text": "سبعة وسبعون"
         },
         {
           "id": "b",
-          "text": "سبعة"
+          "text": "تسعة وتسعون"
         },
         {
           "id": "c",
-          "text": "ستة"
+          "text": "مئة وعشرة"
         },
         {
           "id": "d",
-          "text": "أربعة"
+          "text": "مئة وتسعة وتسعون"
         }
       ],
-      "correctChoiceId": "c",
-      "explanation": "أركان الإيمان ستة: الإيمان بالله وملائكته وكتبه ورسله واليوم الآخر والقدر خيره وشره.",
+      "correctChoiceId": "b",
+      "explanation": "الحديث يذكر تسعة وتسعين اسمًا وفضل إحصائها، ولا يعني حصر جميع أسماء الله في هذا العدد.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **تسعة وتسعون**."
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "حديث جبريل — صحيح مسلم"
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "2736"
+        },
+        {
+          "type": "hadith",
+          "collection": "sahih-muslim",
+          "number": "2677"
         }
       ],
       "tags": [
-        "إيمان",
-        "أركان"
+        "category:shahada",
+        "age:general",
+        "tier:2",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "sh-1-2",
+      "id": "shahada-general-t2-q32",
       "categoryId": "shahada",
       "ageBand": "general",
-      "tier": 1,
-      "text": "من هو أول الأنبياء وأبو البشر؟",
+      "tier": 2,
+      "text": "في ذرية أي نبي جعل الله النبوة والكتاب؟",
       "choices": [
         {
           "id": "a",
@@ -1868,39 +1608,765 @@
         },
         {
           "id": "c",
-          "text": "إدريس عليه السلام"
+          "text": "يونس عليه السلام"
         },
         {
           "id": "d",
-          "text": "آدم عليه السلام"
+          "text": "أيوب عليه السلام"
         }
       ],
-      "correctChoiceId": "d",
-      "explanation": "آدم عليه السلام أول الأنبياء وأول البشر خلقه الله بيده.",
+      "correctChoiceId": "b",
+      "explanation": "نصت الآية على جعل النبوة والكتاب في ذرية إبراهيم عليه السلام.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَجَعَلْنَا فِي ذُرِّيَّتِهِ النُّبُوَّةَ وَالْكِتَابَ»"
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "القرآن — سورة البقرة"
+          "type": "quran",
+          "surah": 29,
+          "ayah": 27
         }
       ],
       "tags": [
-        "أنبياء"
+        "category:shahada",
+        "age:general",
+        "tier:2",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "sh-2-2",
+      "id": "shahada-general-t2-q33",
       "categoryId": "shahada",
       "ageBand": "general",
       "tier": 2,
-      "text": "من النبي الذي كلّمه الله تكليماً وسُمّي كليم الله؟",
+      "text": "من أول رسول يُذكر في تسلسل الشفاعة بعد آدم بوصفه مرسلًا إلى أهل الأرض؟",
       "choices": [
         {
           "id": "a",
+          "text": "نوح عليه السلام"
+        },
+        {
+          "id": "b",
+          "text": "إبراهيم عليه السلام"
+        },
+        {
+          "id": "c",
+          "text": "موسى عليه السلام"
+        },
+        {
+          "id": "d",
           "text": "عيسى عليه السلام"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "في حديث الشفاعة يحيل آدم الناس إلى نوح ويصفه بأول رسول إلى أهل الأرض.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **نوح عليه السلام**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "7440"
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:general",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "shahada-general-t2-q34",
+      "categoryId": "shahada",
+      "ageBand": "general",
+      "tier": 2,
+      "text": "من النبي الذي أخبر النبي ﷺ أنه سينزل في آخر الزمان حكمًا عدلًا؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "إدريس عليه السلام"
+        },
+        {
+          "id": "b",
+          "text": "عيسى ابن مريم عليه السلام"
+        },
+        {
+          "id": "c",
+          "text": "إلياس عليه السلام"
+        },
+        {
+          "id": "d",
+          "text": "يحيى عليه السلام"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "الحديث الصحيح يصرح بنزول عيسى ابن مريم حكمًا عدلًا.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **عيسى ابن مريم عليه السلام**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "3448"
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:general",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "shahada-general-t2-q35",
+      "categoryId": "shahada",
+      "ageBand": "general",
+      "tier": 2,
+      "text": "ما الآية التي أُعطيت لقوم ثمود مع صالح عليه السلام؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "العصا"
+        },
+        {
+          "id": "b",
+          "text": "الناقة"
+        },
+        {
+          "id": "c",
+          "text": "السفينة"
+        },
+        {
+          "id": "d",
+          "text": "المائدة"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "قال صالح لقومه إن ناقة الله لهم آية.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«هَٰذِهِ نَاقَةُ اللَّهِ لَكُمْ آيَةً»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 7,
+          "ayah": 73
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:general",
+        "tier:2",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-general-t3-q36",
+      "categoryId": "shahada",
+      "ageBand": "general",
+      "tier": 3,
+      "text": "لمن تستغفر الملائكة الذين يحملون العرش في سورة غافر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "للذين آمنوا"
+        },
+        {
+          "id": "b",
+          "text": "للرسل الذين سبقوا من أولي العزم"
+        },
+        {
+          "id": "c",
+          "text": "للتائبين من قوم موسى خاصة"
+        },
+        {
+          "id": "d",
+          "text": "لمن حول العرش من الملائكة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الآية تنص على استغفار حملة العرش للذين آمنوا.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَيَسْتَغْفِرُونَ لِلَّذِينَ آمَنُوا»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 40,
+          "ayah": 7
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:general",
+        "tier:3",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-general-t3-q37",
+      "categoryId": "shahada",
+      "ageBand": "general",
+      "tier": 3,
+      "text": "ماذا تقول الملائكة للمستقيمين عند تنزلها عليهم كما في سورة فصلت؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "لا تخافوا ولا تحزنوا وأبشروا بالجنة"
+        },
+        {
+          "id": "b",
+          "text": "عودوا إلى الدنيا"
+        },
+        {
+          "id": "c",
+          "text": "لا تتكلموا"
+        },
+        {
+          "id": "d",
+          "text": "أنتم لا تحاسبون"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "هذه البشارة مذكورة نصًا في الآية.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«أَلَّا تَخَافُوا وَلَا تَحْزَنُوا وَأَبْشِرُوا بِالْجَنَّةِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 41,
+          "ayah": 30
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:general",
+        "tier:3",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-general-t3-q38",
+      "categoryId": "shahada",
+      "ageBand": "general",
+      "tier": 3,
+      "text": "ما مقدار العمل الذي يراه الإنسان ولو كان صغيرًا جدًا كما في سورة الزلزلة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "مثقال ذرة"
+        },
+        {
+          "id": "b",
+          "text": "مثقال جبل"
+        },
+        {
+          "id": "c",
+          "text": "مثقال دينار"
+        },
+        {
+          "id": "d",
+          "text": "لا يرى إلا الكبائر"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الآيتان تنصان على رؤية مثقال ذرة من خير أو شر.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 99,
+          "ayah": 7,
+          "ayahEnd": 8
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:general",
+        "tier:3",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-general-t3-q39",
+      "categoryId": "shahada",
+      "ageBand": "general",
+      "tier": 3,
+      "text": "ما الذي يُنفخ فيه عند قيام الساعة كما يعبّر القرآن؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الصور"
+        },
+        {
+          "id": "b",
+          "text": "الكتاب"
+        },
+        {
+          "id": "c",
+          "text": "الميزان"
+        },
+        {
+          "id": "d",
+          "text": "اللوح"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "تستخدم الآية لفظ «الصور» عند النفخ والصعق ثم البعث.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«ثُمَّ نُفِخَ فِيهِ أُخْرَىٰ فَإِذَا هُمْ قِيَامٌ يَنظُرُونَ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 39,
+          "ayah": 68
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:general",
+        "tier:3",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-general-t3-q40",
+      "categoryId": "shahada",
+      "ageBand": "general",
+      "tier": 3,
+      "text": "بأي وصف ذكر القرآن الموازين يوم القيامة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الموازين القسط"
+        },
+        {
+          "id": "b",
+          "text": "الموازين العدل"
+        },
+        {
+          "id": "c",
+          "text": "الموازين المثاقيل"
+        },
+        {
+          "id": "d",
+          "text": "الموازين المنشورة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "قال الله إنه يضع الموازين القسط ليوم القيامة.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَنَضَعُ الْمَوَازِينَ الْقِسْطَ لِيَوْمِ الْقِيَامَةِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 21,
+          "ayah": 47
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:general",
+        "tier:3",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-general-t4-q41",
+      "categoryId": "shahada",
+      "ageBand": "general",
+      "tier": 4,
+      "text": "ما أول آيات القرآن التي جاء بها جبريل للنبي ﷺ في خبر بدء الوحي؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "أول سورة الفاتحة"
+        },
+        {
+          "id": "b",
+          "text": "اقرأ باسم ربك الذي خلق"
+        },
+        {
+          "id": "c",
+          "text": "يا أيها المدثر كاملة"
+        },
+        {
+          "id": "d",
+          "text": "آية الكرسي"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "حديث عائشة في بدء الوحي يذكر أول آيات سورة العلق.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **اقرأ باسم ربك الذي خلق**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "3"
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:general",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "shahada-general-t4-q42",
+      "categoryId": "shahada",
+      "ageBand": "general",
+      "tier": 4,
+      "text": "في عهد أي خليفة بدأ جمع القرآن في صحف بعد مقتل القراء يوم اليمامة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "أبو بكر الصديق"
+        },
+        {
+          "id": "b",
+          "text": "عمر بن الخطاب"
+        },
+        {
+          "id": "c",
+          "text": "عثمان بن عفان"
+        },
+        {
+          "id": "d",
+          "text": "علي بن أبي طالب"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "حديث زيد بن ثابت يربط بدء الجمع بأبي بكر بعد وقعة اليمامة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **أبو بكر الصديق**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "4986"
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:general",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "shahada-general-t4-q43",
+      "categoryId": "shahada",
+      "ageBand": "general",
+      "tier": 4,
+      "text": "ماذا يحدث بعد النفخة الثانية في الصور كما تصف سورة الزمر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "يقوم الناس ينظرون"
+        },
+        {
+          "id": "b",
+          "text": "ينام الناس"
+        },
+        {
+          "id": "c",
+          "text": "تنتهي الأرض بلا بعث"
+        },
+        {
+          "id": "d",
+          "text": "تُغلق الجنة والنار"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "بعد النفخة الأخرى تصف الآية قيام الناس ونظرهم.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«ثُمَّ نُفِخَ فِيهِ أُخْرَىٰ فَإِذَا هُمْ قِيَامٌ يَنظُرُونَ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 39,
+          "ayah": 68
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:general",
+        "tier:4",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-general-t4-q44",
+      "categoryId": "shahada",
+      "ageBand": "general",
+      "tier": 4,
+      "text": "ما الذي يحدث للصحف في مشهد القيامة في سورة التكوير؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "تُنشر"
+        },
+        {
+          "id": "b",
+          "text": "تُحرق"
+        },
+        {
+          "id": "c",
+          "text": "تُخفى"
+        },
+        {
+          "id": "d",
+          "text": "تُلقى في البحر"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "قال تعالى: «وإذا الصحف نشرت».",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَإِذَا الصُّحُفُ نُشِرَتْ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 81,
+          "ayah": 10
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:general",
+        "tier:4",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-general-t4-q45",
+      "categoryId": "shahada",
+      "ageBand": "general",
+      "tier": 4,
+      "text": "أي أمر من الآتي نصت سورة لقمان على أن النفس لا تعلمه؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "في أي أرض تموت"
+        },
+        {
+          "id": "b",
+          "text": "أن الشمس تشرق"
+        },
+        {
+          "id": "c",
+          "text": "أن الماء ينزل من السماء"
+        },
+        {
+          "id": "d",
+          "text": "أن الليل يعقب النهار"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "من الخمس المذكورة: لا تدري نفس بأي أرض تموت.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَمَا تَدْرِي نَفْسٌ بِأَيِّ أَرْضٍ تَمُوتُ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 31,
+          "ayah": 34
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:general",
+        "tier:4",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-general-t5-q46",
+      "categoryId": "shahada",
+      "ageBand": "general",
+      "tier": 5,
+      "text": "بماذا شبّه النبي ﷺ وضوح رؤية المؤمنين لربهم يوم القيامة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "برؤية القمر ليلة البدر بلا تضام"
+        },
+        {
+          "id": "b",
+          "text": "برؤية البرق سريعًا"
+        },
+        {
+          "id": "c",
+          "text": "برؤية النجم الخافت"
+        },
+        {
+          "id": "d",
+          "text": "برؤية الشمس خلف السحاب"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الحديث يضرب مثلًا بوضوح رؤية القمر ليلة البدر، لا تشبيهًا لله بالمخلوق.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **برؤية القمر ليلة البدر بلا تضام**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "554"
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "shahada-general-t5-q47",
+      "categoryId": "shahada",
+      "ageBand": "general",
+      "tier": 5,
+      "text": "من أول من يقرع باب الجنة كما جاء في صحيح مسلم؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "آدم عليه السلام"
         },
         {
           "id": "b",
@@ -1912,123 +2378,96 @@
         },
         {
           "id": "d",
-          "text": "موسى عليه السلام"
+          "text": "نوح عليه السلام"
         }
       ],
-      "correctChoiceId": "d",
-      "explanation": "خصّ الله موسى بتكليمه، قال تعالى: «وكلّم الله موسى تكليماً».",
+      "correctChoiceId": "c",
+      "explanation": "ورد أن النبي ﷺ أول من يقرع باب الجنة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **محمد ﷺ**."
+        }
+      ],
       "references": [
         {
-          "type": "quran",
-          "surah": 4,
-          "ayah": 164
+          "type": "other",
+          "label": "صحيح مسلم 196b — أول من يقرع باب الجنة"
         }
       ],
       "tags": [
-        "أنبياء"
+        "category:shahada",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "sh-3-1",
+      "id": "shahada-general-t5-q48",
       "categoryId": "shahada",
       "ageBand": "general",
-      "tier": 3,
-      "text": "كم عدد أولي العزم من الرسل؟",
+      "tier": 5,
+      "text": "ما الآية الباقية التي قال النبي ﷺ إنه أوتيها وأوحاها الله إليه بخلاف الآيات الحسية للأنبياء؟",
       "choices": [
         {
           "id": "a",
-          "text": "أربعة"
+          "text": "الوحي"
         },
         {
           "id": "b",
-          "text": "ستة"
+          "text": "العصا"
         },
         {
           "id": "c",
-          "text": "ثلاثة"
+          "text": "الناقة"
         },
         {
           "id": "d",
-          "text": "خمسة"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "أولو العزم خمسة: نوح وإبراهيم وموسى وعيسى ومحمد عليهم الصلاة والسلام.",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 33,
-          "ayah": 7
-        },
-        {
-          "type": "quran",
-          "surah": 42,
-          "ayah": 13
-        }
-      ],
-      "tags": [
-        "أنبياء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "sh-3-2",
-      "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "أي نبي رفعه الله إليه ولم يمُت وسينزل قبل يوم القيامة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "عيسى عليه السلام"
-        },
-        {
-          "id": "b",
-          "text": "إدريس عليه السلام"
-        },
-        {
-          "id": "c",
-          "text": "إلياس عليه السلام"
-        },
-        {
-          "id": "d",
-          "text": "الخضر"
+          "text": "إحياء الموتى"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "رفع الله عيسى إليه، قال تعالى: «بل رفعه الله إليه».",
+      "explanation": "في الحديث قال النبي ﷺ إن الذي أوتيه وحي أوحاه الله إليه، ورجا به كثرة الأتباع.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الوحي**."
+        }
+      ],
       "references": [
         {
-          "type": "quran",
-          "surah": 4,
-          "ayah": 158
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "4981"
         }
       ],
       "tags": [
-        "أنبياء"
+        "category:shahada",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "sh-4-2",
+      "id": "shahada-general-t5-q49",
       "categoryId": "shahada",
       "ageBand": "general",
-      "tier": 4,
-      "text": "أي الأنبياء وصفه القرآن بأنه كان أُمّةً وضُرب المثل بذريّة الأنبياء منه؟",
+      "tier": 5,
+      "text": "من أول من يُكسى يوم القيامة كما جاء في الحديث؟",
       "choices": [
         {
           "id": "a",
-          "text": "نوح عليه السلام"
+          "text": "آدم عليه السلام"
         },
         {
           "id": "b",
@@ -2036,121 +2475,1377 @@
         },
         {
           "id": "c",
-          "text": "آدم عليه السلام"
+          "text": "موسى عليه السلام"
         },
         {
           "id": "d",
-          "text": "إسماعيل عليه السلام"
+          "text": "محمد ﷺ"
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "قال تعالى: «إن إبراهيم كان أُمّة قانتاً لله»، وجعل النبوة في ذريته.",
+      "explanation": "حديث الحشر يذكر أن أول من يكسى يوم القيامة إبراهيم عليه السلام.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **إبراهيم عليه السلام**."
+        }
+      ],
       "references": [
         {
-          "type": "quran",
-          "surah": 16,
-          "ayah": 120
-        },
-        {
-          "type": "quran",
-          "surah": 57,
-          "ayah": 26
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "3349"
         }
       ],
       "tags": [
-        "أنبياء"
+        "category:shahada",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "sh-5-1",
+      "id": "shahada-general-t5-q50",
       "categoryId": "shahada",
       "ageBand": "general",
       "tier": 5,
-      "text": "ما أول ما نزل من القرآن الكريم على النبي ﷺ؟",
+      "text": "كيف يُحشر الناس كما جاء في حديث ابن عباس؟",
       "choices": [
         {
           "id": "a",
-          "text": "«الحمد لله رب العالمين» من سورة الفاتحة"
+          "text": "حفاة عراة غرلا"
         },
         {
           "id": "b",
-          "text": "«يا أيها المدثر» من سورة المدثر"
+          "text": "بملابس الدنيا نفسها"
         },
         {
           "id": "c",
-          "text": "«اقرأ باسم ربك» من سورة العلق"
+          "text": "راكبين جميعًا"
         },
         {
           "id": "d",
-          "text": "«الم» من أول سورة البقرة"
+          "text": "نائمين"
         }
       ],
-      "correctChoiceId": "c",
-      "explanation": "أول ما نزل قوله تعالى: «اقرأ باسم ربك الذي خلق» في غار حراء.",
+      "correctChoiceId": "a",
+      "explanation": "الحديث يصف الحشر حفاة عراة غرلا.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **حفاة عراة غرلا**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "3349"
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "shahada-scholar-t1-q51",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 1,
+      "text": "أي أصل من أصول الإيمان وصفه حديث جبريل بعبارة «خيره وشره»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الإيمان بالكتب"
+        },
+        {
+          "id": "b",
+          "text": "الإيمان بالقدر"
+        },
+        {
+          "id": "c",
+          "text": "الإيمان بالملائكة"
+        },
+        {
+          "id": "d",
+          "text": "الإيمان بالرسل"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "حديث جبريل يخص القدر بذكر خيره وشره.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الإيمان بالقدر**."
+        }
+      ],
       "references": [
         {
           "type": "other",
-          "label": "صحيح البخاري — بدء الوحي"
+          "label": "صحيح مسلم 8a — حديث جبريل: الإسلام والإيمان والإحسان"
         }
       ],
       "tags": [
-        "قرآن"
+        "category:shahada",
+        "age:scholar",
+        "tier:1",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "sh-5-2",
+      "id": "shahada-scholar-t1-q52",
       "categoryId": "shahada",
-      "ageBand": "general",
-      "tier": 5,
-      "text": "أي نبي ابتلاه الله بالمرض وطول البلاء فصبر حتى صار مثلاً في الصبر؟",
+      "ageBand": "scholar",
+      "tier": 1,
+      "text": "أي علامة للساعة وردت في حديث جبريل وتتعلق بالبنيان؟",
       "choices": [
         {
           "id": "a",
-          "text": "يعقوب عليه السلام"
+          "text": "تنافس الرعاة الحفاة في البنيان"
         },
         {
           "id": "b",
-          "text": "يونس عليه السلام"
+          "text": "هدم كل المدن"
         },
         {
           "id": "c",
-          "text": "يوسف عليه السلام"
+          "text": "اختفاء الجبال قبل القيامة بقرون"
         },
         {
           "id": "d",
-          "text": "أيوب عليه السلام"
+          "text": "ترك الناس البناء"
         }
       ],
-      "correctChoiceId": "d",
-      "explanation": "قال تعالى: «إنا وجدناه صابراً نعم العبد إنه أوّاب».",
+      "correctChoiceId": "a",
+      "explanation": "الحديث يذكر تطاول الرعاة الحفاة العراة في البنيان من العلامات.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **تنافس الرعاة الحفاة في البنيان**."
+        }
+      ],
       "references": [
         {
-          "type": "quran",
-          "surah": 38,
-          "ayah": 44
-        },
-        {
-          "type": "quran",
-          "surah": 21,
-          "ayah": 83
+          "type": "other",
+          "label": "صحيح مسلم 8a — حديث جبريل: الإسلام والإيمان والإحسان"
         }
       ],
       "tags": [
-        "أنبياء",
-        "صبر"
+        "category:shahada",
+        "age:scholar",
+        "tier:1",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "shahada-scholar-t1-q53",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 1,
+      "text": "في أي سورة جاءت الآية التي ختم بها النبي ﷺ حديث جبريل بذكر مفاتح من الغيب ومنها علم الساعة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "لقمان"
+        },
+        {
+          "id": "b",
+          "text": "مريم"
+        },
+        {
+          "id": "c",
+          "text": "الكهف"
+        },
+        {
+          "id": "d",
+          "text": "يس"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الآية هي لقمان 31:34.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَمَا تَدْرِي نَفْسٌ بِأَيِّ أَرْضٍ تَمُوتُ»"
+        },
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **لقمان**."
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 31,
+          "ayah": 34
+        },
+        {
+          "type": "other",
+          "label": "صحيح مسلم 8a — حديث جبريل: الإسلام والإيمان والإحسان"
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:scholar",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`؛ رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "shahada-scholar-t1-q54",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 1,
+      "text": "من كان السائل الذي قال النبي ﷺ إنه جاء ليعلّم الناس دينهم؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "جبريل عليه السلام"
+        },
+        {
+          "id": "b",
+          "text": "ميكال عليه السلام"
+        },
+        {
+          "id": "c",
+          "text": "دحية الكلبي"
+        },
+        {
+          "id": "d",
+          "text": "رجل من الأنصار"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "بعد انصراف السائل أخبر النبي ﷺ أنه جبريل.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **جبريل عليه السلام**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 8a — حديث جبريل: الإسلام والإيمان والإحسان"
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:scholar",
+        "tier:1",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "shahada-scholar-t1-q55",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 1,
+      "text": "بأي عبارة يكتمل تعريف الإحسان في حديث جبريل؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "فإن لم تكن تراه فإنه يراك"
+        },
+        {
+          "id": "b",
+          "text": "فإن لم تستطع فاترك العمل"
+        },
+        {
+          "id": "c",
+          "text": "فإن العلم يغني عن العمل"
+        },
+        {
+          "id": "d",
+          "text": "فلا تسأل عن الساعة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "هذه الجملة هي تمام تعريف الإحسان في الحديث.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **فإن لم تكن تراه فإنه يراك**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 8a — حديث جبريل: الإسلام والإيمان والإحسان"
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:scholar",
+        "tier:1",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "shahada-scholar-t2-q56",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "أي ترتيب يوافق انتقال الناس بين الأنبياء في حديث الشفاعة بعد آدم؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "نوح ثم إبراهيم ثم موسى ثم عيسى ثم محمد ﷺ"
+        },
+        {
+          "id": "b",
+          "text": "إبراهيم ثم نوح ثم عيسى ثم موسى ثم محمد ﷺ"
+        },
+        {
+          "id": "c",
+          "text": "موسى ثم نوح ثم إبراهيم ثم محمد ﷺ ثم عيسى"
+        },
+        {
+          "id": "d",
+          "text": "عيسى ثم موسى ثم نوح ثم إبراهيم ثم محمد ﷺ"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "حديث الشفاعة يذكر هذا التسلسل صراحة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **نوح ثم إبراهيم ثم موسى ثم عيسى ثم محمد ﷺ**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "7440"
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:scholar",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "shahada-scholar-t2-q57",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "بأي وصف خاص يذكر إبراهيم عليه السلام في حديث الشفاعة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "خليل الرحمن"
+        },
+        {
+          "id": "b",
+          "text": "كليم الله"
+        },
+        {
+          "id": "c",
+          "text": "ذو النون"
+        },
+        {
+          "id": "d",
+          "text": "روح الله"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ينتقل الناس إلى إبراهيم ويذكر الحديث أنه خليل الرحمن.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **خليل الرحمن**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "7440"
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:scholar",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "shahada-scholar-t2-q58",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "أي نبي يصفه حديث الشفاعة بأنه أوتي التوراة وكلمه الله مباشرة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "موسى عليه السلام"
+        },
+        {
+          "id": "b",
+          "text": "عيسى عليه السلام"
+        },
+        {
+          "id": "c",
+          "text": "داود عليه السلام"
+        },
+        {
+          "id": "d",
+          "text": "نوح عليه السلام"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "هذا الوصف في الحديث لموسى عليه السلام.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **موسى عليه السلام**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "7440"
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:scholar",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "shahada-scholar-t2-q59",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "ما اسم المقام المذكور في قوله تعالى «عسى أن يبعثك ربك مقامًا محمودًا»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "المقام المحمود"
+        },
+        {
+          "id": "b",
+          "text": "مقام إبراهيم"
+        },
+        {
+          "id": "c",
+          "text": "مقام الصديقين"
+        },
+        {
+          "id": "d",
+          "text": "مقام الرضوان"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الآية تسميه المقام المحمود، ويربطه حديث الشفاعة بمقام النبي ﷺ يوم القيامة.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«عَسَىٰ أَن يَبْعَثَكَ رَبُّكَ مَقَامًا مَّحْمُودًا»"
+        },
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **المقام المحمود**."
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 17,
+          "ayah": 79
+        },
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "7440"
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:scholar",
+        "tier:2",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`؛ رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "shahada-scholar-t2-q60",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "من قال عن نفسه في صحيح مسلم إنه أول شافع في الجنة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "النبي محمد ﷺ"
+        },
+        {
+          "id": "b",
+          "text": "آدم عليه السلام"
+        },
+        {
+          "id": "c",
+          "text": "إبراهيم عليه السلام"
+        },
+        {
+          "id": "d",
+          "text": "نوح عليه السلام"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ورد هذا للنبي محمد ﷺ في حديث صحيح مسلم.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **النبي محمد ﷺ**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 196a — أول شافع في الجنة"
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:scholar",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "shahada-scholar-t3-q61",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "ما الاسمان الواردان مباشرة بعد لفظ الجلالة في آية الكرسي؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الحي القيوم"
+        },
+        {
+          "id": "b",
+          "text": "الرحمن الرحيم"
+        },
+        {
+          "id": "c",
+          "text": "السميع البصير"
+        },
+        {
+          "id": "d",
+          "text": "العزيز الحكيم"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "تبدأ آية الكرسي: الله لا إله إلا هو الحي القيوم.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "القرآن الكريم — البقرة 2:255 (آية الكرسي)"
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:scholar",
+        "tier:3",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-scholar-t3-q62",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "ما الأمران المنفيان عن الله في آية الكرسي بلفظ «لا تأخذه...»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "سِنة ولا نوم"
+        },
+        {
+          "id": "b",
+          "text": "جوع ولا عطش"
+        },
+        {
+          "id": "c",
+          "text": "مرض ولا فقر"
+        },
+        {
+          "id": "d",
+          "text": "حزن ولا خوف"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "تنفي الآية عن الله السِّنة والنوم.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "القرآن الكريم — البقرة 2:255 (آية الكرسي)"
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:scholar",
+        "tier:3",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-scholar-t3-q63",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "ما موقف المؤمنين من رسل الله كما نصت خاتمة البقرة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "لا نفرق بين أحد من رسله"
+        },
+        {
+          "id": "b",
+          "text": "نؤمن ببعض دون بعض"
+        },
+        {
+          "id": "c",
+          "text": "لا نعرف إلا رسولًا واحدًا"
+        },
+        {
+          "id": "d",
+          "text": "نؤخر الإيمان بالرسل"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الآية تصف المؤمنين بأنهم لا يفرقون بين أحد من رسل الله في أصل الإيمان بهم.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِّن رُّسُلِهِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 285
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:scholar",
+        "tier:3",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-scholar-t3-q64",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "أي ملكين ذُكرا بالاسم معًا في قوله تعالى: «وجبريل وميكال»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "جبريل وميكال"
+        },
+        {
+          "id": "b",
+          "text": "هاروت وماروت"
+        },
+        {
+          "id": "c",
+          "text": "مالك ورضوان"
+        },
+        {
+          "id": "d",
+          "text": "إسرافيل وميكال"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الآية تسمي جبريل وميكال صراحة.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَجِبْرِيلَ وَمِيكَالَ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 98
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:scholar",
+        "tier:3",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-scholar-t3-q65",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "ما اللقب القرآني للملك الموكل بقبض الأرواح في سورة السجدة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ملك الموت"
+        },
+        {
+          "id": "b",
+          "text": "ملك الوحي"
+        },
+        {
+          "id": "c",
+          "text": "خازن الجنة"
+        },
+        {
+          "id": "d",
+          "text": "الروح الأمين"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "قال تعالى: «قل يتوفاكم ملك الموت الذي وكل بكم».",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«قُلْ يَتَوَفَّاكُم مَّلَكُ الْمَوْتِ الَّذِي وُكِّلَ بِكُمْ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 32,
+          "ayah": 11
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:scholar",
+        "tier:3",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-scholar-t4-q66",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 4,
+      "text": "بأي لفظ يقرر القرآن عموم التقدير في قوله تعالى: «إنا كل شيء خلقناه ...»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "بقدر"
+        },
+        {
+          "id": "b",
+          "text": "بصدفة"
+        },
+        {
+          "id": "c",
+          "text": "بغير علم"
+        },
+        {
+          "id": "d",
+          "text": "على غير حساب"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الآية نص صريح في خلق كل شيء بقدر.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«إِنَّا كُلَّ شَيْءٍ خَلَقْنَاهُ بِقَدَرٍ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 54,
+          "ayah": 49
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:scholar",
+        "tier:4",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-scholar-t4-q67",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 4,
+      "text": "متى كُتبت المصائب في كتاب بحسب سورة الحديد؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "قبل أن نبرأها"
+        },
+        {
+          "id": "b",
+          "text": "عند وقوعها في الدنيا"
+        },
+        {
+          "id": "c",
+          "text": "عند موت صاحبها"
+        },
+        {
+          "id": "d",
+          "text": "عند نشر الصحف يوم القيامة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الآية تقول إن المصيبة مكتوبة في كتاب من قبل أن نبرأها.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«إِلَّا فِي كِتَابٍ مِّن قَبْلِ أَن نَّبْرَأَهَا»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 57,
+          "ayah": 22
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:scholar",
+        "tier:4",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-scholar-t4-q68",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 4,
+      "text": "بأي قيد يربط القرآن مشيئة الإنسان بمشيئة الله في سورة الإنسان؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "وما تشاؤون إلا أن يشاء الله"
+        },
+        {
+          "id": "b",
+          "text": "لكم مشيئة مستقلة تمامًا"
+        },
+        {
+          "id": "c",
+          "text": "لا مشيئة للإنسان أصلًا"
+        },
+        {
+          "id": "d",
+          "text": "المشيئة لا تتعلق بالأفعال"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الآية تثبت مشيئة العبد وتقرر أنها لا تكون إلا بمشيئة الله.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَمَا تَشَاءُونَ إِلَّا أَن يَشَاءَ اللَّهُ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 76,
+          "ayah": 30
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:scholar",
+        "tier:4",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-scholar-t4-q69",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 4,
+      "text": "ما الأربع التي يكتبها الملك للجنين في الحديث الصحيح؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "عمله ورزقه وأجله وشقي أو سعيد"
+        },
+        {
+          "id": "b",
+          "text": "اسمه وبلده ولغته ولونه"
+        },
+        {
+          "id": "c",
+          "text": "ماله وأولاده وبيته وسفره"
+        },
+        {
+          "id": "d",
+          "text": "علمه وحفظه وقوته وطعامه"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الحديث يذكر كتابة العمل والرزق والأجل والشقاوة أو السعادة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **عمله ورزقه وأجله وشقي أو سعيد**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "3208"
+        },
+        {
+          "type": "other",
+          "label": "صحيح مسلم 2643a — كتابة الرزق والأجل والعمل والشقاوة/السعادة"
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:scholar",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "shahada-scholar-t4-q70",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 4,
+      "text": "قبل خلق السماوات والأرض بكم سنة كتب الله مقادير الخلائق كما في صحيح مسلم؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "خمسين ألف سنة"
+        },
+        {
+          "id": "b",
+          "text": "خمسة آلاف سنة"
+        },
+        {
+          "id": "c",
+          "text": "مئة سنة"
+        },
+        {
+          "id": "d",
+          "text": "مليون سنة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الحديث يحدد خمسين ألف سنة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **خمسين ألف سنة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 2653b — كتابة المقادير قبل خلق السماوات والأرض بخمسين ألف سنة"
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:scholar",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "shahada-scholar-t5-q71",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 5,
+      "text": "أين كان العرش عند ذكر كتابة المقادير في حديث صحيح مسلم؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "على الماء"
+        },
+        {
+          "id": "b",
+          "text": "على جبل"
+        },
+        {
+          "id": "c",
+          "text": "في الأرض"
+        },
+        {
+          "id": "d",
+          "text": "لم يذكر الحديث شيئًا عنه"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "يذكر الحديث بعد المدة أن عرشه كان على الماء.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **على الماء**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 2653b — كتابة المقادير قبل خلق السماوات والأرض بخمسين ألف سنة"
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:scholar",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "shahada-scholar-t5-q72",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 5,
+      "text": "ما الوصف الذي جاء بعد ذكر التسعة والتسعين اسمًا في حديث البخاري المتعلق بالوتر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "إن الله وتر يحب الوتر"
+        },
+        {
+          "id": "b",
+          "text": "إن الله يحب الشفع والوتر"
+        },
+        {
+          "id": "c",
+          "text": "إن الوتر من خصائص صلاة الليل"
+        },
+        {
+          "id": "d",
+          "text": "إن أسماء الله مئة كاملة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "جاء في الرواية: الله وتر يحب الوتر.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **إن الله وتر يحب الوتر**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "6410"
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:scholar",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "shahada-scholar-t5-q73",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 5,
+      "text": "ماذا يحدث بعد أن يكتب الملك الأربع للجنين كما في حديث ابن مسعود؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "تُنفخ فيه الروح"
+        },
+        {
+          "id": "b",
+          "text": "يؤمر الملك بكتابة أربع أخرى"
+        },
+        {
+          "id": "c",
+          "text": "يخرج الجنين إلى الدنيا"
+        },
+        {
+          "id": "d",
+          "text": "ينتهي الحديث عند كتابة الأربع"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "بعد كتابة الأربع يذكر الحديث نفخ الروح فيه.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **تُنفخ فيه الروح**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "3208"
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:scholar",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "shahada-scholar-t5-q74",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 5,
+      "text": "أي نبي وصفه القرآن بأنه «كلمته ألقاها إلى مريم وروح منه»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "عيسى ابن مريم عليه السلام"
+        },
+        {
+          "id": "b",
+          "text": "موسى عليه السلام"
+        },
+        {
+          "id": "c",
+          "text": "إبراهيم عليه السلام"
+        },
+        {
+          "id": "d",
+          "text": "يحيى عليه السلام"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "سورة النساء تستخدم هذا الوصف لعيسى ابن مريم عليه السلام مع تقرير أنه رسول الله وعبده.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«إِنَّمَا الْمَسِيحُ عِيسَى ابْنُ مَرْيَمَ رَسُولُ اللَّهِ وَكَلِمَتُهُ ... وَرُوحٌ مِّنْهُ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 4,
+          "ayah": 171
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:scholar",
+        "tier:5",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "shahada-scholar-t5-q75",
+      "categoryId": "shahada",
+      "ageBand": "scholar",
+      "tier": 5,
+      "text": "ما حكم من يبتغ غير الإسلام دينًا بحسب آل عمران 3:85؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "لن يُقبل منه وهو في الآخرة من الخاسرين"
+        },
+        {
+          "id": "b",
+          "text": "يُقبل منه إن صدق في قصده"
+        },
+        {
+          "id": "c",
+          "text": "يؤخر الحكم عليه إلى الدنيا"
+        },
+        {
+          "id": "d",
+          "text": "يُقبل منه إن وافق شريعة سابقة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الآية تنص على عدم قبول غير الإسلام دينًا وعلى الخسران في الآخرة.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَمَن يَبْتَغِ غَيْرَ الْإِسْلَامِ دِينًا فَلَن يُقْبَلَ مِنْهُ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 3,
+          "ayah": 85
+        }
+      ],
+      "tags": [
+        "category:shahada",
+        "age:scholar",
+        "tier:5",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     }
   ]
 }

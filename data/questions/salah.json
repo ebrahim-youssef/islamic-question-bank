@@ -2,1096 +2,113 @@
   "categoryId": "salah",
   "questions": [
     {
-      "id": "kid-sa-3",
+      "id": "salah-kids-t1-q01",
       "categoryId": "salah",
       "ageBand": "kids",
       "tier": 1,
-      "text": "بماذا نتوضّأ قبل الصلاة؟",
+      "text": "كم صلاة فرضها الله في اليوم والليلة؟",
       "choices": [
         {
           "id": "a",
-          "text": "بالرمل"
+          "text": "ثلاث صلوات"
         },
         {
           "id": "b",
-          "text": "بالحليب"
+          "text": "أربع صلوات"
         },
         {
           "id": "c",
-          "text": "بالعصير"
+          "text": "خمس صلوات"
         },
         {
           "id": "d",
-          "text": "بالماء"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "الوضوء يكون بالماء الطهور قبل الصلاة.",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 5,
-          "ayah": 6
-        }
-      ],
-      "tags": [
-        "وضوء",
-        "أطفال"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-1-3",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 1,
-      "text": "كم ركعة في صلاة الظهر؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "أربع"
-        },
-        {
-          "id": "b",
-          "text": "ثلاث"
-        },
-        {
-          "id": "c",
-          "text": "ركعتان"
-        },
-        {
-          "id": "d",
-          "text": "خمس"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "صلاة الظهر أربع ركعات سرّيّة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "صلاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-1-4",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 1,
-      "text": "ماذا يقول المصلّي في الركوع؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "سبحان ربي الأعلى"
-        },
-        {
-          "id": "b",
-          "text": "سبحان ربي العظيم"
-        },
-        {
-          "id": "c",
-          "text": "الله أكبر"
-        },
-        {
-          "id": "d",
-          "text": "سمع الله لمن حمده"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "يقول في الركوع: سبحان ربي العظيم.",
-      "references": [
-        {
-          "type": "other",
-          "label": "سنن أبي داود"
-        }
-      ],
-      "tags": [
-        "صلاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-1-5",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 1,
-      "text": "ما النداء الذي يُعلن دخول وقت الصلاة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الإقامة"
-        },
-        {
-          "id": "b",
-          "text": "التكبير"
-        },
-        {
-          "id": "c",
-          "text": "الأذان"
-        },
-        {
-          "id": "d",
-          "text": "التلبية"
+          "text": "ست صلوات"
         }
       ],
       "correctChoiceId": "c",
-      "explanation": "الأذان إعلامٌ بدخول وقت الصلاة والدعوة إليها.",
+      "explanation": "النبي ﷺ أجاب السائل بأن عليه خمس صلوات في اليوم والليلة، وما زاد فتطوع.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **خمس صلوات**."
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "عام"
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "46"
         }
       ],
       "tags": [
-        "أذان"
+        "category:salah",
+        "age:kids",
+        "tier:1",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "pg-2-2-2",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "كم ركعة في صلاة العشاء؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "ثلاث"
-        },
-        {
-          "id": "b",
-          "text": "ركعتان"
-        },
-        {
-          "id": "c",
-          "text": "أربع"
-        },
-        {
-          "id": "d",
-          "text": "خمس"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "صلاة العشاء أربع ركعات.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "صلاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-2-3",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "كم ركعة في صلاة العصر؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "ثلاث"
-        },
-        {
-          "id": "b",
-          "text": "ركعتان"
-        },
-        {
-          "id": "c",
-          "text": "خمس"
-        },
-        {
-          "id": "d",
-          "text": "أربع"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "صلاة العصر أربع ركعات سرّيّة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "صلاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-2-4",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "ماذا يقول المصلّي في السجود؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "سبحان ربي الأعلى"
-        },
-        {
-          "id": "b",
-          "text": "سبحان ربي العظيم"
-        },
-        {
-          "id": "c",
-          "text": "ربِّ اغفر لي"
-        },
-        {
-          "id": "d",
-          "text": "الله أكبر"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "يقول في السجود: سبحان ربي الأعلى.",
-      "references": [
-        {
-          "type": "other",
-          "label": "سنن أبي داود"
-        }
-      ],
-      "tags": [
-        "صلاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-2-5",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "الطهارة بالماء قبل الصلاة تُسمى؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "التيمم"
-        },
-        {
-          "id": "b",
-          "text": "الوضوء"
-        },
-        {
-          "id": "c",
-          "text": "الغسل"
-        },
-        {
-          "id": "d",
-          "text": "الاستنجاء"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "الوضوء طهارة بالماء لأعضاء مخصوصة قبل الصلاة.",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 5,
-          "ayah": 6
-        }
-      ],
-      "tags": [
-        "وضوء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-2-6",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "ما الذي يُنقض به الوضوء؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "أكل ما مسّته النار"
-        },
-        {
-          "id": "b",
-          "text": "لمس ثوب طاهر"
-        },
-        {
-          "id": "c",
-          "text": "الخارج من السبيلين"
-        },
-        {
-          "id": "d",
-          "text": "التجشؤ بعد الطعام"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "من نواقض الوضوء الخارج من القُبُل أو الدُّبُر كالبول والريح؛ وما سوى ذلك من المذكورات ليس ناقضًا عند جمهور العلماء.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "وضوء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-3-1",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "أول أركان الصلاة القولية؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "تكبيرة الإحرام"
-        },
-        {
-          "id": "b",
-          "text": "التشهد"
-        },
-        {
-          "id": "c",
-          "text": "الفاتحة"
-        },
-        {
-          "id": "d",
-          "text": "التسليم"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "تكبيرة الإحرام «الله أكبر» يُدخل بها في الصلاة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "صلاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-3-2",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "السورة التي تُقرأ في كل ركعة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الإخلاص"
-        },
-        {
-          "id": "b",
-          "text": "الفاتحة"
-        },
-        {
-          "id": "c",
-          "text": "الكوثر"
-        },
-        {
-          "id": "d",
-          "text": "الفلق"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "«لا صلاة لمن لم يقرأ بفاتحة الكتاب».",
-      "references": [
-        {
-          "type": "other",
-          "label": "البخاري ومسلم"
-        }
-      ],
-      "tags": [
-        "صلاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-3-3",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "كم ركعة في صلاة الجمعة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "أربع"
-        },
-        {
-          "id": "b",
-          "text": "ثلاث"
-        },
-        {
-          "id": "c",
-          "text": "ركعتان"
-        },
-        {
-          "id": "d",
-          "text": "ست"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "صلاة الجمعة ركعتان يسبقهما خطبتان.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "جمعة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-3-4",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "متى تُقصَر الصلاة الرباعية إلى ركعتين؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "في المطر"
-        },
-        {
-          "id": "b",
-          "text": "في المرض"
-        },
-        {
-          "id": "c",
-          "text": "في الليل"
-        },
-        {
-          "id": "d",
-          "text": "في السفر"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "يُشرع قصر الرباعية إلى ركعتين للمسافر.",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 4,
-          "ayah": 101
-        }
-      ],
-      "tags": [
-        "سفر"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-3-6",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "ما اسم صلاة الليل جماعةً في رمضان؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "التراويح"
-        },
-        {
-          "id": "b",
-          "text": "التهجد"
-        },
-        {
-          "id": "c",
-          "text": "الضحى"
-        },
-        {
-          "id": "d",
-          "text": "الوتر"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "التراويح قيام رمضان جماعةً بعد العشاء.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "رمضان"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-4-1",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "كم عدد تكبيرات صلاة الجنازة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "أربع"
-        },
-        {
-          "id": "b",
-          "text": "ثلاث"
-        },
-        {
-          "id": "c",
-          "text": "خمس"
-        },
-        {
-          "id": "d",
-          "text": "ركعتان"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "صلاة الجنازة أربع تكبيرات بلا ركوع ولا سجود.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "جنازة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-4-2",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "صلاة تُصلى عند كسوف الشمس؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "صلاة الاستسقاء"
-        },
-        {
-          "id": "b",
-          "text": "صلاة الكسوف"
-        },
-        {
-          "id": "c",
-          "text": "صلاة العيد"
-        },
-        {
-          "id": "d",
-          "text": "صلاة الحاجة"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "صلاة الكسوف سنّة مؤكدة عند كسوف الشمس أو خسوف القمر.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح البخاري"
-        }
-      ],
-      "tags": [
-        "صلاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-4-3",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "ما الصلاة الوسطى التي أُمرنا بالمحافظة عليها؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "صلاة الفجر"
-        },
-        {
-          "id": "b",
-          "text": "صلاة الظهر"
-        },
-        {
-          "id": "c",
-          "text": "صلاة العصر"
-        },
-        {
-          "id": "d",
-          "text": "صلاة المغرب"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "الراجح أن الصلاة الوسطى في قوله «حافظوا على الصلوات» هي العصر.",
-      "references": [
-        {
-          "type": "other",
-          "label": "البخاري ومسلم"
-        }
-      ],
-      "tags": [
-        "صلاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-4-4",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "بم يكون التيمم عند فقد الماء؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الثلج"
-        },
-        {
-          "id": "b",
-          "text": "الرماد"
-        },
-        {
-          "id": "c",
-          "text": "الحصى الأملس"
-        },
-        {
-          "id": "d",
-          "text": "الصعيد الطاهر"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "عند فقد الماء أو تعذُّر استعماله يُتيمَّم بالصعيد الطاهر.",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 5,
-          "ayah": 6
-        }
-      ],
-      "tags": [
-        "طهارة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-4-5",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "كم عدد ركعات صلاة العيد؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "ركعتان"
-        },
-        {
-          "id": "b",
-          "text": "أربع"
-        },
-        {
-          "id": "c",
-          "text": "ثلاث"
-        },
-        {
-          "id": "d",
-          "text": "ركعة"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "صلاة العيد ركعتان فيهما تكبيرات زوائد.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "عيد"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-4-6",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "ماذا يقول المصلّي بين السجدتين؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "سبحان ربي الأعلى"
-        },
-        {
-          "id": "b",
-          "text": "ربِّ اغفر لي"
-        },
-        {
-          "id": "c",
-          "text": "سمع الله لمن حمده"
-        },
-        {
-          "id": "d",
-          "text": "الله أكبر"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "يقول بين السجدتين: ربِّ اغفر لي.",
-      "references": [
-        {
-          "type": "other",
-          "label": "سنن ابن ماجه"
-        }
-      ],
-      "tags": [
-        "صلاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-5-1",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "متى فُرضت الصلوات الخمس؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "في غزوة بدر"
-        },
-        {
-          "id": "b",
-          "text": "ليلة الإسراء والمعراج"
-        },
-        {
-          "id": "c",
-          "text": "عند الهجرة"
-        },
-        {
-          "id": "d",
-          "text": "في حجة الوداع"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "فُرضت الصلوات الخمس ليلة الإسراء والمعراج.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح البخاري"
-        }
-      ],
-      "tags": [
-        "صلاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-5-2",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "ما أقلّ عدد ركعات الوتر؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "ركعتان"
-        },
-        {
-          "id": "b",
-          "text": "ثلاث"
-        },
-        {
-          "id": "c",
-          "text": "ركعة واحدة"
-        },
-        {
-          "id": "d",
-          "text": "أربع"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "أقل الوتر ركعة واحدة، وأدناه للكمال ثلاث.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح مسلم"
-        }
-      ],
-      "tags": [
-        "وتر"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-5-3",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "حكم قراءة الفاتحة في الصلاة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "سنة"
-        },
-        {
-          "id": "b",
-          "text": "واجب"
-        },
-        {
-          "id": "c",
-          "text": "مباح"
-        },
-        {
-          "id": "d",
-          "text": "ركن"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "«لا صلاة لمن لم يقرأ بفاتحة الكتاب» — فقراءة الفاتحة ركن لا تصح الصلاة بدونه.",
-      "references": [
-        {
-          "type": "other",
-          "label": "البخاري ومسلم"
-        }
-      ],
-      "tags": [
-        "صلاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-5-4",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "لطلب أي شيء تُصلى صلاة الاستسقاء؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "نزول المطر"
-        },
-        {
-          "id": "b",
-          "text": "الشفاء"
-        },
-        {
-          "id": "c",
-          "text": "الرزق"
-        },
-        {
-          "id": "d",
-          "text": "النصر"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "صلاة الاستسقاء تُصلى لطلب الغيث عند الجدب.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح البخاري"
-        }
-      ],
-      "tags": [
-        "صلاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-5-5",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 5,
-      "text": "أي وقت يُنهى عن الصلاة فيه؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "بعد الفجر مباشرة بالنافلة الراتبة"
-        },
-        {
-          "id": "b",
-          "text": "قبل الظهر"
-        },
-        {
-          "id": "c",
-          "text": "بعد العشاء"
-        },
-        {
-          "id": "d",
-          "text": "عند طلوع الشمس وغروبها"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "نُهي عن الصلاة عند طلوع الشمس وعند غروبها ووقت الاستواء.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح مسلم"
-        }
-      ],
-      "tags": [
-        "صلاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-2-5-6",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 5,
-      "text": "ما اسم الجلوس في المسجد للعبادة والانقطاع؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الاعتكاف"
-        },
-        {
-          "id": "b",
-          "text": "الخلوة"
-        },
-        {
-          "id": "c",
-          "text": "الرباط"
-        },
-        {
-          "id": "d",
-          "text": "التبتُّل"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "الاعتكاف لزوم المسجد لطاعة الله، ويتأكد في العشر الأواخر من رمضان.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح البخاري"
-        }
-      ],
-      "tags": [
-        "اعتكاف"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-2-1-1",
+      "id": "salah-kids-t1-q02",
       "categoryId": "salah",
       "ageBand": "kids",
       "tier": 1,
-      "text": "كم عدد الصلوات المفروضة في اليوم والليلة؟",
+      "text": "إلى أي جهة يتوجه المسلم في صلاته؟",
       "choices": [
         {
           "id": "a",
-          "text": "خمس"
+          "text": "جهة المسجد الحرام"
         },
         {
           "id": "b",
-          "text": "ثلاث"
+          "text": "جهة الشروق دائمًا"
         },
         {
           "id": "c",
-          "text": "أربع"
+          "text": "أي جهة يختارها"
         },
         {
           "id": "d",
-          "text": "ست"
+          "text": "جهة الشمال دائمًا"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "الصلوات المفروضة خمس: الفجر والظهر والعصر والمغرب والعشاء.",
+      "explanation": "أمر الله بالتوجه شطر المسجد الحرام، وهي جهة القبلة.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«فَوَلِّ وَجْهَكَ شَطْرَ الْمَسْجِدِ الْحَرَامِ»"
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "حديث الإسراء — متفق عليه"
+          "type": "quran",
+          "surah": 2,
+          "ayah": 144
         }
       ],
       "tags": [
-        "صلاة"
+        "category:salah",
+        "age:kids",
+        "tier:1",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "pk-2-1-2",
+      "id": "salah-kids-t1-q03",
       "categoryId": "salah",
       "ageBand": "kids",
       "tier": 1,
-      "text": "ماذا نقول عندما نبدأ الصلاة رافعين أيدينا؟",
+      "text": "بأي كلمة يبدأ المصلي صلاته في تعليم النبي ﷺ للرجل الذي لم يحسن صلاته؟",
       "choices": [
         {
           "id": "a",
@@ -1107,981 +124,270 @@
         },
         {
           "id": "d",
-          "text": "بسم الله"
+          "text": "أستغفر الله"
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "نبدأ الصلاة بتكبيرة الإحرام: «الله أكبر».",
+      "explanation": "في حديث تعليم الصلاة أمره النبي ﷺ بالتكبير عند القيام للصلاة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الله أكبر**."
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "حديث المسيء صلاته — متفق عليه"
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "757"
         }
       ],
       "tags": [
-        "صلاة"
+        "category:salah",
+        "age:kids",
+        "tier:1",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "pk-2-2-1",
+      "id": "salah-kids-t1-q04",
       "categoryId": "salah",
       "ageBand": "kids",
-      "tier": 2,
-      "text": "ما اسم الطهارة بالماء التي نتوضأ بها قبل الصلاة؟",
+      "tier": 1,
+      "text": "أي عضو من الآتي عُدَّ من أعضاء السجود السبعة في الحديث؟",
       "choices": [
         {
           "id": "a",
-          "text": "الغسل من النوم"
+          "text": "الجبهة"
         },
         {
           "id": "b",
-          "text": "المسح"
+          "text": "الكتف"
         },
         {
           "id": "c",
-          "text": "الوضوء"
+          "text": "الأذن"
         },
         {
           "id": "d",
-          "text": "التيمم دائماً"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "الوضوء طهارةٌ بالماء نتطهَّر بها قبل الصلاة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "القرآن — سورة المائدة"
-        }
-      ],
-      "tags": [
-        "وضوء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-2-2-2",
-      "categoryId": "salah",
-      "ageBand": "kids",
-      "tier": 2,
-      "text": "إلى أي جهة نتَّجه في صلاتنا؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الشمال"
-        },
-        {
-          "id": "b",
-          "text": "شروق الشمس"
-        },
-        {
-          "id": "c",
-          "text": "أي جهة نحب"
-        },
-        {
-          "id": "d",
-          "text": "الكعبة"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "نستقبل القِبلة، وهي جهة الكعبة في مكة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "القرآن — سورة البقرة"
-        }
-      ],
-      "tags": [
-        "قبلة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-2-3-1",
-      "categoryId": "salah",
-      "ageBand": "kids",
-      "tier": 3,
-      "text": "ما السورة التي نقرؤها في كل ركعة من الصلاة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "سورة الفاتحة"
-        },
-        {
-          "id": "b",
-          "text": "سورة الإخلاص"
-        },
-        {
-          "id": "c",
-          "text": "سورة الناس"
-        },
-        {
-          "id": "d",
-          "text": "سورة الكوثر"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "قراءة الفاتحة ركنٌ في كل ركعة من الصلاة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "حديث عبادة — متفق عليه"
-        }
-      ],
-      "tags": [
-        "صلاة",
-        "فاتحة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-2-3-2",
-      "categoryId": "salah",
-      "ageBand": "kids",
-      "tier": 3,
-      "text": "ماذا نسمِّي وضع الجبهة على الأرض في الصلاة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الركوع"
-        },
-        {
-          "id": "b",
-          "text": "السجود"
-        },
-        {
-          "id": "c",
-          "text": "القيام"
-        },
-        {
-          "id": "d",
-          "text": "القعود"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "السجود هو وضع الجبهة والأنف على الأرض تعظيماً لله.",
-      "references": [
-        {
-          "type": "other",
-          "label": "حديث صفة الصلاة — متفق عليه"
-        }
-      ],
-      "tags": [
-        "صلاة",
-        "سجود"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-2-4-1",
-      "categoryId": "salah",
-      "ageBand": "kids",
-      "tier": 4,
-      "text": "كم عدد ركعات صلاة المغرب؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "اثنتان"
-        },
-        {
-          "id": "b",
-          "text": "أربع"
-        },
-        {
-          "id": "c",
-          "text": "ثلاث"
-        },
-        {
-          "id": "d",
-          "text": "خمس"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "صلاة المغرب ثلاث ركعات.",
-      "references": [
-        {
-          "type": "book",
-          "title": "فقه الصلاة"
-        }
-      ],
-      "tags": [
-        "صلاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-2-4-2",
-      "categoryId": "salah",
-      "ageBand": "kids",
-      "tier": 4,
-      "text": "أي صلاةٍ نصلِّيها قبل شروق الشمس؟",
-      "choices": [
-        {
-          "id": "a",
           "text": "الظهر"
-        },
-        {
-          "id": "b",
-          "text": "العصر"
-        },
-        {
-          "id": "c",
-          "text": "العشاء"
-        },
-        {
-          "id": "d",
-          "text": "الفجر"
         }
       ],
-      "correctChoiceId": "d",
-      "explanation": "صلاة الفجر تكون في آخر الليل قبل طلوع الشمس.",
+      "correctChoiceId": "a",
+      "explanation": "حديث السجود على سبعة أعظم يذكر الجبهة ضمن الأعضاء.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الجبهة**."
+        }
+      ],
       "references": [
         {
-          "type": "book",
-          "title": "فقه الصلاة"
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "812"
         }
       ],
       "tags": [
-        "صلاة",
-        "أوقات"
+        "category:salah",
+        "age:kids",
+        "tier:1",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "pk-2-5-1",
+      "id": "salah-kids-t1-q05",
       "categoryId": "salah",
       "ageBand": "kids",
-      "tier": 5,
-      "text": "ماذا نسمِّي النداء الذي يُرفع لإعلام الناس بوقت الصلاة؟",
+      "tier": 1,
+      "text": "أي عضو أمرت آية الوضوء بمسحه؟",
       "choices": [
         {
           "id": "a",
-          "text": "الأذان"
+          "text": "الرأس"
         },
         {
           "id": "b",
-          "text": "الإقامة"
+          "text": "الوجه"
         },
         {
           "id": "c",
-          "text": "التلبية"
+          "text": "الركبتان"
         },
         {
           "id": "d",
-          "text": "التكبير"
+          "text": "الكتفان"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "الأذان نداءٌ يُعلِم الناس بدخول وقت الصلاة.",
+      "explanation": "آية الوضوء تذكر غسل الوجه واليدين والرجلين ومسح الرأس.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«فَاغْسِلُوا وُجُوهَكُمْ وَأَيْدِيَكُمْ ... وَامْسَحُوا بِرُءُوسِكُمْ ... فَتَيَمَّمُوا صَعِيدًا طَيِّبًا»"
+        }
+      ],
       "references": [
         {
           "type": "other",
-          "label": "حديث بدء الأذان — سنن أبي داود"
+          "label": "القرآن الكريم — المائدة 5:6 — آية الوضوء والتيمم"
         }
       ],
       "tags": [
-        "أذان"
+        "category:salah",
+        "age:kids",
+        "tier:1",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "pk-2-5-2",
+      "id": "salah-kids-t2-q06",
       "categoryId": "salah",
       "ageBand": "kids",
-      "tier": 5,
-      "text": "صلاةٌ نصلِّيها جماعةً كل أسبوع يوم الجمعة بدل الظهر، ما اسمها؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "صلاة العيد"
-        },
-        {
-          "id": "b",
-          "text": "صلاة الجمعة"
-        },
-        {
-          "id": "c",
-          "text": "صلاة التراويح"
-        },
-        {
-          "id": "d",
-          "text": "صلاة الكسوف"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "صلاة الجمعة ركعتان جماعةً مع خطبة، تحل محل الظهر يوم الجمعة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "القرآن — سورة الجمعة"
-        }
-      ],
-      "tags": [
-        "جمعة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-2-1-1",
-      "categoryId": "salah",
-      "ageBand": "scholar",
-      "tier": 1,
-      "text": "كم عدد ركعات السنن الرواتب المؤكَّدة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "عشر ركعات"
-        },
-        {
-          "id": "b",
-          "text": "ثماني ركعات"
-        },
-        {
-          "id": "c",
-          "text": "اثنتا عشرة ركعة"
-        },
-        {
-          "id": "d",
-          "text": "أربع عشرة ركعة"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "«من صلى ثنتي عشرة ركعة في اليوم والليلة بُني له بيت في الجنة».",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح مسلم"
-        }
-      ],
-      "tags": [
-        "صلاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-2-1-2",
-      "categoryId": "salah",
-      "ageBand": "scholar",
-      "tier": 1,
-      "text": "كم تكبيرة في صلاة الجنازة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "ثلاث تكبيرات"
-        },
-        {
-          "id": "b",
-          "text": "خمس تكبيرات"
-        },
-        {
-          "id": "c",
-          "text": "ست تكبيرات"
-        },
-        {
-          "id": "d",
-          "text": "أربع تكبيرات"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "صلاة الجنازة أربع تكبيرات بلا ركوع ولا سجود.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح البخاري"
-        }
-      ],
-      "tags": [
-        "جنازة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-2-2-1",
-      "categoryId": "salah",
-      "ageBand": "scholar",
       "tier": 2,
-      "text": "إلى كم ركعة تُقصر الصلاة الرباعية في السفر؟",
+      "text": "ماذا شُرع عند فقد الماء أو تعذر استعماله للطهارة؟",
       "choices": [
         {
           "id": "a",
-          "text": "ركعتان"
+          "text": "التيمم بالصعيد الطيب"
         },
         {
           "id": "b",
-          "text": "ثلاث ركعات"
+          "text": "ترك الصلاة"
         },
         {
           "id": "c",
-          "text": "أربع ركعات"
+          "text": "الغسل بالرمل"
         },
         {
           "id": "d",
-          "text": "ركعة واحدة"
+          "text": "الانتظار حتى اليوم التالي"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "تُقصر الرباعية إلى ركعتين في السفر.",
+      "explanation": "آية المائدة تذكر التيمم بالصعيد الطيب عند عدم وجود الماء في الحالة المذكورة.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«فَاغْسِلُوا وُجُوهَكُمْ وَأَيْدِيَكُمْ ... وَامْسَحُوا بِرُءُوسِكُمْ ... فَتَيَمَّمُوا صَعِيدًا طَيِّبًا»"
+        }
+      ],
       "references": [
         {
-          "type": "quran",
-          "surah": 4,
-          "ayah": 101
+          "type": "other",
+          "label": "القرآن الكريم — المائدة 5:6 — آية الوضوء والتيمم"
         }
       ],
       "tags": [
-        "سفر"
+        "category:salah",
+        "age:kids",
+        "tier:2",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "ps-2-2-2",
+      "id": "salah-kids-t2-q07",
       "categoryId": "salah",
-      "ageBand": "scholar",
+      "ageBand": "kids",
       "tier": 2,
-      "text": "أين يقع سجود السهو؟",
+      "text": "ماذا يفعل أحد المسلمين لإعلام الناس بدخول وقت الصلاة كما في حديث مالك بن الحويرث؟",
       "choices": [
         {
           "id": "a",
-          "text": "قبل السلام فقط"
+          "text": "يؤذن أحدهم"
         },
         {
           "id": "b",
-          "text": "قبل السلام أو بعده"
+          "text": "يطرق الأبواب فقط"
         },
         {
           "id": "c",
-          "text": "بعد السلام فقط"
+          "text": "يشعل نارًا"
         },
         {
           "id": "d",
-          "text": "لا يُشرع سجود السهو"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "ثبت الأمران في السنة، فيكون قبل السلام أو بعده بحسب موضع السهو.",
-      "references": [
-        {
-          "type": "other",
-          "label": "الصحيحان"
-        }
-      ],
-      "tags": [
-        "سهو"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-2-3-1",
-      "categoryId": "salah",
-      "ageBand": "scholar",
-      "tier": 3,
-      "text": "ما حكم قراءة الفاتحة في الصلاة عند جمهور الفقهاء؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "سنة"
-        },
-        {
-          "id": "b",
-          "text": "واجب"
-        },
-        {
-          "id": "c",
-          "text": "ركن"
-        },
-        {
-          "id": "d",
-          "text": "مباح"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "«لا صلاة لمن لم يقرأ بفاتحة الكتاب» — فقراءتها ركن عند الجمهور لا تصح الصلاة بدونه (الحنفية يعدّونها واجبة لا ركنًا، وقراءة أيّ قرآن هي الركن عندهم).",
-      "references": [
-        {
-          "type": "other",
-          "label": "الصحيحان"
-        }
-      ],
-      "tags": [
-        "صلاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-2-3-2",
-      "categoryId": "salah",
-      "ageBand": "scholar",
-      "tier": 3,
-      "text": "متى يبدأ وقت صلاة العشاء؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "بغروب الشمس"
-        },
-        {
-          "id": "b",
-          "text": "بمنتصف الليل"
-        },
-        {
-          "id": "c",
-          "text": "بطلوع الفجر"
-        },
-        {
-          "id": "d",
-          "text": "بمغيب الشفق الأحمر"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "يبدأ وقت العشاء بمغيب الشفق الأحمر وينتهي وقت الاختيار بمنتصف الليل.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح مسلم"
-        }
-      ],
-      "tags": [
-        "مواقيت"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-2-4-1",
-      "categoryId": "salah",
-      "ageBand": "scholar",
-      "tier": 4,
-      "text": "في أي سورة ورد ذكر صلاة الخوف؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "سورة النساء"
-        },
-        {
-          "id": "b",
-          "text": "سورة البقرة"
-        },
-        {
-          "id": "c",
-          "text": "سورة المائدة"
-        },
-        {
-          "id": "d",
-          "text": "سورة الأنفال"
+          "text": "يدق جرسًا"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "«وإذا كنت فيهم فأقمت لهم الصلاة» في بيان صلاة الخوف.",
+      "explanation": "قال النبي ﷺ: إذا حضرت الصلاة فليؤذن لكم أحدكم.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **يؤذن أحدهم**."
+        }
+      ],
       "references": [
         {
-          "type": "quran",
-          "surah": 4,
-          "ayah": 102
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "631"
         }
       ],
       "tags": [
-        "صلاة"
+        "category:salah",
+        "age:kids",
+        "tier:2",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "ps-2-4-2",
+      "id": "salah-kids-t2-q08",
       "categoryId": "salah",
-      "ageBand": "scholar",
-      "tier": 4,
-      "text": "من أول من أذَّن في الإسلام؟",
+      "ageBand": "kids",
+      "tier": 2,
+      "text": "في أي يوم أمر القرآن بترك البيع والسعي إلى ذكر الله عند النداء للصلاة؟",
       "choices": [
         {
           "id": "a",
-          "text": "عبد الله بن زيد"
+          "text": "يوم الجمعة"
         },
         {
           "id": "b",
-          "text": "بلال بن رباح"
+          "text": "يوم الاثنين"
         },
         {
           "id": "c",
-          "text": "أبو محذورة"
+          "text": "يوم عرفة فقط"
         },
         {
           "id": "d",
-          "text": "عبد الله بن أم مكتوم"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "بلال أول مؤذّني الإسلام، ورأى الأذان في المنام عبد الله بن زيد.",
-      "references": [
-        {
-          "type": "other",
-          "label": "سنن أبي داود"
-        }
-      ],
-      "tags": [
-        "أذان"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-2-5-1",
-      "categoryId": "salah",
-      "ageBand": "scholar",
-      "tier": 5,
-      "text": "ما الصلاة الوسطى التي وردت المحافظة عليها؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "صلاة الفجر"
-        },
-        {
-          "id": "b",
-          "text": "صلاة الظهر"
-        },
-        {
-          "id": "c",
-          "text": "صلاة العصر"
-        },
-        {
-          "id": "d",
-          "text": "صلاة المغرب"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "«شغلونا عن الصلاة الوسطى صلاة العصر» يوم الأحزاب.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح مسلم"
-        }
-      ],
-      "tags": [
-        "مواقيت"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-2-5-2",
-      "categoryId": "salah",
-      "ageBand": "scholar",
-      "tier": 5,
-      "text": "من فاتته صلاة بنوم أو نسيان، متى يصليها؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "في اليوم التالي"
-        },
-        {
-          "id": "b",
-          "text": "تسقط عنه"
-        },
-        {
-          "id": "c",
-          "text": "في وقتها المعتاد غدًا"
-        },
-        {
-          "id": "d",
-          "text": "إذا ذكرها"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "«من نسي صلاة فليصلِّها إذا ذكرها، لا كفارة لها إلا ذلك».",
-      "references": [
-        {
-          "type": "other",
-          "label": "الصحيحان"
-        }
-      ],
-      "tags": [
-        "قضاء"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "sa-1-1",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 1,
-      "text": "كم عدد الصلوات المفروضة في اليوم والليلة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "ثلاث صلوات"
-        },
-        {
-          "id": "b",
-          "text": "أربع صلوات"
-        },
-        {
-          "id": "c",
-          "text": "ست صلوات"
-        },
-        {
-          "id": "d",
-          "text": "خمس صلوات"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "فُرضت الصلوات الخمس ليلة الإسراء والمعراج.",
-      "references": [
-        {
-          "type": "other",
-          "label": "متفق عليه — حديث الإسراء"
-        }
-      ],
-      "tags": [
-        "صلاة",
-        "فرض"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "sa-1-2",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 1,
-      "text": "إلى أي جهة يتوجّه المسلم في صلاته؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الكعبة"
-        },
-        {
-          "id": "b",
-          "text": "بيت المقدس"
-        },
-        {
-          "id": "c",
-          "text": "جهة الشروق"
-        },
-        {
-          "id": "d",
-          "text": "جهة الشمال"
+          "text": "يوم عاشوراء"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "أُمر المسلمون باستقبال المسجد الحرام (الكعبة، وهي جهة القبلة)، قال تعالى: «فولِّ وجهك شطر المسجد الحرام».",
-      "references": [
+      "explanation": "سورة الجمعة تربط النداء للصلاة يوم الجمعة بترك البيع والسعي إلى ذكر الله.",
+      "evidence": [
         {
-          "type": "quran",
-          "surah": 2,
-          "ayah": 144
+          "kind": "quran_text",
+          "text": "«فَاسْعَوْا إِلَىٰ ذِكْرِ اللَّهِ وَذَرُوا الْبَيْعَ»"
         }
       ],
-      "tags": [
-        "قبلة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "sa-2-1",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 1,
-      "text": "كم عدد ركعات صلاة الفجر المفروضة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "ثلاث ركعات"
-        },
-        {
-          "id": "b",
-          "text": "ركعتان"
-        },
-        {
-          "id": "c",
-          "text": "أربع ركعات"
-        },
-        {
-          "id": "d",
-          "text": "ركعة واحدة"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "صلاة الفجر ركعتان جهريتان.",
-      "references": [
-        {
-          "type": "other",
-          "label": "متفق عليه"
-        }
-      ],
-      "tags": [
-        "صلاة",
-        "ركعات"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "sa-2-2",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "كم عدد ركعات صلاة المغرب المفروضة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "ركعتان"
-        },
-        {
-          "id": "b",
-          "text": "أربع ركعات"
-        },
-        {
-          "id": "c",
-          "text": "خمس ركعات"
-        },
-        {
-          "id": "d",
-          "text": "ثلاث ركعات"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "صلاة المغرب ثلاث ركعات، وهي وتر النهار.",
-      "references": [
-        {
-          "type": "other",
-          "label": "متفق عليه"
-        }
-      ],
-      "tags": [
-        "صلاة",
-        "ركعات"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "sa-3-1",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "ما اسم الطهارة بالتراب عند فقد الماء أو العجز عن استعماله؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الوضوء"
-        },
-        {
-          "id": "b",
-          "text": "الغسل"
-        },
-        {
-          "id": "c",
-          "text": "التيمم"
-        },
-        {
-          "id": "d",
-          "text": "الاستنجاء"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "شرع الله التيمم عند فقد الماء، قال تعالى: «فتيمموا صعيداً طيباً».",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 5,
-          "ayah": 6
-        }
-      ],
-      "tags": [
-        "طهارة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "sa-3-2",
-      "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "ما اسم الصلاة التي تُصلّى جماعةً يوم الجمعة بخطبة بدل صلاة الظهر؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "صلاة العيد"
-        },
-        {
-          "id": "b",
-          "text": "صلاة التراويح"
-        },
-        {
-          "id": "c",
-          "text": "صلاة الاستسقاء"
-        },
-        {
-          "id": "d",
-          "text": "صلاة الجمعة"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "صلاة الجمعة ركعتان بخطبة، فرض على الرجال، قال تعالى: «فاسعوا إلى ذكر الله».",
       "references": [
         {
           "type": "quran",
@@ -2090,175 +396,3431 @@
         }
       ],
       "tags": [
-        "جمعة"
+        "category:salah",
+        "age:kids",
+        "tier:2",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "sa-4-1",
+      "id": "salah-kids-t2-q09",
       "categoryId": "salah",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "بكم درجة تفضُل صلاة الجماعة صلاة الفرد وحده؟",
+      "ageBand": "kids",
+      "tier": 2,
+      "text": "لماذا جُعل الإمام في صلاة الجماعة كما جاء في الحديث؟",
       "choices": [
         {
           "id": "a",
+          "text": "ليؤتم به"
+        },
+        {
+          "id": "b",
+          "text": "ليطيل الصلاة دائمًا"
+        },
+        {
+          "id": "c",
+          "text": "ليصلي وحده"
+        },
+        {
+          "id": "d",
+          "text": "ليختار مكان المسجد"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "النص النبوي مباشر: الإمام جُعل ليؤتم به.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **ليؤتم به**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "722"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:kids",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-kids-t2-q10",
+      "categoryId": "salah",
+      "ageBand": "kids",
+      "tier": 2,
+      "text": "أي أمر نبوي يتعلق بصفوف صلاة الجماعة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "تسوية الصفوف"
+        },
+        {
+          "id": "b",
+          "text": "ترك فراغات واسعة"
+        },
+        {
+          "id": "c",
+          "text": "بدء الصف من الخلف"
+        },
+        {
+          "id": "d",
+          "text": "وقوف كل شخص منفردًا"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ثبت الأمر بتسوية الصفوف وبيان أنها من إقامة الصلاة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **تسوية الصفوف**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "723"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:kids",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-kids-t3-q11",
+      "categoryId": "salah",
+      "ageBand": "kids",
+      "tier": 3,
+      "text": "أي ذكر ثبت في الركوع في حديث حذيفة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "سبحان ربي العظيم"
+        },
+        {
+          "id": "b",
+          "text": "سبحان ربي الأعلى"
+        },
+        {
+          "id": "c",
+          "text": "رب اغفر لي"
+        },
+        {
+          "id": "d",
+          "text": "سمع الله لمن حمده"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ورد في الحديث أنه ﷺ قال في ركوعه: سبحان ربي العظيم.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«سُبْحَانَ رَبِّيَ الْعَظِيمِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sunan-abi-dawud",
+          "number": "871"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:kids",
+        "tier:3",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "تخريج الحديث وحكمه روجعا في الدرر السنية؛ وأُبقيت فقط الطرق المقبولة"
+    },
+    {
+      "id": "salah-kids-t3-q12",
+      "categoryId": "salah",
+      "ageBand": "kids",
+      "tier": 3,
+      "text": "أي ذكر ثبت في السجود في حديث حذيفة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "سبحان ربي الأعلى"
+        },
+        {
+          "id": "b",
+          "text": "سبحان ربي العظيم"
+        },
+        {
+          "id": "c",
+          "text": "ربنا ولك الحمد"
+        },
+        {
+          "id": "d",
+          "text": "حي على الصلاة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ورد في الحديث أنه ﷺ قال في سجوده: سبحان ربي الأعلى.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«سُبْحَانَ رَبِّيَ الْأَعْلَى»"
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sunan-abi-dawud",
+          "number": "871"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:kids",
+        "tier:3",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "تخريج الحديث وحكمه روجعا في الدرر السنية؛ وأُبقيت فقط الطرق المقبولة"
+    },
+    {
+      "id": "salah-kids-t3-q13",
+      "categoryId": "salah",
+      "ageBand": "kids",
+      "tier": 3,
+      "text": "أي ذكر ثبت قوله بين السجدتين؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "رب اغفر لي"
+        },
+        {
+          "id": "b",
+          "text": "سبحان ربي العظيم"
+        },
+        {
+          "id": "c",
+          "text": "سمع الله لمن حمده"
+        },
+        {
+          "id": "d",
+          "text": "حي على الفلاح"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "جاء في الحديث تكرار «رب اغفر لي» بين السجدتين.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«رَبِّ اغْفِرْ لِي، رَبِّ اغْفِرْ لِي»"
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sunan-ibn-majah",
+          "number": "897"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:kids",
+        "tier:3",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "تخريج الحديث وحكمه روجعا في الدرر السنية؛ وأُبقيت فقط الطرق المقبولة"
+    },
+    {
+      "id": "salah-kids-t3-q14",
+      "categoryId": "salah",
+      "ageBand": "kids",
+      "tier": 3,
+      "text": "كيف يأتي المسلم إلى الصلاة إذا سمع الإقامة وهو في طريقه؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "بالسكينة والوقار"
+        },
+        {
+          "id": "b",
+          "text": "بالجري بأقصى سرعة"
+        },
+        {
+          "id": "c",
+          "text": "بالصياح"
+        },
+        {
+          "id": "d",
+          "text": "ينتظر حتى تنتهي الجماعة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "أمر النبي ﷺ بالسكينة والوقار ونهى عن الإسراع.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **بالسكينة والوقار**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "636"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:kids",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-kids-t3-q15",
+      "categoryId": "salah",
+      "ageBand": "kids",
+      "tier": 3,
+      "text": "ماذا أرشد النبي ﷺ من دخل المسجد أن يفعل قبل أن يجلس؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "يصلي ركعتين"
+        },
+        {
+          "id": "b",
+          "text": "يخرج ثم يعود"
+        },
+        {
+          "id": "c",
+          "text": "يؤذن ولو لم يدخل الوقت"
+        },
+        {
+          "id": "d",
+          "text": "ينام قليلًا"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الحديث ينهى الداخل عن الجلوس حتى يصلي ركعتين.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **يصلي ركعتين**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1167"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:kids",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-kids-t4-q16",
+      "categoryId": "salah",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "أي صلاة تجتمع فيها ملائكة الليل وملائكة النهار كما في الحديث؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الفجر"
+        },
+        {
+          "id": "b",
+          "text": "الظهر"
+        },
+        {
+          "id": "c",
+          "text": "المغرب"
+        },
+        {
+          "id": "d",
+          "text": "الوتر"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "حديث أبي هريرة يذكر اجتماع ملائكة الليل والنهار في صلاة الفجر.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الفجر**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "648"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:kids",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-kids-t4-q17",
+      "categoryId": "salah",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "أي صلاتين وصفهما النبي ﷺ بأنهما أثقل الصلاة على المنافقين؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "العشاء والفجر"
+        },
+        {
+          "id": "b",
+          "text": "الظهر والعصر"
+        },
+        {
+          "id": "c",
+          "text": "المغرب والعصر"
+        },
+        {
+          "id": "d",
+          "text": "الجمعة والعيد"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الحديث الصحيح يذكر العشاء والفجر.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **العشاء والفجر**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "657"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:kids",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-kids-t4-q18",
+      "categoryId": "salah",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "ما الصلاتان المقصودتان بـ«البردين» في الحديث؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الفجر والعصر"
+        },
+        {
+          "id": "b",
+          "text": "الظهر والمغرب"
+        },
+        {
+          "id": "c",
+          "text": "المغرب والعشاء"
+        },
+        {
+          "id": "d",
+          "text": "الفجر والعشاء"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "فسرت روايات الحديث البردين بصلاة الفجر وصلاة العصر.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الفجر والعصر**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "574"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:kids",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-kids-t4-q19",
+      "categoryId": "salah",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "بماذا شبّه النبي ﷺ الصلوات الخمس في بيان أثرها في محو الخطايا؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "بنهر يغتسل فيه الإنسان خمس مرات"
+        },
+        {
+          "id": "b",
+          "text": "بشجرة تُسقى مرة"
+        },
+        {
+          "id": "c",
+          "text": "بسفر طويل"
+        },
+        {
+          "id": "d",
+          "text": "بمصباح واحد"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "شبّهها بنهر على باب أحدكم يغتسل منه كل يوم خمس مرات.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **بنهر يغتسل فيه الإنسان خمس مرات**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "528"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:kids",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-kids-t4-q20",
+      "categoryId": "salah",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "ماذا تفعل الملائكة لمن بقي في مصلاه ما لم يُحدث؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "تدعو له بالرحمة والمغفرة"
+        },
+        {
+          "id": "b",
+          "text": "تطلب منه الخروج"
+        },
+        {
+          "id": "c",
+          "text": "لا تفعل شيئًا"
+        },
+        {
+          "id": "d",
+          "text": "تأمره بإعادة الصلاة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "في الحديث تدعو الملائكة له بالرحمة والمغفرة ما دام في مصلاه ولم يُحدث.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **تدعو له بالرحمة والمغفرة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "647"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:kids",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-kids-t5-q21",
+      "categoryId": "salah",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "على كم عضوًا أُمر النبي ﷺ أن يسجد؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "خمسة"
+        },
+        {
+          "id": "b",
+          "text": "ستة"
+        },
+        {
+          "id": "c",
+          "text": "سبعة"
+        },
+        {
+          "id": "d",
+          "text": "ثمانية"
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "الحديث الصحيح يذكر السجود على سبعة أعظم.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **سبعة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "812"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:kids",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-kids-t5-q22",
+      "categoryId": "salah",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "ماذا يُسن أن يقول السامع عند سماع ألفاظ الأذان الأصلية؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "يقول مثل ما يقول المؤذن"
+        },
+        {
+          "id": "b",
+          "text": "يصمت في كل الأذان"
+        },
+        {
+          "id": "c",
+          "text": "يقرأ الفاتحة بدلًا منه"
+        },
+        {
+          "id": "d",
+          "text": "يبدأ الإقامة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "قال النبي ﷺ: إذا سمعتم النداء فقولوا مثل ما يقول المؤذن.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **يقول مثل ما يقول المؤذن**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "611"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:kids",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-kids-t5-q23",
+      "categoryId": "salah",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "أي موضع في صلاة الجماعة ذكر الحديث أن الناس لو علموا فضله ولم يجدوا إليه سبيلًا إلا بالقرعة لاقترعوا عليه؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الصف الأول"
+        },
+        {
+          "id": "b",
+          "text": "الصف الأخير"
+        },
+        {
+          "id": "c",
+          "text": "وسط المسجد فقط"
+        },
+        {
+          "id": "d",
+          "text": "خارج المسجد"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "حديث فضل الأذان والصف الأول يذكر الاقتراع لو لم يجد الناس وسيلة أخرى.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الصف الأول**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "615"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:kids",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-kids-t5-q24",
+      "categoryId": "salah",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "أي نافلة قال النبي ﷺ عنها إنها خير من الدنيا وما فيها؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ركعتا سنة الفجر"
+        },
+        {
+          "id": "b",
+          "text": "تحية المسجد"
+        },
+        {
+          "id": "c",
+          "text": "صلاة الاستسقاء"
+        },
+        {
+          "id": "d",
+          "text": "ركعتا الطواف"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ثبت في صحيح مسلم فضل ركعتي الفجر بهذا الوصف.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **ركعتا سنة الفجر**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 725a — ركعتا الفجر خير من الدنيا وما فيها"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:kids",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-kids-t5-q25",
+      "categoryId": "salah",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "ما الأثر الذي ذكره الله للصلاة في سورة العنكبوت؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "تنهى عن الفحشاء والمنكر"
+        },
+        {
+          "id": "b",
+          "text": "تغني عن كل عبادة"
+        },
+        {
+          "id": "c",
+          "text": "تلغي الحساب"
+        },
+        {
+          "id": "d",
+          "text": "تزيد المال حتمًا"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الآية تنص على أن الصلاة تنهى عن الفحشاء والمنكر.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«إِنَّ الصَّلَاةَ تَنْهَىٰ عَنِ الْفَحْشَاءِ وَالْمُنكَرِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 29,
+          "ayah": 45
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:kids",
+        "tier:5",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "salah-general-t1-q26",
+      "categoryId": "salah",
+      "ageBand": "general",
+      "tier": 1,
+      "text": "بماذا وصف النبي ﷺ الصلاة في حديث «الطهور شطر الإيمان»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "نور"
+        },
+        {
+          "id": "b",
+          "text": "برهان"
+        },
+        {
+          "id": "c",
+          "text": "ضياء"
+        },
+        {
+          "id": "d",
+          "text": "كنز"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "في الحديث: الصلاة نور، والصدقة برهان، والصبر ضياء.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **نور**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-muslim",
+          "number": "223"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:general",
+        "tier:1",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-general-t1-q27",
+      "categoryId": "salah",
+      "ageBand": "general",
+      "tier": 1,
+      "text": "كيف وصف الله الصلاة المفروضة على المؤمنين في سورة النساء؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "كتابًا موقوتًا"
+        },
+        {
+          "id": "b",
+          "text": "نافلةً مطلقة"
+        },
+        {
+          "id": "c",
+          "text": "عبادةً بلا وقت"
+        },
+        {
+          "id": "d",
+          "text": "عملًا موسميًا"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الآية تقول إن الصلاة كانت على المؤمنين كتابًا موقوتًا.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَّوْقُوتًا»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 4,
+          "ayah": 103
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:general",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "salah-general-t1-q28",
+      "categoryId": "salah",
+      "ageBand": "general",
+      "tier": 1,
+      "text": "بأي صفة مدح الله المؤمنين في صلاتهم في أول سورة المؤمنون؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "خاشعون"
+        },
+        {
+          "id": "b",
+          "text": "مستعجلون"
+        },
+        {
+          "id": "c",
+          "text": "متكلمون"
+        },
+        {
+          "id": "d",
+          "text": "لاهُون"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "افتتحت السورة بذكر فلاح المؤمنين الذين هم في صلاتهم خاشعون.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«قَدْ أَفْلَحَ الْمُؤْمِنُونَ الَّذِينَ هُمْ فِي صَلَاتِهِمْ خَاشِعُونَ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 23,
+          "ayah": 1,
+          "ayahEnd": 2
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:general",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "salah-general-t1-q29",
+      "categoryId": "salah",
+      "ageBand": "general",
+      "tier": 1,
+      "text": "بماذا أمر الله أن نستعين مع الصبر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الصلاة"
+        },
+        {
+          "id": "b",
+          "text": "السفر"
+        },
+        {
+          "id": "c",
+          "text": "الصمت"
+        },
+        {
+          "id": "d",
+          "text": "النوم"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "قال تعالى: «واستعينوا بالصبر والصلاة».",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَاسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 45
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:general",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "salah-general-t1-q30",
+      "categoryId": "salah",
+      "ageBand": "general",
+      "tier": 1,
+      "text": "لمن تكون المساجد بحسب قوله تعالى «وأن المساجد لله»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "لله فلا يُدعى معه أحد"
+        },
+        {
+          "id": "b",
+          "text": "لأهل البلدة التي بُنيت فيها"
+        },
+        {
+          "id": "c",
+          "text": "لمن يتولى عمارتها"
+        },
+        {
+          "id": "d",
+          "text": "لجماعة المسلمين دون غيرهم"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الآية تقرر أن المساجد لله وتنهى عن دعاء أحد مع الله.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَأَنَّ الْمَسَاجِدَ لِلَّهِ فَلَا تَدْعُوا مَعَ اللَّهِ أَحَدًا»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 72,
+          "ayah": 18
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:general",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "salah-general-t2-q31",
+      "categoryId": "salah",
+      "ageBand": "general",
+      "tier": 2,
+      "text": "في أي حال يكون العبد أقرب ما يكون من ربه كما جاء في الحديث؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "وهو ساجد"
+        },
+        {
+          "id": "b",
+          "text": "وهو ماشٍ"
+        },
+        {
+          "id": "c",
+          "text": "وهو نائم"
+        },
+        {
+          "id": "d",
+          "text": "وهو مسافر"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الحديث يذكر السجود ويأمر بالإكثار من الدعاء فيه.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **وهو ساجد**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-muslim",
+          "number": "482"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:general",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-general-t2-q32",
+      "categoryId": "salah",
+      "ageBand": "general",
+      "tier": 2,
+      "text": "أي عمل ذكره النبي ﷺ أولًا حين سُئل: أي العمل أحب إلى الله؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الصلاة لوقتها"
+        },
+        {
+          "id": "b",
+          "text": "الحج كل عام"
+        },
+        {
+          "id": "c",
+          "text": "الصمت"
+        },
+        {
+          "id": "d",
+          "text": "السفر"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "حديث ابن مسعود يذكر الصلاة لوقتها أولًا.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الصلاة لوقتها**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "527"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:general",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-general-t2-q33",
+      "categoryId": "salah",
+      "ageBand": "general",
+      "tier": 2,
+      "text": "من نسي صلاة، متى يصليها بحسب الحديث؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "إذا ذكرها"
+        },
+        {
+          "id": "b",
+          "text": "عند دخول وقت الصلاة التالية"
+        },
+        {
+          "id": "c",
+          "text": "في الوقت نفسه من اليوم التالي"
+        },
+        {
+          "id": "d",
+          "text": "بعد أن يصلي نافلة قبلها"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "النص النبوي يأمر أن يصليها إذا ذكرها.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **إذا ذكرها**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "597"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:general",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-general-t2-q34",
+      "categoryId": "salah",
+      "ageBand": "general",
+      "tier": 2,
+      "text": "ما الذي اشترطه الحديث لقبول الصلاة من جهة الطهارة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الطهور"
+        },
+        {
+          "id": "b",
+          "text": "السفر"
+        },
+        {
+          "id": "c",
+          "text": "الخطبة"
+        },
+        {
+          "id": "d",
+          "text": "الصيام"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "في صحيح مسلم: لا تقبل صلاة بغير طهور.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الطهور**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 224a — لا تُقبل صلاة بغير طهور"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:general",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-general-t2-q35",
+      "categoryId": "salah",
+      "ageBand": "general",
+      "tier": 2,
+      "text": "ما الميزتان اللتان جُعلتا للأرض في الحديث من خصائص هذه الأمة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "مسجدًا وطهورًا"
+        },
+        {
+          "id": "b",
+          "text": "سوقًا ومزرعة"
+        },
+        {
+          "id": "c",
+          "text": "بيتًا وكتابًا"
+        },
+        {
+          "id": "d",
+          "text": "طريقًا وماءً"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "جاء في الحديث أن الأرض جُعلت مسجدًا وطهورًا.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **مسجدًا وطهورًا**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "438"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:general",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-general-t3-q36",
+      "categoryId": "salah",
+      "ageBand": "general",
+      "tier": 3,
+      "text": "بحسب حديث ابن عمر، بكم درجة تفضل صلاة الجماعة صلاة الفذ؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "سبع وعشرون درجة"
+        },
+        {
+          "id": "b",
           "text": "عشر درجات"
         },
         {
-          "id": "b",
-          "text": "سبع وعشرين درجة"
-        },
-        {
           "id": "c",
-          "text": "خمس عشرة درجة"
+          "text": "أربعون درجة"
         },
         {
           "id": "d",
-          "text": "أربعين درجة"
+          "text": "سبعون درجة"
         }
       ],
-      "correctChoiceId": "b",
-      "explanation": "قال ﷺ: «صلاة الجماعة تفضُل صلاة الفذّ بسبع وعشرين درجة».",
+      "correctChoiceId": "a",
+      "explanation": "هذه الرواية المحددة تذكر سبعًا وعشرين درجة؛ توجد روايات أخرى بخمس وعشرين، لذلك رُبط السؤال بحديث ابن عمر.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **سبع وعشرون درجة**."
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "متفق عليه — حديث ابن عمر"
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "645"
         }
       ],
       "tags": [
-        "جماعة",
-        "فضل"
+        "category:salah",
+        "age:general",
+        "tier:3",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "sa-4-2",
+      "id": "salah-general-t3-q37",
+      "categoryId": "salah",
+      "ageBand": "general",
+      "tier": 3,
+      "text": "ما الأصل الذي أرشد إليه النبي ﷺ في تعلم هيئة الصلاة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الاقتداء بصلاته ﷺ"
+        },
+        {
+          "id": "b",
+          "text": "اختيار كل شخص هيئة جديدة"
+        },
+        {
+          "id": "c",
+          "text": "ترك الهيئة للاجتهاد الشخصي"
+        },
+        {
+          "id": "d",
+          "text": "الاكتفاء بالنية دون صلاة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "قال النبي ﷺ: صلوا كما رأيتموني أصلي.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الاقتداء بصلاته ﷺ**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "631"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:general",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-general-t3-q38",
+      "categoryId": "salah",
+      "ageBand": "general",
+      "tier": 3,
+      "text": "ما الجزاء المذكور لمن حافظ على اثنتي عشرة ركعة تطوعًا في اليوم والليلة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "يُبنى له بيت في الجنة"
+        },
+        {
+          "id": "b",
+          "text": "يسقط عنه الحج"
+        },
+        {
+          "id": "c",
+          "text": "لا يحاسب على شيء"
+        },
+        {
+          "id": "d",
+          "text": "يُعفى من الفرائض"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "حديث أم حبيبة في صحيح مسلم يذكر بناء بيت في الجنة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **يُبنى له بيت في الجنة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 728a — اثنتا عشرة ركعة تطوعًا وبيت في الجنة"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:general",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-general-t3-q39",
+      "categoryId": "salah",
+      "ageBand": "general",
+      "tier": 3,
+      "text": "ما الوعد الوارد لمن قام رمضان إيمانًا واحتسابًا؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "غفر له ما تقدم من ذنبه"
+        },
+        {
+          "id": "b",
+          "text": "غفر له ما يستقبل من ذنبه"
+        },
+        {
+          "id": "c",
+          "text": "كُتبت له حجة"
+        },
+        {
+          "id": "d",
+          "text": "كان كصيام الدهر"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الحديث الصحيح يربط قيام رمضان إيمانًا واحتسابًا بمغفرة ما تقدم من الذنب.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **غفر له ما تقدم من ذنبه**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "37"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:general",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-general-t3-q40",
+      "categoryId": "salah",
+      "ageBand": "general",
+      "tier": 3,
+      "text": "ما أثر كل خطوة إلى المسجد لمن خرج لا يريد إلا الصلاة كما في الحديث؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ترفع له درجة وتحط عنه خطيئة"
+        },
+        {
+          "id": "b",
+          "text": "تضاعف ماله مباشرة"
+        },
+        {
+          "id": "c",
+          "text": "تسقط عنه جميع الفرائض"
+        },
+        {
+          "id": "d",
+          "text": "لا يترتب عليها شيء"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الحديث يذكر رفع درجة أو حط خطيئة بكل خطوة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **ترفع له درجة وتحط عنه خطيئة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "647"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:general",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-general-t4-q41",
       "categoryId": "salah",
       "ageBand": "general",
       "tier": 4,
-      "text": "ما اسم السجود الذي يُجبَر به الخلل والنقص أو الزيادة في الصلاة؟",
+      "text": "ما أفضل الصلاة بعد الفريضة كما جاء في صحيح مسلم؟",
       "choices": [
         {
           "id": "a",
-          "text": "سجود التلاوة"
+          "text": "صلاة الليل"
         },
         {
           "id": "b",
-          "text": "سجود الشكر"
+          "text": "صلاة العيد"
         },
         {
           "id": "c",
-          "text": "سجود السهو"
+          "text": "صلاة الكسوف"
         },
         {
           "id": "d",
-          "text": "سجود التطوع"
+          "text": "تحية المسجد"
         }
       ],
-      "correctChoiceId": "c",
-      "explanation": "من شكّ أو زاد أو نقص في صلاته جبرها بسجدتين قبل السلام أو بعده.",
+      "correctChoiceId": "a",
+      "explanation": "الحديث يذكر أن أفضل الصلاة بعد المكتوبة صلاة الليل.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **صلاة الليل**."
+        }
+      ],
       "references": [
         {
           "type": "other",
-          "label": "السنة — حديث ذي اليدين، متفق عليه"
+          "label": "صحيح مسلم 1163a — أفضل الصلاة بعد الفريضة صلاة الليل"
         }
       ],
       "tags": [
-        "صلاة",
-        "سهو"
+        "category:salah",
+        "age:general",
+        "tier:4",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "sa-5-1",
+      "id": "salah-general-t4-q42",
+      "categoryId": "salah",
+      "ageBand": "general",
+      "tier": 4,
+      "text": "ماذا يقول المأموم إذا قال الإمام «سمع الله لمن حمده» بحسب الحديث؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ربنا ولك الحمد"
+        },
+        {
+          "id": "b",
+          "text": "سبحان ربي الأعلى"
+        },
+        {
+          "id": "c",
+          "text": "رب اغفر لي"
+        },
+        {
+          "id": "d",
+          "text": "حي على الفلاح"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "حديث الاقتداء بالإمام يذكر هذا الجواب بعد تحميد الإمام.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **ربنا ولك الحمد**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "722"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:general",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-general-t4-q43",
+      "categoryId": "salah",
+      "ageBand": "general",
+      "tier": 4,
+      "text": "إذا وصل المصلي متأخرًا إلى الجماعة، ماذا يفعل بحسب الحديث؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "يصلي ما أدرك ويتم ما فاته"
+        },
+        {
+          "id": "b",
+          "text": "يبدأ مع الإمام ثم يعيد الصلاة كاملة بعد سلامه"
+        },
+        {
+          "id": "c",
+          "text": "ينتظر حتى يسلم الإمام ثم يبدأ منفردًا"
+        },
+        {
+          "id": "d",
+          "text": "يسرع في المشي حتى يدرك الركعة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "أمر النبي ﷺ بصلاة ما أُدرك وإتمام ما فات مع السكينة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **يصلي ما أدرك ويتم ما فاته**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "636"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:general",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-general-t4-q44",
+      "categoryId": "salah",
+      "ageBand": "general",
+      "tier": 4,
+      "text": "ما أول ما يُحاسب عليه الناس من أعمالهم يوم القيامة في الحديث الصحيح؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الصلاة"
+        },
+        {
+          "id": "b",
+          "text": "الصيام"
+        },
+        {
+          "id": "c",
+          "text": "الحج"
+        },
+        {
+          "id": "d",
+          "text": "الصدقة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ورد أن أول ما يحاسب عليه من العمل الصلاة، وأن النفل يجبر النقص في الفرض.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«إِنَّ أَوَّلَ مَا يُحَاسَبُ النَّاسُ بِهِ يَوْمَ الْقِيَامَةِ مِنْ أَعْمَالِهِمُ الصَّلَاةُ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sunan-abi-dawud",
+          "number": "864"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:general",
+        "tier:4",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "تخريج الحديث وحكمه روجعا في الدرر السنية؛ وأُبقيت فقط الطرق المقبولة"
+    },
+    {
+      "id": "salah-general-t4-q45",
+      "categoryId": "salah",
+      "ageBand": "general",
+      "tier": 4,
+      "text": "كيف يُحسب حال من ينتظر الصلاة في المسجد ما دامت الصلاة تحبسه؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "هو في صلاة"
+        },
+        {
+          "id": "b",
+          "text": "هو في سفر"
+        },
+        {
+          "id": "c",
+          "text": "لا يُكتب له شيء"
+        },
+        {
+          "id": "d",
+          "text": "يُعد صائمًا"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الحديث يقول إن أحدكم في صلاة ما كانت الصلاة تحبسه.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **هو في صلاة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "647"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:general",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-general-t5-q46",
       "categoryId": "salah",
       "ageBand": "general",
       "tier": 5,
-      "text": "كم يُصلّي المسافر الصلاةَ الرباعية إذا قصَرها؟",
+      "text": "أي فترتين سمّاهما الحديث في النهي عن الصلاة؟",
       "choices": [
         {
           "id": "a",
-          "text": "ثلاث ركعات"
+          "text": "بعد الفجر حتى تطلع الشمس وبعد العصر حتى تغرب"
         },
         {
           "id": "b",
-          "text": "ركعتين"
+          "text": "بعد الظهر حتى العصر وبعد المغرب حتى العشاء"
         },
         {
           "id": "c",
-          "text": "ركعة واحدة"
+          "text": "من طلوع الشمس إلى الزوال وبعد المغرب"
         },
         {
           "id": "d",
-          "text": "أربع ركعات"
+          "text": "بعد الجمعة وبعد الوتر"
         }
       ],
-      "correctChoiceId": "b",
-      "explanation": "يقصر المسافر الرباعية إلى ركعتين، قال تعالى: «فليس عليكم جناح أن تقصروا من الصلاة».",
+      "correctChoiceId": "a",
+      "explanation": "السؤال مقيد بنص الحديث نفسه لتجنب تعميم الأحكام والاستثناءات الفقهية.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **بعد الفجر حتى تطلع الشمس وبعد العصر حتى تغرب**."
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "القرآن — سورة النساء ١٠١ والسنة"
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "586"
         }
       ],
       "tags": [
-        "سفر",
-        "قصر"
+        "category:salah",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "sa-5-2",
+      "id": "salah-general-t5-q47",
       "categoryId": "salah",
       "ageBand": "general",
       "tier": 5,
-      "text": "على وجه الكمال والاستحباب، كم مرة يُغسل العضو في الوضوء؟",
+      "text": "ما الفضل الوارد إذا وافق تأمين المصلي تأمين الملائكة؟",
       "choices": [
         {
           "id": "a",
-          "text": "مرة واحدة"
+          "text": "غُفر له ما تقدم من ذنبه"
         },
         {
           "id": "b",
-          "text": "مرتين"
+          "text": "تسقط عنه كل الفرائض"
         },
         {
           "id": "c",
-          "text": "ثلاث مرات"
+          "text": "يُعفى من الزكاة"
         },
         {
           "id": "d",
-          "text": "أربع مرات"
+          "text": "لا يحتاج إلى دعاء"
         }
       ],
-      "correctChoiceId": "c",
-      "explanation": "الفرض غسل العضو مرة، والكمال ثلاث؛ توضأ النبي ﷺ ثلاثاً ثلاثاً.",
+      "correctChoiceId": "a",
+      "explanation": "ورد في الصحيح فضل موافقة تأمين الملائكة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **غُفر له ما تقدم من ذنبه**."
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "صحيح البخاري"
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "780"
         }
       ],
       "tags": [
-        "وضوء"
+        "category:salah",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-general-t5-q48",
+      "categoryId": "salah",
+      "ageBand": "general",
+      "tier": 5,
+      "text": "كيف وصف النبي ﷺ صلاة الليل من حيث عدد الركعات المتتابعة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "مثنى مثنى"
+        },
+        {
+          "id": "b",
+          "text": "أربعًا أربعًا"
+        },
+        {
+          "id": "c",
+          "text": "ثلاثًا ثلاثًا"
+        },
+        {
+          "id": "d",
+          "text": "خمسًا خمسًا"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الحديث يقرر أن صلاة الليل مثنى مثنى، ثم يوتر من خشي الصبح.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **مثنى مثنى**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "990"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-general-t5-q49",
+      "categoryId": "salah",
+      "ageBand": "general",
+      "tier": 5,
+      "text": "بكم تفضل صلاة في مسجد النبي ﷺ صلاةً فيما سواه، باستثناء المسجد الحرام؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ألف صلاة"
+        },
+        {
+          "id": "b",
+          "text": "مئة صلاة"
+        },
+        {
+          "id": "c",
+          "text": "عشر صلوات"
+        },
+        {
+          "id": "d",
+          "text": "عشرة آلاف صلاة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الحديث الصحيح يذكر ألف صلاة فيما سواه إلا المسجد الحرام.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **ألف صلاة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1190"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-general-t5-q50",
+      "categoryId": "salah",
+      "ageBand": "general",
+      "tier": 5,
+      "text": "ماذا يترتب على كل سجدة لله في حديث ثوبان في صحيح مسلم؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "يرفع الله بها درجة ويحط بها خطيئة"
+        },
+        {
+          "id": "b",
+          "text": "تسقط بها كل الفرائض"
+        },
+        {
+          "id": "c",
+          "text": "تغني عن الصلاة التالية"
+        },
+        {
+          "id": "d",
+          "text": "لا يترتب عليها شيء مخصوص"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "حث النبي ﷺ على كثرة السجود، وذكر أن كل سجدة ترفع درجة وتحط خطيئة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **يرفع الله بها درجة ويحط بها خطيئة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-muslim",
+          "number": "488"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t1-q51",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 1,
+      "text": "ماذا يقول السامع عند «حي على الصلاة» و«حي على الفلاح» في الرواية الصحيحة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "لا حول ولا قوة إلا بالله"
+        },
+        {
+          "id": "b",
+          "text": "سبحان ربي العظيم"
+        },
+        {
+          "id": "c",
+          "text": "ربنا ولك الحمد"
+        },
+        {
+          "id": "d",
+          "text": "الصلاة خير من النوم"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "جاءت الحوقلة جوابًا لهاتين الجملتين في الحديث.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **لا حول ولا قوة إلا بالله**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-muslim",
+          "number": "385"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:1",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t1-q52",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 1,
+      "text": "ما الحكم النصي الوارد في حديث «بين كل أذانين...»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "صلاة لمن شاء"
+        },
+        {
+          "id": "b",
+          "text": "صوم واجب"
+        },
+        {
+          "id": "c",
+          "text": "خطبة"
+        },
+        {
+          "id": "d",
+          "text": "سجود تلاوة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "المقصود بالأذانين الأذان والإقامة، والحديث يذكر صلاةً لمن شاء بينهما.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **صلاة لمن شاء**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "624"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:1",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t1-q53",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 1,
+      "text": "بعد متابعة المؤذن، ماذا يرشد حديث صحيح مسلم إلى فعله قبل سؤال الوسيلة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الصلاة على النبي ﷺ"
+        },
+        {
+          "id": "b",
+          "text": "قراءة سورة يس"
+        },
+        {
+          "id": "c",
+          "text": "صلاة أربع ركعات"
+        },
+        {
+          "id": "d",
+          "text": "ترك الدعاء"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الحديث يأمر بالصلاة على النبي ﷺ ثم سؤال الله له الوسيلة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الصلاة على النبي ﷺ**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-muslim",
+          "number": "384"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:1",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t1-q54",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 1,
+      "text": "ما الثواب المرتبط بدعاء «اللهم رب هذه الدعوة التامة...» بعد الأذان؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "تحل له شفاعة النبي ﷺ"
+        },
+        {
+          "id": "b",
+          "text": "يسقط عنه الحج"
+        },
+        {
+          "id": "c",
+          "text": "يُعفى من الفرائض"
+        },
+        {
+          "id": "d",
+          "text": "لا يُسأل يوم القيامة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "حديث البخاري يربط هذا الدعاء بنيل شفاعة النبي ﷺ.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **تحل له شفاعة النبي ﷺ**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "614"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:1",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t1-q55",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 1,
+      "text": "كيف أُمر بلال في رواية أنس أن يؤدي ألفاظ الأذان والإقامة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "يشفع الأذان ويوتر الإقامة"
+        },
+        {
+          "id": "b",
+          "text": "يوتر الأذان والإقامة"
+        },
+        {
+          "id": "c",
+          "text": "يشفعهما جميعًا بلا فرق"
+        },
+        {
+          "id": "d",
+          "text": "يقول كل لفظ ثلاثًا"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الرواية تذكر تثنية ألفاظ الأذان وإفراد ألفاظ الإقامة في الأصل المذكور.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **يشفع الأذان ويوتر الإقامة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "603"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:1",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t2-q56",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "أي وسيلتين ذُكرتا في بداية التشاور قبل استقرار الأذان في رواية البخاري؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "النار والناقوس"
+        },
+        {
+          "id": "b",
+          "text": "الراية والبوق"
+        },
+        {
+          "id": "c",
+          "text": "الطبل والناقوس"
+        },
+        {
+          "id": "d",
+          "text": "النار والبوق"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "رواية أنس تذكر النار والناقوس ضمن ما طُرح قبل الأمر بالأذان.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **النار والناقوس**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "603"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t2-q57",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "متى تطوي ملائكة أبواب المسجد صحف تسجيل القادمين للجمعة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "عندما يخرج الإمام للخطبة"
+        },
+        {
+          "id": "b",
+          "text": "بعد صلاة العصر"
+        },
+        {
+          "id": "c",
+          "text": "بعد انتهاء الجمعة"
+        },
+        {
+          "id": "d",
+          "text": "عند أذان الفجر"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الحديث يذكر أنهم يكتبون الأول فالأول ثم يطوون الصحف عند خروج الإمام ويستمعون الذكر.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **عندما يخرج الإمام للخطبة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "929"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t2-q58",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "ما الميزة التي ذكرها الحديث في يوم الجمعة وتتعلق بالدعاء؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ساعة لا يوافقها مسلم يسأل الله خيرًا إلا أعطاه"
+        },
+        {
+          "id": "b",
+          "text": "كل ساعات الجمعة متساوية بنص الحديث"
+        },
+        {
+          "id": "c",
+          "text": "لا يُشرع الدعاء فيه"
+        },
+        {
+          "id": "d",
+          "text": "لا إجابة فيه"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الحديث يذكر ساعة قصيرة يُستجاب فيها دعاء المسلم.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **ساعة لا يوافقها مسلم يسأل الله خيرًا إلا أعطاه**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "935"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t2-q59",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "ما وصف قول الرجل لصاحبه «أنصت» والإمام يخطب يوم الجمعة كما في الحديث؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "لغو"
+        },
+        {
+          "id": "b",
+          "text": "ذكر واجب"
+        },
+        {
+          "id": "c",
+          "text": "دعاء مستحب"
+        },
+        {
+          "id": "d",
+          "text": "تكبير"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "السؤال عن لفظ الحديث نفسه وليس عن تفريعات فقهية لاحقة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **لغو**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "934"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t2-q60",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "ماذا قرر الحديث لمن أدرك ركعة من الصلاة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "فقد أدرك الصلاة"
+        },
+        {
+          "id": "b",
+          "text": "فقد أدرك الجماعة دون الصلاة"
+        },
+        {
+          "id": "c",
+          "text": "وجب عليه إعادة الصلاة كاملة"
+        },
+        {
+          "id": "d",
+          "text": "أدرك فضل الصف الأول"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "النص النبوي: من أدرك ركعة من الصلاة فقد أدرك الصلاة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **فقد أدرك الصلاة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "580"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t3-q61",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "أي سورتين كان النبي ﷺ يقرأ بهما في فجر يوم الجمعة كما في صحيح البخاري؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "السجدة والإنسان"
+        },
+        {
+          "id": "b",
+          "text": "الجمعة والمنافقون"
+        },
+        {
+          "id": "c",
+          "text": "الكافرون والإخلاص"
+        },
+        {
+          "id": "d",
+          "text": "الأعلى والغاشية"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "وردت السجدة والإنسان في فجر الجمعة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **السجدة والإنسان**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "891"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t3-q62",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "ماذا فعل النبي ﷺ عندما قام بعد الركعتين في بعض الصلوات ولم يجلس؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "سجد سجدتين قبل السلام"
+        },
+        {
+          "id": "b",
+          "text": "رجع إلى الجلوس بعد أن استتم قائمًا"
+        },
+        {
+          "id": "c",
+          "text": "أعاد الصلاة من أولها"
+        },
+        {
+          "id": "d",
+          "text": "زاد ركعة بدل الجلسة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ثبت عن عبد الله بن بحينة رضي الله عنه أن النبي ﷺ قام بعد الركعتين ولم يجلس، ثم سجد سجدتين قبل أن يسلّم.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«فَسَجَدَ سَجْدَتَيْنِ قَبْلَ أَنْ يُسَلِّمَ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1224"
+        },
+        {
+          "type": "hadith",
+          "collection": "sahih-muslim",
+          "number": "570"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:3",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t3-q63",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "أي سورتين كان يقرأ بهما النبي ﷺ في ركعتي سنة الفجر في حديث مسلم؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الكافرون والإخلاص"
+        },
+        {
+          "id": "b",
+          "text": "الفلق والناس"
+        },
+        {
+          "id": "c",
+          "text": "الجمعة والمنافقون"
+        },
+        {
+          "id": "d",
+          "text": "السجدة والإنسان"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "حديث ابن عباس يذكر الكافرون والإخلاص في ركعتي الفجر.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الكافرون والإخلاص**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-muslim",
+          "number": "726"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t3-q64",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "أي ذكر ثبت عن النبي ﷺ في الركوع والسجود معًا؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "سبوح قدوس رب الملائكة والروح"
+        },
+        {
+          "id": "b",
+          "text": "سبحان ربي العظيم وبحمده"
+        },
+        {
+          "id": "c",
+          "text": "ربنا ولك الحمد حمدا كثيرا"
+        },
+        {
+          "id": "d",
+          "text": "اللهم اغفر لي وارحمني"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ثبت هذا الذكر في الركوع والسجود في صحيح مسلم.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **سبوح قدوس رب الملائكة والروح**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 487a — «سبوح قدوس رب الملائكة والروح» في الركوع والسجود"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t3-q65",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "ما التصحيح العقدي الذي قرره النبي ﷺ عند كسوف الشمس؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الشمس والقمر لا ينكسفان لموت أحد ولا لحياته"
+        },
+        {
+          "id": "b",
+          "text": "الكسوف دليل وفاة عظيم"
+        },
+        {
+          "id": "c",
+          "text": "الكسوف لا علاقة له بالصلاة"
+        },
+        {
+          "id": "d",
+          "text": "لا يُشرع الدعاء عنده"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الحديث ينفي ربط الكسوف بموت الناس أو حياتهم ويأمر بالصلاة والدعاء عند رؤيته.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الشمس والقمر لا ينكسفان لموت أحد ولا لحياته**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1043"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t4-q66",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 4,
+      "text": "ما ترتيب خير الصفوف في الحديث بالنسبة للرجال والنساء؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "للرجال أولها وللنساء آخرها"
+        },
+        {
+          "id": "b",
+          "text": "للجميع آخرها"
+        },
+        {
+          "id": "c",
+          "text": "للرجال آخرها وللنساء أولها"
+        },
+        {
+          "id": "d",
+          "text": "لا يذكر الحديث صفوفًا"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "هذه هي الصياغة الواردة في صحيح مسلم.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **للرجال أولها وللنساء آخرها**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 440a — خير صفوف الرجال أولها وخير صفوف النساء آخرها"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t4-q67",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 4,
+      "text": "ما ترتيب أمثلة ثواب التبكير للجمعة من الأعلى إلى الأدنى في الحديث؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "بدنة ثم بقرة ثم كبش ثم دجاجة ثم بيضة"
+        },
+        {
+          "id": "b",
+          "text": "بقرة ثم بدنة ثم دجاجة ثم كبش ثم بيضة"
+        },
+        {
+          "id": "c",
+          "text": "كبش ثم بقرة ثم بدنة ثم بيضة ثم دجاجة"
+        },
+        {
+          "id": "d",
+          "text": "بيضة ثم دجاجة ثم كبش ثم بقرة ثم بدنة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "حديث ملائكة الجمعة يضرب هذه الأمثلة بحسب شدة التبكير.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **بدنة ثم بقرة ثم كبش ثم دجاجة ثم بيضة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "929"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t4-q68",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 4,
+      "text": "من أدرك ركعة من الفجر قبل طلوع الشمس بحسب الحديث، ماذا يكون قد أدرك؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الفجر"
+        },
+        {
+          "id": "b",
+          "text": "وقت الفجر دون الصلاة"
+        },
+        {
+          "id": "c",
+          "text": "فضل الجماعة"
+        },
+        {
+          "id": "d",
+          "text": "ركعة نافلة قبل الشروق"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الحديث يذكر إدراك الفجر بركعة قبل طلوع الشمس، والعصر بركعة قبل الغروب.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الفجر**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "579"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t4-q69",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 4,
+      "text": "إلى أي ثلاثة مساجد استثنى الحديث شد الرحال؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "المسجد الحرام ومسجد النبي ﷺ والمسجد الأقصى"
+        },
+        {
+          "id": "b",
+          "text": "المسجد الحرام ومسجد قباء ومسجد الخيف"
+        },
+        {
+          "id": "c",
+          "text": "المسجد النبوي ومسجد قباء ومسجد الكوفة"
+        },
+        {
+          "id": "d",
+          "text": "المسجد الأقصى ومسجد قباء ومسجد القبلتين"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الحديث الصحيح يستثني هذه المساجد الثلاثة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **المسجد الحرام ومسجد النبي ﷺ والمسجد الأقصى**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1189"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t4-q70",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 4,
+      "text": "إذا أقيمت الصلاة، فما الصلاة التي يذكر حديث مسلم أنها تبقى؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "المكتوبة"
+        },
+        {
+          "id": "b",
+          "text": "أي نافلة بدأ بها الشخص"
+        },
+        {
+          "id": "c",
+          "text": "ركعتا الضحى"
+        },
+        {
+          "id": "d",
+          "text": "صلاة الاستخارة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "النص: إذا أقيمت الصلاة فلا صلاة إلا المكتوبة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **المكتوبة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 710a — إذا أقيمت الصلاة فلا صلاة إلا المكتوبة"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t5-q71",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 5,
+      "text": "ما ثلاثة أنواع من الطلب يذكرها حديث الثلث الأخير من الليل؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الدعاء والسؤال والاستغفار"
+        },
+        {
+          "id": "b",
+          "text": "التهليل والتحميد والتكبير"
+        },
+        {
+          "id": "c",
+          "text": "الدعاء والصدقة والصيام"
+        },
+        {
+          "id": "d",
+          "text": "السؤال والذكر والتلاوة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الحديث يذكر: من يدعوني، من يسألني، من يستغفرني.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الدعاء والسؤال والاستغفار**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1145"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t5-q72",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 5,
+      "text": "ما العمل الذي يجزئ عن صدقات مفاصل الإنسان المذكورة في حديث الضحى؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ركعتان من الضحى"
+        },
+        {
+          "id": "b",
+          "text": "ركعتا سنة الفجر"
+        },
+        {
+          "id": "c",
+          "text": "ركعة الوتر"
+        },
+        {
+          "id": "d",
+          "text": "تحية المسجد"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "حديث صحيح مسلم يذكر أن ركعتي الضحى تجزئان عن ذلك.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **ركعتان من الضحى**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-muslim",
+          "number": "720"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t5-q73",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 5,
+      "text": "في حديث تعليم الرجل الذي أساء صلاته، ما الوصف المتكرر للركوع والسجود والاعتدال؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الطمأنينة حتى يستقر في الهيئة"
+        },
+        {
+          "id": "b",
+          "text": "إطالة كل ركن قدرًا واحدًا"
+        },
+        {
+          "id": "c",
+          "text": "الجهر بالذكر في كل انتقال"
+        },
+        {
+          "id": "d",
+          "text": "الرجوع إلى الركن السابق بعد تجاوزه"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "النبي ﷺ كرر الأمر بالطمأنينة في أركان الصلاة في تعليم الرجل.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الطمأنينة حتى يستقر في الهيئة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "757"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "salah-scholar-t5-q74",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 5,
+      "text": "في آية صلاة الخوف، ماذا تفعل الطائفة الثانية بعد أن تسجد الطائفة الأولى؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "تأتي فتصلي مع النبي ﷺ وتأخذ حذرها وأسلحتها"
+        },
+        {
+          "id": "b",
+          "text": "تبقى للحراسة ولا تصلي مع الإمام"
+        },
+        {
+          "id": "c",
+          "text": "تصلي بعد انتهاء القتال"
+        },
+        {
+          "id": "d",
+          "text": "تصلي مع الإمام من غير أخذ السلاح"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الآية تفصل تعاقب الطائفتين وتذكر أخذ الحذر والأسلحة.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَلْتَأْتِ طَائِفَةٌ أُخْرَىٰ لَمْ يُصَلُّوا فَلْيُصَلُّوا مَعَكَ وَلْيَأْخُذُوا حِذْرَهُمْ وَأَسْلِحَتَهُمْ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "القرآن الكريم — النساء 4:102 — صلاة الخوف"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:5",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "salah-scholar-t5-q75",
+      "categoryId": "salah",
+      "ageBand": "scholar",
+      "tier": 5,
+      "text": "ما الأفعال التي جمعتها رواية الاستسقاء عند خروج النبي ﷺ؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "استقبل القبلة وحوّل رداءه وصلى ركعتين جهر فيهما"
+        },
+        {
+          "id": "b",
+          "text": "استقبل القبلة وصلى أربع ركعات سرًا"
+        },
+        {
+          "id": "c",
+          "text": "دعا قائمًا من غير صلاة ولا تحويل للرداء"
+        },
+        {
+          "id": "d",
+          "text": "حوّل رداءه وصلى ركعة واحدة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "رواية البخاري تجمع استقبال القبلة وتحويل الرداء وصلاة ركعتين مع الجهر بالقراءة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **استقبل القبلة وحوّل رداءه وصلى ركعتين جهر فيهما**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1025"
+        }
+      ],
+      "tags": [
+        "category:salah",
+        "age:scholar",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     }
   ]
 }

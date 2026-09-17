@@ -2,31 +2,37 @@
   "categoryId": "hajj",
   "questions": [
     {
-      "id": "ha-1-1",
+      "id": "hajj-kids-t1-q01",
       "categoryId": "hajj",
-      "ageBand": "general",
+      "ageBand": "kids",
       "tier": 1,
-      "text": "إلى أي مدينة يتوجّه الحجاج لأداء فريضة الحج؟",
+      "text": "على من أوجب الله حج البيت في القرآن؟",
       "choices": [
         {
           "id": "a",
-          "text": "المدينة المنورة"
+          "text": "على من استطاع إليه سبيلًا"
         },
         {
           "id": "b",
-          "text": "مكة المكرمة"
+          "text": "على الأطفال فقط"
         },
         {
           "id": "c",
-          "text": "بيت المقدس"
+          "text": "على المسافر فقط"
         },
         {
           "id": "d",
-          "text": "الطائف"
+          "text": "على أهل مكة فقط"
         }
       ],
-      "correctChoiceId": "b",
-      "explanation": "الحج إلى بيت الله الحرام في مكة، قال تعالى: «ولله على الناس حج البيت».",
+      "correctChoiceId": "a",
+      "explanation": "نصت الآية على حج البيت لمن استطاع إليه سبيلًا.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَلِلَّهِ عَلَى النَّاسِ حِجُّ الْبَيْتِ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا»"
+        }
+      ],
       "references": [
         {
           "type": "quran",
@@ -35,121 +41,49 @@
         }
       ],
       "tags": [
-        "حج",
-        "مكة"
+        "category:hajj",
+        "age:kids",
+        "tier:1",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "ha-1-2",
+      "id": "hajj-kids-t1-q02",
       "categoryId": "hajj",
-      "ageBand": "general",
+      "ageBand": "kids",
       "tier": 1,
-      "text": "ما اسم البيت الذي يطوف حوله الحجاج؟",
+      "text": "بماذا وصف القرآن الصفا والمروة؟",
       "choices": [
         {
           "id": "a",
-          "text": "المسجد النبوي"
+          "text": "من شعائر الله"
         },
         {
           "id": "b",
-          "text": "قبة الصخرة"
+          "text": "من مدن اليمن"
         },
         {
           "id": "c",
-          "text": "الكعبة"
+          "text": "من أبواب المسجد"
         },
         {
           "id": "d",
-          "text": "مسجد قباء"
+          "text": "من أيام الحج"
         }
       ],
-      "correctChoiceId": "c",
-      "explanation": "الكعبة أول بيت وُضع للناس، قال تعالى: «إن أول بيت وُضع للناس للذي ببكة».",
-      "references": [
+      "correctChoiceId": "a",
+      "explanation": "نصت آية 2:158 على أن الصفا والمروة من شعائر الله.",
+      "evidence": [
         {
-          "type": "quran",
-          "surah": 3,
-          "ayah": 96
+          "kind": "quran_text",
+          "text": "«إِنَّ الصَّفَا وَالْمَرْوَةَ مِن شَعَائِرِ اللَّهِ»"
         }
       ],
-      "tags": [
-        "كعبة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ha-2-1",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "كم عدد أشواط الطواف حول الكعبة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "خمسة أشواط"
-        },
-        {
-          "id": "b",
-          "text": "ثلاثة أشواط"
-        },
-        {
-          "id": "c",
-          "text": "سبعة أشواط"
-        },
-        {
-          "id": "d",
-          "text": "عشرة أشواط"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "الطواف سبعة أشواط يبدأ وينتهي بالحجر الأسود.",
-      "references": [
-        {
-          "type": "other",
-          "label": "السنة — حديث جابر في صفة الحج"
-        }
-      ],
-      "tags": [
-        "طواف"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ha-2-2",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "بين أي جبلين يكون السعي في الحج والعمرة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "أُحد وثور"
-        },
-        {
-          "id": "b",
-          "text": "عرفات ومنى"
-        },
-        {
-          "id": "c",
-          "text": "النور والرحمة"
-        },
-        {
-          "id": "d",
-          "text": "الصفا والمروة"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "قال تعالى: «إن الصفا والمروة من شعائر الله»، والسعي سبعة أشواط بينهما.",
       "references": [
         {
           "type": "quran",
@@ -158,244 +92,151 @@
         }
       ],
       "tags": [
-        "سعي"
+        "category:hajj",
+        "age:kids",
+        "tier:1",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "ha-3-1",
+      "id": "hajj-kids-t1-q03",
       "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "ما الركن الأعظم للحج الذي يفوت الحج بفواته؟",
+      "ageBand": "kids",
+      "tier": 1,
+      "text": "أي نبي جاءه الأمر في سورة الحج أن يؤذن في الناس بالحج؟",
       "choices": [
         {
           "id": "a",
-          "text": "طواف القدوم"
+          "text": "إبراهيم عليه السلام"
         },
         {
           "id": "b",
-          "text": "الوقوف بعرفة"
+          "text": "موسى عليه السلام"
         },
         {
           "id": "c",
-          "text": "السعي"
+          "text": "يونس عليه السلام"
         },
         {
           "id": "d",
-          "text": "رمي الجمار"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "قال ﷺ: «الحج عرفة»، فمن فاته الوقوف بعرفة فاته الحج.",
-      "references": [
-        {
-          "type": "other",
-          "label": "سنن الترمذي وأبو داود"
-        }
-      ],
-      "tags": [
-        "عرفة",
-        "ركن"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ha-3-2",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "ما اسم اللباس غير المخيط الذي يلبسه الرجل عند نُسك الحج أو العمرة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الكفن"
-        },
-        {
-          "id": "b",
-          "text": "الجلباب"
-        },
-        {
-          "id": "c",
-          "text": "الإحرام"
-        },
-        {
-          "id": "d",
-          "text": "القميص"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "يتجرّد المُحرِم من المخيط ويلبس إزاراً ورداءً، وهو لباس الإحرام.",
-      "references": [
-        {
-          "type": "other",
-          "label": "السنة — حديث ابن عمر"
-        }
-      ],
-      "tags": [
-        "إحرام"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ha-4-1",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "في أي يوم يقف الحجاج بعرفة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "اليوم العاشر من ذي الحجة"
-        },
-        {
-          "id": "b",
-          "text": "اليوم التاسع من ذي الحجة"
-        },
-        {
-          "id": "c",
-          "text": "اليوم الثامن من ذي الحجة"
-        },
-        {
-          "id": "d",
-          "text": "اليوم السابع من ذي الحجة"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "الوقوف بعرفة يوم التاسع من ذي الحجة، ويسمى يوم عرفة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "السنة — حديث جابر"
-        }
-      ],
-      "tags": [
-        "عرفة",
-        "مناسك"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ha-4-2",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "أين يبيت الحجاج ليلة العيد بعد نزولهم من عرفة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "منى"
-        },
-        {
-          "id": "b",
-          "text": "عرفة"
-        },
-        {
-          "id": "c",
-          "text": "مزدلفة"
-        },
-        {
-          "id": "d",
-          "text": "مكة"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "بعد الإفاضة من عرفة يبيت الحجاج بمزدلفة، قال تعالى: «فاذكروا الله عند المشعر الحرام».",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 2,
-          "ayah": 198
-        }
-      ],
-      "tags": [
-        "مزدلفة",
-        "مناسك"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ha-5-1",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 5,
-      "text": "كم حصاةً تُرمى على جمرة العقبة يوم عيد الأضحى؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "ثلاث حصيات"
-        },
-        {
-          "id": "b",
-          "text": "إحدى وعشرون حصاة"
-        },
-        {
-          "id": "c",
-          "text": "عشر حصيات"
-        },
-        {
-          "id": "d",
-          "text": "سبع حصيات"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "يُرمى جمرة العقبة يوم النحر بسبع حصياتٍ متعاقبات.",
-      "references": [
-        {
-          "type": "other",
-          "label": "السنة — حديث جابر في صفة الحج"
-        }
-      ],
-      "tags": [
-        "رمي",
-        "جمار"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ha-5-2",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 5,
-      "text": "ما اسم الطواف الركن الذي يؤديه الحاج بعد الإفاضة من عرفة ومنى؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "طواف الإفاضة"
-        },
-        {
-          "id": "b",
-          "text": "طواف القدوم"
-        },
-        {
-          "id": "c",
-          "text": "طواف الوداع"
-        },
-        {
-          "id": "d",
-          "text": "طواف التطوع"
+          "text": "داود عليه السلام"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "طواف الإفاضة (ويسمى أيضًا طواف الزيارة) ركن من أركان الحج، قال تعالى: «وليطّوّفوا بالبيت العتيق».",
+      "explanation": "السياق من 22:26 إلى 22:27 يخاطب إبراهيم عليه السلام بشأن البيت والنداء بالحج.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَإِذْ بَوَّأْنَا لِإِبْرَاهِيمَ مَكَانَ الْبَيْتِ ... وَأَذِّن فِي النَّاسِ بِالْحَجِّ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 22,
+          "ayah": 26,
+          "ayahEnd": 27
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:kids",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-kids-t1-q04",
+      "categoryId": "hajj",
+      "ageBand": "kids",
+      "tier": 1,
+      "text": "أي مشعر سماه الحديث في العبارة الجامعة: «الحج ...»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "عرفة"
+        },
+        {
+          "id": "b",
+          "text": "منى"
+        },
+        {
+          "id": "c",
+          "text": "الصفا"
+        },
+        {
+          "id": "d",
+          "text": "التنعيم"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ثبت الحديث المشهور: الحج عرفة، وهو يبرز مركزية الوقوف بعرفة.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«الْحَجُّ عَرَفَةُ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "جامع الترمذي 889 — صحيح؛ سنن أبي داود 1949"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:kids",
+        "tier:1",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "تخريج الحديث وحكمه روجعا في الدرر السنية؛ وأُبقيت فقط الطرق المقبولة"
+    },
+    {
+      "id": "hajj-kids-t1-q05",
+      "categoryId": "hajj",
+      "ageBand": "kids",
+      "tier": 1,
+      "text": "ما الاسم الذي أطلقه القرآن على البيت في آية: «وليطوفوا بالبيت ...»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "العتيق"
+        },
+        {
+          "id": "b",
+          "text": "الأقصى"
+        },
+        {
+          "id": "c",
+          "text": "المعمور"
+        },
+        {
+          "id": "d",
+          "text": "المنير"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "جاء في سورة الحج وصفه بالبيت العتيق.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَلْيُوفُوا نُذُورَهُمْ وَلْيَطَّوَّفُوا بِالْبَيْتِ الْعَتِيقِ»"
+        }
+      ],
       "references": [
         {
           "type": "quran",
@@ -404,141 +245,3177 @@
         }
       ],
       "tags": [
-        "طواف",
-        "ركن"
+        "category:hajj",
+        "age:kids",
+        "tier:1",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "pg-5-1-1",
+      "id": "hajj-kids-t2-q06",
       "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 1,
-      "text": "الحج هو الركن الـ… من أركان الإسلام؟",
+      "ageBand": "kids",
+      "tier": 2,
+      "text": "بأي عبارة تبدأ تلبية النبي ﷺ الثابتة؟",
       "choices": [
         {
           "id": "a",
-          "text": "الثالث"
+          "text": "لبيك اللهم لبيك"
         },
         {
           "id": "b",
-          "text": "الرابع"
+          "text": "سبحان ربي الأعلى"
         },
         {
           "id": "c",
-          "text": "الثاني"
+          "text": "رب اغفر لي"
         },
         {
           "id": "d",
-          "text": "الخامس"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "الحج الركن الخامس من أركان الإسلام على المستطيع.",
-      "references": [
-        {
-          "type": "other",
-          "label": "حديث جبريل — البخاري ومسلم"
-        }
-      ],
-      "tags": [
-        "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-5-1-4",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 1,
-      "text": "ما حكم الحج على المستطيع؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "فرض مرة في العمر"
-        },
-        {
-          "id": "b",
-          "text": "سنة"
-        },
-        {
-          "id": "c",
-          "text": "فرض كل سنة"
-        },
-        {
-          "id": "d",
-          "text": "مستحب"
+          "text": "حي على الصلاة"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "«ولله على الناس حجّ البيت من استطاع إليه سبيلًا».",
+      "explanation": "ثبتت تلبية النبي ﷺ بهذا الافتتاح.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ»"
+        }
+      ],
       "references": [
         {
-          "type": "quran",
-          "surah": 3,
-          "ayah": 97
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1549"
         }
       ],
       "tags": [
-        "حج"
+        "category:hajj",
+        "age:kids",
+        "tier:2",
+        "evidence:hadith_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "pg-5-1-6",
+      "id": "hajj-kids-t2-q07",
       "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 1,
-      "text": "ما لون لباس الإحرام للرجل غالبًا؟",
+      "ageBand": "kids",
+      "tier": 2,
+      "text": "ما الميقات الذي وقته النبي ﷺ لأهل المدينة؟",
       "choices": [
         {
           "id": "a",
-          "text": "أسود"
+          "text": "ذو الحليفة"
         },
         {
           "id": "b",
-          "text": "أبيض"
+          "text": "يلملم"
         },
         {
           "id": "c",
-          "text": "أخضر"
+          "text": "الجحفة"
         },
         {
           "id": "d",
-          "text": "ملوَّن"
+          "text": "قرن المنازل"
         }
       ],
-      "correctChoiceId": "b",
-      "explanation": "يُستحب الإحرام في إزارٍ ورداءٍ أبيضين نظيفين.",
+      "correctChoiceId": "a",
+      "explanation": "حدد الحديث ذا الحليفة ميقاتًا لأهل المدينة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **ذو الحليفة**."
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "عام"
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1524"
         }
       ],
       "tags": [
-        "حج"
+        "category:hajj",
+        "age:kids",
+        "tier:2",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "pg-5-2-2",
+      "id": "hajj-kids-t2-q08",
+      "categoryId": "hajj",
+      "ageBand": "kids",
+      "tier": 2,
+      "text": "بعد الإفاضة من عرفات، أين أمر القرآن بذكر الله؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "عند المشعر الحرام"
+        },
+        {
+          "id": "b",
+          "text": "عند الصفا فقط"
+        },
+        {
+          "id": "c",
+          "text": "في المدينة"
+        },
+        {
+          "id": "d",
+          "text": "عند جبل أحد"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "جاء الأمر بالذكر عند المشعر الحرام بعد الإفاضة من عرفات.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«فَاذْكُرُوا اللَّهَ عِندَ الْمَشْعَرِ الْحَرَامِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 198
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:kids",
+        "tier:2",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-kids-t2-q09",
+      "categoryId": "hajj",
+      "ageBand": "kids",
+      "tier": 2,
+      "text": "ما حكم صيد البر المذكور في القرآن حال الإحرام؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "محرم ما دام الشخص محرمًا"
+        },
+        {
+          "id": "b",
+          "text": "واجب"
+        },
+        {
+          "id": "c",
+          "text": "مباح بلا قيد"
+        },
+        {
+          "id": "d",
+          "text": "مستحب دائمًا"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نصت آية المائدة على تحريم صيد البر ما دام الحاج أو المعتمر محرمًا.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَحُرِّمَ عَلَيْكُمْ صَيْدُ الْبَرِّ مَا دُمْتُمْ حُرُمًا»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 5,
+          "ayah": 96
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:kids",
+        "tier:2",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-kids-t2-q10",
+      "categoryId": "hajj",
+      "ageBand": "kids",
+      "tier": 2,
+      "text": "أي نوع من الصيد أحله القرآن للمحرم في الآية نفسها؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "صيد البحر وطعامه"
+        },
+        {
+          "id": "b",
+          "text": "صيد البر"
+        },
+        {
+          "id": "c",
+          "text": "كل صيد بلا قيد"
+        },
+        {
+          "id": "d",
+          "text": "صيد الحرم البري"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "أحلت الآية صيد البحر وطعامه، مع تحريم صيد البر حال الإحرام.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«أُحِلَّ لَكُمْ صَيْدُ الْبَحْرِ وَطَعَامُهُ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 5,
+          "ayah": 96
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:kids",
+        "tier:2",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-kids-t3-q11",
+      "categoryId": "hajj",
+      "ageBand": "kids",
+      "tier": 3,
+      "text": "كم شوطًا طاف النبي ﷺ بالبيت في الرواية الصحيحة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "خمسة"
+        },
+        {
+          "id": "b",
+          "text": "ستة"
+        },
+        {
+          "id": "c",
+          "text": "سبعة"
+        },
+        {
+          "id": "d",
+          "text": "ثمانية"
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "ثبت أن الطواف كان سبعة أشواط.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **سبعة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح البخاري 1603؛ صحيح مسلم 1218a"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:kids",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-kids-t3-q12",
+      "categoryId": "hajj",
+      "ageBand": "kids",
+      "tier": 3,
+      "text": "في كم شوط من أوائل الطواف فعل النبي ﷺ الرمل في الرواية؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "أول شوط فقط"
+        },
+        {
+          "id": "b",
+          "text": "أول ثلاثة أشواط"
+        },
+        {
+          "id": "c",
+          "text": "كل السبعة"
+        },
+        {
+          "id": "d",
+          "text": "الأربعة الأخيرة"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "ثبت الرمل في الأشواط الثلاثة الأولى.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«يَخُبُّ ثَلَاثَةَ أَطْوَافٍ مِنَ السَّبْعِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1602"
+        },
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1603"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:kids",
+        "tier:3",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-kids-t3-q13",
+      "categoryId": "hajj",
+      "ageBand": "kids",
+      "tier": 3,
+      "text": "بكم حصاة رمى ابن مسعود رضي الله عنه جمرة العقبة على الصفة التي نسبها لموقف النبي ﷺ؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "خمس"
+        },
+        {
+          "id": "b",
+          "text": "ست"
+        },
+        {
+          "id": "c",
+          "text": "سبع"
+        },
+        {
+          "id": "d",
+          "text": "عشر"
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "رماها بسبع حصيات صغار.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«فَرَمَى بِسَبْعِ حَصَيَاتٍ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1750"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:kids",
+        "tier:3",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-kids-t3-q14",
+      "categoryId": "hajj",
+      "ageBand": "kids",
+      "tier": 3,
+      "text": "ماذا كان يقال مع كل حصاة عند رمي جمرة العقبة في حديث ابن مسعود؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الله أكبر"
+        },
+        {
+          "id": "b",
+          "text": "سبحان ربي العظيم"
+        },
+        {
+          "id": "c",
+          "text": "رب اغفر لي"
+        },
+        {
+          "id": "d",
+          "text": "حي على الفلاح"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ذكر الحديث التكبير مع كل حصاة.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«يُكَبِّرُ مَعَ كُلِّ حَصَاةٍ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1750"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:kids",
+        "tier:3",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-kids-t3-q15",
+      "categoryId": "hajj",
+      "ageBand": "kids",
+      "tier": 3,
+      "text": "أي الفريقين دعا له النبي ﷺ أولًا وكرر الدعاء له قبل أن يذكر الفريق الآخر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "المحلقون"
+        },
+        {
+          "id": "b",
+          "text": "المقصرون فقط"
+        },
+        {
+          "id": "c",
+          "text": "الذين لم يحلقوا ولم يقصروا"
+        },
+        {
+          "id": "d",
+          "text": "التجار"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "كرر النبي ﷺ الدعاء للمحلقين ثم أدخل المقصرين في الدعاء.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **المحلقون**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح البخاري 1727، 1728"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:kids",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-kids-t4-q16",
+      "categoryId": "hajj",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "ماذا قرر عمر رضي الله عنه عن الحجر الأسود قبل أن يذكر اتباعه للنبي ﷺ في تقبيله؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "أنه حجر لا يضر ولا ينفع بذاته"
+        },
+        {
+          "id": "b",
+          "text": "أنه يخلق الرزق"
+        },
+        {
+          "id": "c",
+          "text": "أنه يغفر وحده"
+        },
+        {
+          "id": "d",
+          "text": "أنه يجيب الدعاء بنفسه"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "صرح عمر بذلك، ثم بيّن أنه قبله لأنه رأى النبي ﷺ يقبله.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«إِنِّي أَعْلَمُ أَنَّكَ حَجَرٌ لَا تَضُرُّ وَلَا تَنْفَعُ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1597"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:kids",
+        "tier:4",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-kids-t4-q17",
+      "categoryId": "hajj",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "ما النسك الذي أمر النبي ﷺ عائشة رضي الله عنها أن تؤخره حتى تطهر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الطواف بالبيت"
+        },
+        {
+          "id": "b",
+          "text": "الوقوف بعرفة"
+        },
+        {
+          "id": "c",
+          "text": "الذكر"
+        },
+        {
+          "id": "d",
+          "text": "التلبية"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "أمرها أن تفعل ما يفعل الحاج غير ألا تطوف بالبيت حتى تطهر.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الطواف بالبيت**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح البخاري 1650؛ صحيح البخاري 305"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:kids",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-kids-t4-q18",
+      "categoryId": "hajj",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "ما الجزاء الذي ذكره النبي ﷺ للحج المبرور؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الجنة"
+        },
+        {
+          "id": "b",
+          "text": "مال كثير حتمًا"
+        },
+        {
+          "id": "c",
+          "text": "عدم المرض أبدًا"
+        },
+        {
+          "id": "d",
+          "text": "إسقاط الصلاة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ثبت أن الحج المبرور ليس له جزاء إلا الجنة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الجنة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1773"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:kids",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-kids-t4-q19",
+      "categoryId": "hajj",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "ماذا تكون العمرة إلى العمرة بحسب الحديث الصحيح؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "كفارة لما بينهما"
+        },
+        {
+          "id": "b",
+          "text": "بديلًا عن الصلاة"
+        },
+        {
+          "id": "c",
+          "text": "واجبة كل شهر"
+        },
+        {
+          "id": "d",
+          "text": "لا فضل لها"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ذكر الحديث أن العمرة إلى العمرة كفارة لما بينهما.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **كفارة لما بينهما**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1773"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:kids",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-kids-t4-q20",
+      "categoryId": "hajj",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "ما العمل الذي أُمر الناس أن يكون آخر عهدهم بالبيت قبل مغادرة مكة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الطواف بالبيت"
+        },
+        {
+          "id": "b",
+          "text": "السعي فقط"
+        },
+        {
+          "id": "c",
+          "text": "رمي جمرة العقبة"
+        },
+        {
+          "id": "d",
+          "text": "الوقوف بعرفة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ورد أن يكون آخر العهد بالبيت الطواف قبل الانصراف.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«أُمِرَ النَّاسُ أَنْ يَكُونَ آخِرُ عَهْدِهِمْ بِالْبَيْتِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1755"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:kids",
+        "tier:4",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-kids-t5-q21",
+      "categoryId": "hajj",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "من الذي استُثني في الحديث من طواف الوداع عند مغادرة مكة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الحائض"
+        },
+        {
+          "id": "b",
+          "text": "كل المسافرين"
+        },
+        {
+          "id": "c",
+          "text": "أهل مكة فقط"
+        },
+        {
+          "id": "d",
+          "text": "من شرب زمزم"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نص الحديث على التخفيف عن الحائض في طواف الوداع.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الحائض**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح البخاري 1755؛ صحيح البخاري 1760-1761"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:kids",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-kids-t5-q22",
+      "categoryId": "hajj",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "ماذا قال النبي ﷺ عن مكان الوقوف بعرفة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "عرفة كلها موقف"
+        },
+        {
+          "id": "b",
+          "text": "جزء صغير منها فقط موقف"
+        },
+        {
+          "id": "c",
+          "text": "الوقوف يكون في مكة"
+        },
+        {
+          "id": "d",
+          "text": "الوقوف يكون في المدينة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ثبت أن عرفة كلها موقف.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«وَعَرَفَةُ كُلُّهَا مَوْقِفٌ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 1218c"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:kids",
+        "tier:5",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-kids-t5-q23",
+      "categoryId": "hajj",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "أين صلى النبي ﷺ وبات قبل التوجه إلى عرفة في يوم التروية كما في حديث جابر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "منى"
+        },
+        {
+          "id": "b",
+          "text": "المدينة"
+        },
+        {
+          "id": "c",
+          "text": "التنعيم"
+        },
+        {
+          "id": "d",
+          "text": "الجحفة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "يذكر حديث جابر أن النبي ﷺ خرج إلى منى يوم التروية وصلى فيها حتى فجر اليوم التالي.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **منى**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 1218a"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:kids",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-kids-t5-q24",
+      "categoryId": "hajj",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "كيف وجّه النبي ﷺ الناس في سيرهم من عرفة إلى مزدلفة عندما كان الزحام شديدًا؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "بالتمهل والاعتدال في السير"
+        },
+        {
+          "id": "b",
+          "text": "بالتسابق بأقصى سرعة"
+        },
+        {
+          "id": "c",
+          "text": "بالرجوع إلى مكة فورًا"
+        },
+        {
+          "id": "d",
+          "text": "بالتوقف حتى الظهر التالي"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "يصف حديث جابر أنه ﷺ كان يضبط راحلته ويشير للناس بالهدوء والاعتدال في السير.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **بالتمهل والاعتدال في السير**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 1218a"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:kids",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-kids-t5-q25",
+      "categoryId": "hajj",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "كيف كان جواب النبي ﷺ عمن قدم بعض أعمال يوم النحر أو أخرها جاهلًا؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "افعل ولا حرج"
+        },
+        {
+          "id": "b",
+          "text": "أعد الحج كاملًا دائمًا"
+        },
+        {
+          "id": "c",
+          "text": "لا يجوز إصلاح شيء"
+        },
+        {
+          "id": "d",
+          "text": "ارجع إلى المدينة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "في وقائع الحلق والنحر والرمي يوم النحر أجاب النبي ﷺ: افعل ولا حرج.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«افْعَلْ وَلَا حَرَجَ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح البخاري 1736، 1737"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:kids",
+        "tier:5",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-general-t1-q26",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 1,
+      "text": "ما الميقات الذي وقته النبي ﷺ لأهل الشام؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الجحفة"
+        },
+        {
+          "id": "b",
+          "text": "ذو الحليفة"
+        },
+        {
+          "id": "c",
+          "text": "يلملم"
+        },
+        {
+          "id": "d",
+          "text": "قرن المنازل"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "حدد الحديث الجحفة لأهل الشام.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الجحفة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1524"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:1",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-general-t1-q27",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 1,
+      "text": "ما نوع التعاون الذي أمرت به آية 5:2 بعد النهي عن الاعتداء في سياق شعائر الله والبيت الحرام؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "التعاون على البر والتقوى"
+        },
+        {
+          "id": "b",
+          "text": "التعاون على الإثم والعدوان"
+        },
+        {
+          "id": "c",
+          "text": "التعاون على الصيد في الإحرام"
+        },
+        {
+          "id": "d",
+          "text": "التعاون على الخصومة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "أمرت الآية بالتعاون على البر والتقوى، ونهت عن التعاون على الإثم والعدوان.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَتَعَاوَنُوا عَلَى الْبِرِّ وَالتَّقْوَىٰ وَلَا تَعَاوَنُوا عَلَى الْإِثْمِ وَالْعُدْوَانِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 5,
+          "ayah": 2
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-general-t1-q28",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 1,
+      "text": "أي أمرين بالاجتناب جمعتهما آية 22:30 في سياق تعظيم حرمات الله؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الرجس من الأوثان وقول الزور"
+        },
+        {
+          "id": "b",
+          "text": "الطواف والسعي"
+        },
+        {
+          "id": "c",
+          "text": "الذكر والدعاء"
+        },
+        {
+          "id": "d",
+          "text": "الحلق والتقصير"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "جمعت الآية الأمر باجتناب رجس الأوثان واجتناب قول الزور.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«فَاجْتَنِبُوا الرِّجْسَ مِنَ الْأَوْثَانِ وَاجْتَنِبُوا قَوْلَ الزُّورِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 22,
+          "ayah": 30
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-general-t1-q29",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 1,
+      "text": "ما الصفة الأولى التي ذكرتها سورة الحج للمخبتين عند ذكر الله؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "توجل قلوبهم"
+        },
+        {
+          "id": "b",
+          "text": "تسكن قلوبهم فلا وجل فيها"
+        },
+        {
+          "id": "c",
+          "text": "يتركون الصلاة عند الخوف"
+        },
+        {
+          "id": "d",
+          "text": "يكثرون الجدال في النسك"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "بدأ وصف المخبتين في 22:35 بأن قلوبهم توجل إذا ذُكر الله، ثم ذُكرت صفات أخرى.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَبَشِّرِ الْمُخْبِتِينَ الَّذِينَ إِذَا ذُكِرَ اللَّهُ وَجِلَتْ قُلُوبُهُمْ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 22,
+          "ayah": 34,
+          "ayahEnd": 35
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-general-t1-q30",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 1,
+      "text": "إلى أين نسبت آية 22:33 محلَّ شعائر الهدي بعد الانتفاع بها إلى أجل معلوم؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "إلى البيت العتيق"
+        },
+        {
+          "id": "b",
+          "text": "إلى المدينة"
+        },
+        {
+          "id": "c",
+          "text": "إلى جبل أحد"
+        },
+        {
+          "id": "d",
+          "text": "إلى بيت المقدس"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ذكرت الآية أن محلها إلى البيت العتيق.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«ثُمَّ مَحِلُّهَا إِلَى الْبَيْتِ الْعَتِيقِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 22,
+          "ayah": 33
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-general-t2-q31",
       "categoryId": "hajj",
       "ageBand": "general",
       "tier": 2,
-      "text": "كم عدد أشواط السعي بين الصفا والمروة؟",
+      "text": "أي مجموعة ورد النهي للمحرم الرجل عن لبسها في حديث ابن عمر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "القميص والعمامة والسراويل والبرنس والخفين"
+        },
+        {
+          "id": "b",
+          "text": "الإزار والرداء والخفان"
+        },
+        {
+          "id": "c",
+          "text": "القميص والسراويل والنعلان"
+        },
+        {
+          "id": "d",
+          "text": "العمامة والإزار والرداء"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "هذه الأنواع مذكورة في نص الحديث، مع تفصيل للخفين عند عدم النعلين.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **القميص والعمامة والسراويل والبرنس والخفين**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1542"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-general-t2-q32",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 2,
+      "text": "بأي مادتين نهى الحديث أن يمس ثوب المحرم شيء منهما؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الزعفران والورس"
+        },
+        {
+          "id": "b",
+          "text": "الماء والملح"
+        },
+        {
+          "id": "c",
+          "text": "التمر والعسل"
+        },
+        {
+          "id": "d",
+          "text": "الطين والرمل"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نهى الحديث عن الثياب التي مسها الزعفران أو الورس.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الزعفران والورس**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1542"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-general-t2-q33",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 2,
+      "text": "بأي مقصد افتتحت آية 2:196 الأمر بإتمام الحج والعمرة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "لله"
+        },
+        {
+          "id": "b",
+          "text": "لتحصيل التجارة"
+        },
+        {
+          "id": "c",
+          "text": "لبلوغ البيت وأداء النسك"
+        },
+        {
+          "id": "d",
+          "text": "لإظهار النسك للناس"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "افتتحت الآية بالأمر بإتمام الحج والعمرة لله.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 196
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:2",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-general-t2-q34",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 2,
+      "text": "ماذا ذكرت آية الحج لمن أُحصر عن إتمام النسك؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ما استيسر من الهدي"
+        },
+        {
+          "id": "b",
+          "text": "إلغاء الحج إلى الأبد"
+        },
+        {
+          "id": "c",
+          "text": "صلاة ركعتين بدل كل شيء"
+        },
+        {
+          "id": "d",
+          "text": "السفر إلى المدينة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نصت آية 2:196 على ما استيسر من الهدي عند الإحصار.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«فَإِنْ أُحْصِرْتُمْ فَمَا اسْتَيْسَرَ مِنَ الْهَدْيِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 196
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:2",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-general-t2-q35",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 2,
+      "text": "ما الخيارات التي ذكرتها آية 2:196 لمن كان به أذى من رأسه؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "صيام أو صدقة أو نسك"
+        },
+        {
+          "id": "b",
+          "text": "إطعام أو طواف أو سعي"
+        },
+        {
+          "id": "c",
+          "text": "صلاة أو صدقة أو هدي"
+        },
+        {
+          "id": "d",
+          "text": "صيام أو عمرة أو طواف"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ذكرت الآية هذه البدائل الثلاثة نصًا.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«فَفِدْيَةٌ مِّن صِيَامٍ أَوْ صَدَقَةٍ أَوْ نُسُكٍ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 196
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:2",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-general-t3-q36",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 3,
+      "text": "كم يومًا ذكرت الآية صيامَ من تمتع ولم يجد الهدي؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ثلاثة في الحج وسبعة إذا رجع"
+        },
+        {
+          "id": "b",
+          "text": "سبعة في الحج وثلاثة إذا رجع"
+        },
+        {
+          "id": "c",
+          "text": "سبعة أيام كلها في الحج"
+        },
+        {
+          "id": "d",
+          "text": "عشرة أيام كلها بعد الرجوع"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "جاء التفصيل في آية 2:196، وصرحت بأنها عشرة كاملة.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«فَصِيَامُ ثَلَاثَةِ أَيَّامٍ فِي الْحَجِّ وَسَبْعَةٍ إِذَا رَجَعْتُمْ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 196
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:3",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-general-t3-q37",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 3,
+      "text": "ما الثلاثة التي نهت عنها آية الحج في 2:197؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الرفث والفسوق والجدال"
+        },
+        {
+          "id": "b",
+          "text": "التلبية والذكر والدعاء"
+        },
+        {
+          "id": "c",
+          "text": "الطواف والسعي والوقوف"
+        },
+        {
+          "id": "d",
+          "text": "الأكل والشرب والنوم"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "جمعت الآية النهي عن الرفث والفسوق والجدال في الحج.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«فَلَا رَفَثَ وَلَا فُسُوقَ وَلَا جِدَالَ فِي الْحَجِّ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 197
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:3",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-general-t3-q38",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 3,
+      "text": "ما الذي سماه القرآن خير الزاد في سياق الحج؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "التقوى"
+        },
+        {
+          "id": "b",
+          "text": "الذهب"
+        },
+        {
+          "id": "c",
+          "text": "كثرة الثياب"
+        },
+        {
+          "id": "d",
+          "text": "النفقة الكثيرة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "قالت الآية إن خير الزاد التقوى.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَتَزَوَّدُوا فَإِنَّ خَيْرَ الزَّادِ التَّقْوَىٰ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 197
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:3",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-general-t3-q39",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 3,
+      "text": "هل أجازت آية 2:198 للحاج أن يبتغي فضلًا من ربه أثناء الحج؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "نعم، لا جناح عليه"
+        },
+        {
+          "id": "b",
+          "text": "لا، حرمت كل تجارة"
+        },
+        {
+          "id": "c",
+          "text": "نعم، ولكن بعد الوقوف بعرفة"
+        },
+        {
+          "id": "d",
+          "text": "نعم، ولكن لأهل مكة دون غيرهم"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نصت الآية على عدم الجناح في ابتغاء فضل من الله، وهو أصل في جواز التكسب أثناء الحج.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«لَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَبْتَغُوا فَضْلًا مِّن رَّبِّكُمْ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 198
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:3",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-general-t3-q40",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 3,
+      "text": "بماذا أمر القرآن بعد قضاء المناسك في 2:200؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الإكثار من ذكر الله"
+        },
+        {
+          "id": "b",
+          "text": "ترك الذكر"
+        },
+        {
+          "id": "c",
+          "text": "الصمت التام"
+        },
+        {
+          "id": "d",
+          "text": "الرجوع بلا دعاء"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "جاء الأمر بذكر الله بعد قضاء المناسك.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«فَإِذَا قَضَيْتُم مَّنَاسِكَكُمْ فَاذْكُرُوا اللَّهَ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 200
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:3",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-general-t4-q41",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 4,
+      "text": "ما الأمران اللذان يجمعهما الدعاء القرآني في 2:201؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "حسنة في الدنيا وحسنة في الآخرة"
+        },
+        {
+          "id": "b",
+          "text": "حسنة في الدنيا وعافية في البدن"
+        },
+        {
+          "id": "c",
+          "text": "حسنة في الآخرة ومغفرة الذنب"
+        },
+        {
+          "id": "d",
+          "text": "المغفرة دون ذكر الدنيا"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "جمع الدعاء بين حسنة الدنيا وحسنة الآخرة والوقاية من النار.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 201
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:4",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-general-t4-q42",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 4,
+      "text": "ما الذي قررته آية 2:203 في التعجل في يومين أو التأخر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "لا إثم في الحالين لمن اتقى"
+        },
+        {
+          "id": "b",
+          "text": "رفع الإثم عن التعجل"
+        },
+        {
+          "id": "c",
+          "text": "رفع الإثم عن التأخر"
+        },
+        {
+          "id": "d",
+          "text": "الإثم في الحالين إلا لعذر"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ذكرت الآية عدم الإثم في التعجل أو التأخر مع قيد التقوى.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«فَمَن تَعَجَّلَ فِي يَوْمَيْنِ فَلَا إِثْمَ عَلَيْهِ وَمَن تَأَخَّرَ فَلَا إِثْمَ عَلَيْهِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 203
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:4",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-general-t4-q43",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 4,
+      "text": "من الذين ذكرت آية 5:95 أنهم يحكمان في مماثلة الجزاء عند قتل الصيد عمدًا في الإحرام؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ذوا عدل من المسلمين"
+        },
+        {
+          "id": "b",
+          "text": "شاهد واحد من أهل الحرم"
+        },
+        {
+          "id": "c",
+          "text": "صاحب الصيد ومن معه"
+        },
+        {
+          "id": "d",
+          "text": "الحاج نفسه ووليّه"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نصت الآية على حكم ذوي عدل في تقدير مثل ما قُتل من النعم.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«يَحْكُمُ بِهِ ذَوَا عَدْلٍ مِّنكُمْ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 5,
+          "ayah": 95
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:4",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-general-t4-q44",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 4,
+      "text": "بماذا وصفت سورة الحج البدن المعدة للهدي؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "من شعائر الله"
+        },
+        {
+          "id": "b",
+          "text": "من حرمات الله"
+        },
+        {
+          "id": "c",
+          "text": "من متاع الحاج"
+        },
+        {
+          "id": "d",
+          "text": "من رزق أهل مكة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نصت آية 22:36 على جعل البدن من شعائر الله.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَالْبُدْنَ جَعَلْنَاهَا لَكُم مِّن شَعَائِرِ اللَّهِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 22,
+          "ayah": 36
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:4",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-general-t4-q45",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 4,
+      "text": "كيف شرب النبي ﷺ من ماء زمزم في رواية ابن عباس في صحيح البخاري؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "شرب وهو قائم"
+        },
+        {
+          "id": "b",
+          "text": "لم يشرب زمزم"
+        },
+        {
+          "id": "c",
+          "text": "شرب مضطجعًا"
+        },
+        {
+          "id": "d",
+          "text": "شرب بعد الطواف وهو جالس"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "هذه إجابة على واقعة الرواية نفسها، من غير تعميم حكم هيئة الشرب.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **شرب وهو قائم**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1637"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-general-t5-q46",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 5,
+      "text": "ما السبب التاريخي الذي ذكره ابن عباس لأمر النبي ﷺ أصحابه بالرمل أول ثلاثة أشواط؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "قول المشركين إن حمى يثرب أضعفتهم"
+        },
+        {
+          "id": "b",
+          "text": "قلة الماء في مكة"
+        },
+        {
+          "id": "c",
+          "text": "نزول المطر"
+        },
+        {
+          "id": "d",
+          "text": "خوفهم من الضياع"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "أُمروا بالرمل لإظهار القوة بعد دعوى المشركين أن حمى يثرب أوهنتهم.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **قول المشركين إن حمى يثرب أضعفتهم**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1602"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-general-t5-q47",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 5,
+      "text": "أين كانت قريش ومن اتبعها يقفون قبل الإسلام بدل الوقوف بعرفة بحسب رواية عائشة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "مزدلفة"
+        },
+        {
+          "id": "b",
+          "text": "منى"
+        },
+        {
+          "id": "c",
+          "text": "المدينة"
+        },
+        {
+          "id": "d",
+          "text": "الصفا"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "كان الحمس يقفون بمزدلفة، ثم جاء الإسلام بالأمر بالإفاضة من عرفات مع الناس.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **مزدلفة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 1219a، 1219b"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-general-t5-q48",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 5,
+      "text": "إلى أين أرسل النبي ﷺ عائشة مع أخيها بعد الحج لتأتي بعمرة بدل عمرتها التي فاتتها بسبب الحيض؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "التنعيم"
+        },
+        {
+          "id": "b",
+          "text": "عرفات"
+        },
+        {
+          "id": "c",
+          "text": "المدينة"
+        },
+        {
+          "id": "d",
+          "text": "خيبر"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ثبت إرسالها مع عبد الرحمن بن أبي بكر إلى التنعيم للعمرة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **التنعيم**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح البخاري 1556؛ صحيح البخاري 1638"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-general-t5-q49",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 5,
+      "text": "من كان معه الهدي في حجة النبي ﷺ، ماذا كان عليه أن يفعل بالنسبة للتحلل المبكر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "يبقى على إحرامه حتى يتم نسكه ويبلغ الهدي محله"
+        },
+        {
+          "id": "b",
+          "text": "يتحلل فور وصوله مكة"
+        },
+        {
+          "id": "c",
+          "text": "يلغي الحج"
+        },
+        {
+          "id": "d",
+          "text": "يبقى بلا طواف ولا سعي حتى يوم النحر"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ثبت أن من معه الهدي لم يتحلل مع الذين حولوا نسكهم إلى عمرة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **يبقى على إحرامه حتى يتم نسكه ويبلغ الهدي محله**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح البخاري 1545، 1651"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-general-t5-q50",
+      "categoryId": "hajj",
+      "ageBand": "general",
+      "tier": 5,
+      "text": "ماذا قال النبي ﷺ وهو يرمي يوم النحر، حاثًا الناس على التعلم من فعله؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "لتأخذوا مناسككم"
+        },
+        {
+          "id": "b",
+          "text": "دعوا المناسك بلا تعلم"
+        },
+        {
+          "id": "c",
+          "text": "لا تنظروا إلي"
+        },
+        {
+          "id": "d",
+          "text": "المناسك خاصة بقريش"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "قال ذلك وهو يرمي على راحلته في حجة الوداع.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«لِتَأْخُذُوا مَنَاسِكَكُمْ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-muslim",
+          "number": "1297"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-scholar-t1-q51",
+      "categoryId": "hajj",
+      "ageBand": "scholar",
+      "tier": 1,
+      "text": "ما الذي نص القرآن أنه ينال الله من الهدي، لا اللحوم ولا الدماء؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "التقوى"
+        },
+        {
+          "id": "b",
+          "text": "الثمن"
+        },
+        {
+          "id": "c",
+          "text": "اللون"
+        },
+        {
+          "id": "d",
+          "text": "عدد الحيوانات"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "صرحت الآية بأن الذي ينال الله هو التقوى من العباد.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَلَٰكِن يَنَالُهُ التَّقْوَىٰ مِنكُمْ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 22,
+          "ayah": 37
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:scholar",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-scholar-t1-q52",
+      "categoryId": "hajj",
+      "ageBand": "scholar",
+      "tier": 1,
+      "text": "إلى ماذا نسب القرآن تعظيم شعائر الله في 22:32؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "تقوى القلوب"
+        },
+        {
+          "id": "b",
+          "text": "كثرة المال"
+        },
+        {
+          "id": "c",
+          "text": "قوة البدن"
+        },
+        {
+          "id": "d",
+          "text": "طول السفر"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نصت الآية على أن تعظيم الشعائر من تقوى القلوب.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«فَإِنَّهَا مِن تَقْوَى الْقُلُوبِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 22,
+          "ayah": 32
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:scholar",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-scholar-t1-q53",
+      "categoryId": "hajj",
+      "ageBand": "scholar",
+      "tier": 1,
+      "text": "من الذي أمرت آية 22:28 بإطعامه من بهيمة الأنعام؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "البائس الفقير"
+        },
+        {
+          "id": "b",
+          "text": "القانع والمعتر"
+        },
+        {
+          "id": "c",
+          "text": "ابن السبيل المنقطع"
+        },
+        {
+          "id": "d",
+          "text": "أهل الحرم جميعًا"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "جاء النص بالأكل منها وإطعام البائس الفقير.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَأَطْعِمُوا الْبَائِسَ الْفَقِيرَ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 22,
+          "ayah": 28
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:scholar",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-scholar-t1-q54",
+      "categoryId": "hajj",
+      "ageBand": "scholar",
+      "tier": 1,
+      "text": "أي عملين جمعتهما آية 22:29 بعد قضاء التفث؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الوفاء بالنذور والطواف بالبيت العتيق"
+        },
+        {
+          "id": "b",
+          "text": "الذكر والنحر"
+        },
+        {
+          "id": "c",
+          "text": "الرمي والسعي"
+        },
+        {
+          "id": "d",
+          "text": "الحلق والوقوف"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ذكرت الآية الوفاء بالنذور والطواف بالبيت العتيق.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَلْيُوفُوا نُذُورَهُمْ وَلْيَطَّوَّفُوا بِالْبَيْتِ الْعَتِيقِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 22,
+          "ayah": 29
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:scholar",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-scholar-t1-q55",
+      "categoryId": "hajj",
+      "ageBand": "scholar",
+      "tier": 1,
+      "text": "لمن أمر الله إبراهيم عليه السلام أن يطهر البيت في 22:26؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "للطائفين والقائمين والركع السجود"
+        },
+        {
+          "id": "b",
+          "text": "للطائفين والعاكفين"
+        },
+        {
+          "id": "c",
+          "text": "للقائمين دون الطائفين"
+        },
+        {
+          "id": "d",
+          "text": "للركع السجود دون القائمين"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "جاءت هذه الفئات في النص القرآني مباشرة.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَطَهِّرْ بَيْتِيَ لِلطَّائِفِينَ وَالْقَائِمِينَ وَالرُّكَّعِ السُّجُودِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 22,
+          "ayah": 26
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:scholar",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-scholar-t2-q56",
+      "categoryId": "hajj",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "أي صورتين لقدوم الحجاج ذكرت آية النداء بالحج؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "رجالًا وعلى كل ضامر"
+        },
+        {
+          "id": "b",
+          "text": "مشاة وراكبي الخيل"
+        },
+        {
+          "id": "c",
+          "text": "راكبي الإبل والسفن"
+        },
+        {
+          "id": "d",
+          "text": "مشاة وراكبي السفن"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ذكرت آية 22:27 المجيء رجالًا وعلى كل ضامر من كل فج عميق.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«يَأْتُوكَ رِجَالًا وَعَلَىٰ كُلِّ ضَامِرٍ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 22,
+          "ayah": 27
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:scholar",
+        "tier:2",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-scholar-t2-q57",
+      "categoryId": "hajj",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "بأي حال وصفت آية 48:27 دخول المؤمنين المسجد الحرام؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "آمنين محلقين رؤوسهم ومقصرين"
+        },
+        {
+          "id": "b",
+          "text": "خائفين بلا نسك"
+        },
+        {
+          "id": "c",
+          "text": "مسلحين للصيد"
+        },
+        {
+          "id": "d",
+          "text": "ممنوعين من الحلق والتقصير"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "هذا هو الوصف القرآني في رؤيا دخول المسجد الحرام.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«آمِنِينَ مُحَلِّقِينَ رُءُوسَكُمْ وَمُقَصِّرِينَ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 48,
+          "ayah": 27
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:scholar",
+        "tier:2",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-scholar-t2-q58",
+      "categoryId": "hajj",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "ما العمل الذي جاء مباشرة بعد الأمر بالإفاضة من حيث أفاض الناس في 2:199؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الاستغفار"
+        },
+        {
+          "id": "b",
+          "text": "الصيد"
+        },
+        {
+          "id": "c",
+          "text": "التجارة"
+        },
+        {
+          "id": "d",
+          "text": "ترك الذكر"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "أتبعت الآية أمر الإفاضة بالأمر بالاستغفار.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«ثُمَّ أَفِيضُوا مِنْ حَيْثُ أَفَاضَ النَّاسُ وَاسْتَغْفِرُوا اللَّهَ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 199
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:scholar",
+        "tier:2",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-scholar-t2-q59",
+      "categoryId": "hajj",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "أي مجموعة تمثل الخيارات التي ذكرتها آية 5:95 في جزاء قتل الصيد عمدًا حال الإحرام؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "مثل من النعم أو إطعام مساكين أو عدل ذلك صيامًا"
+        },
+        {
+          "id": "b",
+          "text": "هدي أو طواف أو صدقة"
+        },
+        {
+          "id": "c",
+          "text": "إطعام أو هدي أو عمرة"
+        },
+        {
+          "id": "d",
+          "text": "صيام أو سعي أو نحر"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "هذه البدائل واردة نصًا في الآية.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«هَدْيًا بَالِغَ الْكَعْبَةِ أَوْ كَفَّارَةٌ طَعَامُ مَسَاكِينَ أَوْ عَدْلُ ذَٰلِكَ صِيَامًا»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 5,
+          "ayah": 95
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:scholar",
+        "tier:2",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-scholar-t2-q60",
+      "categoryId": "hajj",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "ما الغاية التي ربطت بها آية 22:34 جعل المنسك لكل أمة في سياق بهيمة الأنعام؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ذكر اسم الله على ما رزقهم"
+        },
+        {
+          "id": "b",
+          "text": "الأكل من الأنعام"
+        },
+        {
+          "id": "c",
+          "text": "الانتفاع بالأنعام"
+        },
+        {
+          "id": "d",
+          "text": "التوسعة على الحجاج"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نصت الآية على جعل المنسك ليذكروا اسم الله على ما رزقهم من بهيمة الأنعام.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«لِّيَذْكُرُوا اسْمَ اللَّهِ عَلَىٰ مَا رَزَقَهُم»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 22,
+          "ayah": 34
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:scholar",
+        "tier:2",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "hajj-scholar-t3-q61",
+      "categoryId": "hajj",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "ما الثلاثة التي تنسبها تلبية النبي ﷺ لله بعد نفي الشريك؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الحمد والنعمة والملك"
+        },
+        {
+          "id": "b",
+          "text": "الصوم والصلاة والزكاة"
+        },
+        {
+          "id": "c",
+          "text": "الليل والنهار والبحر"
+        },
+        {
+          "id": "d",
+          "text": "الصفا والمروة وعرفة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ثبت في التلبية: إن الحمد والنعمة لك والملك، لا شريك لك.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1549"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:scholar",
+        "tier:3",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-scholar-t3-q62",
+      "categoryId": "hajj",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "ما السبب الذي ذكره عمر رضي الله عنه لتقبيله الحجر الأسود رغم تقريره أنه لا يضر ولا ينفع؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "أنه رأى النبي ﷺ يقبله"
+        },
+        {
+          "id": "b",
+          "text": "أن الحجر أمره بذلك"
+        },
+        {
+          "id": "c",
+          "text": "أن الناس أجبروه"
+        },
+        {
+          "id": "d",
+          "text": "أنه كان يظن أن الحجر يخلق النفع"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ربط عمر فعله صراحة باتباع النبي ﷺ.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«وَلَوْلَا أَنِّي رَأَيْتُ النَّبِيَّ ﷺ يُقَبِّلُكَ مَا قَبَّلْتُكَ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1597"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:scholar",
+        "tier:3",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-scholar-t3-q63",
+      "categoryId": "hajj",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "ما العملان اللذان فعلَهما النبي ﷺ عند قدوم مكة في رواية ابن عباس قبل بقائه على إحرامه بسبب الهدي؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "طاف بالبيت وسعى بين الصفا والمروة"
+        },
+        {
+          "id": "b",
+          "text": "رجم الجمرات ثم عاد للمدينة"
+        },
+        {
+          "id": "c",
+          "text": "وقف بعرفة ثم طاف"
+        },
+        {
+          "id": "d",
+          "text": "نحر ثم سافر مباشرة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "تذكر الرواية الطواف بالبيت والسعي بين الصفا والمروة عند القدوم.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **طاف بالبيت وسعى بين الصفا والمروة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1545"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:scholar",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-scholar-t3-q64",
+      "categoryId": "hajj",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "بأي وثن ارتبط تردد بعض الأنصار قبل الإسلام في السعي بين الصفا والمروة حسب تفسير عائشة للرواية؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "مناة"
+        },
+        {
+          "id": "b",
+          "text": "هبل"
+        },
+        {
+          "id": "c",
+          "text": "اللات"
+        },
+        {
+          "id": "d",
+          "text": "ود"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "فسرت عائشة سياق الآية بتردد من كان يُهل لمناة في الجاهلية.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **مناة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1643"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:scholar",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-scholar-t3-q65",
+      "categoryId": "hajj",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "كيف صلى النبي ﷺ الظهر والعصر بعرفة في حديث جابر الطويل؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "أذان واحد وإقامتان بلا صلاة نافلة بينهما"
+        },
+        {
+          "id": "b",
+          "text": "إقامتان بلا أذان مع عشر ركعات"
+        },
+        {
+          "id": "c",
+          "text": "جمع المغرب مع الظهر"
+        },
+        {
+          "id": "d",
+          "text": "صلى كل صلاة في يوم مختلف"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ذكر حديث حجة الوداع أذانًا ثم إقامة للظهر، ثم إقامة للعصر، بلا صلاة بينهما.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **أذان واحد وإقامتان بلا صلاة نافلة بينهما**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 1218a"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:scholar",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-scholar-t4-q66",
+      "categoryId": "hajj",
+      "ageBand": "scholar",
+      "tier": 4,
+      "text": "كيف صلى النبي ﷺ المغرب والعشاء بعد وصوله مزدلفة في حديث جابر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "بأذان واحد وإقامتين بلا نافلة بينهما"
+        },
+        {
+          "id": "b",
+          "text": "بأذانين وأربع إقامات"
+        },
+        {
+          "id": "c",
+          "text": "جمعهما بعرفة"
+        },
+        {
+          "id": "d",
+          "text": "لم يصل العشاء"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نص حديث جابر على ذلك في وصف حجة الوداع.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **بأذان واحد وإقامتين بلا نافلة بينهما**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 1218a"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:scholar",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-scholar-t4-q67",
+      "categoryId": "hajj",
+      "ageBand": "scholar",
+      "tier": 4,
+      "text": "بحسب حديث «الحج عرفة»، ما الحد الزمني المذكور لمن جاء إلى جمع فتم حجه؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "قبل صلاة الفجر من ليلة جمع"
+        },
+        {
+          "id": "b",
+          "text": "قبل شروق الشمس من يوم النحر"
+        },
+        {
+          "id": "c",
+          "text": "قبل الزوال من يوم عرفة"
+        },
+        {
+          "id": "d",
+          "text": "قبل غروب شمس يوم عرفة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ذكر الحديث أن من أدرك عرفة وجاء قبل صلاة الفجر ليلة جمع فقد تم حجه؛ السؤال يختبر نص الحديث لا تفريعاته الفقهية.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«الْحَجُّ عَرَفَةُ ... مَنْ جَاءَ لَيْلَةَ جَمْعٍ قَبْلَ طُلُوعِ الْفَجْرِ فَقَدْ أَدْرَكَ الْحَجَّ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "جامع الترمذي 889 — صحيح"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:scholar",
+        "tier:4",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "تخريج الحديث وحكمه روجعا في الدرر السنية؛ وأُبقيت فقط الطرق المقبولة"
+    },
+    {
+      "id": "hajj-scholar-t4-q68",
+      "categoryId": "hajj",
+      "ageBand": "scholar",
+      "tier": 4,
+      "text": "كم شخصًا ثبت اشتراكهم في البدنة أو البقرة في حديث جابر؟",
       "choices": [
         {
           "id": "a",
@@ -550,1518 +3427,392 @@
         },
         {
           "id": "c",
-          "text": "خمسة"
+          "text": "عشرة"
         },
         {
           "id": "d",
-          "text": "أربعة"
+          "text": "اثنا عشر"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "السعي سبعة أشواط يبدأ بالصفا ويُختم بالمروة.",
+      "explanation": "ثبت اشتراك سبعة في البدنة أو البقرة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **سبعة**."
+        }
+      ],
       "references": [
         {
           "type": "other",
-          "label": "صحيح مسلم"
+          "label": "صحيح مسلم 1318d"
         }
       ],
       "tags": [
-        "حج"
+        "category:hajj",
+        "age:scholar",
+        "tier:4",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "pg-5-2-3",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "أين يقف الحجاج يوم عرفة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "منى"
-        },
-        {
-          "id": "b",
-          "text": "صعيد عرفة"
-        },
-        {
-          "id": "c",
-          "text": "مزدلفة"
-        },
-        {
-          "id": "d",
-          "text": "المسجد الحرام"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "الوقوف بعرفة ركن الحج الأعظم.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح البخاري"
-        }
-      ],
-      "tags": [
-        "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-5-2-4",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "أين يكون رمي الجمرات؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "عرفة"
-        },
-        {
-          "id": "b",
-          "text": "مزدلفة"
-        },
-        {
-          "id": "c",
-          "text": "منى"
-        },
-        {
-          "id": "d",
-          "text": "الصفا"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "رمي الجمرات يكون في منى أيام النحر والتشريق.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-5-2-5",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "بم تُلقَّب العمرة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الحج الأكبر"
-        },
-        {
-          "id": "b",
-          "text": "الطواف"
-        },
-        {
-          "id": "c",
-          "text": "الزيارة"
-        },
-        {
-          "id": "d",
-          "text": "الحج الأصغر"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "تُسمّى العمرة أحيانًا الحج الأصغر.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "عمرة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-5-2-6",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "ماذا يُستحب فعله بالحجر الأسود عند الطواف؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "استلامه وتقبيله إن تيسَّر"
-        },
-        {
-          "id": "b",
-          "text": "الطواف بعيدًا عنه"
-        },
-        {
-          "id": "c",
-          "text": "دهنه بالطيب"
-        },
-        {
-          "id": "d",
-          "text": "الصلاة إليه"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "كان النبي ﷺ يستلم الحجر الأسود ويقبّله في الطواف.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح البخاري"
-        }
-      ],
-      "tags": [
-        "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-5-3-2",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "عيد الأضحى في أي يوم؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "التاسع من ذي الحجة"
-        },
-        {
-          "id": "b",
-          "text": "الأول من ذي الحجة"
-        },
-        {
-          "id": "c",
-          "text": "الثالث عشر من ذي الحجة"
-        },
-        {
-          "id": "d",
-          "text": "العاشر من ذي الحجة"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "يوم النحر (عيد الأضحى) عاشر ذي الحجة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-5-3-5",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "أنواع النُّسك ثلاثة: التمتع والقِران و…؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الإفراد"
-        },
-        {
-          "id": "b",
-          "text": "الإحصار"
-        },
-        {
-          "id": "c",
-          "text": "الاشتراط"
-        },
-        {
-          "id": "d",
-          "text": "التحلل"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "أنساك الحج ثلاثة: الإفراد والقِران والتمتع.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-5-3-6",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "بجوار أي مكان يقع بئر زمزم؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "مسجد قباء"
-        },
-        {
-          "id": "b",
-          "text": "المسجد الحرام"
-        },
-        {
-          "id": "c",
-          "text": "جبل أُحد"
-        },
-        {
-          "id": "d",
-          "text": "وادي مِنى"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "بئر زمزم داخل المسجد الحرام قرب الكعبة المشرَّفة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-5-4-1",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "من رفع قواعد الكعبة وبناها؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "آدم عليه السلام وحده"
-        },
-        {
-          "id": "b",
-          "text": "نوح وهود عليهما السلام"
-        },
-        {
-          "id": "c",
-          "text": "إبراهيم وإسماعيل عليهما السلام"
-        },
-        {
-          "id": "d",
-          "text": "محمد ﷺ"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "«وإذ يرفع إبراهيم القواعد من البيت وإسماعيل».",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 2,
-          "ayah": 127
-        }
-      ],
-      "tags": [
-        "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-5-4-2",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "ما أيام التشريق؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "8 و9 و10"
-        },
-        {
-          "id": "b",
-          "text": "أول ثلاثة من رمضان"
-        },
-        {
-          "id": "c",
-          "text": "10 و11 و12 من محرم"
-        },
-        {
-          "id": "d",
-          "text": "11 و12 و13 من ذي الحجة"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "أيام التشريق ثلاثة بعد يوم النحر يُرمى فيها الجمرات.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-5-4-3",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "ما حكم طواف الوداع عند الخروج من مكة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "واجب"
-        },
-        {
-          "id": "b",
-          "text": "ركن"
-        },
-        {
-          "id": "c",
-          "text": "سنة"
-        },
-        {
-          "id": "d",
-          "text": "مباح"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "الحلق أو التقصير نسكٌ واجب يتحلل به الحاجّ، يُجبَر تركه بدم.",
-      "references": [
-        {
-          "type": "other",
-          "label": "البخاري ومسلم"
-        }
-      ],
-      "tags": [
-        "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-5-4-4",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "لأجل من فجَّر الله بئر زمزم؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "إبراهيم عليه السلام"
-        },
-        {
-          "id": "b",
-          "text": "آدم عليه السلام"
-        },
-        {
-          "id": "c",
-          "text": "محمد ﷺ"
-        },
-        {
-          "id": "d",
-          "text": "إسماعيل عليه السلام"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "نبعت زمزم عند قدمي إسماعيل عليه السلام حين تركه إبراهيم وأمه هاجر بأمر الله.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح البخاري"
-        }
-      ],
-      "tags": [
-        "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-5-4-6",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "أين يُذبَح الهدي في الحج؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "في عرفة"
-        },
-        {
-          "id": "b",
-          "text": "في الحرم"
-        },
-        {
-          "id": "c",
-          "text": "في مزدلفة"
-        },
-        {
-          "id": "d",
-          "text": "في الطائف"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "محلّ نحر الهدي الحرم، وأكثره في منى أيام النحر.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-5-5-1",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "بم تُسمّى حجّة النبي ﷺ الوحيدة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "حجة الوداع"
-        },
-        {
-          "id": "b",
-          "text": "حجة الفتح"
-        },
-        {
-          "id": "c",
-          "text": "حجة الإسلام الأولى"
-        },
-        {
-          "id": "d",
-          "text": "حجة النصر"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "حجّ النبي ﷺ حجّة واحدة سُمّيت حجّة الوداع.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح مسلم"
-        }
-      ],
-      "tags": [
-        "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-5-5-2",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 5,
-      "text": "من أُمر أن يؤذّن في الناس بالحج؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "محمد ﷺ"
-        },
-        {
-          "id": "b",
-          "text": "إبراهيم عليه السلام"
-        },
-        {
-          "id": "c",
-          "text": "إسماعيل عليه السلام"
-        },
-        {
-          "id": "d",
-          "text": "آدم عليه السلام"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "«وأذّن في الناس بالحج يأتوك رجالًا».",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 22,
-          "ayah": 27
-        }
-      ],
-      "tags": [
-        "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-5-5-4",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "ما أول بيت وُضع للناس لعبادة الله؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "المسجد الأقصى"
-        },
-        {
-          "id": "b",
-          "text": "مسجد قباء"
-        },
-        {
-          "id": "c",
-          "text": "الكعبة"
-        },
-        {
-          "id": "d",
-          "text": "بيت المقدس"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "«إن أول بيت وُضع للناس للذي ببكة مباركًا».",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 3,
-          "ayah": 96
-        }
-      ],
-      "tags": [
-        "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-5-5-5",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 5,
-      "text": "أركان الحج تشمل الإحرام والوقوف بعرفة وطواف الإفاضة و…؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "رمي الجمرات"
-        },
-        {
-          "id": "b",
-          "text": "طواف الوداع"
-        },
-        {
-          "id": "c",
-          "text": "السعي بين الصفا والمروة"
-        },
-        {
-          "id": "d",
-          "text": "المبيت بمنى"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "أركان الحج: الإحرام والوقوف بعرفة وطواف الإفاضة والسعي.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-5-5-6",
-      "categoryId": "hajj",
-      "ageBand": "general",
-      "tier": 5,
-      "text": "في أي سنة هجرية فُرض الحج على المشهور؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الأولى"
-        },
-        {
-          "id": "b",
-          "text": "الخامسة"
-        },
-        {
-          "id": "c",
-          "text": "الحادية عشرة"
-        },
-        {
-          "id": "d",
-          "text": "التاسعة للهجرة"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "المشهور أن فرض الحج كان سنة تسع للهجرة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "السيرة والتاريخ"
-        }
-      ],
-      "tags": [
-        "حج"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-5-1-1",
-      "categoryId": "hajj",
-      "ageBand": "kids",
-      "tier": 1,
-      "text": "إلى أي مدينةٍ يذهب المسلمون لأداء الحج؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "المدينة"
-        },
-        {
-          "id": "b",
-          "text": "القدس"
-        },
-        {
-          "id": "c",
-          "text": "مكة"
-        },
-        {
-          "id": "d",
-          "text": "دمشق"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "الحج يكون في مكة المكرمة حيث الكعبة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "القرآن — سورة آل عمران"
-        }
-      ],
-      "tags": [
-        "حج",
-        "مكة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-5-1-2",
-      "categoryId": "hajj",
-      "ageBand": "kids",
-      "tier": 1,
-      "text": "ما اسم البيت المربَّع الذي نطوف حوله في الحج؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "المسجد النبوي"
-        },
-        {
-          "id": "b",
-          "text": "قبة الصخرة"
-        },
-        {
-          "id": "c",
-          "text": "بيت المقدس"
-        },
-        {
-          "id": "d",
-          "text": "الكعبة"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "الكعبة أول بيتٍ وُضع للناس، نطوف حولها في الحج والعمرة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "القرآن — سورة آل عمران"
-        }
-      ],
-      "tags": [
-        "كعبة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-5-2-1",
-      "categoryId": "hajj",
-      "ageBand": "kids",
-      "tier": 2,
-      "text": "ماذا نسمِّي الدوران حول الكعبة سبع مرات؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الطواف"
-        },
-        {
-          "id": "b",
-          "text": "السعي"
-        },
-        {
-          "id": "c",
-          "text": "الوقوف"
-        },
-        {
-          "id": "d",
-          "text": "الرمي"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "الطواف هو الدوران حول الكعبة سبعة أشواط.",
-      "references": [
-        {
-          "type": "book",
-          "title": "فقه الحج"
-        }
-      ],
-      "tags": [
-        "طواف"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-5-2-2",
-      "categoryId": "hajj",
-      "ageBand": "kids",
-      "tier": 2,
-      "text": "ما اسم اللباس الأبيض البسيط الذي يلبسه الحاج؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "العمامة"
-        },
-        {
-          "id": "b",
-          "text": "الإحرام"
-        },
-        {
-          "id": "c",
-          "text": "الجبة"
-        },
-        {
-          "id": "d",
-          "text": "القميص المزخرف"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "الإحرام لباسٌ أبيض بسيط يذكِّر بالمساواة بين الناس.",
-      "references": [
-        {
-          "type": "book",
-          "title": "فقه الحج"
-        }
-      ],
-      "tags": [
-        "إحرام"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-5-3-1",
-      "categoryId": "hajj",
-      "ageBand": "kids",
-      "tier": 3,
-      "text": "ماذا نسمِّي المشي بين الصفا والمروة سبع مرات؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الطواف"
-        },
-        {
-          "id": "b",
-          "text": "الرمي"
-        },
-        {
-          "id": "c",
-          "text": "السعي"
-        },
-        {
-          "id": "d",
-          "text": "التلبية"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "السعي بين الصفا والمروة سبعة أشواط، تذكيراً بسعي أُمِّنا هاجر.",
-      "references": [
-        {
-          "type": "other",
-          "label": "القرآن — سورة البقرة"
-        }
-      ],
-      "tags": [
-        "سعي"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-5-3-2",
-      "categoryId": "hajj",
-      "ageBand": "kids",
-      "tier": 3,
-      "text": "ما التلبية التي يردِّدها الحاج؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الله أكبر فقط"
-        },
-        {
-          "id": "b",
-          "text": "سبحان الله فقط"
-        },
-        {
-          "id": "c",
-          "text": "الحمد لله فقط"
-        },
-        {
-          "id": "d",
-          "text": "لبَّيك اللهم لبَّيك"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "يلبِّي الحاج: «لبَّيك اللهم لبَّيك، لبَّيك لا شريك لك لبَّيك».",
-      "references": [
-        {
-          "type": "other",
-          "label": "حديث ابن عمر — متفق عليه"
-        }
-      ],
-      "tags": [
-        "تلبية"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-5-4-1",
-      "categoryId": "hajj",
-      "ageBand": "kids",
-      "tier": 4,
-      "text": "ما اسم الجبل الذي يقف عنده الحجاج في يوم عرفة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "جبل عرفة"
-        },
-        {
-          "id": "b",
-          "text": "جبل أُحُد"
-        },
-        {
-          "id": "c",
-          "text": "جبل الطور"
-        },
-        {
-          "id": "d",
-          "text": "جبل النور"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "الوقوف بعرفة ركنٌ أعظم في الحج في اليوم التاسع من ذي الحجة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "حديث «الحج عرفة» — سنن الترمذي"
-        }
-      ],
-      "tags": [
-        "عرفة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-5-4-2",
-      "categoryId": "hajj",
-      "ageBand": "kids",
-      "tier": 4,
-      "text": "أي نبيٍّ بنى الكعبة مع ابنه إسماعيل عليهما السلام؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "نوح عليه السلام"
-        },
-        {
-          "id": "b",
-          "text": "إبراهيم عليه السلام"
-        },
-        {
-          "id": "c",
-          "text": "موسى عليه السلام"
-        },
-        {
-          "id": "d",
-          "text": "آدم عليه السلام"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "رفع إبراهيم وإسماعيل عليهما السلام قواعد البيت (الكعبة).",
-      "references": [
-        {
-          "type": "other",
-          "label": "القرآن — سورة البقرة"
-        }
-      ],
-      "tags": [
-        "كعبة",
-        "إبراهيم"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-5-5-1",
-      "categoryId": "hajj",
-      "ageBand": "kids",
-      "tier": 5,
-      "text": "في أي شهرٍ من السنة الهجرية يكون الحج؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "رمضان"
-        },
-        {
-          "id": "b",
-          "text": "محرم"
-        },
-        {
-          "id": "c",
-          "text": "ذو الحجة"
-        },
-        {
-          "id": "d",
-          "text": "رجب"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "الحج يكون في أشهر معلومات وأيامه في ذي الحجة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "القرآن — سورة البقرة"
-        }
-      ],
-      "tags": [
-        "حج",
-        "أشهر"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-5-5-2",
-      "categoryId": "hajj",
-      "ageBand": "kids",
-      "tier": 5,
-      "text": "ما العيد الذي يأتي في وقت الحج ويُذبح فيه الأضاحي؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "عيد الفطر"
-        },
-        {
-          "id": "b",
-          "text": "عيد الجمعة"
-        },
-        {
-          "id": "c",
-          "text": "رأس السنة"
-        },
-        {
-          "id": "d",
-          "text": "عيد الأضحى"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "عيد الأضحى في العاشر من ذي الحجة، يُذبح فيه الهدي والأضاحي.",
-      "references": [
-        {
-          "type": "book",
-          "title": "فقه العيدين"
-        }
-      ],
-      "tags": [
-        "عيد",
-        "أضحى"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-5-1-1",
-      "categoryId": "hajj",
-      "ageBand": "scholar",
-      "tier": 1,
-      "text": "من أين يبدأ الإحرام بالحج أو العمرة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "من الميقات"
-        },
-        {
-          "id": "b",
-          "text": "من عرفة"
-        },
-        {
-          "id": "c",
-          "text": "من مكة"
-        },
-        {
-          "id": "d",
-          "text": "من منى"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "يُحرم القاصد من ميقاته المكاني الذي وقَّته النبي ﷺ.",
-      "references": [
-        {
-          "type": "other",
-          "label": "الصحيحان"
-        }
-      ],
-      "tags": [
-        "إحرام"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-5-1-2",
-      "categoryId": "hajj",
-      "ageBand": "scholar",
-      "tier": 1,
-      "text": "كم عدد أشواط الطواف حول الكعبة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "ثلاثة أشواط"
-        },
-        {
-          "id": "b",
-          "text": "سبعة أشواط"
-        },
-        {
-          "id": "c",
-          "text": "خمسة أشواط"
-        },
-        {
-          "id": "d",
-          "text": "عشرة أشواط"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "الطواف سبعة أشواط يبدأ وينتهي بالحجر الأسود.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح مسلم"
-        }
-      ],
-      "tags": [
-        "طواف"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-5-2-1",
-      "categoryId": "hajj",
-      "ageBand": "scholar",
-      "tier": 2,
-      "text": "ما ركن الحج الأعظم الذي يفوت الحج بفواته؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "طواف القدوم"
-        },
-        {
-          "id": "b",
-          "text": "السعي"
-        },
-        {
-          "id": "c",
-          "text": "الوقوف بعرفة"
-        },
-        {
-          "id": "d",
-          "text": "رمي الجمار"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "«الحج عرفة، من أدرك عرفة فقد أدرك الحج».",
-      "references": [
-        {
-          "type": "other",
-          "label": "سنن الترمذي"
-        }
-      ],
-      "tags": [
-        "أركان"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-5-2-2",
-      "categoryId": "hajj",
-      "ageBand": "scholar",
-      "tier": 2,
-      "text": "ما حكم المبيت بمزدلفة ليلة النحر عند الجمهور؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "ركن يفوت الحج بتركه"
-        },
-        {
-          "id": "b",
-          "text": "سنة مستحبة"
-        },
-        {
-          "id": "c",
-          "text": "مباح"
-        },
-        {
-          "id": "d",
-          "text": "واجب يُجبَر تركُه بدم"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "المبيت بمزدلفة واجبٌ عند الجمهور، من تركه فعليه دم.",
-      "references": [
-        {
-          "type": "book",
-          "title": "فقه الحج"
-        }
-      ],
-      "tags": [
-        "مزدلفة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-5-3-1",
-      "categoryId": "hajj",
-      "ageBand": "scholar",
-      "tier": 3,
-      "text": "بين أي مَعلمين يكون السعي؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الصفا والمروة"
-        },
-        {
-          "id": "b",
-          "text": "عرفات ومنى"
-        },
-        {
-          "id": "c",
-          "text": "أبي قبيس وثور"
-        },
-        {
-          "id": "d",
-          "text": "حراء وثبير"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "«إن الصفا والمروة من شعائر الله».",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 2,
-          "ayah": 158
-        }
-      ],
-      "tags": [
-        "سعي"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-5-3-2",
-      "categoryId": "hajj",
-      "ageBand": "scholar",
-      "tier": 3,
-      "text": "كم يومًا يُرمى فيه الجمار في أيام التشريق لمن تأخَّر؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "يوم واحد"
-        },
-        {
-          "id": "b",
-          "text": "ثلاثة أيام"
-        },
-        {
-          "id": "c",
-          "text": "يومان"
-        },
-        {
-          "id": "d",
-          "text": "أربعة أيام"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "من تعجَّل رمى يومين، ومن تأخَّر رمى الأيام الثلاثة كلها.",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 2,
-          "ayah": 203
-        }
-      ],
-      "tags": [
-        "رمي"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-5-4-1",
+      "id": "hajj-scholar-t4-q69",
       "categoryId": "hajj",
       "ageBand": "scholar",
       "tier": 4,
-      "text": "ما حكم الحلق أو التقصير في الحج عند جمهور الفقهاء؟",
+      "text": "بأي أصل علل النبي ﷺ البدء بالصفا في حديث جابر عند السعي؟",
       "choices": [
         {
           "id": "a",
-          "text": "ركن يفوت الحج بتركه"
+          "text": "البدء بما بدأ الله به في الآية"
         },
         {
           "id": "b",
-          "text": "سنة مستحبة"
+          "text": "لأنه أقرب إلى المدينة"
         },
         {
           "id": "c",
-          "text": "نُسُكٌ واجب"
+          "text": "لأنه أعلى جبل في مكة"
         },
         {
           "id": "d",
-          "text": "مباح"
+          "text": "لأن المروة ليست من الشعائر"
         }
       ],
-      "correctChoiceId": "c",
-      "explanation": "الحلق أو التقصير نسكٌ يتحلل به الحاجّ، وهو واجب يُجبَر بدم عند الجمهور (والشافعية يعدّونه ركنًا لا يُجبَر بدم).",
+      "correctChoiceId": "a",
+      "explanation": "لما دنا من الصفا قرأ آية الصفا والمروة وبدأ بما بدأ الله به.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«إِنَّ الصَّفَا وَالْمَرْوَةَ مِن شَعَائِرِ اللَّهِ»"
+        },
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **البدء بما بدأ الله به في الآية**."
+        }
+      ],
       "references": [
         {
-          "type": "quran",
-          "surah": 48,
-          "ayah": 27
+          "type": "other",
+          "label": "صحيح مسلم 1218a؛ القرآن: البقرة 2:158"
         }
       ],
       "tags": [
-        "تحلل"
+        "category:hajj",
+        "age:scholar",
+        "tier:4",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`؛ رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "ps-5-4-2",
+      "id": "hajj-scholar-t4-q70",
       "categoryId": "hajj",
       "ageBand": "scholar",
       "tier": 4,
-      "text": "من ترك واجبًا من واجبات الحج فماذا يلزمه؟",
+      "text": "ماذا فعل النبي ﷺ بعد الطواف عندما أتى مقام إبراهيم في حديث جابر؟",
       "choices": [
         {
           "id": "a",
-          "text": "إعادة الحج"
+          "text": "صلى ركعتين وجعل المقام بينه وبين البيت"
         },
         {
           "id": "b",
-          "text": "صوم شهرين"
+          "text": "غادر مكة بلا صلاة"
         },
         {
           "id": "c",
-          "text": "لا شيء عليه"
+          "text": "رجم الجمرة"
         },
         {
           "id": "d",
-          "text": "دمٌ يذبحه"
+          "text": "ذبح الهدي فورًا عند المقام"
         }
       ],
-      "correctChoiceId": "d",
-      "explanation": "من ترك واجبًا من واجبات الحج جبره بدم يذبحه في الحرم.",
+      "correctChoiceId": "a",
+      "explanation": "يصف حديث جابر انتقاله بعد الطواف إلى مقام إبراهيم وصلاة ركعتين.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **صلى ركعتين وجعل المقام بينه وبين البيت**."
+        }
+      ],
       "references": [
         {
-          "type": "book",
-          "title": "فقه الحج"
+          "type": "other",
+          "label": "صحيح مسلم 1218a"
         }
       ],
       "tags": [
-        "واجبات"
+        "category:hajj",
+        "age:scholar",
+        "tier:4",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "ps-5-5-1",
+      "id": "hajj-scholar-t5-q71",
       "categoryId": "hajj",
       "ageBand": "scholar",
       "tier": 5,
-      "text": "ما حكم طواف الوداع على غير الحائض والنُّفَساء؟",
+      "text": "في أي يوم من ذي الحجة خرج الصحابة إلى منى وأهلوا بالحج في حديث جابر؟",
       "choices": [
         {
           "id": "a",
-          "text": "واجب"
+          "text": "الثامن"
         },
         {
           "id": "b",
-          "text": "ركن"
+          "text": "الأول"
         },
         {
           "id": "c",
-          "text": "سنة مستحبة"
+          "text": "العاشر"
         },
         {
           "id": "d",
-          "text": "مباح"
+          "text": "الثالث عشر"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "«لا ينفرنّ أحدٌ حتى يكون آخر عهده بالبيت»، والحائض يسقط عنها.",
+      "explanation": "حدد الحديث يوم التروية، الثامن من ذي الحجة، للذهاب إلى منى.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الثامن**."
+        }
+      ],
       "references": [
         {
           "type": "other",
-          "label": "صحيح مسلم"
+          "label": "صحيح مسلم 1218a"
         }
       ],
       "tags": [
-        "وداع"
+        "category:hajj",
+        "age:scholar",
+        "tier:5",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "ps-5-5-2",
+      "id": "hajj-scholar-t5-q72",
       "categoryId": "hajj",
       "ageBand": "scholar",
       "tier": 5,
-      "text": "كم حجة حجَّها النبي ﷺ بعد الهجرة؟",
+      "text": "إلى متى بقي النبي ﷺ واقفًا بعرفة في وصف جابر لحجة الوداع؟",
       "choices": [
         {
           "id": "a",
-          "text": "حجّتان"
+          "text": "حتى غربت الشمس وذهبت الصفرة قليلًا"
         },
         {
           "id": "b",
-          "text": "حجة واحدة"
+          "text": "حتى غرب قرص الشمس دون ذهاب الصفرة"
         },
         {
           "id": "c",
-          "text": "ثلاث حجّات"
+          "text": "حتى انتصف الليل"
         },
         {
           "id": "d",
-          "text": "لم يحجّ بعد الهجرة"
+          "text": "حتى زالت الشمس"
         }
       ],
-      "correctChoiceId": "b",
-      "explanation": "حجّ النبي ﷺ بعد الهجرة حجةً واحدة هي حجة الوداع سنة عشرٍ للهجرة.",
+      "correctChoiceId": "a",
+      "explanation": "يذكر الحديث استمرار الوقوف حتى غروب الشمس.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **حتى غربت الشمس وذهبت الصفرة قليلًا**."
+        }
+      ],
       "references": [
         {
-          "type": "book",
-          "title": "السيرة النبوية"
+          "type": "other",
+          "label": "صحيح مسلم 1218a"
         }
       ],
       "tags": [
-        "سيرة"
+        "category:hajj",
+        "age:scholar",
+        "tier:5",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-scholar-t5-q73",
+      "categoryId": "hajj",
+      "ageBand": "scholar",
+      "tier": 5,
+      "text": "متى دفع النبي ﷺ من المشعر الحرام في صباح يوم النحر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "قبل طلوع الشمس بعد أن أسفر جدًا"
+        },
+        {
+          "id": "b",
+          "text": "بعد الظهر"
+        },
+        {
+          "id": "c",
+          "text": "بعد المغرب"
+        },
+        {
+          "id": "d",
+          "text": "قبل الفجر بوقت طويل"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "يذكر حديث جابر أنه وقف حتى أسفر جدًا ثم دفع قبل طلوع الشمس.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **قبل طلوع الشمس بعد أن أسفر جدًا**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 1218a"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:scholar",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-scholar-t5-q74",
+      "categoryId": "hajj",
+      "ageBand": "scholar",
+      "tier": 5,
+      "text": "ماذا أعلن النبي ﷺ عن ربا الجاهلية في خطبته بعرفة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "أنه موضوع وملغى"
+        },
+        {
+          "id": "b",
+          "text": "أنه واجب"
+        },
+        {
+          "id": "c",
+          "text": "أنه يضاعف"
+        },
+        {
+          "id": "d",
+          "text": "أنه يؤجل سنة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نص حديث جابر على وضع ربا الجاهلية كله في خطبة عرفة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **أنه موضوع وملغى**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 1218a"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:scholar",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "hajj-scholar-t5-q75",
+      "categoryId": "hajj",
+      "ageBand": "scholar",
+      "tier": 5,
+      "text": "بماذا شبّه النبي ﷺ حرمة الدماء والأموال في خطبته بعرفة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "بحرمة ذلك اليوم في ذلك الشهر في ذلك البلد"
+        },
+        {
+          "id": "b",
+          "text": "بحرمة المسجد الحرام"
+        },
+        {
+          "id": "c",
+          "text": "بحرمة الأشهر الحرم عامة"
+        },
+        {
+          "id": "d",
+          "text": "بحرمة مال المسلم دون دمه"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "أكدت خطبة عرفة حرمة الدماء والأموال بهذا التشبيه البالغ.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **بحرمة ذلك اليوم في ذلك الشهر في ذلك البلد**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 1218a"
+        }
+      ],
+      "tags": [
+        "category:hajj",
+        "age:scholar",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     }
   ]
 }

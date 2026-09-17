@@ -2,1100 +2,11 @@
   "categoryId": "zakah",
   "questions": [
     {
-      "id": "pg-3-1-2",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 1,
-      "text": "متى تُخرَج زكاة الفطر؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "في أول العام"
-        },
-        {
-          "id": "b",
-          "text": "في الحج"
-        },
-        {
-          "id": "c",
-          "text": "في شعبان"
-        },
-        {
-          "id": "d",
-          "text": "في رمضان قبل صلاة العيد"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "تُخرج زكاة الفطر قبل صلاة عيد الفطر.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح البخاري"
-        }
-      ],
-      "tags": [
-        "فطر"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-1-3",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 1,
-      "text": "من أحقّ الناس بالزكاة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الفقراء والمساكين"
-        },
-        {
-          "id": "b",
-          "text": "الأغنياء"
-        },
-        {
-          "id": "c",
-          "text": "التجار"
-        },
-        {
-          "id": "d",
-          "text": "الملوك"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "الفقراء والمساكين أول أصناف مستحقي الزكاة.",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 9,
-          "ayah": 60
-        }
-      ],
-      "tags": [
-        "زكاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-1-4",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 1,
-      "text": "ما حكم الزكاة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "سنة مؤكَّدة"
-        },
-        {
-          "id": "b",
-          "text": "واجبة"
-        },
-        {
-          "id": "c",
-          "text": "مستحبة"
-        },
-        {
-          "id": "d",
-          "text": "مباحة"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "الزكاة فرض وركن من أركان الإسلام.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "زكاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-1-5",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 1,
-      "text": "ما اسم العطاء التطوّعي غير الواجب؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الزكاة"
-        },
-        {
-          "id": "b",
-          "text": "الجزية"
-        },
-        {
-          "id": "c",
-          "text": "الصدقة"
-        },
-        {
-          "id": "d",
-          "text": "الخراج"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "الصدقة عطاء تطوعي، بخلاف الزكاة المفروضة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "صدقة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-2-1",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "ما نسبة زكاة النقود (المال)؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "العشر (10%)"
-        },
-        {
-          "id": "b",
-          "text": "ربع العشر (2.5%)"
-        },
-        {
-          "id": "c",
-          "text": "الخُمس (20%)"
-        },
-        {
-          "id": "d",
-          "text": "نصف العشر (5%)"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "زكاة النقود وعروض التجارة ربع العشر بعد بلوغ النصاب وحولان الحول.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "زكاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-2-2",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "ما الحول في زكاة المال؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "مرور شهر"
-        },
-        {
-          "id": "b",
-          "text": "بلوغ رمضان"
-        },
-        {
-          "id": "c",
-          "text": "مرور سنة قمرية"
-        },
-        {
-          "id": "d",
-          "text": "نهاية العام الميلادي"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "يُشترط لزكاة النقود مرور سنة قمرية (حَول) على بلوغ المال النصاب.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "زكاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-2-4",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "من هم «ابن السبيل» في مصارف الزكاة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الأيتام"
-        },
-        {
-          "id": "b",
-          "text": "طلاب العلم"
-        },
-        {
-          "id": "c",
-          "text": "الجيران"
-        },
-        {
-          "id": "d",
-          "text": "المسافر المنقطع"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "ابن السبيل المسافر الذي انقطعت به النفقة ولو كان غنيًّا في بلده.",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 9,
-          "ayah": 60
-        }
-      ],
-      "tags": [
-        "زكاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-2-5",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "من هم «الغارمون»؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "من عليهم دَين يعجزون عن سداده"
-        },
-        {
-          "id": "b",
-          "text": "الفقراء الذين لا مال لهم"
-        },
-        {
-          "id": "c",
-          "text": "المسافرون المنقطعون عن بلدهم"
-        },
-        {
-          "id": "d",
-          "text": "من يُتألَّفون على الإسلام"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "الغارمون صنف من مصارف الزكاة الثمانية، وهم من ثقلت ديونهم وعجزوا عن وفائها.",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 9,
-          "ayah": 60
-        }
-      ],
-      "tags": [
-        "زكاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-2-6",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "«وفي الرقاب» من مصارف الزكاة، وتعني؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "بناء المساجد"
-        },
-        {
-          "id": "b",
-          "text": "عتق الأرقاء"
-        },
-        {
-          "id": "c",
-          "text": "شقّ الطرق"
-        },
-        {
-          "id": "d",
-          "text": "كفالة اليتيم"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "من مصارف الزكاة «وفي الرقاب» أي إعانة المكاتَبين وعتق الأرقاء وفكّ الأسرى.",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 9,
-          "ayah": 60
-        }
-      ],
-      "tags": [
-        "زكاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-3-1",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "نصاب الذهب الذي تجب فيه الزكاة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "عشرة مثاقيل"
-        },
-        {
-          "id": "b",
-          "text": "عشرون مثقالًا"
-        },
-        {
-          "id": "c",
-          "text": "أربعون مثقالًا"
-        },
-        {
-          "id": "d",
-          "text": "مئة مثقال"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "نصاب الذهب عشرون مثقالًا، أي ما يقارب 85 غرامًا.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "زكاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-3-3",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "متى تُخرَج زكاة الزروع والثمار؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "بعد سنة"
-        },
-        {
-          "id": "b",
-          "text": "في رمضان"
-        },
-        {
-          "id": "c",
-          "text": "يوم الحصاد"
-        },
-        {
-          "id": "d",
-          "text": "عند البيع"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "قال تعالى: «وآتوا حقه يوم حصاده».",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 6,
-          "ayah": 141
-        }
-      ],
-      "tags": [
-        "زكاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-3-4",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "نسبة زكاة الزرع الذي سُقي بلا كلفة (بماء المطر)؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "نصف العشر (5%)"
-        },
-        {
-          "id": "b",
-          "text": "ربع العشر (2.5%)"
-        },
-        {
-          "id": "c",
-          "text": "الخُمس (20%)"
-        },
-        {
-          "id": "d",
-          "text": "العشر (10%)"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "ما سُقي بلا مؤونة ففيه العشر.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح البخاري"
-        }
-      ],
-      "tags": [
-        "زكاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-3-5",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "نسبة زكاة الزرع الذي سُقي بكلفة ومؤونة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "نصف العشر (5%)"
-        },
-        {
-          "id": "b",
-          "text": "العشر (10%)"
-        },
-        {
-          "id": "c",
-          "text": "ربع العشر (2.5%)"
-        },
-        {
-          "id": "d",
-          "text": "الخُمس (20%)"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "ما سُقي بمؤونة (كالآبار والنواضح) ففيه نصف العشر.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح البخاري"
-        }
-      ],
-      "tags": [
-        "زكاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-3-6",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "من هم «العاملون عليها» في مصارف الزكاة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الفقراء"
-        },
-        {
-          "id": "b",
-          "text": "جُباة الزكاة"
-        },
-        {
-          "id": "c",
-          "text": "المؤلفة قلوبهم"
-        },
-        {
-          "id": "d",
-          "text": "المجاهدون"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "العاملون عليها هم جُباة الزكاة الذين يوليهم الإمام جمعها وتوزيعها.",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 9,
-          "ayah": 60
-        }
-      ],
-      "tags": [
-        "زكاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-4-2",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "من كم تبدأ زكاة الغنم (أول نصاب)؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "ثلاثون"
-        },
-        {
-          "id": "b",
-          "text": "أربعون شاة"
-        },
-        {
-          "id": "c",
-          "text": "عشرون"
-        },
-        {
-          "id": "d",
-          "text": "مئة"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "أول نصاب الغنم أربعون، وفيها شاة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح البخاري"
-        }
-      ],
-      "tags": [
-        "زكاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-4-3",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "«المؤلَّفة قلوبهم» من مصارف الزكاة، وهم؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "كبار السن"
-        },
-        {
-          "id": "b",
-          "text": "الأغنياء"
-        },
-        {
-          "id": "c",
-          "text": "من يُراد تأليف قلوبهم"
-        },
-        {
-          "id": "d",
-          "text": "أهل العلم"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "المؤلَّفة قلوبهم صنف يُعطَون تأليفًا لقلوبهم على الإسلام أو لدفع شرهم.",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 9,
-          "ayah": 60
-        }
-      ],
-      "tags": [
-        "زكاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-4-4",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "ما مقدار الواجب في الرِّكاز (الكنز المدفون الجاهلي)؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "العشر"
-        },
-        {
-          "id": "b",
-          "text": "ربع العشر"
-        },
-        {
-          "id": "c",
-          "text": "نصف العشر"
-        },
-        {
-          "id": "d",
-          "text": "الخُمس"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "«وفي الرِّكاز الخُمس».",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح البخاري"
-        }
-      ],
-      "tags": [
-        "زكاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-4-5",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "بم تُزكّى عروض التجارة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "تُخرَج بربع العشر"
-        },
-        {
-          "id": "b",
-          "text": "لا زكاة فيها"
-        },
-        {
-          "id": "c",
-          "text": "تُخرَج بالعشر"
-        },
-        {
-          "id": "d",
-          "text": "تُخرَج بالخُمس"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "عروض التجارة تُقوَّم عند تمام الحول ويُخرَج ربع عشر قيمتها كالنقدين.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "زكاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-4-6",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "من كم تبدأ زكاة البقر (أول نصاب)؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "عشرون"
-        },
-        {
-          "id": "b",
-          "text": "ثلاثون بقرة"
-        },
-        {
-          "id": "c",
-          "text": "أربعون"
-        },
-        {
-          "id": "d",
-          "text": "خمس"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "أول نصاب البقر ثلاثون، وفيها تبيع أو تبيعة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "سنن الترمذي"
-        }
-      ],
-      "tags": [
-        "زكاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-5-1",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "من قاتل مانعي الزكاة بعد وفاة النبي ﷺ؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "عمر بن الخطاب رضي الله عنه"
-        },
-        {
-          "id": "b",
-          "text": "خالد بن الوليد رضي الله عنه"
-        },
-        {
-          "id": "c",
-          "text": "أبو بكر الصديق رضي الله عنه"
-        },
-        {
-          "id": "d",
-          "text": "علي بن أبي طالب رضي الله عنه"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "أبو بكر الصديق عزم على قتال من فرَّق بين الصلاة والزكاة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح البخاري"
-        }
-      ],
-      "tags": [
-        "تاريخ"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-5-2",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 5,
-      "text": "في أي سورة وردت آية مصارف الزكاة الثمانية؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "سورة البقرة"
-        },
-        {
-          "id": "b",
-          "text": "سورة النور"
-        },
-        {
-          "id": "c",
-          "text": "سورة التوبة"
-        },
-        {
-          "id": "d",
-          "text": "سورة المائدة"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "آية «إنما الصدقات للفقراء والمساكين…» في سورة التوبة.",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 9,
-          "ayah": 60
-        }
-      ],
-      "tags": [
-        "زكاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-5-3",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 5,
-      "text": "في أي سنة هجرية فُرضت زكاة الفطر؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الأولى"
-        },
-        {
-          "id": "b",
-          "text": "الخامسة"
-        },
-        {
-          "id": "c",
-          "text": "العاشرة"
-        },
-        {
-          "id": "d",
-          "text": "الثانية للهجرة"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "فُرضت زكاة الفطر في السنة الثانية للهجرة عام فرض صيام رمضان.",
-      "references": [
-        {
-          "type": "other",
-          "label": "السيرة والتاريخ"
-        }
-      ],
-      "tags": [
-        "فطر"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-5-4",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "هل تُدفَع الزكاة للوالدين والأولاد؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "نعم مطلقًا"
-        },
-        {
-          "id": "b",
-          "text": "للأب فقط"
-        },
-        {
-          "id": "c",
-          "text": "للأبناء فقط"
-        },
-        {
-          "id": "d",
-          "text": "لا؛ نفقتهم واجبة أصلًا"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "لا تُدفع الزكاة للأصول والفروع لأن نفقتهم تلزم المزكّي.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "زكاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-5-5",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "ما الحكمة الكبرى من الزكاة كما في القرآن؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "زيادة الثروة"
-        },
-        {
-          "id": "b",
-          "text": "إظهار الغنى"
-        },
-        {
-          "id": "c",
-          "text": "تطهير المال والنفس"
-        },
-        {
-          "id": "d",
-          "text": "دفع الضرائب"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "«خذ من أموالهم صدقة تطهّرهم وتزكّيهم بها».",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 9,
-          "ayah": 103
-        }
-      ],
-      "tags": [
-        "زكاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pg-3-5-6",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "الفرق الجوهري بين الزكاة والصدقة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "لا فرق بينهما"
-        },
-        {
-          "id": "b",
-          "text": "الزكاة تطوع"
-        },
-        {
-          "id": "c",
-          "text": "الزكاة فرض، والصدقة تطوع"
-        },
-        {
-          "id": "d",
-          "text": "الصدقة فرض"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "الزكاة واجبة بنصاب ومقدار محدد، والصدقة تطوّع مفتوح.",
-      "references": [
-        {
-          "type": "other",
-          "label": "عام"
-        }
-      ],
-      "tags": [
-        "زكاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-3-1-1",
+      "id": "zakah-kids-t1-q01",
       "categoryId": "zakah",
       "ageBand": "kids",
       "tier": 1,
-      "text": "ماذا نسمِّي إعطاء المال للفقراء تقرُّباً إلى الله؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "البيع"
-        },
-        {
-          "id": "b",
-          "text": "الهدية للغني"
-        },
-        {
-          "id": "c",
-          "text": "الصدقة"
-        },
-        {
-          "id": "d",
-          "text": "اللعب"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "الصدقة عطاءٌ للمحتاجين ابتغاء رضا الله.",
-      "references": [
-        {
-          "type": "other",
-          "label": "القرآن — سورة البقرة"
-        }
-      ],
-      "tags": [
-        "صدقة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-3-1-2",
-      "categoryId": "zakah",
-      "ageBand": "kids",
-      "tier": 1,
-      "text": "الزكاة نعطيها لمن؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الأغنياء"
-        },
-        {
-          "id": "b",
-          "text": "التجار فقط"
-        },
-        {
-          "id": "c",
-          "text": "أنفسنا"
-        },
-        {
-          "id": "d",
-          "text": "الفقراء والمحتاجين"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "الزكاة حقٌّ للفقراء والمحتاجين وأصناف ذكرها الله.",
-      "references": [
-        {
-          "type": "other",
-          "label": "القرآن — سورة التوبة"
-        }
-      ],
-      "tags": [
-        "زكاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-3-2-1",
-      "categoryId": "zakah",
-      "ageBand": "kids",
-      "tier": 2,
-      "text": "الزكاة هي الركن الذي يأتي بعد أي ركن من أركان الإسلام؟",
+      "text": "أيُّ ركنٍ من أركان الإسلام يتعلّق بإخراج حقٍّ واجب من المال؟",
       "choices": [
         {
           "id": "a",
@@ -1103,80 +14,101 @@
         },
         {
           "id": "b",
+          "text": "الزكاة"
+        },
+        {
+          "id": "c",
           "text": "الصوم"
         },
         {
-          "id": "c",
+          "id": "d",
           "text": "الحج"
-        },
-        {
-          "id": "d",
-          "text": "الشهادة مباشرة"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "كثيراً ما تُذكر الزكاة بعد الصلاة في القرآن: «وأقيموا الصلاة وآتوا الزكاة».",
-      "references": [
-        {
-          "type": "other",
-          "label": "القرآن — سورة البقرة"
-        }
-      ],
-      "tags": [
-        "زكاة",
-        "أركان"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-3-2-2",
-      "categoryId": "zakah",
-      "ageBand": "kids",
-      "tier": 2,
-      "text": "هل تُنقِص الصدقةُ مالَ صاحبها عند الله؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "نعم تُفنيه"
-        },
-        {
-          "id": "b",
-          "text": "لا، يُبارك الله فيه"
-        },
-        {
-          "id": "c",
-          "text": "لا فائدة منها"
-        },
-        {
-          "id": "d",
-          "text": "تجلب الفقر"
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "قال ﷺ: «ما نقصت صدقةٌ من مال»، بل يبارك الله فيه.",
+      "explanation": "الزكاة ركن من أركان الإسلام الخمسة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الزكاة**."
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "حديث أبي هريرة — صحيح مسلم"
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "8"
         }
       ],
       "tags": [
-        "صدقة"
+        "category:zakah",
+        "age:kids",
+        "tier:1",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "pk-3-3-1",
+      "id": "zakah-kids-t1-q02",
       "categoryId": "zakah",
       "ageBand": "kids",
-      "tier": 3,
-      "text": "صدقةٌ خاصة نخرجها في آخر رمضان قبل صلاة العيد، ما اسمها؟",
+      "tier": 1,
+      "text": "أيُّ عبادةٍ مالية قرنها الله بإقامة الصلاة في سورة البقرة 2:43؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الزكاة"
+        },
+        {
+          "id": "b",
+          "text": "الحج"
+        },
+        {
+          "id": "c",
+          "text": "الصوم"
+        },
+        {
+          "id": "d",
+          "text": "الاعتكاف"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "جاء الأمر بإقامة الصلاة وإيتاء الزكاة في الآية.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 43
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:kids",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "zakah-kids-t1-q03",
+      "categoryId": "zakah",
+      "ageBand": "kids",
+      "tier": 1,
+      "text": "ما اسم الصدقة الواجبة المرتبطة بانتهاء رمضان؟",
       "choices": [
         {
           "id": "a",
@@ -1184,244 +116,207 @@
         },
         {
           "id": "b",
-          "text": "الهدية"
-        },
-        {
-          "id": "c",
           "text": "زكاة الفطر"
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "الكفارة"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "زكاة الفطر يخرجها المسلم في آخر رمضان طُهرةً للصائم وطعمةً للمساكين.",
-      "references": [
-        {
-          "type": "other",
-          "label": "حديث ابن عمر — متفق عليه"
-        }
-      ],
-      "tags": [
-        "زكاة الفطر"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-3-3-2",
-      "categoryId": "zakah",
-      "ageBand": "kids",
-      "tier": 3,
-      "text": "حتى الابتسامة في وجه أخيك تُعدُّ ماذا؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "إثماً"
-        },
-        {
-          "id": "b",
-          "text": "لعباً"
-        },
-        {
-          "id": "c",
-          "text": "لا شيء"
         },
         {
           "id": "d",
-          "text": "صدقة"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "قال ﷺ: «تبسُّمك في وجه أخيك صدقة».",
-      "references": [
-        {
-          "type": "other",
-          "label": "حديث أبي ذر — سنن الترمذي"
-        }
-      ],
-      "tags": [
-        "صدقة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-3-4-1",
-      "categoryId": "zakah",
-      "ageBand": "kids",
-      "tier": 4,
-      "text": "من الأشخاص الذين تُعطى لهم الزكاة كما ذكر القرآن؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الفقراء والمساكين"
-        },
-        {
-          "id": "b",
-          "text": "الملوك"
-        },
-        {
-          "id": "c",
-          "text": "التجار الأغنياء"
-        },
-        {
-          "id": "d",
-          "text": "اللاعبون"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "ذكر الله مصارف الزكاة ومنها الفقراء والمساكين.",
-      "references": [
-        {
-          "type": "other",
-          "label": "القرآن — سورة التوبة"
-        }
-      ],
-      "tags": [
-        "زكاة",
-        "مصارف"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-3-4-2",
-      "categoryId": "zakah",
-      "ageBand": "kids",
-      "tier": 4,
-      "text": "ما الذي يطهِّر الله به قلوبنا ومالنا حين نخرجه للمحتاجين؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "اللعب"
-        },
-        {
-          "id": "b",
-          "text": "الزكاة والصدقة"
-        },
-        {
-          "id": "c",
-          "text": "النوم"
-        },
-        {
-          "id": "d",
-          "text": "الكلام"
+          "text": "الفدية"
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "قال الله: «خذ من أموالهم صدقةً تطهِّرهم وتزكِّيهم بها».",
+      "explanation": "زكاة الفطر صدقة واجبة مرتبطة بخاتمة رمضان.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **زكاة الفطر**."
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "القرآن — سورة التوبة"
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1504"
         }
       ],
       "tags": [
-        "زكاة"
+        "category:zakah",
+        "age:kids",
+        "tier:1",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "pk-3-5-1",
+      "id": "zakah-kids-t1-q04",
       "categoryId": "zakah",
       "ageBand": "kids",
-      "tier": 5,
-      "text": "كم مقدار زكاة الفطر تقريباً عن كل شخص من الطعام؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "دينار من ذهب"
-        },
-        {
-          "id": "b",
-          "text": "نصف الطعام"
-        },
-        {
-          "id": "c",
-          "text": "صاعٌ من طعام"
-        },
-        {
-          "id": "d",
-          "text": "لا شيء"
-        }
-      ],
-      "correctChoiceId": "c",
-      "explanation": "زكاة الفطر صاعٌ من طعام البلد عن كل فرد.",
-      "references": [
-        {
-          "type": "other",
-          "label": "حديث ابن عمر — متفق عليه"
-        }
-      ],
-      "tags": [
-        "زكاة الفطر"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "pk-3-5-2",
-      "categoryId": "zakah",
-      "ageBand": "kids",
-      "tier": 5,
-      "text": "الزكاة فرضٌ على من ملك مالاً بلغ حدّاً معيّناً يسمى؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الراتب"
-        },
-        {
-          "id": "b",
-          "text": "المصروف"
-        },
-        {
-          "id": "c",
-          "text": "الهدية"
-        },
-        {
-          "id": "d",
-          "text": "النِّصاب"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "النِّصاب هو الحد الذي إذا بلغه المال وجبت فيه الزكاة.",
-      "references": [
-        {
-          "type": "book",
-          "title": "فقه الزكاة"
-        }
-      ],
-      "tags": [
-        "نصاب"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-3-1-1",
-      "categoryId": "zakah",
-      "ageBand": "scholar",
       "tier": 1,
-      "text": "ما مقدار زكاة الفطر عن كل نفس؟",
+      "text": "أيُّ هؤلاء ذكره الله صراحةً ضمن مصارف الزكاة؟",
       "choices": [
         {
           "id": "a",
-          "text": "صاع من طعام"
+          "text": "الأغنياء"
+        },
+        {
+          "id": "b",
+          "text": "الفقراء"
+        },
+        {
+          "id": "c",
+          "text": "التجار جميعًا"
+        },
+        {
+          "id": "d",
+          "text": "أصحاب المزارع جميعًا"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "الفقراء من الأصناف المذكورة في آية مصارف الزكاة.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«إِنَّمَا الصَّدَقَاتُ لِلْفُقَرَاءِ وَالْمَسَاكِينِ وَالْعَامِلِينَ عَلَيْهَا ... فَرِيضَةً مِّنَ اللَّهِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 9,
+          "ayah": 60
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:kids",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "zakah-kids-t1-q05",
+      "categoryId": "zakah",
+      "ageBand": "kids",
+      "tier": 1,
+      "text": "أي عبارة ثبتت عن النبي ﷺ وتبيّن أن الصدقة لا تقتصر على المال؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "كل معروف صدقة"
+        },
+        {
+          "id": "b",
+          "text": "لا صدقة إلا بالذهب"
+        },
+        {
+          "id": "c",
+          "text": "الصدقة تكون في رمضان فقط"
+        },
+        {
+          "id": "d",
+          "text": "لا صدقة إلا على المسافر"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ثبت عنه ﷺ: «كل معروف صدقة».",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **كل معروف صدقة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "6021"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:kids",
+        "tier:1",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-kids-t2-q06",
+      "categoryId": "zakah",
+      "ageBand": "kids",
+      "tier": 2,
+      "text": "متى أمر النبي ﷺ أن تُؤدّى زكاة الفطر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "بعد صلاة العيد بأسبوع"
+        },
+        {
+          "id": "b",
+          "text": "قبل خروج الناس إلى صلاة العيد"
+        },
+        {
+          "id": "c",
+          "text": "في منتصف شوال"
+        },
+        {
+          "id": "d",
+          "text": "عند دخول شهر شعبان"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "أمر النبي ﷺ بأدائها قبل خروج الناس إلى صلاة العيد.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **قبل خروج الناس إلى صلاة العيد**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1509"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:kids",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-kids-t2-q07",
+      "categoryId": "zakah",
+      "ageBand": "kids",
+      "tier": 2,
+      "text": "ما المقدار الذي ثبت في زكاة الفطر من التمر أو الشعير عن الشخص؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "مُدّ واحد"
         },
         {
           "id": "b",
@@ -1429,159 +324,1767 @@
         },
         {
           "id": "c",
+          "text": "صاع واحد"
+        },
+        {
+          "id": "d",
           "text": "صاعان"
-        },
-        {
-          "id": "d",
-          "text": "مُدٌّ واحد"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "صاع من غالب قوت البلد يُخرَج قبل صلاة العيد.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح البخاري"
-        }
-      ],
-      "tags": [
-        "فطر"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-3-1-2",
-      "categoryId": "zakah",
-      "ageBand": "scholar",
-      "tier": 1,
-      "text": "متى تجب زكاة المال؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "عند حلول كل حصاد"
-        },
-        {
-          "id": "b",
-          "text": "إذا بلغ النصاب وحال عليه الحول"
-        },
-        {
-          "id": "c",
-          "text": "في مطلع كل شهر هجري"
-        },
-        {
-          "id": "d",
-          "text": "فور امتلاك المال مهما قلّ"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "تجب الزكاة ببلوغ المال النصاب وتمام الحول عليه.",
-      "references": [
-        {
-          "type": "other",
-          "label": "سنن أبي داود"
-        }
-      ],
-      "tags": [
-        "زكاة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-3-2-1",
-      "categoryId": "zakah",
-      "ageBand": "scholar",
-      "tier": 2,
-      "text": "مقدار زكاة الزروع المسقيّة بماء المطر بلا كلفة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "نصف العُشر"
-        },
-        {
-          "id": "b",
-          "text": "ربع العُشر"
-        },
-        {
-          "id": "c",
-          "text": "العُشر"
-        },
-        {
-          "id": "d",
-          "text": "الخُمس"
         }
       ],
       "correctChoiceId": "c",
-      "explanation": "«فيما سقت السماء العُشر».",
+      "explanation": "ثبت فرض صاع من تمر أو صاع من شعير.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **صاع واحد**."
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "صحيح البخاري"
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1504"
+        },
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1507"
         }
       ],
       "tags": [
-        "زروع"
+        "category:zakah",
+        "age:kids",
+        "tier:2",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "ps-3-2-2",
+      "id": "zakah-kids-t2-q08",
       "categoryId": "zakah",
-      "ageBand": "scholar",
+      "ageBand": "kids",
       "tier": 2,
-      "text": "مقدار زكاة ما سُقي بكلفةٍ كالنَّضح والآلة؟",
+      "text": "أيُّ زوجٍ من الأطعمة ورد في حديث زكاة الفطر؟",
       "choices": [
         {
           "id": "a",
-          "text": "العُشر"
+          "text": "التمر والشعير"
         },
         {
           "id": "b",
-          "text": "ربع العُشر"
+          "text": "اللحم والعسل"
         },
         {
           "id": "c",
-          "text": "الخُمس"
+          "text": "السمك والزيت"
         },
         {
           "id": "d",
-          "text": "نصف العُشر"
+          "text": "الرمان والعنب فقط"
         }
       ],
-      "correctChoiceId": "d",
-      "explanation": "«وفيما سُقي بالنَّضح نصف العُشر».",
+      "correctChoiceId": "a",
+      "explanation": "ورد النص على صاع من تمر أو صاع من شعير.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **التمر والشعير**."
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "صحيح البخاري"
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1504"
         }
       ],
       "tags": [
-        "زروع"
+        "category:zakah",
+        "age:kids",
+        "tier:2",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "ps-3-3-1",
+      "id": "zakah-kids-t2-q09",
       "categoryId": "zakah",
-      "ageBand": "scholar",
-      "tier": 3,
-      "text": "ما نصاب الغنم الذي تجب فيه الزكاة؟",
+      "ageBand": "kids",
+      "tier": 2,
+      "text": "ماذا قال النبي ﷺ عن أثر الصدقة في المال؟",
       "choices": [
         {
           "id": "a",
-          "text": "أربعون شاة"
+          "text": "تنقص المال دائمًا"
+        },
+        {
+          "id": "b",
+          "text": "لا تنقص المال"
+        },
+        {
+          "id": "c",
+          "text": "تمنع الرزق"
+        },
+        {
+          "id": "d",
+          "text": "لا علاقة لها بالمال"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "ثبت عنه ﷺ أن الصدقة لا تنقص المال.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **لا تنقص المال**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-muslim",
+          "number": "2588"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:kids",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-kids-t2-q10",
+      "categoryId": "zakah",
+      "ageBand": "kids",
+      "tier": 2,
+      "text": "بحسب الحديث، ما الميزة في الصدقة على قريبٍ محتاج؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "لها أجر الصدقة فقط"
+        },
+        {
+          "id": "b",
+          "text": "لها أجر الصلة فقط"
+        },
+        {
+          "id": "c",
+          "text": "لها أجر الصدقة وصلة الرحم"
+        },
+        {
+          "id": "d",
+          "text": "لا يجوز إعطاؤه شيئًا"
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "الصدقة على ذي الرحم تجمع الصدقة وصلة الرحم.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«الصَّدَقَةُ عَلَى الْمِسْكِينِ صَدَقَةٌ، وَعَلَى ذِي الرَّحِمِ اثْنَتَانِ: صَدَقَةٌ وَصِلَةٌ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sunan-an-nasa'i",
+          "number": "2582"
+        },
+        {
+          "type": "other",
+          "label": "جامع الترمذي 658 — حسن"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:kids",
+        "tier:2",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "تخريج الحديث وحكمه روجعا في الدرر السنية؛ وأُبقيت فقط الطرق المقبولة"
+    },
+    {
+      "id": "zakah-kids-t3-q11",
+      "categoryId": "zakah",
+      "ageBand": "kids",
+      "tier": 3,
+      "text": "في مثل الإنفاق في سورة البقرة 2:261، إذا أنبتت الحبة سبع سنابل وفي كل سنبلة مئة حبة، فكم حبة تكون؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "سبعون"
+        },
+        {
+          "id": "b",
+          "text": "سبعمئة"
+        },
+        {
+          "id": "c",
+          "text": "ألف"
+        },
+        {
+          "id": "d",
+          "text": "مئة"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "سبع سنابل × مئة حبة = سبعمئة، ثم تذكر الآية أن الله يضاعف لمن يشاء.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«كَمَثَلِ حَبَّةٍ أَنبَتَتْ سَبْعَ سَنَابِلَ فِي كُلِّ سُنبُلَةٍ مِّائَةُ حَبَّةٍ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 261
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:kids",
+        "tier:3",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "zakah-kids-t3-q12",
+      "categoryId": "zakah",
+      "ageBand": "kids",
+      "tier": 3,
+      "text": "من أي نوعٍ من الكسب ينبغي أن تكون الصدقة المقبولة كما في الحديث؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "من الكسب الطيب"
+        },
+        {
+          "id": "b",
+          "text": "من المال المجهول فقط"
+        },
+        {
+          "id": "c",
+          "text": "من المال المحرم"
+        },
+        {
+          "id": "d",
+          "text": "من الدين الذي لا يملكه صاحبه"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الحديث ينص على الصدقة من الكسب الطيب، وأن الله لا يقبل إلا الطيب.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **من الكسب الطيب**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1410"
+        },
+        {
+          "type": "other",
+          "label": "صحيح مسلم 1014a"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:kids",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-kids-t3-q13",
+      "categoryId": "zakah",
+      "ageBand": "kids",
+      "tier": 3,
+      "text": "ما التوجيه الذي قاله النبي ﷺ لأسماء رضي الله عنها بشأن الإنفاق؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "احبسي المال كله"
+        },
+        {
+          "id": "b",
+          "text": "أنفقي ولا تحصي فيحصي الله عليك"
+        },
+        {
+          "id": "c",
+          "text": "لا تنفقي إلا مرة في العام"
+        },
+        {
+          "id": "d",
+          "text": "لا تتصدقي من المال أبدًا"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "وجّهها ﷺ إلى الإنفاق وعدم الإمساك والعدّ على وجه البخل.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **أنفقي ولا تحصي فيحصي الله عليك**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1433"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:kids",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-kids-t3-q14",
+      "categoryId": "zakah",
+      "ageBand": "kids",
+      "tier": 3,
+      "text": "ماذا يدعو أحد الملكين كل صباح للمنفق؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "أن يُعطى خلفًا"
+        },
+        {
+          "id": "b",
+          "text": "أن يُمنع الرزق"
+        },
+        {
+          "id": "c",
+          "text": "أن ينسى ماله"
+        },
+        {
+          "id": "d",
+          "text": "أن لا يتصدق مرة أخرى"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "في الحديث: أحد الملكين يدعو للمنفق بالخَلَف.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **أن يُعطى خلفًا**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1442"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:kids",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-kids-t3-q15",
+      "categoryId": "zakah",
+      "ageBand": "kids",
+      "tier": 3,
+      "text": "ما المقصود باليد العليا في حديث «اليد العليا خير من اليد السفلى»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "يد الآخذ"
+        },
+        {
+          "id": "b",
+          "text": "يد المنفق"
+        },
+        {
+          "id": "c",
+          "text": "يد الكاتب"
+        },
+        {
+          "id": "d",
+          "text": "يد المسافر"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "فسّر الحديث اليد العليا بأنها المنفقة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **يد المنفق**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1429"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:kids",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-kids-t4-q16",
+      "categoryId": "zakah",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "أيُّ نوع من المتصدقين ذُكر ضمن السبعة الذين يظلهم الله يوم القيامة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "من يُظهر صدقته ليمدحه الناس"
+        },
+        {
+          "id": "b",
+          "text": "من يُخفي صدقته حتى لا تعلم شماله ما تنفق يمينه"
+        },
+        {
+          "id": "c",
+          "text": "من يؤخر الصدقة دائمًا"
+        },
+        {
+          "id": "d",
+          "text": "من يمنّ على من أعطاه"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "ذُكر في الحديث من يُخفي صدقته غاية الإخفاء.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **من يُخفي صدقته حتى لا تعلم شماله ما تنفق يمينه**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1423"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:kids",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-kids-t4-q17",
+      "categoryId": "zakah",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "أيُّ أمرين نهى الله عن إتباع الصدقة بهما في سورة البقرة 2:264؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الشكر والدعاء"
+        },
+        {
+          "id": "b",
+          "text": "المنّ والأذى"
+        },
+        {
+          "id": "c",
+          "text": "الفرح والابتسام"
+        },
+        {
+          "id": "d",
+          "text": "التخطيط والادخار"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "نهت الآية عن إبطال الصدقات بالمن والأذى.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«لَا تُبْطِلُوا صَدَقَاتِكُم بِالْمَنِّ وَالْأَذَىٰ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 264
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:kids",
+        "tier:4",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "zakah-kids-t4-q18",
+      "categoryId": "zakah",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "مِن أي شيء أمر الله المؤمنين أن ينفقوا في سورة البقرة 2:267؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "من الخبيث فقط"
+        },
+        {
+          "id": "b",
+          "text": "من طيبات ما كسبوا"
+        },
+        {
+          "id": "c",
+          "text": "من أموال غيرهم"
+        },
+        {
+          "id": "d",
+          "text": "من الأشياء المعيبة عمدًا"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "أمر الله بالإنفاق من الطيبات ونهى عن تعمد الخبيث للإنفاق.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«أَنفِقُوا مِن طَيِّبَاتِ مَا كَسَبْتُمْ ... وَلَا تَيَمَّمُوا الْخَبِيثَ مِنْهُ تُنفِقُونَ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 267
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:kids",
+        "tier:4",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "zakah-kids-t4-q19",
+      "categoryId": "zakah",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "ما الذي ربطه الله بنيل البر في سورة آل عمران 3:92؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الإنفاق مما يحب الإنسان"
+        },
+        {
+          "id": "b",
+          "text": "جمع المال فقط"
+        },
+        {
+          "id": "c",
+          "text": "ترك مساعدة الأقارب"
+        },
+        {
+          "id": "d",
+          "text": "تأخير الصدقة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "تربط الآية نيل البر بالإنفاق مما يحب الإنسان.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«لَن تَنَالُوا الْبِرَّ حَتَّىٰ تُنفِقُوا مِمَّا تُحِبُّونَ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 3,
+          "ayah": 92
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:kids",
+        "tier:4",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "zakah-kids-t4-q20",
+      "categoryId": "zakah",
+      "ageBand": "kids",
+      "tier": 4,
+      "text": "ماذا ذكر الله عن الشيء الذي ينفقه العبد في سورة سبأ 34:39؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "أنه يضيع حتمًا"
+        },
+        {
+          "id": "b",
+          "text": "أن الله يخلفه"
+        },
+        {
+          "id": "c",
+          "text": "أنه لا أجر فيه"
+        },
+        {
+          "id": "d",
+          "text": "أنه لا يقبل إلا في السفر"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "تذكر الآية أن ما يُنفق فإن الله يخلفه.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَمَا أَنفَقْتُم مِّن شَيْءٍ فَهُوَ يُخْلِفُهُ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 34,
+          "ayah": 39
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:kids",
+        "tier:4",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "zakah-kids-t5-q21",
+      "categoryId": "zakah",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "من المقصود بـ«ابن السبيل» في مصارف الزكاة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "المسافر المنقطع في سفره"
+        },
+        {
+          "id": "b",
+          "text": "كل غني"
+        },
+        {
+          "id": "c",
+          "text": "صاحب المتجر"
+        },
+        {
+          "id": "d",
+          "text": "كل جار"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "فسّر المفسرون ابن السبيل بالمسافر المنقطع في سفره.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«إِنَّمَا الصَّدَقَاتُ لِلْفُقَرَاءِ وَالْمَسَاكِينِ وَالْعَامِلِينَ عَلَيْهَا ... فَرِيضَةً مِّنَ اللَّهِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 9,
+          "ayah": 60
+        },
+        {
+          "type": "other",
+          "label": "تفسير ابن كثير — التوبة 9:60"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:kids",
+        "tier:5",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`؛ التفسير طوبق على تفسير ابن كثير عبر `quran.ai`"
+    },
+    {
+      "id": "zakah-kids-t5-q22",
+      "categoryId": "zakah",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "من هم «العاملون عليها» في آية مصارف الزكاة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "العاملون في الزراعة فقط"
+        },
+        {
+          "id": "b",
+          "text": "القائمون على جمع الزكاة وتوزيعها"
+        },
+        {
+          "id": "c",
+          "text": "جميع الموظفين"
+        },
+        {
+          "id": "d",
+          "text": "أصحاب الديون فقط"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "العاملون عليها هم القائمون على أعمال جمع الزكاة وإدارتها.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«إِنَّمَا الصَّدَقَاتُ لِلْفُقَرَاءِ وَالْمَسَاكِينِ وَالْعَامِلِينَ عَلَيْهَا ... فَرِيضَةً مِّنَ اللَّهِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 9,
+          "ayah": 60
+        },
+        {
+          "type": "other",
+          "label": "تفسير الجلالين — التوبة 9:60"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:kids",
+        "tier:5",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "zakah-kids-t5-q23",
+      "categoryId": "zakah",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "من هم «الغارمون» في مصارف الزكاة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "من لزمهم دينٌ معتبر ولا يجدون وفاءه"
+        },
+        {
+          "id": "b",
+          "text": "من انقطع بهم السفر ولا نفقة معهم"
+        },
+        {
+          "id": "c",
+          "text": "من كُلِّفوا بجمع الزكاة وتوزيعها"
+        },
+        {
+          "id": "d",
+          "text": "من يُراد تأليف قلوبهم"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الغارمون من أصناف الزكاة، ويدخل فيهم من لزمهم دين معتبر وعجزوا عن وفائه.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«إِنَّمَا الصَّدَقَاتُ لِلْفُقَرَاءِ وَالْمَسَاكِينِ وَالْعَامِلِينَ عَلَيْهَا ... فَرِيضَةً مِّنَ اللَّهِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 9,
+          "ayah": 60
+        },
+        {
+          "type": "other",
+          "label": "تفسير ابن كثير — التوبة 9:60"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:kids",
+        "tier:5",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`؛ التفسير طوبق على تفسير ابن كثير عبر `quran.ai`"
+    },
+    {
+      "id": "zakah-kids-t5-q24",
+      "categoryId": "zakah",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "إذا لم يجد المسلم مالًا يتصدق به، فما العمل الذي عدّه النبي ﷺ صدقةً في نهاية الحديث؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الإمساك عن الشر"
+        },
+        {
+          "id": "b",
+          "text": "أخذ مال الآخرين"
+        },
+        {
+          "id": "c",
+          "text": "ترك كل عمل نافع"
+        },
+        {
+          "id": "d",
+          "text": "طلب المال من كل أحد"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ذكر النبي ﷺ مراتب من الخير، وجعل الإمساك عن الشر صدقةً أيضًا.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الإمساك عن الشر**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "6022"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:kids",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-kids-t5-q25",
+      "categoryId": "zakah",
+      "ageBand": "kids",
+      "tier": 5,
+      "text": "من هو المسكين الذي نبه النبي ﷺ إلى أنه قد لا يَظهر للناس احتياجه؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "من لا يجد ما يكفيه ولا يُفطن لحاجته ولا يسأل الناس"
+        },
+        {
+          "id": "b",
+          "text": "من يسأل الناس فترده اللقمة واللقمتان"
+        },
+        {
+          "id": "c",
+          "text": "من يملك ما يغنيه لكنه يطلب الزيادة"
+        },
+        {
+          "id": "d",
+          "text": "من كان له مال ظاهر يكفيه"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "بيّن النبي ﷺ أن المسكين المقصود قد يكون متعففًا: لا يجد غنى يغنيه، ولا يُفطن له فيُتصدق عليه، ولا يسأل الناس.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«الْمِسْكِينُ الَّذِي لَيْسَ لَهُ غِنًى ... وَلَا يَسْأَلُ النَّاسَ إِلْحَافًا»"
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1476"
+        },
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1479"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:kids",
+        "tier:5",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-general-t1-q26",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 1,
+      "text": "كم صنفًا من مصارف الزكاة ذكرت آية الصدقات في سورة التوبة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ستة"
+        },
+        {
+          "id": "b",
+          "text": "سبعة"
+        },
+        {
+          "id": "c",
+          "text": "ثمانية"
+        },
+        {
+          "id": "d",
+          "text": "تسعة"
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "آية التوبة 9:60 ذكرت ثمانية أصناف.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«إِنَّمَا الصَّدَقَاتُ لِلْفُقَرَاءِ وَالْمَسَاكِينِ وَالْعَامِلِينَ عَلَيْهَا ... فَرِيضَةً مِّنَ اللَّهِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 9,
+          "ayah": 60
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "zakah-general-t1-q27",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 1,
+      "text": "ما الأثر الذي نسبته آية التوبة 9:103 للصدقة المأخوذة من المال؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "التطهير والتزكية"
+        },
+        {
+          "id": "b",
+          "text": "إسقاط الصلاة"
+        },
+        {
+          "id": "c",
+          "text": "إلغاء الصوم"
+        },
+        {
+          "id": "d",
+          "text": "إباحة الربا"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "تذكر الآية التطهير والتزكية بالصدقة.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«خُذْ مِنْ أَمْوَالِهِمْ صَدَقَةً تُطَهِّرُهُمْ وَتُزَكِّيهِم بِهَا وَصَلِّ عَلَيْهِمْ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 9,
+          "ayah": 103
+        },
+        {
+          "type": "other",
+          "label": "تفسير ابن كثير — التوبة 9:103"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`؛ التفسير طوبق على تفسير ابن كثير عبر `quran.ai`"
+    },
+    {
+      "id": "zakah-general-t1-q28",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 1,
+      "text": "أيُّ صورة من صور الإنفاق امتدحها الله في سورة البقرة 2:274؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الإنفاق ليلًا ونهارًا سرًا وعلانية"
+        },
+        {
+          "id": "b",
+          "text": "الإنفاق بالنهار والعلن"
+        },
+        {
+          "id": "c",
+          "text": "الإنفاق بالليل والسر"
+        },
+        {
+          "id": "d",
+          "text": "الإنفاق عند نزول الشدائد"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "الآية تمدح من ينفقون أموالهم بالليل والنهار سرًا وعلانية.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«يُنفِقُونَ أَمْوَالَهُم بِاللَّيْلِ وَالنَّهَارِ سِرًّا وَعَلَانِيَةً»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 274
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "zakah-general-t1-q29",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 1,
+      "text": "ماذا وعد الله «المُصَّدِّقين والمُصَّدِّقات» في سورة الحديد 57:18؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "أن يضاعف لهم ولهم أجر كريم"
+        },
+        {
+          "id": "b",
+          "text": "أن لا أجر لهم"
+        },
+        {
+          "id": "c",
+          "text": "أن يؤخر أجرهم بلا نهاية"
+        },
+        {
+          "id": "d",
+          "text": "أن لا يقبل منهم إلا الطعام"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ذكرت الآية المضاعفة والأجر الكريم.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«إِنَّ الْمُصَّدِّقِينَ وَالْمُصَّدِّقَاتِ ... يُضَاعَفُ لَهُمْ وَلَهُمْ أَجْرٌ كَرِيمٌ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 57,
+          "ayah": 18
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "zakah-general-t1-q30",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 1,
+      "text": "ما الغرضان اللذان نص عليهما حديث ابن عباس لزكاة الفطر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "طهرة للصائم من اللغو والرفث، وطعمة للمساكين"
+        },
+        {
+          "id": "b",
+          "text": "زيادة المال، وإعفاء الصائم من صلاة العيد"
+        },
+        {
+          "id": "c",
+          "text": "إطعام الأغنياء، وتأخير الصدقة إلى شوال"
+        },
+        {
+          "id": "d",
+          "text": "تعويض السفر، وإسقاط زكاة المال"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نص الحديث على طهرة الصائم من اللغو والرفث وطعمة للمساكين.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«زَكَاةَ الْفِطْرِ طُهْرَةً لِلصَّائِمِ مِنَ اللَّغْوِ وَالرَّفَثِ وَطُعْمَةً لِلْمَسَاكِينِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sunan-abi-dawud",
+          "number": "1609"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:1",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "تخريج الحديث وحكمه روجعا في الدرر السنية؛ وأُبقيت فقط الطرق المقبولة"
+    },
+    {
+      "id": "zakah-general-t2-q31",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 2,
+      "text": "في وصية النبي ﷺ لمعاذ إلى اليمن، من أين تؤخذ الزكاة وإلى من تُرد؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "من أغنيائهم إلى فقرائهم"
+        },
+        {
+          "id": "b",
+          "text": "من فقرائهم إلى أغنيائهم"
+        },
+        {
+          "id": "c",
+          "text": "من المسافرين إلى التجار"
+        },
+        {
+          "id": "d",
+          "text": "من الأطفال إلى الكبار"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نص الحديث على أخذها من الأغنياء وردها على الفقراء.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **من أغنيائهم إلى فقرائهم**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1395"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-general-t2-q32",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 2,
+      "text": "بماذا أوصى النبي ﷺ معاذًا عند أخذ الزكاة من أموال الناس؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "أن يأخذ أوسط المال ولو عُرضت عليه الكرائم"
+        },
+        {
+          "id": "b",
+          "text": "أن يتوقى كرائم أموالهم"
+        },
+        {
+          "id": "c",
+          "text": "أن يأخذ نصف أموال الأغنياء"
+        },
+        {
+          "id": "d",
+          "text": "أن يؤخر الأخذ حتى نهاية عامين"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "أوصاه ﷺ أن يتوقى كرائم أموال الناس.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **أن يتوقى كرائم أموالهم**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1458"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-general-t2-q33",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 2,
+      "text": "على أي فئات نص حديث ابن عمر في فرض زكاة الفطر؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الأحرار من الرجال والنساء"
+        },
+        {
+          "id": "b",
+          "text": "الأحرار والعبيد من الرجال"
+        },
+        {
+          "id": "c",
+          "text": "الحر والعبد والذكر والأنثى من المسلمين"
+        },
+        {
+          "id": "d",
+          "text": "كل من كان مسافرًا يوم العيد"
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "نص الحديث على الحر والعبد والذكر والأنثى من المسلمين.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الحر والعبد والذكر والأنثى من المسلمين**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1504"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-general-t2-q34",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 2,
+      "text": "متى كان الناس يعطون زكاة الفطر في أثر ابن عمر الوارد في الصحيح؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "قبل الفطر بيوم أو يومين"
+        },
+        {
+          "id": "b",
+          "text": "بعد العيد بشهر"
+        },
+        {
+          "id": "c",
+          "text": "في أول محرم"
+        },
+        {
+          "id": "d",
+          "text": "في منتصف ذي الحجة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ورد أنهم كانوا يعطونها قبل الفطر بيوم أو يومين.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **قبل الفطر بيوم أو يومين**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1511"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-general-t2-q35",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 2,
+      "text": "ما الذي قررته سورة البقرة 2:271 بشأن إخفاء الصدقة وإيتائها الفقراء؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "أنه خير للمتصدق"
+        },
+        {
+          "id": "b",
+          "text": "أن إظهارها للفقراء أفضل في كل حال"
+        },
+        {
+          "id": "c",
+          "text": "أن الإخفاء والإظهار سواء في الآية"
+        },
+        {
+          "id": "d",
+          "text": "أن الإخفاء مخصوص بزكاة الفطر"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "تذكر الآية أن إخفاء الصدقات وإيتاءها الفقراء خير للمتصدق.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَإِن تُخْفُوهَا وَتُؤْتُوهَا الْفُقَرَاءَ فَهُوَ خَيْرٌ لَّكُمْ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 2,
+          "ayah": 271
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:2",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "zakah-general-t3-q36",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 3,
+      "text": "ما أدنى عدد من الإبل ورد أنه تجب عنده الصدقة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ثلاث"
+        },
+        {
+          "id": "b",
+          "text": "أربع"
+        },
+        {
+          "id": "c",
+          "text": "خمس"
+        },
+        {
+          "id": "d",
+          "text": "عشر"
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "لا صدقة فيما دون خمس ذود من الإبل.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **خمس**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1447"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-general-t3-q37",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 3,
+      "text": "ما نصاب الفضة المذكور في حديث «خمس أواق»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ثلاث أواق"
+        },
+        {
+          "id": "b",
+          "text": "أربع أواق"
+        },
+        {
+          "id": "c",
+          "text": "خمس أواق"
+        },
+        {
+          "id": "d",
+          "text": "عشر أواق"
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "الحديث ينفي الزكاة عما دون خمس أواق من الفضة.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«لَيْسَ فِيمَا دُونَ خَمْسِ أَوَاقٍ صَدَقَةٌ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1447"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:3",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-general-t3-q38",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 3,
+      "text": "ما نصاب الحبوب والثمار المذكور في حديث «خمس أوسق»؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "وسق واحد"
+        },
+        {
+          "id": "b",
+          "text": "ثلاثة أوسق"
+        },
+        {
+          "id": "c",
+          "text": "خمسة أوسق"
+        },
+        {
+          "id": "d",
+          "text": "عشرة أوسق"
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "الحديث ينفي الزكاة عما دون خمسة أوسق.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«لَيْسَ فِيمَا دُونَ خَمْسَةِ أَوْسُقٍ صَدَقَةٌ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1447"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:3",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-general-t3-q39",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 3,
+      "text": "ما مقدار زكاة الفضة كما جاء في كتاب الصدقات الذي رواه أنس؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "العشر"
+        },
+        {
+          "id": "b",
+          "text": "نصف العشر"
+        },
+        {
+          "id": "c",
+          "text": "ربع العشر"
+        },
+        {
+          "id": "d",
+          "text": "الخمس"
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "ورد في كتاب الصدقات أن في الرِّقة ربع العشر، أي 2.5%.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **ربع العشر**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1454"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-general-t3-q40",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 3,
+      "text": "أيُّ مالين نص الحديث على أنه لا صدقة فيهما على المسلم؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "فرسه وغلامه"
+        },
+        {
+          "id": "b",
+          "text": "ذهبه وفضته"
+        },
+        {
+          "id": "c",
+          "text": "زرعه وثمره"
+        },
+        {
+          "id": "d",
+          "text": "إبله وغنمه"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نص الحديث على عدم الصدقة في فرس المسلم وغلامه.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **فرسه وغلامه**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1463"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-general-t4-q41",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 4,
+      "text": "ما أول نصاب الغنم المذكور في كتاب الصدقات؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "عشرون شاة"
         },
         {
           "id": "b",
@@ -1589,95 +2092,556 @@
         },
         {
           "id": "c",
-          "text": "خمسون شاة"
+          "text": "أربعون شاة"
         },
         {
           "id": "d",
           "text": "مئة شاة"
         }
       ],
-      "correctChoiceId": "a",
-      "explanation": "في أربعين شاة شاةٌ واحدة إلى مئة وعشرين.",
+      "correctChoiceId": "c",
+      "explanation": "من أربعين إلى مئة وعشرين شاة: شاة واحدة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **أربعون شاة**."
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "صحيح البخاري"
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1454"
         }
       ],
       "tags": [
-        "أنعام"
+        "category:zakah",
+        "age:general",
+        "tier:4",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "ps-3-3-2",
+      "id": "zakah-general-t4-q42",
       "categoryId": "zakah",
-      "ageBand": "scholar",
-      "tier": 3,
-      "text": "ما أول نصاب الإبل الذي تجب فيه الزكاة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "ثلاث من الإبل"
-        },
-        {
-          "id": "b",
-          "text": "خمس من الإبل"
-        },
-        {
-          "id": "c",
-          "text": "عشر من الإبل"
-        },
-        {
-          "id": "d",
-          "text": "عشرون من الإبل"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "في كل خمس من الإبل شاةٌ حتى تبلغ خمسًا وعشرين.",
-      "references": [
-        {
-          "type": "other",
-          "label": "صحيح البخاري"
-        }
-      ],
-      "tags": [
-        "أنعام"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "ps-3-4-1",
-      "categoryId": "zakah",
-      "ageBand": "scholar",
+      "ageBand": "general",
       "tier": 4,
-      "text": "كم عدد الأصناف الذين تُصرف لهم الزكاة؟",
+      "text": "متى أمر القرآن بإيتاء حق الزروع والثمار في سورة الأنعام 6:141؟",
       "choices": [
         {
           "id": "a",
-          "text": "ستة أصناف"
+          "text": "يوم الحصاد"
         },
         {
           "id": "b",
-          "text": "سبعة أصناف"
+          "text": "بعد عشر سنوات"
         },
         {
           "id": "c",
-          "text": "ثمانية أصناف"
+          "text": "عند السفر"
         },
         {
           "id": "d",
-          "text": "عشرة أصناف"
+          "text": "بعد البيع بشهر"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ورد الأمر بإيتاء الحق يوم الحصاد.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«وَآتُوا حَقَّهُ يَوْمَ حَصَادِهِ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 6,
+          "ayah": 141
+        },
+        {
+          "type": "other",
+          "label": "تفسير ابن كثير — الأنعام 6:141"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:4",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`؛ التفسير طوبق على تفسير ابن كثير عبر `quran.ai`"
+    },
+    {
+      "id": "zakah-general-t4-q43",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 4,
+      "text": "ما المقدار الواجب في الزرع الذي سقته السماء أو الماء الجاري؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ربع العشر"
+        },
+        {
+          "id": "b",
+          "text": "نصف العشر"
+        },
+        {
+          "id": "c",
+          "text": "العشر"
+        },
+        {
+          "id": "d",
+          "text": "الخمس"
         }
       ],
       "correctChoiceId": "c",
-      "explanation": "«إنما الصدقات للفقراء والمساكين والعاملين عليها...» ثمانية أصناف.",
+      "explanation": "فيما سقت السماء والعيون العشر.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **العشر**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1483"
+        },
+        {
+          "type": "hadith",
+          "collection": "sahih-muslim",
+          "number": "981"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-general-t4-q44",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 4,
+      "text": "ما المقدار الواجب فيما سُقي بكلفةٍ وآلة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "العشر"
+        },
+        {
+          "id": "b",
+          "text": "نصف العشر"
+        },
+        {
+          "id": "c",
+          "text": "الخمس"
+        },
+        {
+          "id": "d",
+          "text": "ربع المال"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "فيما سُقي بالنضح نصف العشر.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **نصف العشر**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1483"
+        },
+        {
+          "type": "hadith",
+          "collection": "sahih-muslim",
+          "number": "981"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-general-t4-q45",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 4,
+      "text": "ما المقدار الوارد في الرِّكاز؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ربع العشر"
+        },
+        {
+          "id": "b",
+          "text": "العشر"
+        },
+        {
+          "id": "c",
+          "text": "نصف العشر"
+        },
+        {
+          "id": "d",
+          "text": "الخمس"
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "ثبت في الحديث: في الركاز الخمس.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **الخمس**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1499"
+        },
+        {
+          "type": "hadith",
+          "collection": "sahih-muslim",
+          "number": "1710"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-general-t5-q46",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 5,
+      "text": "من الصحابي الذي أعلن قتال من فرّق بين الصلاة والزكاة بعد وفاة النبي ﷺ؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "عمر بن الخطاب"
+        },
+        {
+          "id": "b",
+          "text": "أبو بكر الصديق"
+        },
+        {
+          "id": "c",
+          "text": "عثمان بن عفان"
+        },
+        {
+          "id": "d",
+          "text": "علي بن أبي طالب"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "أبو بكر رضي الله عنه أعلن قتال من فرّق بين الصلاة والزكاة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **أبو بكر الصديق**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح البخاري 1399–1400"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-general-t5-q47",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 5,
+      "text": "أي حال وصفها النبي ﷺ بأنها أعظم أجرًا في الصدقة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "أن يتصدق وهو صحيح شحيح يخشى الفقر ويأمل الغنى"
+        },
+        {
+          "id": "b",
+          "text": "أن يؤخرها حتى حضور الموت"
+        },
+        {
+          "id": "c",
+          "text": "أن يتصدق من مال غيره"
+        },
+        {
+          "id": "d",
+          "text": "أن يمنّ بعد الصدقة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "بيّن ﷺ فضل الصدقة حال الصحة مع مجاهدة الشح والخوف من الفقر.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **أن يتصدق وهو صحيح شحيح يخشى الفقر ويأمل الغنى**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1419"
+        },
+        {
+          "type": "hadith",
+          "collection": "sahih-muslim",
+          "number": "1032"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-general-t5-q48",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 5,
+      "text": "بماذا شبّه النبي ﷺ المنفق والبخيل في الحديث؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "برجلين عليهما جبتان من حديد"
+        },
+        {
+          "id": "b",
+          "text": "بسفينتين في البحر"
+        },
+        {
+          "id": "c",
+          "text": "بشجرتين من نخل"
+        },
+        {
+          "id": "d",
+          "text": "بطائرين في السماء"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "شبّه المنفق والبخيل برجلين عليهما جبتان من حديد، وتتسع على المنفق وتضيق على البخيل.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **برجلين عليهما جبتان من حديد**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1443"
+        },
+        {
+          "type": "other",
+          "label": "صحيح مسلم 1021b"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-general-t5-q49",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 5,
+      "text": "ما موقف النبي ﷺ من الهدية التي يأخذها عامل الصدقة بسبب عمله؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "أقرها لأنها هدية شخصية"
+        },
+        {
+          "id": "b",
+          "text": "أنكرها وبيّن أنها مرتبطة بالوظيفة"
+        },
+        {
+          "id": "c",
+          "text": "أجاز نصفها للعامل"
+        },
+        {
+          "id": "d",
+          "text": "أمر أن يجعلها لأقاربه"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "أنكر ﷺ على عامل الصدقة قوله: هذا أُهدي لي، وبيّن أن المنصب سبب هذه الهدية.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **أنكرها وبيّن أنها مرتبطة بالوظيفة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 1832a–b"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-general-t5-q50",
+      "categoryId": "zakah",
+      "ageBand": "general",
+      "tier": 5,
+      "text": "ما الحكم الذي نص عليه حديث عبد المطلب بن ربيعة بشأن الصدقات المفروضة لآل محمد ﷺ؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "أنها لا تحل لهم"
+        },
+        {
+          "id": "b",
+          "text": "أنها تحل لهم إذا كانوا عاملين عليها"
+        },
+        {
+          "id": "c",
+          "text": "أنهم أولى بها من سائر الأصناف"
+        },
+        {
+          "id": "d",
+          "text": "أن المنع مختص بزكاة الفطر"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "نص الحديث على أن هذه الصدقات لا تحل لمحمد ﷺ ولا لآل محمد.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **أنها لا تحل لهم**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح مسلم 1072b"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:general",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-scholar-t1-q51",
+      "categoryId": "zakah",
+      "ageBand": "scholar",
+      "tier": 1,
+      "text": "أي عبارة ختم بها بيان مصارف الزكاة في التوبة 9:60 لتدل على أن هذا التقسيم مقدَّر من الله؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "فريضة من الله"
+        },
+        {
+          "id": "b",
+          "text": "سنة من الناس"
+        },
+        {
+          "id": "c",
+          "text": "رأي للأغنياء"
+        },
+        {
+          "id": "d",
+          "text": "عادة أهل المدينة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "جاء بعد ذكر المصارف: «فريضة من الله».",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«فَرِيضَةً مِّنَ اللَّهِ»"
+        }
+      ],
       "references": [
         {
           "type": "quran",
@@ -1686,23 +2650,612 @@
         }
       ],
       "tags": [
-        "مصارف"
+        "category:zakah",
+        "age:scholar",
+        "tier:1",
+        "evidence:quran_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
     },
     {
-      "id": "ps-3-4-2",
+      "id": "zakah-scholar-t1-q52",
       "categoryId": "zakah",
       "ageBand": "scholar",
-      "tier": 4,
-      "text": "ما الواجب في أول نصاب البقر (ثلاثين)؟",
+      "tier": 1,
+      "text": "من هم «المؤلفة قلوبهم» في أصل معنى المصرف؟",
       "choices": [
         {
           "id": "a",
-          "text": "شاةٌ واحدة"
+          "text": "من يُعطَون لتأليف قلوبهم على الإسلام أو تثبيتها ونحو ذلك"
+        },
+        {
+          "id": "b",
+          "text": "من انقطع بهم السفر ولا يملكون نفقة الرجوع"
+        },
+        {
+          "id": "c",
+          "text": "من لزمهم دين ولا يجدون وفاءه"
+        },
+        {
+          "id": "d",
+          "text": "من يتولون جمع الزكاة وحفظها وتوزيعها"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "المصرف متعلق بتأليف القلوب، وقد فصّل المفسرون صوره مع وجود خلاف فقهي في بعض تطبيقاته.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«إِنَّمَا الصَّدَقَاتُ لِلْفُقَرَاءِ وَالْمَسَاكِينِ وَالْعَامِلِينَ عَلَيْهَا ... فَرِيضَةً مِّنَ اللَّهِ»"
+        },
+        {
+          "kind": "tafsir",
+          "text": "قال ابن كثير في المؤلفة قلوبهم: منهم من يُعطى ليسلم، ومنهم من يُعطى ليحسن إسلامه ويثبت قلبه."
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 9,
+          "ayah": 60
+        },
+        {
+          "type": "other",
+          "label": "تفسير ابن كثير — التوبة 9:60"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:scholar",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`؛ التفسير طوبق على تفسير ابن كثير عبر `quran.ai`"
+    },
+    {
+      "id": "zakah-scholar-t1-q53",
+      "categoryId": "zakah",
+      "ageBand": "scholar",
+      "tier": 1,
+      "text": "أي معنى يدخل في مصرف «وفي الرقاب» بنص تفاسير السلف؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الإعانة على فك الرقاب والعتق"
+        },
+        {
+          "id": "b",
+          "text": "الإعانة على المسافر المنقطع"
+        },
+        {
+          "id": "c",
+          "text": "قضاء دين الغارم"
+        },
+        {
+          "id": "d",
+          "text": "نفقة ابن السبيل"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ذكر المفسرون المكاتبين والعتق ضمن هذا المصرف مع تفصيل فقهي في صوره.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«إِنَّمَا الصَّدَقَاتُ لِلْفُقَرَاءِ وَالْمَسَاكِينِ وَالْعَامِلِينَ عَلَيْهَا ... فَرِيضَةً مِّنَ اللَّهِ»"
+        },
+        {
+          "kind": "tafsir",
+          "text": "ذكر ابن كثير أن «الرقاب» تشمل إعانة المكاتب، وشراء رقبة وعتقها."
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 9,
+          "ayah": 60
+        },
+        {
+          "type": "other",
+          "label": "تفسير ابن كثير — التوبة 9:60"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:scholar",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`؛ التفسير طوبق على تفسير ابن كثير عبر `quran.ai`"
+    },
+    {
+      "id": "zakah-scholar-t1-q54",
+      "categoryId": "zakah",
+      "ageBand": "scholar",
+      "tier": 1,
+      "text": "أيُّ مالين خصتهما آية التوبة 9:34 بالذكر في الوعيد على كنزهما وعدم الإنفاق؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الذهب والفضة"
+        },
+        {
+          "id": "b",
+          "text": "الإبل والبقر"
+        },
+        {
+          "id": "c",
+          "text": "التمر والشعير"
+        },
+        {
+          "id": "d",
+          "text": "الحديد والنحاس"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ذكرت الآية الذهب والفضة صراحة.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«يَكْنِزُونَ الذَّهَبَ وَالْفِضَّةَ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 9,
+          "ayah": 34
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:scholar",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "zakah-scholar-t1-q55",
+      "categoryId": "zakah",
+      "ageBand": "scholar",
+      "tier": 1,
+      "text": "ما المواضع الثلاثة التي ذكرتها التوبة 9:35 في الكيّ بما كُنِز؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "الجباه والجنوب والظهور"
+        },
+        {
+          "id": "b",
+          "text": "الأيدي والأقدام والرؤوس"
+        },
+        {
+          "id": "c",
+          "text": "الصدور والركب والأكتاف"
+        },
+        {
+          "id": "d",
+          "text": "الأعين والآذان والألسنة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ذكرت الآية الجباه والجنوب والظهور.",
+      "evidence": [
+        {
+          "kind": "quran_text",
+          "text": "«فَتُكْوَىٰ بِهَا جِبَاهُهُمْ وَجُنُوبُهُمْ وَظُهُورُهُمْ»"
+        }
+      ],
+      "references": [
+        {
+          "type": "quran",
+          "surah": 9,
+          "ayah": 35
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:scholar",
+        "tier:1",
+        "evidence:quran_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "النص القرآني طوبق على `quran.ai` بإصدار `ar-simple-clean`"
+    },
+    {
+      "id": "zakah-scholar-t2-q56",
+      "categoryId": "zakah",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "بحسب كتاب الصدقات، ما الواجب في خمس من الإبل إلى تسع؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "شاة واحدة"
+        },
+        {
+          "id": "b",
+          "text": "شاتان"
+        },
+        {
+          "id": "c",
+          "text": "ثلاث شياه"
+        },
+        {
+          "id": "d",
+          "text": "بنت مخاض"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "في كل خمس من الإبل شاة حتى أربع وعشرين.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **شاة واحدة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1454"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:scholar",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-scholar-t2-q57",
+      "categoryId": "zakah",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "ما الواجب في عشر من الإبل وفق كتاب الصدقات؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "شاة واحدة"
+        },
+        {
+          "id": "b",
+          "text": "شاتان"
+        },
+        {
+          "id": "c",
+          "text": "ثلاث شياه"
+        },
+        {
+          "id": "d",
+          "text": "بنت لبون"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "لأن في كل خمس شاة، ففي عشر شاتان.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **شاتان**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1454"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:scholar",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-scholar-t2-q58",
+      "categoryId": "zakah",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "ما الواجب في خمس عشرة من الإبل وفق كتاب الصدقات؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "شاتان"
+        },
+        {
+          "id": "b",
+          "text": "ثلاث شياه"
+        },
+        {
+          "id": "c",
+          "text": "أربع شياه"
+        },
+        {
+          "id": "d",
+          "text": "بنت مخاض"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "في كل خمس شاة حتى أربع وعشرين؛ ففي خمس عشرة ثلاث شياه.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **ثلاث شياه**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1454"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:scholar",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-scholar-t2-q59",
+      "categoryId": "zakah",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "ما الواجب في عشرين من الإبل وفق كتاب الصدقات؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "شاتان"
+        },
+        {
+          "id": "b",
+          "text": "ثلاث شياه"
+        },
+        {
+          "id": "c",
+          "text": "أربع شياه"
+        },
+        {
+          "id": "d",
+          "text": "بنت مخاض"
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "في عشرين من الإبل أربع شياه.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **أربع شياه**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1454"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:scholar",
+        "tier:2",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-scholar-t2-q60",
+      "categoryId": "zakah",
+      "ageBand": "scholar",
+      "tier": 2,
+      "text": "ما الواجب في ثلاثين من البقر في حديث معاذ؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "تبيع أو تبيعة"
+        },
+        {
+          "id": "b",
+          "text": "مسنة"
+        },
+        {
+          "id": "c",
+          "text": "شاة"
+        },
+        {
+          "id": "d",
+          "text": "بنت مخاض"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ورد في ثلاثين من البقر تبيع أو تبيعة.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«مِنْ كُلِّ ثَلَاثِينَ بَقَرَةً تَبِيعًا أَوْ تَبِيعَةً»"
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sunan-abi-dawud",
+          "number": "1576"
+        },
+        {
+          "type": "other",
+          "label": "سنن النسائي 2451–2453"
+        },
+        {
+          "type": "other",
+          "label": "الدرر السنية: الحديث ثابت، وصححه/حسنه جماعة من أهل الحديث"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:scholar",
+        "tier:2",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "تخريج الحديث وحكمه روجعا في الدرر السنية؛ وأُبقيت فقط الطرق المقبولة"
+    },
+    {
+      "id": "zakah-scholar-t3-q61",
+      "categoryId": "zakah",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "ما الواجب في خمسٍ وعشرين إلى خمسٍ وثلاثين من الإبل؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "بنت مخاض"
+        },
+        {
+          "id": "b",
+          "text": "بنت لبون"
+        },
+        {
+          "id": "c",
+          "text": "حِقّة"
+        },
+        {
+          "id": "d",
+          "text": "جذعة"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "كتاب الصدقات يحدد بنت مخاض لهذا النطاق.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **بنت مخاض**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1454"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:scholar",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-scholar-t3-q62",
+      "categoryId": "zakah",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "ما الواجب في ستٍ وثلاثين إلى خمسٍ وأربعين من الإبل؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "بنت مخاض"
+        },
+        {
+          "id": "b",
+          "text": "بنت لبون"
+        },
+        {
+          "id": "c",
+          "text": "حِقّة"
+        },
+        {
+          "id": "d",
+          "text": "جذعة"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "كتاب الصدقات يحدد بنت لبون لهذا النطاق.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **بنت لبون**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1454"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:scholar",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-scholar-t3-q63",
+      "categoryId": "zakah",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "ما الواجب في أربعين من البقر في حديث معاذ؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "تبيع أو تبيعة"
         },
         {
           "id": "b",
@@ -1710,515 +3263,667 @@
         },
         {
           "id": "c",
+          "text": "شاتان"
+        },
+        {
+          "id": "d",
+          "text": "بنت لبون"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "ورد في كل أربعين من البقر مُسِنّة.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«وَمِنْ كُلِّ أَرْبَعِينَ مُسِنَّةً»"
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sunan-abi-dawud",
+          "number": "1576"
+        },
+        {
+          "type": "other",
+          "label": "سنن النسائي 2451–2453"
+        },
+        {
+          "type": "other",
+          "label": "الدرر السنية: الحديث ثابت، وصححه/حسنه جماعة من أهل الحديث"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:scholar",
+        "tier:3",
+        "evidence:hadith_text"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "تخريج الحديث وحكمه روجعا في الدرر السنية؛ وأُبقيت فقط الطرق المقبولة"
+    },
+    {
+      "id": "zakah-scholar-t3-q64",
+      "categoryId": "zakah",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "ما الواجب في الغنم إذا زادت على مئة وعشرين إلى مئتين؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "شاة واحدة"
+        },
+        {
+          "id": "b",
+          "text": "شاتان"
+        },
+        {
+          "id": "c",
+          "text": "ثلاث شياه"
+        },
+        {
+          "id": "d",
+          "text": "أربع شياه"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "في هذا النطاق شاتان.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **شاتان**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1454"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:scholar",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-scholar-t3-q65",
+      "categoryId": "zakah",
+      "ageBand": "scholar",
+      "tier": 3,
+      "text": "ما الواجب في الغنم إذا زادت على مئتين إلى ثلاثمئة؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "شاة واحدة"
+        },
+        {
+          "id": "b",
+          "text": "شاتان"
+        },
+        {
+          "id": "c",
+          "text": "ثلاث شياه"
+        },
+        {
+          "id": "d",
+          "text": "أربع شياه"
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "في هذا النطاق ثلاث شياه.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **ثلاث شياه**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1454"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:scholar",
+        "tier:3",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-scholar-t4-q66",
+      "categoryId": "zakah",
+      "ageBand": "scholar",
+      "tier": 4,
+      "text": "ما الواجب في ستٍ وأربعين إلى ستين من الإبل؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "بنت لبون"
+        },
+        {
+          "id": "b",
+          "text": "حِقّة طروقة الجمل"
+        },
+        {
+          "id": "c",
+          "text": "جذعة"
+        },
+        {
+          "id": "d",
+          "text": "بنتا لبون"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "كتاب الصدقات يحدد حقة طروقة الجمل لهذا النطاق.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **حِقّة طروقة الجمل**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1454"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:scholar",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-scholar-t4-q67",
+      "categoryId": "zakah",
+      "ageBand": "scholar",
+      "tier": 4,
+      "text": "ما الواجب في إحدى وستين إلى خمسٍ وسبعين من الإبل؟",
+      "choices": [
+        {
+          "id": "a",
           "text": "بنت مخاض"
         },
         {
+          "id": "b",
+          "text": "بنت لبون"
+        },
+        {
+          "id": "c",
+          "text": "حِقّة"
+        },
+        {
           "id": "d",
-          "text": "تبيعٌ أو تبيعة"
+          "text": "جذعة"
         }
       ],
       "correctChoiceId": "d",
-      "explanation": "في ثلاثين من البقر تبيعٌ أو تبيعة، وفي أربعين مُسِنّة.",
+      "explanation": "كتاب الصدقات يحدد جذعة لهذا النطاق.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **جذعة**."
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "سنن الترمذي"
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1454"
         }
       ],
       "tags": [
-        "أنعام"
+        "category:zakah",
+        "age:scholar",
+        "tier:4",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "ps-3-5-1",
+      "id": "zakah-scholar-t4-q68",
+      "categoryId": "zakah",
+      "ageBand": "scholar",
+      "tier": 4,
+      "text": "ما الواجب في ستٍ وسبعين إلى تسعين من الإبل؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "حِقّتان"
+        },
+        {
+          "id": "b",
+          "text": "بنتا لبون"
+        },
+        {
+          "id": "c",
+          "text": "جذعتان"
+        },
+        {
+          "id": "d",
+          "text": "أربع شياه"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "كتاب الصدقات يحدد بنتي لبون لهذا النطاق.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **بنتا لبون**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1454"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:scholar",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-scholar-t4-q69",
+      "categoryId": "zakah",
+      "ageBand": "scholar",
+      "tier": 4,
+      "text": "ما الواجب في إحدى وتسعين إلى مئةٍ وعشرين من الإبل؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "بنتا لبون"
+        },
+        {
+          "id": "b",
+          "text": "حِقّتان طروقتا الجمل"
+        },
+        {
+          "id": "c",
+          "text": "جذعة واحدة"
+        },
+        {
+          "id": "d",
+          "text": "خمس شياه"
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "كتاب الصدقات يحدد حقتين طروقتي الجمل لهذا النطاق.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **حِقّتان طروقتا الجمل**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1454"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:scholar",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-scholar-t4-q70",
+      "categoryId": "zakah",
+      "ageBand": "scholar",
+      "tier": 4,
+      "text": "إذا زادت الإبل على مئةٍ وعشرين، فما قاعدة الحساب الواردة في كتاب الصدقات؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "في كل أربعين بنت لبون وفي كل خمسين حِقّة"
+        },
+        {
+          "id": "b",
+          "text": "في كل ثلاثين بنت مخاض"
+        },
+        {
+          "id": "c",
+          "text": "في كل مئة شاة"
+        },
+        {
+          "id": "d",
+          "text": "الخمس من العدد كله"
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "هذه هي القاعدة الواردة لما فوق مئة وعشرين.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **في كل أربعين بنت لبون وفي كل خمسين حِقّة**."
+        }
+      ],
+      "references": [
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1454"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:scholar",
+        "tier:4",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-scholar-t5-q71",
       "categoryId": "zakah",
       "ageBand": "scholar",
       "tier": 5,
-      "text": "ما مقدار الواجب في زكاة عروض التجارة؟",
+      "text": "ما القاعدة الواردة في كتاب الصدقات بشأن جمع المتفرق أو تفريق المجتمع خشية الزكاة؟",
       "choices": [
         {
           "id": "a",
-          "text": "ربع العُشر"
+          "text": "يُمنع ذلك"
         },
         {
           "id": "b",
-          "text": "العُشر"
+          "text": "يجوز إذا اتفق المالكون"
         },
         {
           "id": "c",
-          "text": "نصف العُشر"
+          "text": "يستحب لتخفيف الواجب"
         },
         {
           "id": "d",
-          "text": "الخُمس"
+          "text": "يمنع الجمع ويجيز التفريق"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "تُقوَّم عروض التجارة عند تمام الحول ويُخرَج ربع عُشر قيمتها كالنقدين.",
+      "explanation": "ورد النهي عن جمع المتفرق أو تفريق المجتمع خشية الصدقة.",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«لَا يُجْمَعُ بَيْنَ مُتَفَرِّقٍ، وَلَا يُفَرَّقُ بَيْنَ مُجْتَمِعٍ، خَشْيَةَ الصَّدَقَةِ»"
+        }
+      ],
       "references": [
         {
-          "type": "book",
-          "title": "فقه الزكاة"
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1450"
         }
       ],
       "tags": [
-        "تجارة"
+        "category:zakah",
+        "age:scholar",
+        "tier:5",
+        "evidence:hadith_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "ps-3-5-2",
+      "id": "zakah-scholar-t5-q72",
       "categoryId": "zakah",
       "ageBand": "scholar",
       "tier": 5,
-      "text": "نصاب الذهب عشرون مثقالًا، ويُقدَّر اليوم بنحو كم غرامًا؟",
+      "text": "ماذا ورد في كتاب الصدقات بشأن الخليطين في المال المشترك؟",
       "choices": [
         {
           "id": "a",
-          "text": "مئة غرام"
+          "text": "يتراجعان بينهما بالسوية"
         },
         {
           "id": "b",
-          "text": "خمسة وثمانون غرامًا"
+          "text": "يتحمل صاحب النصيب الأكبر الزكاة كلها"
         },
         {
           "id": "c",
-          "text": "خمسون غرامًا"
+          "text": "يسقط أثر الخلطة في الحساب"
         },
         {
           "id": "d",
-          "text": "مئتا غرام"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "عشرون مثقالًا من الذهب تعادل نحو خمسة وثمانين غرامًا.",
-      "references": [
-        {
-          "type": "book",
-          "title": "فقه الزكاة المعاصر"
-        }
-      ],
-      "tags": [
-        "نصاب"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "za-1-1",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 1,
-      "text": "الزكاة هي الركن الكم من أركان الإسلام؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "الركن الأول"
-        },
-        {
-          "id": "b",
-          "text": "الركن الثاني"
-        },
-        {
-          "id": "c",
-          "text": "الركن الرابع"
-        },
-        {
-          "id": "d",
-          "text": "الركن الثالث"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "الزكاة ثالث أركان الإسلام بعد الشهادتين والصلاة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "حديث ابن عمر — متفق عليه"
-        }
-      ],
-      "tags": [
-        "زكاة",
-        "أركان"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "za-1-2",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 1,
-      "text": "ما اسم الزكاة التي تُخرَج طعاماً في نهاية رمضان عن كل مسلم؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "زكاة الفطر"
-        },
-        {
-          "id": "b",
-          "text": "زكاة المال"
-        },
-        {
-          "id": "c",
-          "text": "الفدية"
-        },
-        {
-          "id": "d",
-          "text": "الكفارة"
+          "text": "يُفصل المال قبل تقدير الزكاة"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "زكاة الفطر طُهرة للصائم وطُعمة للمساكين، تُخرج قبل صلاة العيد.",
+      "explanation": "ورد: «وما كان من خليطين فإنهما يتراجعان بينهما بالسوية».",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«وَمَا كَانَ مِنْ خَلِيطَيْنِ فَإِنَّهُمَا يَتَرَاجَعَانِ بَيْنَهُمَا بِالسَّوِيَّةِ»"
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "حديث ابن عباس — أبو داود"
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1451"
         }
       ],
       "tags": [
-        "زكاة الفطر"
+        "category:zakah",
+        "age:scholar",
+        "tier:5",
+        "evidence:hadith_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "za-2-1",
+      "id": "zakah-scholar-t5-q73",
       "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "ما مقدار زكاة الفطر عن الشخص الواحد؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "صاعان من طعام"
-        },
-        {
-          "id": "b",
-          "text": "نصف صاع"
-        },
-        {
-          "id": "c",
-          "text": "ثلاثة أصوع"
-        },
-        {
-          "id": "d",
-          "text": "صاع من طعام"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "فرض النبي ﷺ زكاة الفطر صاعاً من طعام عن كل حر وعبد.",
-      "references": [
-        {
-          "type": "other",
-          "label": "حديث ابن عمر — متفق عليه"
-        }
-      ],
-      "tags": [
-        "زكاة الفطر",
-        "مقدار"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "za-2-2",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 2,
-      "text": "قبل أي صلاة يُستحب إخراج زكاة الفطر؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "صلاة عيد الفطر"
-        },
-        {
-          "id": "b",
-          "text": "صلاة الفجر"
-        },
-        {
-          "id": "c",
-          "text": "صلاة الجمعة"
-        },
-        {
-          "id": "d",
-          "text": "صلاة المغرب"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "من أدّاها قبل صلاة العيد فهي زكاة مقبولة، ومن أخّرها فصدقة من الصدقات.",
-      "references": [
-        {
-          "type": "other",
-          "label": "حديث ابن عباس — أبو داود وابن ماجه"
-        }
-      ],
-      "tags": [
-        "زكاة الفطر"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "za-3-1",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "كم عدد الأصناف الذين تُصرف لهم الزكاة كما ذكرهم القرآن؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "ستة أصناف"
-        },
-        {
-          "id": "b",
-          "text": "سبعة أصناف"
-        },
-        {
-          "id": "c",
-          "text": "خمسة أصناف"
-        },
-        {
-          "id": "d",
-          "text": "ثمانية أصناف"
-        }
-      ],
-      "correctChoiceId": "d",
-      "explanation": "قال تعالى: «إنما الصدقات للفقراء والمساكين...» فذكر ثمانية مصارف.",
-      "references": [
-        {
-          "type": "quran",
-          "surah": 9,
-          "ayah": 60
-        }
-      ],
-      "tags": [
-        "مصارف"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "za-3-2",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 3,
-      "text": "ما القدر الواجب في زكاة النقود إذا بلغت النصاب وحال عليها الحول؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "ربع العشر (٢٫٥٪)"
-        },
-        {
-          "id": "b",
-          "text": "العشر (١٠٪)"
-        },
-        {
-          "id": "c",
-          "text": "نصف العشر (٥٪)"
-        },
-        {
-          "id": "d",
-          "text": "الخُمس (٢٠٪)"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "زكاة النقود ربع العشر، أي اثنان ونصف في المئة.",
-      "references": [
-        {
-          "type": "other",
-          "label": "السنة — أحاديث مقادير الصدقات"
-        }
-      ],
-      "tags": [
-        "نقود",
-        "مقدار"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "za-4-1",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "كم مدة الحول التي يجب أن تمرّ على المال لتجب فيه الزكاة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "سنة قمرية كاملة"
-        },
-        {
-          "id": "b",
-          "text": "ستة أشهر"
-        },
-        {
-          "id": "c",
-          "text": "سنتان"
-        },
-        {
-          "id": "d",
-          "text": "شهر واحد"
-        }
-      ],
-      "correctChoiceId": "a",
-      "explanation": "قال ﷺ: «لا زكاة في مالٍ حتى يحول عليه الحول».",
-      "references": [
-        {
-          "type": "other",
-          "label": "السنة — حديث ابن عمر"
-        }
-      ],
-      "tags": [
-        "حول"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "za-4-2",
-      "categoryId": "zakah",
-      "ageBand": "general",
-      "tier": 4,
-      "text": "ما نصاب الفضة الذي تجب فيه الزكاة؟",
-      "choices": [
-        {
-          "id": "a",
-          "text": "مئة درهم"
-        },
-        {
-          "id": "b",
-          "text": "مئتا درهم"
-        },
-        {
-          "id": "c",
-          "text": "خمسون درهماً"
-        },
-        {
-          "id": "d",
-          "text": "ثلاثمئة درهم"
-        }
-      ],
-      "correctChoiceId": "b",
-      "explanation": "قال ﷺ: «ليس فيما دون خمس أواقٍ صدقة»، والأوقية أربعون درهماً، فذلك مئتا درهم.",
-      "references": [
-        {
-          "type": "other",
-          "label": "متفق عليه"
-        }
-      ],
-      "tags": [
-        "نصاب",
-        "فضة"
-      ],
-      "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
-    },
-    {
-      "id": "za-5-1",
-      "categoryId": "zakah",
-      "ageBand": "general",
+      "ageBand": "scholar",
       "tier": 5,
-      "text": "ما القدر الواجب في زكاة الزروع والثمار إذا سُقيت بماء المطر بلا كُلفة؟",
+      "text": "إذا أنفقت المرأة من طعام بيتها غير مفسدة، فلمن ذكر الحديث أجرًا؟",
       "choices": [
         {
           "id": "a",
-          "text": "العُشر (١٠٪)"
+          "text": "للمرأة والزوج دون الخازن"
         },
         {
           "id": "b",
-          "text": "نصف العشر (٥٪)"
+          "text": "للزوج والخازن دون المرأة"
         },
         {
           "id": "c",
-          "text": "ربع العشر (٢٫٥٪)"
+          "text": "لها ولزوجها وللخازن"
         },
         {
           "id": "d",
-          "text": "الخُمس (٢٠٪)"
+          "text": "للمرأة والخازن دون الزوج"
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "ذكر الحديث الأجر لها على الإنفاق، ولزوجها على الكسب، وللخازن كذلك.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **لها ولزوجها وللخازن**."
+        }
+      ],
+      "references": [
+        {
+          "type": "other",
+          "label": "صحيح البخاري 1440–1441"
+        },
+        {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "2065"
+        }
+      ],
+      "tags": [
+        "category:zakah",
+        "age:scholar",
+        "tier:5",
+        "evidence:hadith_inference"
+      ],
+      "verification": {
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
+    },
+    {
+      "id": "zakah-scholar-t5-q74",
+      "categoryId": "zakah",
+      "ageBand": "scholar",
+      "tier": 5,
+      "text": "إذا زادت الغنم على ثلاثمئة، فما القاعدة الواردة في كتاب الصدقات؟",
+      "choices": [
+        {
+          "id": "a",
+          "text": "في كل مئة شاة"
+        },
+        {
+          "id": "b",
+          "text": "في كل خمسين شاة"
+        },
+        {
+          "id": "c",
+          "text": "في كل مئتين شاة"
+        },
+        {
+          "id": "d",
+          "text": "في كل أربعين شاة"
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "قال ﷺ: «فيما سقت السماء والعيون العشر، وفيما سُقي بالنضح نصف العشر».",
+      "explanation": "بعد الثلاثمئة ورد أن في كل مئة شاة.",
+      "evidence": [
+        {
+          "kind": "hadith_inference",
+          "text": "يثبت الحديث المذكور في المرجع مباشرةً المعلومة التي تقوم عليها الإجابة الصحيحة: **في كل مئة شاة**."
+        }
+      ],
       "references": [
         {
-          "type": "other",
-          "label": "صحيح البخاري"
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1454"
         }
       ],
       "tags": [
-        "زروع",
-        "مقدار"
+        "category:zakah",
+        "age:scholar",
+        "tier:5",
+        "evidence:hadith_inference"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     },
     {
-      "id": "za-5-2",
+      "id": "zakah-scholar-t5-q75",
       "categoryId": "zakah",
-      "ageBand": "general",
+      "ageBand": "scholar",
       "tier": 5,
-      "text": "ما أدنى نصاب تجب فيه الزكاة من الإبل؟",
+      "text": "ماذا كان النبي ﷺ يفعل لمن جاءه بصدقته كما في حديث آل أبي أوفى؟",
       "choices": [
         {
           "id": "a",
-          "text": "ثلاث من الإبل"
+          "text": "يدعو له"
         },
         {
           "id": "b",
-          "text": "خمس من الإبل"
+          "text": "يرد الصدقة"
         },
         {
           "id": "c",
-          "text": "عشر من الإبل"
+          "text": "يؤخرها عامًا"
         },
         {
           "id": "d",
-          "text": "عشرون من الإبل"
+          "text": "يعطيها للغني"
         }
       ],
-      "correctChoiceId": "b",
-      "explanation": "قال ﷺ: «ليس فيما دون خمس ذَودٍ صدقة»، وفي الخمس شاة.",
+      "correctChoiceId": "a",
+      "explanation": "كان ﷺ يدعو لمن جاء بصدقته، وقال في صدقة أبي أوفى: «اللهم صل على آل أبي أوفى».",
+      "evidence": [
+        {
+          "kind": "hadith_text",
+          "text": "«اللَّهُمَّ صَلِّ عَلَى آلِ أَبِي أَوْفَى»"
+        }
+      ],
       "references": [
         {
+          "type": "hadith",
+          "collection": "sahih-bukhari",
+          "number": "1497"
+        },
+        {
           "type": "other",
-          "label": "متفق عليه — حديث الصدقات"
+          "label": "صحيح مسلم 1078a"
         }
       ],
       "tags": [
-        "نصاب",
-        "إبل"
+        "category:zakah",
+        "age:scholar",
+        "tier:5",
+        "evidence:hadith_text"
       ],
       "verification": {
-        "status": "pending",
-        "verifiedAt": null
-      }
+        "status": "verified",
+        "verifiedAt": "2026-09-17T00:00:00Z"
+      },
+      "verificationNote": "رقم الحديث ووجه الدلالة طوبقا على متن الصحيح"
     }
   ]
 }

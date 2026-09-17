@@ -18,110 +18,52 @@
   ],
   "additionalProperties": false,
   "properties": {
-    "id": {
-      "type": "string",
-      "minLength": 1
-    },
-    "categoryId": {
-      "type": "string",
-      "minLength": 1
-    },
-    "ageBand": {
-      "enum": ["kids", "general", "scholar"]
-    },
-    "tier": {
-      "type": "integer",
-      "minimum": 1,
-      "maximum": 5
-    },
-    "text": {
-      "type": "string",
-      "minLength": 1
-    },
+    "id": {"type": "string", "minLength": 1},
+    "categoryId": {"type": "string", "minLength": 1},
+    "ageBand": {"enum": ["kids", "general", "scholar"]},
+    "tier": {"type": "integer", "minimum": 1, "maximum": 5},
+    "text": {"type": "string", "minLength": 1},
     "choices": {
       "type": "array",
       "minItems": 4,
       "maxItems": 4,
       "allOf": [
-        {
-          "contains": {
-            "type": "object",
-            "properties": { "id": { "const": "a" } },
-            "required": ["id"]
-          },
-          "minContains": 1,
-          "maxContains": 1
-        },
-        {
-          "contains": {
-            "type": "object",
-            "properties": { "id": { "const": "b" } },
-            "required": ["id"]
-          },
-          "minContains": 1,
-          "maxContains": 1
-        },
-        {
-          "contains": {
-            "type": "object",
-            "properties": { "id": { "const": "c" } },
-            "required": ["id"]
-          },
-          "minContains": 1,
-          "maxContains": 1
-        },
-        {
-          "contains": {
-            "type": "object",
-            "properties": { "id": { "const": "d" } },
-            "required": ["id"]
-          },
-          "minContains": 1,
-          "maxContains": 1
-        }
+        {"contains": {"type": "object", "properties": {"id": {"const": "a"}}, "required": ["id"]}, "minContains": 1, "maxContains": 1},
+        {"contains": {"type": "object", "properties": {"id": {"const": "b"}}, "required": ["id"]}, "minContains": 1, "maxContains": 1},
+        {"contains": {"type": "object", "properties": {"id": {"const": "c"}}, "required": ["id"]}, "minContains": 1, "maxContains": 1},
+        {"contains": {"type": "object", "properties": {"id": {"const": "d"}}, "required": ["id"]}, "minContains": 1, "maxContains": 1}
       ],
       "items": {
         "type": "object",
         "required": ["id", "text"],
         "additionalProperties": false,
         "properties": {
-          "id": {
-            "type": "string",
-            "pattern": "^[a-d]$"
-          },
-          "text": {
-            "type": "string",
-            "minLength": 1
-          }
+          "id": {"type": "string", "pattern": "^[a-d]$"},
+          "text": {"type": "string", "minLength": 1}
         }
       }
     },
-    "correctChoiceId": {
-      "type": "string",
-      "pattern": "^[a-d]$"
-    },
-    "explanation": {
-      "type": "string",
-      "minLength": 1
-    },
+    "correctChoiceId": {"type": "string", "pattern": "^[a-d]$"},
+    "explanation": {"type": "string", "minLength": 1},
     "references": {
       "type": "array",
       "minItems": 1,
+      "contains": {"type": "object", "required": ["text"], "properties": {"text": {"type": "string", "minLength": 1}}},
+      "minContains": 1,
       "items": {
         "type": "object",
-        "properties": {
-          "type": {
-            "enum": ["quran", "hadith", "book", "other"]
-          }
-        },
+        "properties": {"type": {"enum": ["quran", "hadith", "book", "other"]}},
         "required": ["type"],
         "oneOf": [
           {
             "type": "object",
             "properties": {
-              "type": { "const": "quran" },
-              "surah": { "type": "integer", "minimum": 1, "maximum": 114 },
-              "ayah": { "type": "integer", "minimum": 1 }
+              "type": {"const": "quran"},
+              "surah": {"type": "integer", "minimum": 1, "maximum": 114},
+              "ayah": {"type": "integer", "minimum": 1},
+              "ayahEnd": {"type": "integer", "minimum": 1},
+              "text": {"type": "string", "minLength": 1},
+              "url": {"type": "string", "minLength": 1, "pattern": "^https?://"}
             },
             "required": ["type", "surah", "ayah"],
             "additionalProperties": false
@@ -129,9 +71,11 @@
           {
             "type": "object",
             "properties": {
-              "type": { "const": "hadith" },
-              "collection": { "type": "string", "minLength": 1 },
-              "number": { "type": "string", "minLength": 1 }
+              "type": {"const": "hadith"},
+              "collection": {"type": "string", "minLength": 1},
+              "number": {"type": "string", "minLength": 1},
+              "text": {"type": "string", "minLength": 1},
+              "url": {"type": "string", "minLength": 1, "pattern": "^https?://"}
             },
             "required": ["type", "collection", "number"],
             "additionalProperties": false
@@ -139,9 +83,11 @@
           {
             "type": "object",
             "properties": {
-              "type": { "const": "book" },
-              "title": { "type": "string", "minLength": 1 },
-              "locator": { "type": "string", "minLength": 1 }
+              "type": {"const": "book"},
+              "title": {"type": "string", "minLength": 1},
+              "locator": {"type": "string", "minLength": 1},
+              "text": {"type": "string", "minLength": 1},
+              "url": {"type": "string", "minLength": 1, "pattern": "^https?://"}
             },
             "required": ["type", "title"],
             "additionalProperties": false
@@ -149,8 +95,10 @@
           {
             "type": "object",
             "properties": {
-              "type": { "const": "other" },
-              "label": { "type": "string", "minLength": 1 }
+              "type": {"const": "other"},
+              "label": {"type": "string", "minLength": 1},
+              "text": {"type": "string", "minLength": 1},
+              "url": {"type": "string", "minLength": 1, "pattern": "^https?://"}
             },
             "required": ["type", "label"],
             "additionalProperties": false
@@ -158,40 +106,20 @@
         ]
       }
     },
-    "tags": {
-      "type": "array",
-      "items": { "type": "string", "minLength": 1 },
-      "uniqueItems": true
-    },
+    "tags": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
     "verification": {
       "type": "object",
       "required": ["status", "verifiedAt"],
       "additionalProperties": false,
       "properties": {
-        "status": {
-          "enum": ["pending", "verified", "needs_review"]
-        },
-        "verifiedAt": {
-          "type": ["string", "null"],
-          "format": "date-time"
-        }
+        "status": {"enum": ["pending", "verified", "needs_review"]},
+        "verifiedAt": {"type": ["string", "null"], "format": "date-time"}
       },
       "allOf": [
         {
-          "if": {
-            "properties": { "status": { "const": "verified" } },
-            "required": ["status"]
-          },
-          "then": {
-            "properties": {
-              "verifiedAt": { "type": "string", "format": "date-time" }
-            }
-          },
-          "else": {
-            "properties": {
-              "verifiedAt": { "type": "null" }
-            }
-          }
+          "if": {"properties": {"status": {"const": "verified"}}, "required": ["status"]},
+          "then": {"properties": {"verifiedAt": {"type": "string", "format": "date-time"}}},
+          "else": {"properties": {"verifiedAt": {"type": "null"}}}
         }
       ]
     }

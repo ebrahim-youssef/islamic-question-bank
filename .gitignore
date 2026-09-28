@@ -2,3 +2,8 @@
 # validator writes bytecode next to the scripts. Nothing here is content.
 __pycache__/
 *.py[cod]
+
+# env files
+.env
+.env.*
+!.env.example
